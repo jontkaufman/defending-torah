@@ -1,5 +1,5 @@
 #:schema node_modules/wrangler/config-schema.json
 name = "defending-torah"
-pages_build_output_dir = ".open-next/assets"
+pages_build_output_dir = ".open-next"
 compatibility_date = "2026-04-19"
 compatibility_flags = ["nodejs_compat"]
