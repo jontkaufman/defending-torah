@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg-primary: #F5E6D3;
+  --bg-secondary: #FAF6F0;
+  --bg-card: #FFFFFF;
+  --text-primary: #3A3226;
+  --text-secondary: #6B5D4F;
+  --text-muted: #8B7355;
+  --border: #E8D7C3;
+  --accent: #8B7355;
+  --accent-hover: #6B5D4F;
+}
+
+.dark {
+  --bg-primary: #1A1F2E;
+  --bg-secondary: #141824;
+  --bg-card: #252A3A;
+  --text-primary: #E8EAF0;
+  --text-secondary: #9BA3B8;
+  --text-muted: #717C9A;
+  --border: #2A3550;
+  --accent: #4A5F7F;
+  --accent-hover: #5A7090;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
