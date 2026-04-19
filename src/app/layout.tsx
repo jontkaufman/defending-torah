@@ -1,13 +1,27 @@
 import type { Metadata } from "next";
-import { ThemeProvider } from "next-themes";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Torah Apologetics",
+  title: {
+    default: "Defending Torah — Biblical Answers for the Honest Skeptic",
+    template: "%s | Defending Torah",
+  },
   description:
-    "Biblical defense of Torah observance — articles, courses, and answers to every objection.",
+    "Careful arguments, primary sources, and Hebrew exegesis defending the ongoing validity of God's Torah. Essays, objection responses, and verse-by-verse analysis.",
+  metadataBase: new URL("https://defendingtorah.com"),
+  openGraph: {
+    type: "website",
+    siteName: "Defending Torah",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
@@ -16,13 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="font-body antialiased min-h-screen flex flex-col">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <Nav />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </ThemeProvider>
+    <html lang="en">
+      <body className="antialiased min-h-screen flex flex-col">
+        <Nav />
+        <main className="relative z-[1] flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -8,12 +8,17 @@ interface SearchInputProps {
 
 export function SearchInput({ value, onChange, placeholder }: SearchInputProps) {
   return (
-    <input
-      type="text"
-      value={value}
-      onChange={(e) => onChange(e.target.value)}
-      placeholder={placeholder ?? "Search..."}
-      className="w-full px-4 py-3 rounded-lg bg-[var(--bg-card)] border border-[var(--border)] text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:outline-none focus:border-[var(--accent)] transition-colors"
-    />
+    <div className="relative">
+      <input
+        type="text"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        placeholder={placeholder ?? "Search..."}
+        className="search-editorial"
+      />
+      <span className="absolute right-0 bottom-4 font-mono text-[10px] tracking-[0.2em] uppercase text-muted pointer-events-none">
+        ⌕
+      </span>
+    </div>
   );
 }

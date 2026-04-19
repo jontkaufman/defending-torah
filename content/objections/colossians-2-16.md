@@ -9,10 +9,11 @@ key_points:
   - "Paul's consistent teaching across his letters: community disputes are judged by the community, not by outsiders (1 Cor 6:5). Same principle here."
   - "If Paul meant 'stop keeping the Sabbath,' why does he assume they ARE keeping it? He's addressing people who observe these things and are being criticized for it."
 category: arguments
+topic: sabbath
 tags: [paul, sabbath, greek-grammar, colossians]
 difficulty: entry
 date: 2026-04-19
-related: []
+related: [galatians-4-9-weak-beggarly-elements, sabbath-only-for-jews]
 ---
 
 ## The Full Picture
@@ -23,11 +24,11 @@ The standard reading of Colossians 2:16-17 assumes Paul is telling believers to 
 
 The passage begins with "let no one judge you." This is a protective command — Paul is shielding the Colossian believers from outside criticism about their practices. He names specific practices: food, drink, feast days, new moons, and Sabbaths.
 
-The key question: **who is doing the judging?** If Paul meant "these things don't matter," he would say "don't bother with these things." Instead, he says "don't let anyone judge you" — implying they ARE doing these things and someone is giving them trouble for it.
+The key question: **who is doing the judging?** If Paul meant "these things don't matter," he would say "don't bother with these things." Instead, he says "don't let anyone judge you" — implying they ARE doing these things and someone is giving them trouble for it. For a deeper look at why the Sabbath belongs to all believers, see our article on [the Sabbath from creation to eternity](/articles/sabbath-creation-to-eternity).
 
 ### Things to Come
 
-The phrase "which are a shadow of things to come" uses the present participle μελλόντων — things that are *coming*, not things that *were to come*. If these shadows had already been fulfilled, Paul would have used the past tense. The shadows still point forward to realities not yet fully realized.
+The phrase "which are a shadow of things to come" uses the present participle μελλόντων — things that are *coming*, not things that *were to come*. If these shadows had already been fulfilled, Paul would have used the past tense. The shadows still point forward to realities not yet fully realized. (For the related argument about "days, months, seasons, and years," see our response on [Galatians 4:9-11](/objection-finder/galatians-4-9-weak-beggarly-elements).)
 
 ### Paul's Pattern
 

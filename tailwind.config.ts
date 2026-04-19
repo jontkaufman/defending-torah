@@ -1,40 +1,36 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: "class",
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        papyrus: {
-          50: "#FAF6F0",
-          100: "#F5E6D3",
-          200: "#E8D7C3",
-          300: "#D4C4A8",
-          400: "#BBA88A",
-          500: "#8B7355",
-          600: "#6B5D4F",
-          700: "#4A3F35",
-          800: "#3A3226",
-          900: "#2A231A",
+        ink: {
+          DEFAULT: "#1a1f2e",
+          soft: "#2d3448",
+          light: "#4a5060",
         },
-        navy: {
-          50: "#E8EAF0",
-          100: "#C5CAD6",
-          200: "#9BA3B8",
-          300: "#717C9A",
-          400: "#4A5F7F",
-          500: "#2A3550",
-          600: "#252A3A",
-          700: "#1F2333",
-          800: "#1A1F2E",
-          900: "#141824",
+        parchment: {
+          DEFAULT: "#f4ecdc",
+          deep: "#ebdfc5",
+          shadow: "#d9c9a4",
         },
+        ochre: {
+          DEFAULT: "#b8732a",
+          deep: "#8a5420",
+          faint: "rgba(184, 115, 42, 0.07)",
+        },
+        crimson: {
+          DEFAULT: "#7a2e24",
+          faint: "rgba(122, 46, 36, 0.06)",
+        },
+        olive: "#5c6b3f",
+        muted: "#574e40",
       },
       fontFamily: {
-        heading: ["Cinzel", "serif"],
-        body: ["Cardo", "serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
+        heading: ["'Frank Ruhl Libre'", "serif"],
+        body: ["'Cormorant Garamond'", "'EB Garamond'", "Georgia", "serif"],
+        mono: ["'JetBrains Mono'", "monospace"],
       },
     },
   },

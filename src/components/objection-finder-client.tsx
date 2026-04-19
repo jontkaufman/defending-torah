@@ -35,19 +35,20 @@ export function ObjectionFinderClient({ objections }: ObjectionFinderClientProps
   }, [objections, search]);
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      {/* Hero */}
-      <div className="text-center mb-8">
-        <h1 className="font-heading text-3xl font-bold mb-2">
-          Objection Finder
-        </h1>
-        <p className="text-[var(--text-secondary)]">
-          Someone challenged you. Get the answer in 30 seconds.
-        </p>
+    <div className="px-10 py-[70px] max-w-4xl mx-auto max-md:px-6 max-md:py-10">
+      {/* Header */}
+      <div className="mb-[50px]">
+        <div className="section-label rise delay-1 mb-5">
+          <span className="num">II.</span>Hard Questions
+        </div>
+        <h2 className="section-title rise delay-2">
+          Someone challenged you.<br />
+          Get the <em>answer</em> in 30 seconds.
+        </h2>
       </div>
 
       {/* Search */}
-      <div className="mb-4">
+      <div className="mb-6">
         <SearchInput
           value={search}
           onChange={setSearch}
@@ -56,22 +57,26 @@ export function ObjectionFinderClient({ objections }: ObjectionFinderClientProps
       </div>
 
       {/* Quick Tags */}
-      <div className="flex gap-2 flex-wrap justify-center mb-8">
-        {QUICK_TAGS.map((tag) => (
-          <button
-            key={tag}
-            onClick={() => setSearch(tag)}
-            className="px-4 py-2 rounded-full text-xs bg-[var(--bg-card)] border border-[var(--border)] text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
-          >
-            &ldquo;{tag}&rdquo;
-          </button>
+      <div className="flex gap-2 flex-wrap mb-10">
+        {QUICK_TAGS.map((tag, i) => (
+          <span key={tag} className="flex items-center gap-2">
+            <button
+              onClick={() => setSearch(tag)}
+              className="font-body italic text-lg text-ink-light hover:text-ochre-deep transition-colors"
+            >
+              «{tag}»
+            </button>
+            {i < QUICK_TAGS.length - 1 && (
+              <span className="text-ink-light">·</span>
+            )}
+          </span>
         ))}
       </div>
 
       {/* Results */}
-      <div className="flex flex-col gap-3">
+      <div className="border-t border-ink">
         {filtered.length === 0 && search && (
-          <p className="text-center text-[var(--text-muted)] py-12">
+          <p className="text-center text-muted py-16 font-body italic text-lg">
             No objections match &ldquo;{search}&rdquo; yet.
           </p>
         )}

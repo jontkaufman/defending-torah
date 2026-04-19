@@ -3,6 +3,7 @@ title: "Sabbath — Not Working for Salvation"
 excerpt: "Keeping the Sabbath isn't 'working for your salvation.' Here's what Scripture actually says."
 date: 2026-04-19
 tags: [sabbath, apologetics]
+topic: sabbath
 ---
 
 # Sabbath: Not Working for Salvation
@@ -19,7 +20,7 @@ The Sabbath is something I'm deeply passionate about — not because I have a pa
 
 **THE OLD TESTAMENT FOUNDATION**
 
-**Genesis 2:2-3** — The very first mention of the Sabbath. God blessed the seventh day and *made it holy*. This isn't my idea or some obscure doctrinal preference. God doesn't use empty speech. He set apart a *specific* day — the seventh — and made it holy. If we're going with a sola scriptura mindset, this matters.
+**Genesis 2:2-3** — The very first mention of the Sabbath. God blessed the seventh day and *made it holy* (for the full arc from creation to eternity, see [The Sabbath — From Creation to Eternity](/articles/sabbath-creation-to-eternity)). This isn't my idea or some obscure doctrinal preference. God doesn't use empty speech. He set apart a *specific* day — the seventh — and made it holy. If we're going with a sola scriptura mindset, this matters.
 
 **Exodus 20:8** — *"Remember the Sabbath day, to keep it holy."* How can they remember something they haven't received yet? Because God instilled it in creation. He's calling His people to remember this from the past and carry it forward. *Do not forget.*
 
@@ -29,7 +30,7 @@ It's worth noting that the Sabbath was prioritized over six other commandments �
 
 **Leviticus 19:30** — *"You shall keep my Sabbaths."* Key theme: the Sabbath belongs to *God* — not to any denomination or ethnic group.
 
-**Isaiah 56:6-7** — Foreigners who keep the Sabbath are blessed and brought to God's holy mountain. The Sabbath is not reserved for one bloodline. It's for anyone who desires to serve God.
+**Isaiah 56:6-7** — Foreigners who keep the Sabbath are blessed and brought to God's holy mountain. [The Sabbath is not reserved for one bloodline](/objection-finder/sabbath-only-for-jews). It's for anyone who desires to serve God.
 
 **Isaiah 66:22-23** — In the new heavens and new earth, *all flesh* will worship before God from Sabbath to Sabbath. The Sabbath extends into eternity.
 
@@ -50,7 +51,7 @@ I know you've had verses running through your mind. Let's address them.
 
 **"One person esteems one day above another" (Romans 14:5)** — Read verse 1. The whole chapter is scoped to *"disputable matters"* — things Scripture doesn't clearly command. The Sabbath is the fourth commandment. It's not disputable. If it were, then by the same logic: "One person esteems 'do not murder,' another esteems all commands alike." Absurd. Paul kept the Sabbath himself in at least five cities (Acts 13:14, 17:2, 18:4). He's not granting liberty to ignore what he practiced.
 
-**"Let no one judge you regarding a Sabbath" (Colossians 2:16-17)** — The word *soma* ("body") is translated "substance" only in this one verse. Every other time in Colossians it means the body of believers — the church. The grammar actually reads: *"Let no one judge you... **but let the body of Christ judge you.**"* Paul isn't dismissing these practices. He's saying don't let *outsiders* judge you — let your *community* hold you accountable.
+**["Let no one judge you regarding a Sabbath" (Colossians 2:16-17)](/objection-finder/colossians-2-16)** — The word *soma* ("body") is translated "substance" only in this one verse. Every other time in Colossians it means the body of believers — the church. The grammar actually reads: *"Let no one judge you... **but let the body of Christ judge you.**"* Paul isn't dismissing these practices. He's saying don't let *outsiders* judge you — let your *community* hold you accountable.
 
 **"Weak and beggarly elements" (Galatians 4:9-11)** — Paul says the Galatians are turning back *"again"* to weak elements. But they were *Gentile pagans* before conversion (Gal 4:8). They never kept the Sabbath. You can't go *"back again"* to something you never came from. Paul is warning against returning to pagan practices — not against God's appointed times. He calls Torah "holy, righteous, and good" (Romans 7:12). He can't call it "weak and beggarly" without contradicting himself and God.
 

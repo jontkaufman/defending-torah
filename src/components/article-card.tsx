@@ -2,14 +2,6 @@ import Link from "next/link";
 import type { ContentMeta } from "@/lib/content";
 import { TagBadge } from "./tag-badge";
 
-const categoryColors: Record<string, string> = {
-  topics: "bg-emerald-900/50 text-emerald-300",
-  people: "bg-blue-900/50 text-blue-300",
-  arguments: "bg-red-900/50 text-red-300",
-  history: "bg-amber-900/50 text-amber-300",
-  uncategorized: "bg-gray-900/50 text-gray-300",
-};
-
 interface ArticleCardProps {
   meta: ContentMeta;
   type: "article" | "objection" | "deep-dive";
@@ -23,32 +15,49 @@ export function ArticleCard({ meta, type }: ArticleCardProps) {
 
   const typeLabel =
     type === "objection"
-      ? "Objection Response"
+      ? "Objection"
       : type === "deep-dive"
         ? "Deep Dive"
-        : "Article";
+        : "Essay";
+
+  const borderColor =
+    type === "objection"
+      ? "border-crimson"
+      : type === "deep-dive"
+        ? "border-olive"
+        : "border-ochre";
+
+  const typeColor =
+    type === "objection"
+      ? "text-crimson"
+      : type === "deep-dive"
+        ? "text-olive"
+        : "text-ochre";
 
   return (
     <Link
       href={href}
-      className="block bg-[var(--bg-card)] border border-[var(--border)] rounded-lg p-5 hover:border-[var(--accent)] transition-colors"
+      className={`block border-b border-ink border-l-3 ${borderColor} pl-6 py-6 no-underline transition-[padding] duration-300 hover:pl-3 group`}
     >
-      <div className="flex items-start gap-4">
-        <span
-          className={`px-2 py-1 rounded text-[10px] font-bold uppercase whitespace-nowrap ${categoryColors[meta.category] ?? categoryColors.uncategorized}`}
-        >
+      <div className="flex items-start gap-5">
+        <span className={`font-mono text-[10px] tracking-[0.2em] uppercase ${typeColor} whitespace-nowrap pt-1`}>
           {typeLabel}
         </span>
         <div className="flex-1 min-w-0">
-          <h3 className="font-heading font-semibold text-[var(--text-primary)] mb-1">
+          <h3 className="font-heading font-medium text-xl text-ink mb-1 group-hover:text-ochre-deep transition-colors">
             {meta.title}
           </h3>
-          <p className="text-sm text-[var(--text-secondary)] mb-3 line-clamp-2">
+          <p className="text-[16px] text-ink-soft mb-3 line-clamp-2">
             {meta.excerpt}
           </p>
-          <div className="flex gap-2 flex-wrap">
-            {meta.tags.map((tag) => (
-              <TagBadge key={tag} tag={tag} />
+          <div className="flex gap-1 flex-wrap">
+            {meta.tags.map((tag, i) => (
+              <span key={tag} className="flex items-center gap-1">
+                <TagBadge tag={tag} />
+                {i < meta.tags.length - 1 && (
+                  <span className="text-ink-light text-[10px]">·</span>
+                )}
+              </span>
             ))}
           </div>
         </div>

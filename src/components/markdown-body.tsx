@@ -2,11 +2,12 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 
 interface MarkdownBodyProps {
   content: string;
+  className?: string;
 }
 
-export function MarkdownBody({ content }: MarkdownBodyProps) {
+export function MarkdownBody({ content, className }: MarkdownBodyProps) {
   return (
-    <div className="prose prose-lg dark:prose-invert max-w-none prose-headings:font-heading prose-a:text-[var(--accent)] prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-[var(--accent)] prose-blockquote:text-[var(--text-secondary)]">
+    <div className={`prose-torah ${className ?? ""}`}>
       <MDXRemote source={content} />
     </div>
   );

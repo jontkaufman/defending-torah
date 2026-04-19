@@ -1,77 +1,350 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
-import { LawFilters } from "@/components/law-filters";
-import { LawRow } from "@/components/law-row";
-import { filterLaws, type Law } from "@/lib/laws";
+import {
+  buildHierarchyTree,
+  countLawsInNode,
+  LEVEL2_CONFIG,
+  ROOT_LABELS,
+  filterLaws,
+  type Law,
+  type HierarchyNode,
+} from "@/lib/laws";
+import { fetchLaws } from "@/lib/supabase";
+import LawSidePanel from "@/components/law-side-panel";
+
+function LawRow({
+  law,
+  isSelected,
+  onSelect,
+}: {
+  law: Law;
+  isSelected: boolean;
+  onSelect: (law: Law) => void;
+}) {
+  const typeColor =
+    law.command_type === "obligation"
+      ? "text-olive"
+      : law.command_type === "prohibition"
+        ? "text-crimson"
+        : "text-ochre";
+
+  const borderColor =
+    law.command_type === "obligation"
+      ? "border-l-olive"
+      : law.command_type === "prohibition"
+        ? "border-l-crimson"
+        : law.command_type === "conditional"
+          ? "border-l-ochre"
+          : "border-l-ink-light";
+
+  return (
+    <div
+      className={`border-b border-ink/20 last:border-b-0 border-l-2 ${borderColor} ${
+        isSelected ? "bg-ochre/10 border-l-ochre" : ""
+      }`}
+    >
+      <button
+        onClick={() => onSelect(law)}
+        className="w-full px-6 py-4 flex items-start gap-4 text-left hover:bg-parchment-deep/50 transition-colors cursor-pointer"
+      >
+        <span className="font-mono text-[10px] tracking-[0.15em] text-muted w-24 shrink-0 pt-0.5">
+          {law.reference}
+        </span>
+        <span className="flex-1 font-body text-[16px] text-ink leading-snug">
+          {law.law_summary}
+        </span>
+        <span
+          className={`font-mono text-[9px] tracking-[0.15em] uppercase w-20 text-right shrink-0 pt-0.5 ${typeColor}`}
+        >
+          {law.command_type}
+        </span>
+      </button>
+    </div>
+  );
+}
+
+function AnimatedChildren({
+  expanded,
+  children,
+}: {
+  expanded: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <div
+      className="grid transition-[grid-template-rows] duration-300 ease-out"
+      style={{ gridTemplateRows: expanded ? "1fr" : "0fr" }}
+    >
+      <div className="overflow-hidden">{children}</div>
+    </div>
+  );
+}
+
+function TreeLevel({
+  name,
+  node,
+  depth,
+  selectedLaw,
+  onSelectLaw,
+}: {
+  name: string;
+  node: HierarchyNode;
+  depth: number;
+  selectedLaw: Law | null;
+  onSelectLaw: (law: Law) => void;
+}) {
+  const [expanded, setExpanded] = useState(false);
+  const count = countLawsInNode(node);
+  const childKeys = Object.keys(node._children);
+  const hasDirectLaws = node._laws.length > 0;
+
+  const config = depth === 1 ? LEVEL2_CONFIG[name] : undefined;
+  const rootConfig = depth === 0 ? ROOT_LABELS[name] : undefined;
+
+  if (depth === 0) {
+    return (
+      <div className="mb-10">
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="w-full text-left py-8 px-8 bg-ink text-parchment flex items-center justify-between cursor-pointer transition-colors hover:bg-ink-soft"
+        >
+          <div className="flex items-baseline gap-5">
+            <span className="font-heading font-black text-[48px] leading-none text-ochre">
+              {name === "LOVE_GOD" ? "I" : "II"}
+            </span>
+            <div>
+              <div className="font-heading font-light text-[32px] leading-tight text-parchment">
+                {rootConfig?.label ?? name}
+              </div>
+              <div className="font-heading text-xl text-ochre/80 mt-1" dir="rtl">
+                {rootConfig?.hebrew ?? ""}
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center gap-4">
+            <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-parchment/60">
+              {count} laws
+            </span>
+            <span className="text-parchment/60 text-xl">
+              {expanded ? "−" : "+"}
+            </span>
+          </div>
+        </button>
+
+        <AnimatedChildren expanded={expanded}>
+          <div className="border-l border-r border-ink">
+            {childKeys.map((childName) => (
+              <TreeLevel
+                key={childName}
+                name={childName}
+                node={node._children[childName]}
+                depth={depth + 1}
+                selectedLaw={selectedLaw}
+                onSelectLaw={onSelectLaw}
+              />
+            ))}
+            {hasDirectLaws &&
+              node._laws.map((law) => (
+                <LawRow
+                  key={law.id}
+                  law={law}
+                  isSelected={selectedLaw?.id === law.id}
+                  onSelect={onSelectLaw}
+                />
+              ))}
+          </div>
+        </AnimatedChildren>
+      </div>
+    );
+  }
+
+  if (depth === 1) {
+    const shortNum = config?.short ?? "—";
+    const label = config?.label ?? name.replace(/_/g, " ");
+
+    return (
+      <div className="border-b border-ink">
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="w-full text-left py-6 px-8 flex items-center gap-5 hover:bg-parchment-deep/50 transition-colors border-l-3 border-ochre"
+        >
+          <span className="font-heading font-black text-[32px] text-ochre w-10 shrink-0">
+            {shortNum}
+          </span>
+          <span className="flex-1 font-heading font-medium text-lg text-ink">
+            {label}
+          </span>
+          <span className="font-mono text-[9px] tracking-[0.2em] uppercase text-muted">
+            {count} laws
+          </span>
+          <span className="text-muted text-lg w-5 text-center">
+            {expanded ? "−" : "+"}
+          </span>
+        </button>
+
+        <AnimatedChildren expanded={expanded}>
+          <div className="pl-[3.25rem] bg-parchment-deep/40">
+            {childKeys.map((childName) => (
+              <TreeLevel
+                key={childName}
+                name={childName}
+                node={node._children[childName]}
+                depth={depth + 1}
+                selectedLaw={selectedLaw}
+                onSelectLaw={onSelectLaw}
+              />
+            ))}
+            {hasDirectLaws &&
+              node._laws.map((law) => (
+                <LawRow
+                  key={law.id}
+                  law={law}
+                  isSelected={selectedLaw?.id === law.id}
+                  onSelect={onSelectLaw}
+                />
+              ))}
+          </div>
+        </AnimatedChildren>
+      </div>
+    );
+  }
+
+  // Depth 2+ (subcategories)
+  return (
+    <div className="border-b border-ink/20 last:border-b-0">
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="w-full text-left py-3.5 px-5 flex items-center gap-4 hover:bg-parchment-deep/30 transition-colors border-l-2 border-parchment-shadow"
+      >
+        <span className="flex-1 font-body text-[16px] text-ink">
+          {name}
+        </span>
+        <span className="font-mono text-[9px] tracking-[0.15em] uppercase text-muted">
+          {count}
+        </span>
+        <span className="text-muted text-sm w-4 text-center">
+          {expanded ? "−" : "+"}
+        </span>
+      </button>
+
+      <AnimatedChildren expanded={expanded}>
+        <div className="pl-5 border-l border-parchment-shadow ml-3">
+          {childKeys.map((childName) => (
+            <TreeLevel
+              key={childName}
+              name={childName}
+              node={node._children[childName]}
+              depth={depth + 1}
+              selectedLaw={selectedLaw}
+              onSelectLaw={onSelectLaw}
+            />
+          ))}
+          {hasDirectLaws &&
+            node._laws.map((law) => (
+              <LawRow
+                key={law.id}
+                law={law}
+                isSelected={selectedLaw?.id === law.id}
+                onSelect={onSelectLaw}
+              />
+            ))}
+        </div>
+      </AnimatedChildren>
+    </div>
+  );
+}
 
 export default function TorahLawsPage() {
   const [laws, setLaws] = useState<Law[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
-  const [book, setBook] = useState("");
-  const [commandType, setCommandType] = useState("");
-  const [applicability, setApplicability] = useState("");
+  const [selectedLaw, setSelectedLaw] = useState<Law | null>(null);
 
   useEffect(() => {
-    fetch("/laws-data.json")
-      .then((r) => r.json())
-      .then((data: Law[]) => {
-        setLaws(data);
-        setLoading(false);
-      });
+    fetchLaws().then((data) => {
+      setLaws(data);
+      setLoading(false);
+    });
   }, []);
 
-  const filtered = useMemo(
-    () => filterLaws(laws, { search, book, commandType, applicability }),
-    [laws, search, book, commandType, applicability],
+  const filtered = useMemo(() => {
+    if (!search) return laws;
+    return filterLaws(laws, { search });
+  }, [laws, search]);
+
+  const tree = useMemo(() => buildHierarchyTree(filtered), [filtered]);
+
+  // Ensure consistent root order: LOVE_GOD first, then LOVE_NEIGHBOR
+  const rootKeys = ["LOVE_GOD", "LOVE_NEIGHBOR"].filter(
+    (k) => tree[k] !== undefined,
   );
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
-      <div className="text-center mb-8">
-        <h1 className="font-heading text-3xl font-bold mb-2">Torah Laws</h1>
-        <p className="text-[var(--text-secondary)]">
-          {laws.length > 0
-            ? `${laws.length} laws from the five books of Torah — search, filter, and study`
-            : "Loading..."}
-        </p>
+    <div className="px-10 py-[70px] max-md:px-6 max-md:py-10">
+      {/* Header */}
+      <div className="grid grid-cols-[1fr_2fr] gap-[60px] mb-[50px] items-end max-md:grid-cols-1 max-md:gap-6">
+        <div className="section-label rise delay-1">
+          <span className="num">IV.</span>Torah Laws
+        </div>
+        <h2 className="section-title rise delay-2">
+          {laws.length > 0 ? `${laws.length}` : "..."} laws from the five
+          books, organized by <em>the two greatest commandments.</em>
+        </h2>
       </div>
 
-      <div className="mb-6">
-        <LawFilters
-          search={search}
-          onSearchChange={setSearch}
-          book={book}
-          onBookChange={setBook}
-          commandType={commandType}
-          onCommandTypeChange={setCommandType}
-          applicability={applicability}
-          onApplicabilityChange={setApplicability}
-        />
+      {/* Search */}
+      <div className="max-w-2xl mb-10">
+        <div className="relative">
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search by verse, keyword, or law summary..."
+            className="search-editorial"
+          />
+          {search && !loading && (
+            <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted mt-2">
+              {filtered.length} of {laws.length} laws match &ldquo;{search}
+              &rdquo;
+            </div>
+          )}
+        </div>
       </div>
+
+      {/* Tree */}
+      {loading && (
+        <p className="text-center text-muted py-16 font-body italic text-lg">
+          Loading laws...
+        </p>
+      )}
+
+      {!loading && filtered.length === 0 && search && (
+        <p className="text-center text-muted py-16 font-body italic text-lg">
+          No laws match your search.
+        </p>
+      )}
 
       {!loading && (
-        <div className="text-sm text-[var(--text-muted)] mb-3">
-          Showing {filtered.length} of {laws.length} laws
+        <div>
+          {rootKeys.map((rootKey) => (
+            <TreeLevel
+              key={rootKey}
+              name={rootKey}
+              node={tree[rootKey]}
+              depth={0}
+              selectedLaw={selectedLaw}
+              onSelectLaw={setSelectedLaw}
+            />
+          ))}
         </div>
       )}
 
-      <div className="border-t border-[var(--border)] bg-[var(--bg-secondary)] rounded-lg overflow-hidden">
-        {loading && (
-          <p className="text-center text-[var(--text-muted)] py-12">
-            Loading laws...
-          </p>
-        )}
-        {!loading && filtered.length === 0 && (
-          <p className="text-center text-[var(--text-muted)] py-12">
-            No laws match your filters.
-          </p>
-        )}
-        {filtered.map((law) => (
-          <LawRow key={law.id} law={law} />
-        ))}
-      </div>
+      {/* Side Panel */}
+      <LawSidePanel
+        selectedLaw={selectedLaw}
+        onClose={() => setSelectedLaw(null)}
+      />
     </div>
   );
 }

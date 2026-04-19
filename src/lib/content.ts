@@ -7,6 +7,7 @@ export interface ContentMeta {
   title: string;
   excerpt: string;
   category: string;
+  topic: string;
   tags: string[];
   difficulty: "entry" | "intermediate" | "deep-dive";
   date: string;
@@ -37,6 +38,7 @@ function readMarkdownDir(subdir: string): ContentPage[] {
           title: data.title ?? filename.replace(/\.md$/, ""),
           excerpt: data.excerpt ?? "",
           category: data.category ?? "uncategorized",
+          topic: data.topic ?? "",
           tags: data.tags ?? [],
           difficulty: data.difficulty ?? "entry",
           date: data.date instanceof Date ? data.date.toISOString().split('T')[0] : (data.date ?? ""),

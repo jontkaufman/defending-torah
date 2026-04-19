@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface TagBadgeProps {
   tag: string;
   active?: boolean;
@@ -5,16 +7,23 @@ interface TagBadgeProps {
 }
 
 export function TagBadge({ tag, active, onClick }: TagBadgeProps) {
+  const className = `font-mono text-[10px] tracking-[0.15em] uppercase transition-colors mr-1 no-underline ${
+    active
+      ? "text-ink font-medium border-b border-ink"
+      : "text-ink-light hover:text-ink"
+  }`;
+
+  if (onClick) {
+    return (
+      <button onClick={onClick} className={className}>
+        {tag}
+      </button>
+    );
+  }
+
   return (
-    <button
-      onClick={onClick}
-      className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-        active
-          ? "bg-[var(--accent)] text-white"
-          : "bg-[var(--bg-card)] text-[var(--text-secondary)] border border-[var(--border)] hover:border-[var(--accent)]"
-      }`}
-    >
+    <Link href={`/articles?q=${encodeURIComponent(tag)}`} className={className}>
       {tag}
-    </button>
+    </Link>
   );
 }

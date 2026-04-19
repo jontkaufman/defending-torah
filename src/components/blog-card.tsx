@@ -5,17 +5,23 @@ export function BlogCard({ meta }: { meta: PostMeta }) {
   return (
     <Link
       href={`/blog/${meta.slug}`}
-      className="block bg-[var(--bg-card)] border border-[var(--border)] rounded-lg p-5 hover:border-[var(--accent)] transition-colors"
+      className="block border-b border-ink border-l-2 border-ink-light pl-6 py-6 no-underline transition-[padding] duration-300 hover:pl-3 group"
     >
-      <h3 className="font-heading font-semibold text-lg text-[var(--text-primary)] mb-2">
-        {meta.title}
-      </h3>
-      {meta.excerpt && (
-        <p className="text-sm text-[var(--text-secondary)] mb-3 line-clamp-3">
-          {meta.excerpt}
-        </p>
-      )}
-      <div className="text-xs text-[var(--text-muted)]">{meta.date}</div>
+      <div className="flex items-baseline gap-6">
+        <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted whitespace-nowrap">
+          {meta.date}
+        </span>
+        <div className="flex-1 min-w-0">
+          <h3 className="font-heading font-medium text-xl text-ink mb-1 group-hover:text-ochre-deep transition-colors">
+            {meta.title}
+          </h3>
+          {meta.excerpt && (
+            <p className="text-[16px] text-ink-soft line-clamp-2">
+              {meta.excerpt}
+            </p>
+          )}
+        </div>
+      </div>
     </Link>
   );
 }
