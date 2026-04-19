@@ -31,7 +31,7 @@ export function getPosts(): Post[] {
           slug: filename.replace(/\.md$/, ""),
           title: data.title ?? filename.replace(/\.md$/, ""),
           excerpt: data.excerpt ?? "",
-          date: data.date ?? "",
+          date: data.date instanceof Date ? data.date.toISOString().split('T')[0] : (data.date ?? ""),
           tags: data.tags ?? [],
         },
         content,
