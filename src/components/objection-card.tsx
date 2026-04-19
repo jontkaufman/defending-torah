@@ -5,9 +5,9 @@ export function ObjectionCard({ meta }: { meta: ContentMeta }) {
   return (
     <Link
       href={`/objection-finder/${meta.slug}`}
-      className="block border-b border-ink border-l-3 border-crimson pl-6 py-6 no-underline transition-[padding] duration-300 hover:pl-3 group"
+      className="block border-b border-ink border-l-3 border-crimson pl-6 py-6 no-underline transition-[padding] duration-300 hover:pl-3 group max-md:pl-4 max-md:py-4"
     >
-      <div className="flex items-start gap-5">
+      <div className="flex items-start gap-5 max-md:gap-3">
         <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-crimson whitespace-nowrap pt-1">
           Objection
         </span>

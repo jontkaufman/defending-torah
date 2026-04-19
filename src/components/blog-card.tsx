@@ -5,9 +5,9 @@ export function BlogCard({ meta }: { meta: PostMeta }) {
   return (
     <Link
       href={`/blog/${meta.slug}`}
-      className="block border-b border-ink border-l-2 border-ink-light pl-6 py-6 no-underline transition-[padding] duration-300 hover:pl-3 group"
+      className="block border-b border-ink border-l-2 border-ink-light pl-6 py-6 no-underline transition-[padding] duration-300 hover:pl-3 group max-md:pl-4 max-md:py-4"
     >
-      <div className="flex items-baseline gap-6">
+      <div className="flex items-baseline gap-6 max-md:gap-3 max-md:flex-col max-md:items-start">
         <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted whitespace-nowrap">
           {meta.date}
         </span>

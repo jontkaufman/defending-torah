@@ -66,7 +66,7 @@ export default async function ObjectionPage({
 
         {/* The Objection */}
         {fm.objection && (
-          <div className="bg-ink text-parchment border border-ink border-l-3 border-l-ochre p-8 mb-8">
+          <div className="bg-ink text-parchment border border-ink border-l-3 border-l-ochre p-8 mb-8 max-md:p-5">
             <div className="font-mono text-[10px] tracking-[0.22em] uppercase text-ochre mb-3">
               The Objection
             </div>
@@ -78,7 +78,7 @@ export default async function ObjectionPage({
 
         {/* Quick Answer */}
         {fm.quick_answer && (
-          <div className="bg-parchment-deep border border-ink border-l-3 border-l-olive p-8 mb-8">
+          <div className="bg-parchment-deep border border-ink border-l-3 border-l-olive p-8 mb-8 max-md:p-5">
             <div className="font-mono text-[10px] tracking-[0.22em] uppercase text-olive mb-3">
               Quick Answer (30 seconds)
             </div>
@@ -96,11 +96,11 @@ export default async function ObjectionPage({
             </div>
             <div className="space-y-4">
               {fm.key_points.map((point, i) => (
-                <div key={i} className="flex gap-4 items-start border-l border-parchment-shadow pl-6 ml-3">
-                  <span className="font-heading font-black text-3xl text-ochre leading-none pt-0.5 w-10 shrink-0">
+                <div key={i} className="flex gap-4 items-start border-l border-parchment-shadow pl-6 ml-3 max-md:gap-3 max-md:pl-4 max-md:ml-1">
+                  <span className="font-heading font-black text-3xl text-ochre leading-none pt-0.5 w-10 shrink-0 max-md:text-2xl max-md:w-8">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <span className="font-body text-[17px] text-ink-soft leading-relaxed">
+                  <span className="font-body text-[17px] text-ink-soft leading-relaxed max-md:text-[15px]">
                     {point}
                   </span>
                 </div>
@@ -117,7 +117,7 @@ export default async function ObjectionPage({
         )}
 
         {/* Actions */}
-        <div className="flex gap-4 mt-10 pt-8 border-t border-ink">
+        <div className="flex gap-4 mt-10 pt-8 border-t border-ink max-md:flex-col">
           {fm.article_slug && (
             <Link
               href={`/articles/${fm.article_slug}`}

@@ -46,16 +46,16 @@ function LawRow({
     >
       <button
         onClick={() => onSelect(law)}
-        className="w-full px-6 py-4 flex items-start gap-4 text-left hover:bg-parchment-deep/50 transition-colors cursor-pointer"
+        className="w-full px-6 py-4 flex items-start gap-4 text-left hover:bg-parchment-deep/50 transition-colors cursor-pointer max-md:px-3 max-md:py-3 max-md:gap-2"
       >
-        <span className="font-mono text-[10px] tracking-[0.15em] text-muted w-24 shrink-0 pt-0.5">
+        <span className="font-mono text-[10px] tracking-[0.15em] text-muted w-24 shrink-0 pt-0.5 max-md:w-auto max-md:text-[9px]">
           {law.reference}
         </span>
-        <span className="flex-1 font-body text-[16px] text-ink leading-snug">
+        <span className="flex-1 font-body text-[16px] text-ink leading-snug max-md:text-[14px]">
           {law.law_summary}
         </span>
         <span
-          className={`font-mono text-[9px] tracking-[0.15em] uppercase w-20 text-right shrink-0 pt-0.5 ${typeColor}`}
+          className={`font-mono text-[9px] tracking-[0.15em] uppercase w-20 text-right shrink-0 pt-0.5 max-md:hidden ${typeColor}`}
         >
           {law.command_type}
         </span>
@@ -107,17 +107,17 @@ function TreeLevel({
       <div className="mb-10">
         <button
           onClick={() => setExpanded(!expanded)}
-          className="w-full text-left py-8 px-8 bg-ink text-parchment flex items-center justify-between cursor-pointer transition-colors hover:bg-ink-soft"
+          className="w-full text-left py-8 px-8 bg-ink text-parchment flex items-center justify-between cursor-pointer transition-colors hover:bg-ink-soft max-md:py-5 max-md:px-5"
         >
-          <div className="flex items-baseline gap-5">
-            <span className="font-heading font-black text-[48px] leading-none text-ochre">
+          <div className="flex items-baseline gap-5 max-md:gap-3">
+            <span className="font-heading font-black text-[48px] leading-none text-ochre max-md:text-[32px]">
               {name === "LOVE_GOD" ? "I" : "II"}
             </span>
             <div>
-              <div className="font-heading font-light text-[32px] leading-tight text-parchment">
+              <div className="font-heading font-light text-[32px] leading-tight text-parchment max-md:text-[22px]">
                 {rootConfig?.label ?? name}
               </div>
-              <div className="font-heading text-xl text-ochre/80 mt-1" dir="rtl">
+              <div className="font-heading text-xl text-ochre/80 mt-1 max-md:text-base" dir="rtl">
                 {rootConfig?.hebrew ?? ""}
               </div>
             </div>
@@ -167,12 +167,12 @@ function TreeLevel({
       <div className="border-b border-ink">
         <button
           onClick={() => setExpanded(!expanded)}
-          className="w-full text-left py-6 px-8 flex items-center gap-5 hover:bg-parchment-deep/50 transition-colors border-l-3 border-ochre"
+          className="w-full text-left py-6 px-8 flex items-center gap-5 hover:bg-parchment-deep/50 transition-colors border-l-3 border-ochre max-md:py-4 max-md:px-4 max-md:gap-3"
         >
-          <span className="font-heading font-black text-[32px] text-ochre w-10 shrink-0">
+          <span className="font-heading font-black text-[32px] text-ochre w-10 shrink-0 max-md:text-[24px] max-md:w-8">
             {shortNum}
           </span>
-          <span className="flex-1 font-heading font-medium text-lg text-ink">
+          <span className="flex-1 font-heading font-medium text-lg text-ink max-md:text-base">
             {label}
           </span>
           <span className="font-mono text-[9px] tracking-[0.2em] uppercase text-muted">
@@ -184,7 +184,7 @@ function TreeLevel({
         </button>
 
         <AnimatedChildren expanded={expanded}>
-          <div className="pl-[3.25rem] bg-parchment-deep/40">
+          <div className="pl-[3.25rem] bg-parchment-deep/40 max-md:pl-6">
             {childKeys.map((childName) => (
               <TreeLevel
                 key={childName}

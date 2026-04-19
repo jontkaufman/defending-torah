@@ -38,7 +38,7 @@ export function Nav() {
           </span>
         </Link>
 
-        <ul className="list-none flex gap-9 justify-center max-md:hidden">
+        <ul className="list-none flex gap-9 justify-center max-lg:gap-5 max-md:hidden">
           {links.map((link) => (
             <li key={link.href}>
               <Link
@@ -64,7 +64,7 @@ export function Nav() {
           <button
             type="button"
             aria-label="Menu"
-            className="hidden max-md:flex flex-col gap-[5px] bg-transparent border-none p-0 cursor-pointer"
+            className="hidden max-md:flex flex-col gap-[5px] bg-transparent border-none p-2 cursor-pointer"
           >
             <span className="block w-[22px] h-[2px] bg-ink font-mono"></span>
             <span className="block w-[22px] h-[2px] bg-ink font-mono"></span>

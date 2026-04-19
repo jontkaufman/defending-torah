@@ -43,7 +43,7 @@ export default function Home() {
           </h1>
 
           {/* Lede */}
-          <p className="rise delay-3 text-[22px] leading-[1.5] max-w-[560px] text-ink-soft mb-11 font-normal">
+          <p className="rise delay-3 text-[22px] leading-[1.5] max-w-[560px] text-ink-soft mb-11 font-normal max-md:text-[18px] max-md:mb-8">
             He observed the Sabbath. He ate clean. He kept the feasts. He said
             not one letter of the Torah would pass away until{" "}
             <em>everything</em> is accomplished.{" "}
@@ -81,10 +81,10 @@ export default function Home() {
             >
               יֵשׁוּעַ
             </div>
-            <div className="font-body italic text-[26px] text-ochre-deep text-right mb-2">
+            <div className="font-body italic text-[26px] text-ochre-deep text-right mb-2 max-md:text-[22px]">
               Yeshua
             </div>
-            <div className="font-body text-[17px] text-ink-soft text-right mb-8 pb-6 border-b border-ink">
+            <div className="font-body text-[17px] text-ink-soft text-right mb-8 pb-6 border-b border-ink max-md:text-[15px] max-md:mb-6">
               salvation · deliverance · the one who saves
             </div>
 
@@ -169,10 +169,10 @@ export default function Home() {
           ].map((pillar, i) => (
             <div
               key={pillar.num}
-              className={`px-9 py-10 transition-colors hover:bg-ochre/[0.07] ${i < 2 ? "border-r border-ink max-md:border-r-0 max-md:border-b" : "max-md:border-b-0"}`}
+              className={`px-9 py-10 transition-colors hover:bg-ochre/[0.07] max-md:px-6 max-md:py-7 ${i < 2 ? "border-r border-ink max-md:border-r-0 max-md:border-b" : "max-md:border-b-0"}`}
             >
               <div className={`w-12 h-[3px] ${pillar.accent} mb-8`} />
-              <div className="font-heading font-black text-[72px] leading-none text-ochre mb-2.5">
+              <div className="font-heading font-black text-[72px] leading-none text-ochre mb-2.5 max-md:text-[48px]">
                 {pillar.num}
               </div>
               <span className="block font-mono text-[10px] tracking-[0.25em] uppercase text-muted mb-[26px]">
@@ -185,10 +185,10 @@ export default function Home() {
               >
                 {pillar.hebrew}
               </div>
-              <h3 className="font-body text-[28px] font-medium leading-[1.1] text-ink mb-4">
+              <h3 className="font-body text-[28px] font-medium leading-[1.1] text-ink mb-4 max-md:text-[22px]">
                 {pillar.title}
               </h3>
-              <p className="text-[17px] leading-[1.55] text-ink-soft mb-6">
+              <p className="text-[17px] leading-[1.55] text-ink-soft mb-6 max-md:text-[15px]">
                 {pillar.body}
               </p>
               <Link
@@ -205,7 +205,7 @@ export default function Home() {
       {/* 1 JOHN 2:6 BANNER */}
       <section className="relative z-[1] bg-parchment-deep px-16 py-16 border-b border-ink text-center max-md:px-6 max-md:py-12">
         <div className="max-w-3xl mx-auto">
-          <p className="font-body italic text-[clamp(22px,3vw,30px)] leading-[1.5] text-ink mb-4">
+          <p className="font-body italic text-[clamp(20px,3vw,30px)] leading-[1.5] text-ink mb-4">
             &ldquo;Whoever says he abides in Him ought to walk in the same way
             in which <strong className="font-semibold">He</strong> walked.&rdquo;
           </p>
@@ -302,7 +302,7 @@ export default function Home() {
             <span className="section-label block mb-6">
               <span className="num">III.</span>Latest
             </span>
-            <div className="font-heading font-black text-[92px] leading-[0.9] text-ink mb-2.5">
+            <div className="font-heading font-black text-[92px] leading-[0.9] text-ink mb-2.5 max-md:text-[60px]">
               N° 001
             </div>
             <div className="font-body italic text-[22px] text-ochre-deep mb-9">

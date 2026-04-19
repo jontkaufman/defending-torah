@@ -42,8 +42,7 @@ export function ObjectionFinderClient({ objections }: ObjectionFinderClientProps
           <span className="num">II.</span>Hard Questions
         </div>
         <h2 className="section-title rise delay-2">
-          Someone challenged you.<br />
-          Get the <em>answer</em> in 30 seconds.
+          Someone challenged you. Get the <em>answer</em> in 30 seconds.
         </h2>
       </div>
 
@@ -62,7 +61,7 @@ export function ObjectionFinderClient({ objections }: ObjectionFinderClientProps
           <span key={tag} className="flex items-center gap-2">
             <button
               onClick={() => setSearch(tag)}
-              className="font-body italic text-lg text-ink-light hover:text-ochre-deep transition-colors"
+              className="font-body italic text-lg text-ink-light hover:text-ochre-deep transition-colors max-md:text-base"
             >
               «{tag}»
             </button>

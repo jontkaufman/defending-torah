@@ -205,8 +205,8 @@ export function TopicsPageClient({ articles, posts }: TopicsPageClientProps) {
                   className="w-full text-left px-0 py-6 flex items-center justify-between gap-6 bg-transparent border-none cursor-pointer group"
                 >
                   <div className="flex-1 min-w-0">
-                    <div className="flex items-baseline gap-4">
-                      <h3 className="font-heading font-medium text-2xl text-ink group-hover:text-ochre-deep transition-colors">
+                    <div className="flex items-baseline gap-4 max-md:gap-2">
+                      <h3 className="font-heading font-medium text-2xl text-ink group-hover:text-ochre-deep transition-colors max-md:text-xl">
                         {topic.label}
                       </h3>
                       <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted">
@@ -295,9 +295,9 @@ function TopicItem({
       href={getHref(item)}
       className="block py-4 pl-4 no-underline transition-[padding] duration-200 hover:pl-2 group"
     >
-      <div className="flex items-start gap-4">
+      <div className="flex items-start gap-4 max-md:gap-2">
         <span
-          className={`font-mono text-[10px] tracking-[0.2em] uppercase ${getTypeColor(item.type)} whitespace-nowrap pt-1 w-16 shrink-0`}
+          className={`font-mono text-[10px] tracking-[0.2em] uppercase ${getTypeColor(item.type)} whitespace-nowrap pt-1 w-16 shrink-0 max-md:w-auto max-md:text-[9px]`}
         >
           {getTypeLabel(item.type)}
         </span>
