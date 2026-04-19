@@ -7,57 +7,59 @@ export default function Home() {
   const latestPost = getPosts()[0];
 
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto">
       {/* HERO */}
-      <section className="relative z-[1] px-10 py-[70px] pb-[90px] grid grid-cols-[1.15fr_1fr] gap-[60px] border-b border-ink overflow-hidden max-md:grid-cols-1 max-md:px-6 max-md:py-[50px] max-md:pb-[70px] max-md:gap-[50px]">
+      <section className="relative z-[1] px-16 py-[70px] pb-[90px] grid grid-cols-[1.15fr_1fr] gap-[60px] border-b border-ink overflow-hidden max-md:grid-cols-1 max-md:px-6 max-md:py-[50px] max-md:pb-[70px] max-md:gap-[50px]">
         {/* Edition Tag */}
-        <div className="absolute top-[90px] right-10 [writing-mode:vertical-rl] font-mono text-[10px] tracking-[0.3em] uppercase text-muted max-md:hidden">
+        <div className="absolute top-[90px] right-16 [writing-mode:vertical-rl] font-mono text-[10px] tracking-[0.3em] uppercase text-muted max-md:hidden">
           No. 001 — Nisan Edition
         </div>
 
         <div className="relative">
           {/* Hebrew Watermark */}
           <div className="absolute top-0 right-0 font-heading font-black text-[300px] opacity-[0.03] text-ink pointer-events-none select-none leading-none">
-            תּ
+            י
           </div>
 
           {/* Kicker */}
           <div className="rise delay-1 font-mono text-[11px] tracking-[0.3em] uppercase text-crimson mb-7 flex items-center gap-3.5">
             <span className="w-10 h-px bg-crimson" />
-            A Defense of the{" "}
+            Following the{" "}
             <span className="text-ochre-deep italic font-body text-sm tracking-normal normal-case">
-              Torat Moshe
+              Master
             </span>
           </div>
 
           {/* Title */}
-          <h1 className="rise delay-2 font-heading font-light text-[clamp(52px,7.5vw,104px)] leading-[0.96] tracking-[-0.035em] text-ink mb-9">
-            The <em className="font-body italic font-normal text-ochre-deep">Torah</em> is
-            not
-            <br />a <span className="font-heading font-black text-ink">yoke</span>.
+          <h1 className="rise delay-2 font-heading font-light text-[clamp(48px,7vw,96px)] leading-[0.96] tracking-[-0.035em] text-ink mb-9">
+            Yeshua{" "}
+            <em className="font-body italic font-normal text-ochre-deep">
+              kept
+            </em>{" "}
+            Torah.
             <br />
-            It is a{" "}
-            <em className="font-body italic font-normal text-ochre-deep">gift.</em>
+            So should{" "}
+            <span className="font-heading font-black text-ink">we</span>.
           </h1>
 
           {/* Lede */}
           <p className="rise delay-3 text-[22px] leading-[1.5] max-w-[560px] text-ink-soft mb-11 font-normal">
-            Careful arguments, primary sources, and Hebrew exegesis for the
-            honest skeptic and the serious student.{" "}
+            He observed the Sabbath. He ate clean. He kept the feasts. He said
+            not one letter of the Torah would pass away until{" "}
+            <em>everything</em> is accomplished.{" "}
             <strong className="font-semibold text-ink italic">
-              No slogans. No tribal shorthand.
-            </strong>{" "}
-            Only the text, the history, and the covenant — examined as they are.
+              If we follow Him, we follow where He walked.
+            </strong>
           </p>
 
           {/* Actions */}
           <div className="rise delay-4 flex gap-5 items-center flex-wrap">
             <Link href="/articles" className="btn btn-primary">
-              Begin With the First Essay
+              See What He Taught
               <span className="arrow">→</span>
             </Link>
             <Link href="/objection-finder" className="btn btn-ghost">
-              Ask a Question
+              Ask a Hard Question
             </Link>
           </div>
         </div>
@@ -70,42 +72,47 @@ export default function Home() {
 
             <div className="flex justify-between font-mono text-[10px] tracking-[0.25em] uppercase text-muted mb-[18px]">
               <span>Plate I</span>
-              <span>Dt. 30:11–14</span>
+              <span>Mt. 5:17–19</span>
             </div>
 
-            <div className="font-heading font-light text-[clamp(72px,10vw,118px)] leading-[0.9] text-ink text-right tracking-tight mb-6" dir="rtl">
-              אֱמֶת
+            <div
+              className="font-heading font-light text-[clamp(72px,10vw,118px)] leading-[0.9] text-ink text-right tracking-tight mb-6"
+              dir="rtl"
+            >
+              יֵשׁוּעַ
             </div>
             <div className="font-body italic text-[26px] text-ochre-deep text-right mb-2">
-              emet
+              Yeshua
             </div>
             <div className="font-body text-[17px] text-ink-soft text-right mb-8 pb-6 border-b border-ink">
-              truth · firmness · that which stands
+              salvation · deliverance · the one who saves
             </div>
 
             <p className="text-[17px] leading-[1.55] text-ink italic mb-[18px] [&::first-letter]:font-heading [&::first-letter]:text-[52px] [&::first-letter]:font-bold [&::first-letter]:float-left [&::first-letter]:leading-[0.85] [&::first-letter]:pr-2 [&::first-letter]:pt-1.5 [&::first-letter]:text-ochre [&::first-letter]:not-italic">
-              This commandment which I am commanding you today is not too
-              difficult for you, nor is it out of reach. It is not in heaven…
-              but the word is very near you, in your mouth and in your heart,
-              that you may observe it.
+              Do not think that I have come to abolish the Law or the Prophets;
+              I have not come to abolish them but to fulfill them. For truly I
+              say to you, until heaven and earth pass away, not the smallest
+              letter or stroke shall pass from the Law until all is
+              accomplished.
             </p>
 
             <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-crimson text-right">
-              — Devarim 30:11, 14
+              — Matthew 5:17–18
             </div>
           </div>
         </div>
       </section>
 
-      {/* PILLARS */}
-      <section className="relative z-[1] px-10 py-[90px] pb-[100px] border-b border-ink max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
+      {/* PILLARS — reframed around Yeshua */}
+      <section className="relative z-[1] px-16 py-[90px] pb-[100px] border-b border-ink max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
         <div className="grid grid-cols-[1fr_2fr] gap-[60px] mb-[70px] items-end max-md:grid-cols-1 max-md:gap-6">
           <div className="section-label rise delay-1">
-            <span className="num">I.</span>Three Pillars
+            <span className="num">I.</span>His Example
           </div>
           <h2 className="section-title rise delay-2">
-            What we are <em>building</em>,<br />
-            and why it matters now.
+            Yeshua did not come to <em>end</em> Torah.
+            <br />
+            He came to show us how to <em>live</em> it.
           </h2>
         </div>
 
@@ -113,41 +120,50 @@ export default function Home() {
           {[
             {
               num: "01",
-              sub: "Mikra — Text",
-              hebrew: "מִקְרָא",
+              sub: "Halakh — His Walk",
+              hebrew: "הָלַךְ",
               title: (
                 <>
-                  The <em>Scripture</em>, read on its own terms.
+                  He <em>lived</em> every command He gave.
                 </>
               ),
-              body: "Old Testament–first exegesis. Hebrew grammar, Ancient Near Eastern context, and the covenantal arc from Bereshit through the Apostolic writings — without importing later theological filters.",
-              link: { href: "/articles", label: "Read the essays →" },
+              body: "Yeshua kept the Sabbath, observed the biblical feasts, ate according to Torah's dietary laws, and wore tzitzit. His debates with the Pharisees were never about whether to keep the law — but about how. He is the pattern, and His life is the interpretation.",
+              link: {
+                href: "/articles/matthew-5-17-19-foundation",
+                label: "Read His words →",
+              },
               accent: "bg-ochre",
             },
             {
               num: "02",
-              sub: "Raayah — Evidence",
-              hebrew: "רְאָיָה",
+              sub: "Lamad — His Teaching",
+              hebrew: "לָמַד",
               title: (
                 <>
-                  The <em>evidence</em>, laid out honestly.
+                  He <em>taught</em> Torah as still binding.
                 </>
               ),
-              body: "Archaeology, manuscript transmission, Second Temple sources, and the historical setting of Yeshua. Strong cases where they exist; acknowledged uncertainty where it does not.",
-              link: { href: "/articles", label: "See the studies →" },
+              body: "\"Whoever relaxes one of the least of these commandments and teaches others to do the same will be called least in the kingdom of heaven\" (Matthew 5:19). He affirmed the whole Torah — distinguishing weightier from lighter, but never abolishing either.",
+              link: {
+                href: "/articles/moral-ceremonial-civil-division",
+                label: "See the evidence →",
+              },
               accent: "bg-crimson",
             },
             {
               num: "03",
-              sub: "Brit — Covenant",
-              hebrew: "בְּרִית",
+              sub: "Tsavah — His Commission",
+              hebrew: "צִוָּה",
               title: (
                 <>
-                  The <em>covenant</em>, continuous and whole.
+                  He told us to <em>do</em> the same.
                 </>
               ),
-              body: "Grace (chen) and Torah as one covenantal fabric. The New Covenant of Jeremiah 31 as the Torah written on the heart — not its abrogation. Engaging the law-versus-grace debate at its roots.",
-              link: { href: "/articles", label: "Explore the argument →" },
+              body: "\"If you love Me, keep My commandments\" (John 14:15). \"Go and make disciples... teaching them to observe all that I have commanded you\" (Matthew 28:19-20). Following Yeshua means walking as He walked — and He walked Torah.",
+              link: {
+                href: "/articles",
+                label: "Explore His Torah →",
+              },
               accent: "bg-olive",
             },
           ].map((pillar, i) => (
@@ -162,7 +178,11 @@ export default function Home() {
               <span className="block font-mono text-[10px] tracking-[0.25em] uppercase text-muted mb-[26px]">
                 {pillar.sub}
               </span>
-              <div className="font-heading text-[42px] text-ink mb-1.5" dir="rtl" style={{ textAlign: "left" }}>
+              <div
+                className="font-heading text-[42px] text-ink mb-1.5"
+                dir="rtl"
+                style={{ textAlign: "left" }}
+              >
                 {pillar.hebrew}
               </div>
               <h3 className="font-body text-[28px] font-medium leading-[1.1] text-ink mb-4">
@@ -182,13 +202,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 1 JOHN 2:6 BANNER */}
+      <section className="relative z-[1] bg-parchment-deep px-16 py-16 border-b border-ink text-center max-md:px-6 max-md:py-12">
+        <div className="max-w-3xl mx-auto">
+          <p className="font-body italic text-[clamp(22px,3vw,30px)] leading-[1.5] text-ink mb-4">
+            &ldquo;Whoever says he abides in Him ought to walk in the same way
+            in which <strong className="font-semibold">He</strong> walked.&rdquo;
+          </p>
+          <div className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-crimson">
+            — 1 John 2:6
+          </div>
+        </div>
+      </section>
+
       {/* OBJECTIONS */}
-      <section className="relative z-[1] bg-ink text-parchment px-10 py-[90px] pb-[100px] overflow-hidden max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
+      <section className="relative z-[1] bg-ink text-parchment px-16 py-[90px] pb-[100px] overflow-hidden max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
         {/* Radial glow overlay */}
         <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_10%_20%,rgba(184,115,42,0.18),transparent_50%),radial-gradient(ellipse_at_90%_80%,rgba(122,46,36,0.15),transparent_50%)]" />
 
         {/* Hebrew Watermark */}
-        <div className="absolute bottom-20 right-10 font-heading font-black text-[200px] opacity-[0.04] text-ochre pointer-events-none select-none leading-none">
+        <div className="absolute bottom-20 right-16 font-heading font-black text-[200px] opacity-[0.04] text-ochre pointer-events-none select-none leading-none">
           שׁ
         </div>
 
@@ -198,8 +231,8 @@ export default function Home() {
               <span className="num !text-parchment">II.</span>Hard Questions
             </div>
             <h2 className="section-title !text-parchment rise delay-2">
-              Every serious objection deserves a{" "}
-              <em className="!text-ochre">serious answer.</em>
+              If Yeshua kept Torah, why don&rsquo;t most Christians?{" "}
+              <em className="!text-ochre">Good question.</em>
             </h2>
           </div>
 
@@ -264,7 +297,7 @@ export default function Home() {
 
       {/* LATEST ESSAY / BLOG POST */}
       {latestPost && (
-        <section className="relative z-[1] px-10 py-[90px] pb-[100px] grid grid-cols-[1fr_1.4fr] gap-20 border-b border-ink max-md:grid-cols-1 max-md:gap-10 max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
+        <section className="relative z-[1] px-16 py-[90px] pb-[100px] grid grid-cols-[1fr_1.4fr] gap-20 border-b border-ink max-md:grid-cols-1 max-md:gap-10 max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
           <div className="sticky top-10 self-start max-md:static">
             <span className="section-label block mb-6">
               <span className="num">III.</span>Latest
