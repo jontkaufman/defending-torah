@@ -1,10 +1,12 @@
 import { createClient } from "@supabase/supabase-js";
 import type { Law } from "./laws";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
-
-export const supabase = createClient(supabaseUrl, supabaseKey);
+function getSupabase() {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !key) return null;
+  return createClient(url, key);
+}
 
 interface CategoryRow {
   id: number;
@@ -59,6 +61,9 @@ const BOOK_NAMES: Record<number, string> = {
 };
 
 export async function fetchLaws(): Promise<Law[]> {
+  const supabase = getSupabase();
+  if (!supabase) return [];
+
   try {
     // Fetch categories first
     const { data: categories, error: catError } = await supabase
