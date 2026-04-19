@@ -16,6 +16,7 @@ export interface ContentMeta {
 export interface ContentPage {
   meta: ContentMeta;
   content: string;
+  rawFrontmatter: Record<string, unknown>;
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -42,6 +43,7 @@ function readMarkdownDir(subdir: string): ContentPage[] {
           relatedSlugs: data.related ?? [],
         },
         content,
+        rawFrontmatter: data,
       };
     })
     .sort((a, b) => b.meta.date.localeCompare(a.meta.date));
