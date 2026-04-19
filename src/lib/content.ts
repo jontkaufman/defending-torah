@@ -39,7 +39,7 @@ function readMarkdownDir(subdir: string): ContentPage[] {
           category: data.category ?? "uncategorized",
           tags: data.tags ?? [],
           difficulty: data.difficulty ?? "entry",
-          date: data.date ?? "",
+          date: data.date instanceof Date ? data.date.toISOString().split('T')[0] : (data.date ?? ""),
           relatedSlugs: data.related ?? [],
         },
         content,
