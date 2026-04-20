@@ -96,7 +96,11 @@ function TreeLevel({
 }) {
   const [expanded, setExpanded] = useState(false);
   const count = countLawsInNode(node);
-  const childKeys = Object.keys(node._children);
+  const childKeys = Object.keys(node._children).sort((a, b) => {
+    const oa = LEVEL2_CONFIG[a]?.order ?? 99;
+    const ob = LEVEL2_CONFIG[b]?.order ?? 99;
+    return oa - ob;
+  });
   const hasDirectLaws = node._laws.length > 0;
 
   const config = depth === 1 ? LEVEL2_CONFIG[name] : undefined;

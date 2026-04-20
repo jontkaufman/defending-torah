@@ -24,8 +24,8 @@ export function Footer() {
 
       <div className="grid grid-cols-[2fr_1fr_1fr] gap-[50px] mb-[50px] max-lg:grid-cols-[1fr_1fr] max-lg:gap-[30px] max-md:grid-cols-1 max-md:gap-8">
         {/* Brand */}
-        <div>
-          <div className="font-heading font-black text-[42px] leading-none mb-4 max-md:text-[32px]">
+        <div className="max-md:hidden">
+          <div className="font-heading font-black text-[42px] leading-none mb-4">
             <span className="text-ochre">✦</span> Defending Torah
           </div>
           <p className="font-body italic text-lg text-ink-soft max-w-[360px] leading-[1.45]">

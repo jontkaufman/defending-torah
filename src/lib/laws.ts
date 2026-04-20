@@ -53,30 +53,33 @@ export const APPLICABILITY = [
 ];
 
 // Display config for the 10 Commandments level
+// `order` controls rendering position within each root group
 export const LEVEL2_CONFIG: Record<
   string,
-  { label: string; short: string }
+  { label: string; short: string; order: number }
 > = {
-  KNOW_FEAR_CLING: { label: "No Other Gods", short: "1" },
-  NO_IDOLATRY: { label: "No Idols", short: "2" },
-  GODS_NAME: { label: "Do Not Take YHWH's Name in Vain", short: "3" },
-  SACRED_TIMES: { label: "Honor the Sabbath", short: "4" },
-  PRIESTHOOD_AND_SANCTUARY: { label: "Priesthood & Sanctuary", short: "—" },
-  PURITY_AND_HOLINESS: { label: "Purity & Holiness", short: "—" },
-  VOWS_AND_DEDICATIONS: { label: "Vows & Dedications", short: "—" },
-  WORSHIP_AND_OFFERINGS: { label: "Worship & Offerings", short: "—" },
-  HONOR_PARENTS: { label: "Honor Your Parents", short: "5" },
-  NO_MURDER: { label: "You Shall Not Murder", short: "6" },
-  NO_ADULTERY: { label: "You Shall Not Commit Adultery", short: "7" },
-  NO_STEALING: { label: "You Shall Not Steal", short: "8" },
-  NO_FALSE_WITNESS: { label: "You Shall Not Bear False Witness", short: "9" },
-  NO_COVETING: { label: "You Shall Not Covet", short: "10" },
-  COMPASSION_AND_CARE: { label: "Compassion & Care", short: "—" },
-  WARFARE_AND_NATIONAL_LIFE: { label: "Warfare & National Life", short: "—" },
+  // LOVE_GOD (1–5)
+  KNOW_FEAR_CLING: { label: "No Other Gods", short: "1", order: 1 },
+  NO_IDOLATRY: { label: "No Idols", short: "2", order: 2 },
+  GODS_NAME: { label: "Do Not Take Yahweh's Name in Vain", short: "3", order: 3 },
+  SACRED_TIMES: { label: "Honor the Sabbath", short: "4", order: 4 },
+  HONOR_PARENTS: { label: "Honor Your Parents", short: "5", order: 5 },
+  PRIESTHOOD_AND_SANCTUARY: { label: "Priesthood & Sanctuary", short: "—", order: 10 },
+  PURITY_AND_HOLINESS: { label: "Purity & Holiness", short: "—", order: 11 },
+  WORSHIP_AND_OFFERINGS: { label: "Worship & Offerings", short: "—", order: 12 },
+  VOWS_AND_DEDICATIONS: { label: "Vows & Dedications", short: "—", order: 13 },
+  // LOVE_NEIGHBOR (6–10)
+  NO_MURDER: { label: "You Shall Not Murder", short: "6", order: 1 },
+  NO_ADULTERY: { label: "You Shall Not Commit Adultery", short: "7", order: 2 },
+  NO_STEAL: { label: "You Shall Not Steal", short: "8", order: 3 },
+  NO_FALSE_WITNESS: { label: "You Shall Not Bear False Witness", short: "9", order: 4 },
+  NO_COVET: { label: "You Shall Not Covet", short: "10", order: 5 },
+  COMPASSION_AND_CARE: { label: "Compassion & Care", short: "—", order: 10 },
+  WARFARE_AND_NATIONAL_LIFE: { label: "Warfare & National Life", short: "—", order: 11 },
 };
 
 export const ROOT_LABELS: Record<string, { label: string; hebrew: string }> = {
-  LOVE_GOD: { label: "Love YHWH", hebrew: "אָהַבְתָּ אֵת יהוה" },
+  LOVE_GOD: { label: "Love Yahweh", hebrew: "אָהַבְתָּ אֵת יהוה" },
   LOVE_NEIGHBOR: { label: "Love Your Neighbor", hebrew: "וְאָהַבְתָּ לְרֵעֲךָ" },
 };
 
