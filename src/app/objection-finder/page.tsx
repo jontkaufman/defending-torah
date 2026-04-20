@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { getObjections } from "@/lib/content";
 import { ObjectionFinderClient } from "@/components/objection-finder-client";
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Objection Finder — Common Arguments Against Torah, Answered",
   description:
