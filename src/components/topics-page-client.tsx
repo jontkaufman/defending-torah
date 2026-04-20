@@ -292,6 +292,38 @@ function TopicItem({
     type: ContentType | "post";
   };
 }) {
+  const isBeginnersGuide =
+    item.meta.slug === "getting-started-with-torah-observance-beginners-guide";
+
+  if (isBeginnersGuide) {
+    return (
+      <Link
+        href={getHref(item)}
+        className="block py-5 pl-4 pr-4 no-underline mb-4 bg-ochre/5 border-l-4 border-ochre rounded group hover:bg-ochre/10 transition-colors"
+      >
+        <div className="flex items-start gap-3">
+          <span className="text-2xl shrink-0 pt-0.5">🌱</span>
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2 mb-1">
+              <span className="font-mono text-[9px] tracking-[0.24em] uppercase text-ochre-deep font-semibold bg-ochre/20 px-2 py-0.5 rounded">
+                Start Here
+              </span>
+              <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-ochre">
+                {getTypeLabel(item.type)}
+              </span>
+            </div>
+            <h4 className="font-heading font-semibold text-[19px] text-ink mb-1 group-hover:text-ochre-deep transition-colors">
+              {item.meta.title}
+            </h4>
+            <p className="text-[14px] text-ink-soft line-clamp-2 leading-[1.5]">
+              {item.meta.excerpt}
+            </p>
+          </div>
+        </div>
+      </Link>
+    );
+  }
+
   return (
     <Link
       href={getHref(item)}
