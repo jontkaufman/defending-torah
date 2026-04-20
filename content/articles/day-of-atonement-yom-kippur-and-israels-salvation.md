@@ -2,6 +2,7 @@
 title: "Day of Atonement — Yom Kippur and Israel's Coming Salvation"
 excerpt: "Yeshua's atonement is finished—but Israel's national day of salvation is still to come. Why the holiest day of the year points both backward to the cross and forward to Romans 11:26."
 category: arguments
+topic: moedim
 tags: [feasts, appointed-times, yom-kippur, atonement, israel, romans-11, hebrews, eschatology, high-priest, fulfillment]
 difficulty: intermediate
 date: 2026-04-24

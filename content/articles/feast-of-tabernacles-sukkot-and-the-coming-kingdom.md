@@ -2,6 +2,7 @@
 title: "The Feast of Tabernacles: Sukkot and the Coming Kingdom"
 excerpt: "Why the most joyful feast—ignored by Christianity yet commanded for all nations in the Millennium—proves Torah's eternal relevance and reveals Messiah's true birth and future reign."
 category: arguments
+topic: moedim
 tags: [feasts, tabernacles, sukkot, millennial-kingdom, zechariah, christmas, fulfillment, torah-continuity]
 difficulty: intermediate
 date: 2026-04-25

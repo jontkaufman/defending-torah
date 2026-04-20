@@ -2,6 +2,7 @@
 title: "Feast of Trumpets: The Day No One Knows"
 excerpt: "Paul says 'the trumpet will sound' when the dead are raised. If the feasts are abolished, why does he use feast imagery for the second coming?"
 category: arguments
+topic: moedim
 tags: [trumpets, rosh-hashanah, yom-teruah, feasts, second-coming, rapture, resurrection, last-trumpet]
 difficulty: entry
 date: 2026-04-23

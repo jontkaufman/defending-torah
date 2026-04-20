@@ -2,6 +2,7 @@
 title: "First Fruits and Pentecost: The Spring Harvest Feasts"
 excerpt: "Yeshua rose on First Fruits. The Spirit fell on Pentecost. God's redemptive timeline follows the feast calendar—not by accident."
 category: arguments
+topic: moedim
 tags: [first-fruits, pentecost, shavuot, resurrection, holy-spirit, counting-omer, acts-2]
 difficulty: intermediate
 date: 2026-04-22

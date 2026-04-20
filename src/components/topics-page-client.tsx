@@ -14,6 +14,11 @@ const TOPICS = [
     description: "Creation ordinance, weekly rest, and the ongoing command",
   },
   {
+    key: "moedim",
+    label: "Moedim (Set-Apart Times)",
+    description: "Biblical feasts, appointed times, and God's prophetic calendar",
+  },
+  {
     key: "dietary-laws",
     label: "Dietary Laws",
     description: "Clean and unclean — what Scripture actually teaches about food",
