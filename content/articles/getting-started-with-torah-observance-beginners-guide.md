@@ -119,7 +119,7 @@ The answer is: quite a bit, practically speaking. But theologically—the core o
 **What Changes (Your Practices):**
 
 - **Sabbath observance**: You set apart Friday evening (at sunset) through Saturday evening as a day of rest, worship, and family focus—no work, no buying/selling, no electronic distractions
-- **Dietary laws**: You eat only clean animals (as defined in Leviticus 11)—fish with scales and fins, animals that chew cud and have cloven hooves, birds (not birds of prey)—and you avoid unclean practices like mixing meat and dairy
+- **Dietary laws**: You eat only clean animals (as defined in Leviticus 11)—fish with scales and fins, animals that chew cud and have cloven hooves, birds (not birds of prey)—and you avoid unclean animals like pork, shellfish, and scavengers
 - **Feast observance**: You celebrate the seven appointed times: Passover, Unleavened Bread, First Fruits, Pentecost, Trumpets, Day of Atonement, and Tabernacles
 - **Daily rhythms**: You add practices like daily prayer, blessings over food, study of Scripture, and awareness of God's presence throughout ordinary moments
 
@@ -749,21 +749,23 @@ Stick to beef, chicken, lamb, or fish with fins and scales. Ask about cooking me
 **Gray Areas: Kosher vs. Biblical Clean**
 
 **Kosher** is a rabbinic standard that goes beyond Leviticus 11. It includes:
-- Meat and dairy separation
 - Specific slaughter methods (shechita)
 - Rabbinic supervision (kosher certification)
+- Meat and dairy separation (based on rabbinic interpretation of Exodus 23:19)
 
 **Biblical clean** is simply the list in Leviticus 11 and Deuteronomy 14: clean animals only.
 
-You're **not required** to keep kosher. The rabbinic additions are beyond what Scripture commands. Biblical clean is sufficient. That said, some believers choose kosher products for extra assurance or convenience—that's a personal choice.
+You're **not required** to keep kosher. The rabbinic additions (including meat/dairy separation) are beyond what Scripture commands. We're not Jewish, and we don't follow rabbinic oral law. Biblical clean is what Torah requires.
 
-**Meat/Dairy Separation:**
+**What About "Don't Boil a Kid in Its Mother's Milk"?**
 
-The rabbinic rule against mixing meat and dairy is based on the command "do not boil a young goat in its mother's milk" (Exodus 23:19, 34:26, Deuteronomy 14:21). Rabbis extend this to prohibit all meat-dairy combinations (cheeseburgers, milk with chicken, etc.).
+Torah says: "You shall not boil a young goat in its mother's milk" (Exodus 23:19, 34:26, Deuteronomy 14:21).
 
-Is this biblically required? The text itself is specific: don't boil a kid in its mother's milk. Some believers separate all meat and dairy as a fence around the command. Others see no biblical basis for blanket separation and enjoy cheeseburgers made with clean meat.
+That's the command—specific and clear. Don't literally boil a young goat in its mother's milk. This was likely a pagan ritual practice that Israel was to avoid.
 
-This is a matter of **personal conviction**. The biblical minimum is clear: don't boil a kid in its mother's milk. Beyond that, decide based on your study and conscience.
+Rabbinic Judaism extends this to a blanket prohibition on all meat-dairy combinations (no cheeseburgers, no chicken parmesan, separate dishes). That's their tradition—not Torah's command.
+
+**Biblical observance:** Don't boil a kid in its mother's milk. Beyond that, you're free. Cheeseburgers made with clean meat? Not a Torah violation.
 
 **Resources:**
 - Clean/unclean animal charts (printable guides available online)
