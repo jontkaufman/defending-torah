@@ -42,7 +42,7 @@ export function CoursesPageClient({
   const handleConfirmStart = async () => {
     await startCourse(foundationsCourse.id);
     setShowModal(null);
-    router.refresh();
+    router.push("/course/session/1");
   };
 
   const handleConfirmRestart = async () => {

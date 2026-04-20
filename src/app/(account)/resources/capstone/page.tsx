@@ -2,6 +2,9 @@
 
 import { MonoLabel } from "@/components/course/mono-label";
 import { useState } from "react";
+import { submitCapstone } from "@/lib/course-progress";
+import { foundationsCourse } from "@/content/courses/foundations-of-defending-torah";
+import Link from "next/link";
 
 const OPTIONS = [
   {
@@ -29,8 +32,9 @@ export default function CapstonePage() {
   const [submittedContent, setSubmittedContent] = useState<string>("");
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (selectedOption) {
+      await submitCapstone(foundationsCourse.id, selectedOption, submittedContent);
       setIsSubmitted(true);
     }
   };
@@ -71,6 +75,14 @@ export default function CapstonePage() {
               2 Timothy 2:15
             </p>
           </div>
+
+          <Link
+            href="/certificate"
+            className="inline-block mt-8 font-mono text-[11px] tracking-[0.18em] uppercase px-7 py-4"
+            style={{ background: "var(--olive)", color: "white" }}
+          >
+            View Certificate →
+          </Link>
         </div>
       </div>
     );

@@ -1,5 +1,5 @@
 import { getUser } from "@/lib/auth";
-import { getCourseProgress } from "@/lib/course-progress";
+import { getCourseProgress, getCapstoneSubmission } from "@/lib/course-progress";
 import { foundationsCourse } from "@/content/courses/foundations-of-defending-torah";
 import { MonoLabel } from "@/components/course/mono-label";
 import { PrintButton } from "@/components/course/print-button";
@@ -13,6 +13,11 @@ export default async function CertificatePage() {
   const progress = await getCourseProgress(foundationsCourse.id);
   if (!progress || progress.status !== "finished") {
     redirect("/account/courses");
+  }
+
+  const capstone = await getCapstoneSubmission(foundationsCourse.id);
+  if (!capstone) {
+    redirect("/resources/capstone");
   }
 
   const studentName = user.user_metadata?.full_name || "Student";

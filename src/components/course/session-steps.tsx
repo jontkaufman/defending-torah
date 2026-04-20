@@ -49,6 +49,14 @@ export function SessionSteps({
 
   function handleComplete() {
     if (completed) return;
+    // Optimistic localStorage write
+    try {
+      const key = `course-progress-${courseId}`;
+      const stored = JSON.parse(localStorage.getItem(key) || "{}");
+      stored.current_session_id = session.id < 10 ? session.id + 1 : session.id;
+      stored.completed_sessions = [...new Set([...(stored.completed_sessions || []), session.id])];
+      localStorage.setItem(key, JSON.stringify(stored));
+    } catch {}
     startTransition(async () => {
       await completeSession(courseId, session.id, 10);
       setCompleted(true);

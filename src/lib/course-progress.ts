@@ -75,3 +75,29 @@ export async function resetCourse(courseId: string): Promise<void> {
     updated_at: new Date().toISOString(),
   }).eq("user_id", user.id).eq("course_id", courseId);
 }
+
+export async function submitCapstone(courseId: string, format: string, content: string): Promise<void> {
+  const user = await getUser();
+  if (!user) return;
+  const supabase = await createClient();
+  await supabase.from("capstone_submissions").upsert({
+    user_id: user.id,
+    course_id: courseId,
+    format,
+    content,
+    submitted_at: new Date().toISOString(),
+  }, { onConflict: "user_id,course_id" });
+}
+
+export async function getCapstoneSubmission(courseId: string): Promise<{ id: string; format: string; content: string; submitted_at: string } | null> {
+  const user = await getUser();
+  if (!user) return null;
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("capstone_submissions")
+    .select("*")
+    .eq("user_id", user.id)
+    .eq("course_id", courseId)
+    .single();
+  return data;
+}
