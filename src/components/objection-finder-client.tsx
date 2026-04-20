@@ -35,7 +35,7 @@ export function ObjectionFinderClient({ objections }: ObjectionFinderClientProps
   }, [objections, search]);
 
   return (
-    <div className="px-10 py-[70px] max-md:px-6 max-md:py-10">
+    <div className="px-32 py-[70px] max-lg:px-16 max-md:px-6 max-md:py-10">
       {/* Header */}
       <div className="text-center mb-[50px]">
         <h2 className="section-title rise delay-2">
