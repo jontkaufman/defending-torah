@@ -227,7 +227,7 @@ export default function Home() {
         <div className="relative z-[1]">
           <div className="mb-[70px] max-md:mb-[40px]">
             <h2 className="section-title !text-parchment rise delay-2">
-              Yeshua kept Torah - Do you?{" "}
+              Yeshua walked in Torah - Do you?{" "}
               <em className="!text-ochre">Good Question.</em>
             </h2>
           </div>
