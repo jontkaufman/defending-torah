@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resources — Defending Torah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:#1a1f2e; --ink-soft:#2d3448; --parchment:#f4ecdc;
+    --parchment-deep:#ebdfc5; --parchment-shadow:#d9c9a4;
+    --ochre:#b8732a; --ochre-deep:#8a5420; --crimson:#7a2e24;
+    --olive:#5c6b3f; --muted:#574e40;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--parchment);color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:19px;line-height:1.55;overflow-x:hidden;}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(ellipse at 20% 10%,rgba(184,115,42,.08),transparent 50%),
+    radial-gradient(ellipse at 80% 90%,rgba(122,46,36,.06),transparent 50%);opacity:.9;mix-blend-mode:multiply;}
+  #root{position:relative;z-index:1;}
+  button{font-family:inherit;}
+  @media print {
+    .no-print{display:none!important;}
+    body::before{display:none;}
+    .print-page{page-break-after:always;}
+  }
+  /* Tweaks */
+  #tweaks-panel{display:none;position:fixed;bottom:20px;right:20px;background:var(--ink);color:var(--parchment);padding:16px 20px;border:1px solid var(--ochre);z-index:1000;font-family:'JetBrains Mono',monospace;font-size:11px;min-width:220px;box-shadow:4px 4px 0 var(--ochre);}
+  #tweaks-panel.visible{display:block;}
+  #tweaks-panel h3{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ochre);margin-bottom:14px;border-bottom:1px solid rgba(184,115,42,.3);padding-bottom:10px;}
+  .tweak-row{margin-bottom:10px;}
+  .tweak-row label{display:block;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:rgba(244,236,220,.5);margin-bottom:5px;}
+  .tweak-row select{width:100%;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:var(--parchment);font-family:'JetBrains Mono',monospace;font-size:10px;padding:5px 8px;cursor:pointer;}
+  .tweak-row select option{background:var(--ink);}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<div id="tweaks-panel">
+  <h3>Tweaks</h3>
+  <div class="tweak-row">
+    <label>Resource</label>
+    <select id="tweak-resource">
+      <option value="worksheet">Session Worksheet</option>
+      <option value="verses">Memory Verse Cards</option>
+      <option value="glossary">Key Terms Glossary</option>
+      <option value="objections">Objections Cheat Sheet</option>
+      <option value="capstone">Capstone Submission</option>
+    </select>
+  </div>
+  <div class="tweak-row" id="session-picker" style="display:none">
+    <label>Session</label>
+    <select id="tweak-session-ws">
+      <option value="1">Session 1 — What Is Torah?</option>
+      <option value="2">Session 2 — Does God Change?</option>
+      <option value="3">Session 3 — What Did Yeshua Teach?</option>
+    </select>
+  </div>
+</div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel">
+const { useState, useEffect } = React;
+const mono = { fontFamily:"'JetBrains Mono',monospace" };
+const hd   = { fontFamily:"'Frank Ruhl Libre',serif" };
+const bd   = { fontFamily:"'Cormorant Garamond',serif" };
+
+function ML({ children, color='var(--crimson)', style={} }) {
+  return <div style={{...mono,fontSize:10.5,letterSpacing:'0.28em',textTransform:'uppercase',color,...style}}>{children}</div>;
+}
+function Rule() {
+  return <div style={{display:'flex',alignItems:'center',gap:14,margin:'20px 0'}}>
+    <div style={{flex:1,height:1,background:'var(--ink)',opacity:.18}}/>
+    <span style={{...hd,fontSize:16,color:'var(--ochre)',fontWeight:300}}>✦</span>
+    <div style={{flex:1,height:1,background:'var(--ink)',opacity:.18}}/>
+  </div>;
+}
+
+// ── SHARED RESOURCE NAV ───────────────────────────────
+const TABS = [
+  {key:'worksheet',  label:'Session Worksheet'},
+  {key:'verses',     label:'Verse Cards'},
+  {key:'glossary',   label:'Glossary'},
+  {key:'objections', label:'Objections'},
+  {key:'capstone',   label:'Capstone'},
+];
+
+function ResourceShell({ active, setActive, children }) {
+  return (
+    <div>
+      {/* Dash nav */}
+      <div className="no-print" style={{background:'var(--ink)',borderBottom:'1px solid rgba(244,236,220,.12)'}}>
+        <div style={{padding:'10px 48px',display:'flex',justifyContent:'space-between',alignItems:'center',borderBottom:'1px solid rgba(244,236,220,.08)'}}>
+          <div style={{display:'flex',alignItems:'center',gap:8}}>
+            <svg style={{width:20,height:20}} viewBox="0 0 32 32" fill="none">
+              <path d="M16 2C10 2 5 5 5 5v17s5 4 11 8c6-4 11-8 11-8V5s-5-3-11-3z" fill="#1e3a5f" stroke="#c9a84c" strokeWidth="1.5"/>
+              <line x1="16" y1="8" x2="16" y2="24" stroke="#c9a84c" strokeWidth="1.5"/>
+              <line x1="10" y1="15" x2="22" y2="15" stroke="#c9a84c" strokeWidth="1.5"/>
+            </svg>
+            <span style={{...hd,fontWeight:900,fontSize:18,color:'var(--parchment)',letterSpacing:'-0.02em'}}>Defending Torah</span>
+            <span style={{...mono,fontSize:9,letterSpacing:'.2em',textTransform:'uppercase',color:'rgba(244,236,220,.35)',marginLeft:8}}>Resources</span>
+          </div>
+          <button style={{...mono,fontSize:10,letterSpacing:'.15em',textTransform:'uppercase',background:'none',border:'1px solid rgba(244,236,220,.2)',color:'rgba(244,236,220,.6)',padding:'5px 12px',cursor:'pointer'}}>← Dashboard</button>
+        </div>
+        <div style={{padding:'0 48px',display:'flex',gap:0}}>
+          {TABS.map(t=>(
+            <button key={t.key} onClick={()=>setActive(t.key)} style={{
+              ...mono,fontSize:10.5,letterSpacing:'.2em',textTransform:'uppercase',
+              padding:'14px 22px',background:'none',border:'none',
+              borderBottom:`2px solid ${active===t.key?'var(--ochre)':'transparent'}`,
+              color:active===t.key?'var(--ochre)':'rgba(244,236,220,.5)',
+              cursor:'pointer',transition:'all .2s',
+            }}>{t.label}</button>
+          ))}
+        </div>
+      </div>
+      <div style={{maxWidth:900,margin:'0 auto',padding:'52px 48px 100px'}}>
+        {children}
+      </div>
+    </div>
+  );
+}
+
+// ── SESSION WORKSHEET ─────────────────────────────────
+const SESSIONS = [
+  { id:1, week:1, title:'What Is Torah?',
+    big_idea:'Torah is God\'s instruction, not a man-made burden.',
+    scriptures:['Psalm 119:97–104','Deuteronomy 4:1–2','Romans 7:12'],
+    homework:['Read Psalm 119:1–48. Write down three phrases that describe Torah positively.','In one paragraph, define Torah in your own words as if explaining it to a friend.','List three common misconceptions about Torah and why you think they exist.'],
+    key_terms:['Torah','Covenant','Obedience','Legalism'],
+    memory:{ref:'Psalm 119:97',text:'Oh how I love your Torah! It is my meditation all the day.'},
+  },
+  { id:2, week:1, title:'Does God Change?',
+    big_idea:'The God of Scripture is consistent, and His holiness does not change.',
+    scriptures:['Malachi 3:6','Numbers 23:19','Hebrews 13:8'],
+    homework:['Compare Malachi 3:6, James 1:17, and Hebrews 13:8. Write a short paragraph on what they have in common.','Journal: Why would a loving, unchanging God give instruction to His people?','Complete a comparison worksheet: What stays the same across both testaments?'],
+    key_terms:['Covenant','Faithfulness','Torah','Grace'],
+    memory:{ref:'Psalm 119:97',text:'Oh how I love your Torah! It is my meditation all the day.'},
+  },
+  { id:3, week:2, title:'What Did Yeshua Actually Teach?',
+    big_idea:'Yeshua did not oppose God\'s commandments — He exposed false interpretations.',
+    scriptures:['Matthew 5:17–19','Matthew 23:1–3','Mark 7:1–13'],
+    homework:['Write five sentences on what "fulfil" does not mean.','Find one example where Yeshua corrects tradition rather than Torah.','Memory verse: Matthew 5:17.'],
+    key_terms:['Fulfill','Tradition','Torah','Holiness'],
+    memory:{ref:'Matthew 5:17',text:'Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfil them.'},
+  },
+];
+
+function WritingLine({ label, lines=3 }) {
+  return (
+    <div style={{marginBottom:16}}>
+      {label && <div style={{...mono,fontSize:9.5,letterSpacing:'.15em',textTransform:'uppercase',color:'var(--muted)',marginBottom:8}}>{label}</div>}
+      {Array.from({length:lines}).map((_,i)=>(
+        <div key={i} style={{height:1,background:'var(--parchment-shadow)',marginBottom:18,borderBottom:'1px solid var(--parchment-shadow)'}}/>
+      ))}
+    </div>
+  );
+}
+
+function SessionWorksheet({ sessionId=1 }) {
+  const s = SESSIONS.find(x=>x.id===sessionId) || SESSIONS[0];
+  return (
+    <div className="print-page">
+      <div style={{display:'flex',justifyContent:'space-between',alignItems:'flex-start',marginBottom:32,paddingBottom:24,borderBottom:'2px solid var(--ink)'}}>
+        <div>
+          <ML color="var(--crimson)" style={{marginBottom:10}}>Session {s.id} of 10 · Week {s.week} Worksheet</ML>
+          <h1 style={{...hd,fontWeight:300,fontSize:'clamp(32px,4vw,48px)',lineHeight:1.05,letterSpacing:'-0.025em',marginBottom:8}}>{s.title}</h1>
+          <div style={{...bd,fontStyle:'italic',fontSize:18,color:'var(--ink-soft)'}}>Big idea: {s.big_idea}</div>
+        </div>
+        <div style={{textAlign:'right',flexShrink:0,marginLeft:24}}>
+          <ML color="var(--muted)" style={{marginBottom:6}}>Student Name</ML>
+          <div style={{width:200,height:1,background:'var(--ink)',marginBottom:20}}/>
+          <ML color="var(--muted)" style={{marginBottom:6}}>Date</ML>
+          <div style={{width:200,height:1,background:'var(--ink)'}}/>
+        </div>
+      </div>
+
+      {/* Scripture readings */}
+      <div style={{marginBottom:32}}>
+        <ML color="var(--ochre)" style={{marginBottom:14}}>Step 1 — Scripture Readings</ML>
+        <p style={{...bd,fontSize:16,color:'var(--ink-soft)',marginBottom:16,fontStyle:'italic'}}>Read each passage carefully. Take brief notes on what you observe — not what you expect to find.</p>
+        {s.scriptures.map(ref=>(
+          <div key={ref} style={{marginBottom:20}}>
+            <div style={{display:'flex',alignItems:'center',gap:12,marginBottom:10}}>
+              <div style={{width:3,height:20,background:'var(--ochre)',flexShrink:0}}/>
+              <div style={{...bd,fontStyle:'italic',fontSize:18,color:'var(--ink)'}}>{ref}</div>
+            </div>
+            <WritingLine lines={3}/>
+          </div>
+        ))}
+      </div>
+      <Rule/>
+
+      {/* Opening question */}
+      <div style={{marginBottom:32}}>
+        <ML color="var(--crimson)" style={{marginBottom:14}}>Step 2 — Opening Question Response</ML>
+        <WritingLine lines={4}/>
+      </div>
+
+      {/* Big idea */}
+      <div style={{border:'1px solid var(--parchment-shadow)',padding:'16px 20px',background:'var(--parchment-deep)',marginBottom:32}}>
+        <ML color="var(--ochre)" style={{marginBottom:8}}>Step 3 — Big Idea (write it in your own words)</ML>
+        <WritingLine lines={3}/>
+      </div>
+      <Rule/>
+
+      {/* Homework */}
+      <div style={{marginBottom:32}}>
+        <ML color="var(--ink)" style={{marginBottom:14}}>Homework Tasks</ML>
+        {s.homework.map((hw,i)=>(
+          <div key={i} style={{display:'flex',gap:14,marginBottom:20,alignItems:'flex-start'}}>
+            <div style={{width:20,height:20,border:'1.5px solid var(--ink)',flexShrink:0,marginTop:2}}/>
+            <div style={{flex:1}}>
+              <div style={{...bd,fontSize:17,lineHeight:1.55,color:'var(--ink-soft)',marginBottom:8}}>{hw}</div>
+              <WritingLine lines={3}/>
+            </div>
+          </div>
+        ))}
+      </div>
+      <Rule/>
+
+      {/* Key terms */}
+      <div style={{marginBottom:32}}>
+        <ML color="var(--crimson)" style={{marginBottom:14}}>Key Terms — Define in Your Own Words</ML>
+        <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}}>
+          {s.key_terms.map(term=>(
+            <div key={term}>
+              <div style={{...hd,fontWeight:500,fontSize:20,marginBottom:6}}>{term}</div>
+              <WritingLine lines={2}/>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Memory verse */}
+      <div style={{border:'1px solid var(--ink)',padding:'20px 24px',background:'var(--parchment-deep)'}}>
+        <ML color="var(--olive)" style={{marginBottom:10}}>Memory Verse — Week {s.week}</ML>
+        <div style={{...bd,fontStyle:'italic',fontSize:19,lineHeight:1.6,color:'var(--ink-soft)',borderLeft:'2px solid var(--ochre)',paddingLeft:14,marginBottom:8}}>"{s.memory.text}"</div>
+        <ML color="var(--crimson)">— {s.memory.ref}</ML>
+        <div style={{marginTop:16}}>
+          <div style={{...mono,fontSize:9.5,letterSpacing:'.15em',textTransform:'uppercase',color:'var(--muted)',marginBottom:8}}>Write it out from memory</div>
+          <WritingLine lines={2}/>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ── MEMORY VERSE CARDS ────────────────────────────────
+const VERSES = [
+  {week:1,title:'Foundations',ref:'Psalm 119:97',text:'Oh how I love your Torah! It is my meditation all the day.',hebrew:'אָהַבְתִּי תוֹרָתֶךָ'},
+  {week:2,title:'Yeshua & Torah',ref:'Matthew 5:17',text:'Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfil them.',hebrew:'מָשִׁיחַ'},
+  {week:3,title:'Paul',ref:'2 Peter 3:16',text:'There are some things in them that are hard to understand, which the ignorant and unstable twist to their own destruction.',hebrew:'תּוֹרָה'},
+  {week:4,title:'Objections',ref:'1 Peter 3:15',text:'Always be prepared to give a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect.',hebrew:'אֱמֶת'},
+  {week:5,title:'Maturity',ref:'Micah 6:8',text:'He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?',hebrew:'שָׁלוֹם'},
+];
+
+function MemoryVerseCards() {
+  return (
+    <div>
+      <div style={{marginBottom:36,paddingBottom:28,borderBottom:'1px solid var(--parchment-shadow)'}}>
+        <ML color="var(--crimson)" style={{marginBottom:14}}>Print & Cut</ML>
+        <h1 style={{...hd,fontWeight:300,fontSize:'clamp(32px,4vw,48px)',lineHeight:1,letterSpacing:'-0.025em',marginBottom:12}}>Memory Verse Cards</h1>
+        <p style={{...bd,fontSize:17,color:'var(--ink-soft)',maxWidth:560}}>One card per week. Print, cut, and carry. Front shows the verse; back shows the reference and Hebrew.</p>
+        <button onClick={()=>window.print()} style={{...mono,fontSize:11,letterSpacing:'.22em',textTransform:'uppercase',marginTop:20,background:'var(--ink)',color:'var(--parchment)',border:'none',padding:'12px 24px',cursor:'pointer'}} className="no-print">Print Cards →</button>
+      </div>
+      <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:24}}>
+        {VERSES.map(v=>(
+          <div key={v.week} className="print-page">
+            {/* Front */}
+            <div style={{border:'1.5px solid var(--ink)',background:'var(--parchment-deep)',padding:'24px 28px',marginBottom:12,position:'relative',overflow:'hidden'}}>
+              <div style={{position:'absolute',top:-10,right:-10,...hd,fontWeight:900,fontSize:80,opacity:.05,color:'var(--ochre)',lineHeight:1,userSelect:'none'}}>{v.hebrew}</div>
+              <div style={{display:'flex',justifyContent:'space-between',marginBottom:16}}>
+                <ML color="var(--muted)" style={{fontSize:9}}>Week {v.week} · {v.title}</ML>
+                <ML color="var(--muted)" style={{fontSize:9}}>Front</ML>
+              </div>
+              <p style={{...bd,fontStyle:'italic',fontSize:17,lineHeight:1.65,color:'var(--ink-soft)',borderLeft:'2px solid var(--ochre)',paddingLeft:12,marginBottom:10}}>"{v.text}"</p>
+              <ML color="var(--crimson)">— {v.ref}</ML>
+            </div>
+            {/* Back */}
+            <div style={{border:'1.5px solid var(--ink)',background:'var(--ink)',padding:'24px 28px',position:'relative',overflow:'hidden'}}>
+              <div style={{position:'absolute',top:'50%',left:'50%',transform:'translate(-50%,-50%)',...hd,fontWeight:900,fontSize:100,opacity:.06,color:'var(--ochre)',lineHeight:1,userSelect:'none'}} dir="rtl">{v.hebrew}</div>
+              <div style={{display:'flex',justifyContent:'space-between',marginBottom:16,position:'relative',zIndex:1}}>
+                <ML color="rgba(244,236,220,.4)" style={{fontSize:9}}>Week {v.week}</ML>
+                <ML color="rgba(244,236,220,.4)" style={{fontSize:9}}>Back</ML>
+              </div>
+              <div style={{...hd,fontWeight:300,fontSize:28,color:'var(--parchment)',lineHeight:1.1,letterSpacing:'-0.02em',marginBottom:6,position:'relative',zIndex:1}}>{v.ref}</div>
+              <div style={{...hd,fontStyle:'italic',fontSize:18,color:'var(--ochre)',position:'relative',zIndex:1}}>{v.title}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── KEY TERMS GLOSSARY ────────────────────────────────
+const TERMS = [
+  {term:'Torah',def:'God\'s instruction, teaching, and direction for His people. Not a legal burden — a gift that reveals His holiness, wisdom, and love.',root:'From the Hebrew יָרָה (yarah) — to guide, to direct, to shoot straight.'},
+  {term:'Covenant',def:'A binding agreement between God and His people, involving promises, obligations, and relationship. Not a contract — a family bond.',root:'From the Hebrew בְּרִית (berit) — a cutting, a binding pledge.'},
+  {term:'Grace',def:'God\'s unearned favour — His decision to be for us and with us even when we don\'t deserve it. Also His enabling power to live rightly.',root:'From the Greek χάρις (charis) — gift, favour, thanks.'},
+  {term:'Obedience',def:'Living according to God\'s instruction out of love and trust, not fear. Not earning favour — responding to the One who already loves us.',root:'From the Latin oboedire — to listen, to hear and respond.'},
+  {term:'Legalism',def:'Seeking to earn God\'s favour through rule-keeping, rather than responding to His love. Obedience and legalism are not the same thing.',root:'The problem is not what you do, but why and how.'},
+  {term:'Justification',def:'Being declared righteous before God — not because we earned it, but because of Messiah\'s faithfulness and God\'s grace received by faith.',root:'From the Latin justificare — to make right, to declare innocent.'},
+  {term:'Sanctification',def:'The ongoing process of being made holy — walking in obedience, growing in character, becoming more like Messiah over time.',root:'From the Latin sanctificare — to make holy.'},
+  {term:'Holiness',def:'Being set apart for God. Reflecting His character. Living in a way that is distinct from the surrounding culture because we belong to Him.',root:'From the Hebrew קָדוֹשׁ (kadosh) — set apart, sacred, distinct.'},
+  {term:'Fulfill',def:'To fill up the full meaning of something — to do it completely and correctly. Not to end or cancel. Yeshua fulfilled Torah by living it perfectly.',root:'From the Greek πληρόω (plēroō) — to fill, to complete, to bring to full expression.'},
+  {term:'Lawlessness',def:'Living without regard for God\'s instruction. The Greek is ἀνομία (anomia) — literally "without Torah." The opposite of righteousness.',root:'Yeshua warned that many will cry "Lord, Lord" but He will say "I never knew you — depart from me, you workers of lawlessness" (Matthew 7:23).'},
+  {term:'Tradition',def:'Human customs and rules passed down over generations. Not wrong in themselves — but when they replace or override God\'s commands, they become a problem.',root:'Yeshua rebuked traditions that made void the word of God (Mark 7:13).'},
+  {term:'Condemnation',def:'The penalty and judgment that sin deserves. Messiah\'s death removes our condemnation — not the standard that defined what sin is.',root:'Romans 8:1 — There is therefore no condemnation for those who are in Messiah Yeshua.'},
+  {term:'Faithfulness',def:'Steady trust and obedience over time — both God\'s and ours. God is always faithful. Our faithfulness is the response of a grateful heart.',root:'From the Hebrew אֱמוּנָה (emunah) — firmness, steadiness, reliability.'},
+  {term:'Repentance',def:'Turning away from sin and back to God\'s ways. Not just feeling sorry — changing direction. The first and continual call of the gospel.',root:'From the Greek μετάνοια (metanoia) — a change of mind, a turning around.'},
+];
+
+function KeyTermsGlossary() {
+  const [active, setActive] = useState(null);
+  return (
+    <div>
+      <div style={{marginBottom:40,paddingBottom:32,borderBottom:'1px solid var(--parchment-shadow)'}}>
+        <ML color="var(--crimson)" style={{marginBottom:14}}>Reference</ML>
+        <h1 style={{...hd,fontWeight:300,fontSize:'clamp(32px,4vw,48px)',lineHeight:1,letterSpacing:'-0.025em',marginBottom:12}}>Key Terms Glossary</h1>
+        <p style={{...bd,fontSize:17,color:'var(--ink-soft)',maxWidth:540}}>Fourteen terms introduced across the course, defined in plain language. Click any term to expand.</p>
+      </div>
+      <div style={{display:'flex',flexDirection:'column',gap:0,borderTop:'1px solid var(--ink)'}}>
+        {TERMS.map((t,i)=>(
+          <div key={t.term} style={{borderBottom:'1px solid var(--parchment-shadow)'}}>
+            <button onClick={()=>setActive(active===i?null:i)} style={{
+              width:'100%',display:'flex',alignItems:'baseline',gap:20,padding:'18px 0',
+              background:'none',border:'none',cursor:'pointer',textAlign:'left',
+              transition:'background .15s',
+            }}>
+              <span style={{...hd,fontWeight:900,fontSize:20,color:'var(--ochre)',opacity:.4,width:32,flexShrink:0}}>{String(i+1).padStart(2,'0')}</span>
+              <span style={{...hd,fontWeight:300,fontSize:24,color:'var(--ink)',letterSpacing:'-0.01em',flex:1}}>{t.term}</span>
+              <span style={{...mono,fontSize:11,color:active===i?'var(--ochre)':'var(--muted)',transition:'transform .2s',display:'inline-block',transform:active===i?'rotate(90deg)':'none'}}>›</span>
+            </button>
+            {active===i && (
+              <div style={{paddingBottom:20,paddingLeft:52}}>
+                <p style={{...bd,fontSize:18,lineHeight:1.65,color:'var(--ink-soft)',marginBottom:12}}>{t.def}</p>
+                <div style={{borderLeft:'2px solid var(--ochre)',paddingLeft:14,background:'rgba(184,115,42,.04)',padding:'8px 14px'}}>
+                  <ML color="var(--ochre)" style={{marginBottom:4,fontSize:9}}>Root / Note</ML>
+                  <p style={{...bd,fontStyle:'italic',fontSize:15,color:'var(--muted)',lineHeight:1.55}}>{t.root}</p>
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── OBJECTIONS CHEAT SHEET ────────────────────────────
+const OBJECTIONS = [
+  {num:'01',obj:'"We are not under the law."',response:'Being "not under law" means free from condemnation — not free from instruction. Paul himself says "we uphold the law" (Romans 3:31).',ref:'Romans 3:31; 6:14–15'},
+  {num:'02',obj:'"Jesus fulfilled the law so we don\'t have to."',response:'"Fulfil" means to fill up the full meaning, not to end. Yeshua said not one letter would pass away until all is accomplished (Matthew 5:17–18).',ref:'Matthew 5:17–19'},
+  {num:'03',obj:'"The law was nailed to the cross."',response:'The "record of debt" nailed away was our certificate of sin — not the definition of holiness. The standard that defines sin cannot also be removed by paying for sin.',ref:'Colossians 2:13–14'},
+  {num:'04',obj:'"The Sabbath was abolished."',response:'The Sabbath was established at creation before Israel existed (Genesis 2:2–3). Isaiah 56 promises it to all who hold it — explicitly including foreigners.',ref:'Isaiah 56:6–7; Genesis 2:2–3'},
+  {num:'05',obj:'"The law was only for Israel."',response:'Many commands pre-date Israel. The same Torah applied to sojourners living among Israel. Isaiah 56 explicitly includes Gentiles who join themselves to God.',ref:'Exodus 12:49; Isaiah 56:6'},
+  {num:'06',obj:'"Paul taught against the law."',response:'Paul calls the law "holy, just, and good" (Romans 7:12). He observed Torah himself (Acts 21:24). He opposed its misuse for justification, not its use for holiness.',ref:'Romans 7:12; Acts 21:20–24'},
+  {num:'07',obj:'"Grace means commandments no longer apply."',response:'Grace frees us from sin\'s penalty — not from holiness. "Shall we sin because we are not under law? By no means!" (Romans 6:15). Grace enables obedience.',ref:'Romans 6:15; Titus 2:11–12'},
+  {num:'08',obj:'"Love replaces the law."',response:'Yeshua said love for God means keeping His commandments (John 14:15). Love is the motive that fulfils the law, not the replacement for it.',ref:'John 14:15; Romans 13:10'},
+  {num:'09',obj:'"The old covenant is gone, so the law is gone."',response:'The new covenant writes Torah on the heart (Jeremiah 31:33). It deepens obedience — it does not remove it. What changes is the location: from stone to heart.',ref:'Jeremiah 31:31–33; Hebrews 8:10'},
+  {num:'10',obj:'"Food laws are no longer relevant."',response:'Acts 10 is about people, not food. Peter himself explains the vision in the same passage: "God has shown me that I should not call any person common" (Acts 10:28).',ref:'Acts 10:28; Acts 11:18'},
+  {num:'11',obj:'"Trying to obey Torah is legalism."',response:'Legalism is earning salvation by works. Obedience from love is discipleship. Yeshua said "If you love me, keep my commandments" — that is not legalism.',ref:'John 14:15; Galatians 2:16'},
+  {num:'12',obj:'"Christians only need the New Testament."',response:'The New Testament itself says all Scripture is profitable (2 Timothy 3:16). Yeshua and the apostles had only the "Old Testament" — and it was sufficient for faith.',ref:'2 Timothy 3:16–17; Luke 24:27'},
+];
+
+function ObjectionsCheatSheet() {
+  return (
+    <div>
+      <div style={{marginBottom:36,paddingBottom:28,borderBottom:'1px solid var(--parchment-shadow)',display:'flex',justifyContent:'space-between',alignItems:'flex-end',flexWrap:'wrap',gap:16}}>
+        <div>
+          <ML color="var(--crimson)" style={{marginBottom:14}}>Quick Reference</ML>
+          <h1 style={{...hd,fontWeight:300,fontSize:'clamp(30px,4vw,46px)',lineHeight:1,letterSpacing:'-0.025em',marginBottom:10}}>12 Objections & Responses</h1>
+          <p style={{...bd,fontSize:16,color:'var(--ink-soft)',maxWidth:480}}>One-sentence biblical responses. For study — not for arguing. Always add Scripture and gentleness.</p>
+        </div>
+        <button onClick={()=>window.print()} className="no-print" style={{...mono,fontSize:11,letterSpacing:'.22em',textTransform:'uppercase',background:'var(--ink)',color:'var(--parchment)',border:'none',padding:'12px 22px',cursor:'pointer'}}>Print →</button>
+      </div>
+      <div style={{display:'flex',flexDirection:'column',gap:0,borderTop:'1px solid var(--ink)'}}>
+        {OBJECTIONS.map((o,i)=>(
+          <div key={o.num} style={{display:'grid',gridTemplateColumns:'40px 1fr',gap:16,padding:'20px 0',borderBottom:'1px solid var(--parchment-shadow)',alignItems:'start'}}>
+            <div style={{...hd,fontWeight:900,fontSize:28,color:'var(--ochre)',opacity:.4,lineHeight:1,paddingTop:4}}>{o.num}</div>
+            <div>
+              <p style={{...bd,fontStyle:'italic',fontSize:19,color:'var(--crimson)',lineHeight:1.4,marginBottom:10}}>"{o.obj}"</p>
+              <p style={{...bd,fontSize:18,lineHeight:1.65,color:'var(--ink-soft)',marginBottom:8}}>{o.response}</p>
+              <div style={{display:'flex',alignItems:'center',gap:8}}>
+                <div style={{width:2,height:14,background:'var(--ochre)'}}/>
+                <span style={{...mono,fontSize:9.5,letterSpacing:'.15em',textTransform:'uppercase',color:'var(--ochre-deep)'}}>{o.ref}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── CAPSTONE SUBMISSION ───────────────────────────────
+const CAPSTONE_OPTIONS = [
+  {key:'written',label:'Written Defence',icon:'✍',desc:'A short written defence of Torah observance for a complete beginner. Approximately 500–800 words. Answer at least three of the objections covered in the course in your own words.'},
+  {key:'recorded',label:'Recorded Response',icon:'◉',desc:'A 3–5 minute recorded explanation (video or audio) addressing what Torah is, what Yeshua taught about it, and how to answer one common objection. Speak naturally — as if talking to a friend.'},
+  {key:'statement',label:'Belief Statement',icon:'◈',desc:'A one-page "what I believe and why" statement. Include your understanding of Torah, the new covenant, and how you would respond to a sceptic. Plain, honest, personal language.'},
+];
+
+function CaptoneSubmission() {
+  const [selected, setSelected] = useState(null);
+  const [submitted, setSubmitted] = useState(false);
+
+  if (submitted) return (
+    <div style={{textAlign:'center',padding:'60px 0'}}>
+      <div style={{...hd,fontWeight:900,fontSize:72,color:'var(--olive)',opacity:.3,marginBottom:16}}>✓</div>
+      <ML color="var(--olive)" style={{marginBottom:16,textAlign:'center'}}>Submission Received</ML>
+      <h2 style={{...hd,fontWeight:300,fontSize:38,lineHeight:1.1,letterSpacing:'-0.02em',marginBottom:16}}>Well done.</h2>
+      <p style={{...bd,fontSize:19,color:'var(--ink-soft)',lineHeight:1.65,maxWidth:480,margin:'0 auto 32px'}}>Your capstone has been submitted. Your completion certificate will be available in your dashboard within 24 hours.</p>
+      <Rule/>
+      <p style={{...bd,fontStyle:'italic',fontSize:18,color:'var(--muted)',maxWidth:440,margin:'0 auto'}}>
+        "Study to show yourself approved unto God, a workman who has no need to be ashamed, rightly handling the word of truth."
+      </p>
+      <ML color="var(--crimson)" style={{marginTop:8,textAlign:'center'}}>— 2 Timothy 2:15</ML>
+    </div>
+  );
+
+  return (
+    <div>
+      <div style={{marginBottom:40,paddingBottom:32,borderBottom:'1px solid var(--parchment-shadow)'}}>
+        <ML color="var(--crimson)" style={{marginBottom:14}}>Final Step</ML>
+        <h1 style={{...hd,fontWeight:300,fontSize:'clamp(32px,4vw,48px)',lineHeight:1,letterSpacing:'-0.025em',marginBottom:12}}>Capstone Submission</h1>
+        <p style={{...bd,fontSize:17,color:'var(--ink-soft)',maxWidth:560,lineHeight:1.6}}>Complete one of the three options below to receive your completion certificate. This is not a test — it is an opportunity to put what you have learned into your own words.</p>
+      </div>
+
+      {/* Progress reminder */}
+      <div style={{border:'1px solid var(--parchment-shadow)',padding:'16px 20px',background:'var(--parchment-deep)',marginBottom:32,display:'flex',alignItems:'center',gap:16}}>
+        <div style={{width:3,height:40,background:'var(--olive)',flexShrink:0}}/>
+        <div>
+          <ML color="var(--olive)" style={{marginBottom:4}}>All 10 Sessions Complete</ML>
+          <div style={{...bd,fontSize:17,color:'var(--ink-soft)'}}>Foundations of Defending Torah — 5 weeks, 10 sessions.</div>
+        </div>
+        <div style={{marginLeft:'auto',flexShrink:0}}>
+          <div style={{...hd,fontWeight:900,fontSize:36,color:'var(--olive)',lineHeight:1}}>100%</div>
+        </div>
+      </div>
+
+      {/* Option cards */}
+      <div style={{display:'flex',flexDirection:'column',gap:14,marginBottom:36}}>
+        {CAPSTONE_OPTIONS.map(opt=>(
+          <button key={opt.key} onClick={()=>setSelected(opt.key)} style={{
+            border:`1.5px solid ${selected===opt.key?'var(--ochre)':'var(--parchment-shadow)'}`,
+            padding:'22px 24px',background:selected===opt.key?'rgba(184,115,42,.06)':'var(--parchment-deep)',
+            cursor:'pointer',textAlign:'left',display:'flex',gap:18,alignItems:'flex-start',
+            transition:'all .2s',
+          }}>
+            <div style={{width:40,height:40,border:`1.5px solid ${selected===opt.key?'var(--ochre)':'#ccc'}`,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0,fontSize:20,background:selected===opt.key?'var(--ochre)':'transparent',transition:'all .2s'}}>
+              <span style={{filter:selected===opt.key?'invert(1)':'none'}}>{opt.icon}</span>
+            </div>
+            <div>
+              <div style={{...hd,fontWeight:500,fontSize:22,marginBottom:6,color:selected===opt.key?'var(--ochre-deep)':'var(--ink)'}}>{opt.label}</div>
+              <div style={{...bd,fontSize:16,color:'var(--ink-soft)',lineHeight:1.55}}>{opt.desc}</div>
+            </div>
+            <div style={{marginLeft:'auto',flexShrink:0,width:20,height:20,border:`1.5px solid ${selected===opt.key?'var(--ochre)':'#ccc'}`,borderRadius:'50%',background:selected===opt.key?'var(--ochre)':'transparent',display:'flex',alignItems:'center',justifyContent:'center',transition:'all .2s',marginTop:6}}>
+              {selected===opt.key&&<div style={{width:8,height:8,borderRadius:'50%',background:'white'}}/>}
+            </div>
+          </button>
+        ))}
+      </div>
+
+      {/* Upload / text area */}
+      {selected && (
+        <div style={{border:'1px solid var(--ink)',padding:'28px 32px',background:'var(--parchment-deep)',marginBottom:28}}>
+          <ML color="var(--ochre)" style={{marginBottom:14}}>
+            {selected==='recorded'?'Upload Your Recording':'Your Submission'}
+          </ML>
+          {selected==='recorded'
+            ? <div style={{border:'2px dashed var(--parchment-shadow)',padding:'32px',textAlign:'center',cursor:'pointer',background:'var(--parchment)'}}>
+                <div style={{...mono,fontSize:10,letterSpacing:'.15em',textTransform:'uppercase',color:'var(--muted)',marginBottom:6}}>Click to upload or drag & drop</div>
+                <div style={{...bd,fontStyle:'italic',fontSize:15,color:'var(--muted)'}}>MP4, MOV, MP3 or M4A · Max 200MB</div>
+              </div>
+            : <textarea placeholder="Write your response here…" style={{width:'100%',minHeight:220,background:'var(--parchment)',border:'1px solid var(--parchment-shadow)',padding:'14px 16px',...bd,fontSize:18,color:'var(--ink)',lineHeight:1.65,resize:'vertical',fontStyle:'italic',outline:'none'}}/>
+          }
+        </div>
+      )}
+
+      <button onClick={()=>selected&&setSubmitted(true)} style={{
+        ...mono,fontSize:11.5,letterSpacing:'.22em',textTransform:'uppercase',
+        padding:'16px 32px',background:selected?'var(--ink)':'var(--parchment-shadow)',
+        color:selected?'var(--parchment)':'var(--muted)',border:'none',cursor:selected?'pointer':'default',
+        display:'flex',alignItems:'center',gap:12,transition:'all .2s',
+      }}>
+        {selected?'Submit & Unlock Certificate →':'Select an option above first'}
+      </button>
+    </div>
+  );
+}
+
+// ── APP ───────────────────────────────────────────────
+function App() {
+  const saved = ()=>{ try{ return localStorage.getItem('dt-resource')||'worksheet'; }catch{ return 'worksheet'; } };
+  const [active, setActive] = useState(saved);
+  const [wsSession, setWsSession] = useState(1);
+
+  function switchTab(t) {
+    setActive(t);
+    localStorage.setItem('dt-resource', t);
+    const sel = document.getElementById('tweak-resource');
+    if(sel) sel.value = t;
+    document.getElementById('session-picker').style.display = t==='worksheet'?'':'none';
+  }
+
+  useEffect(()=>{
+    const panel = document.getElementById('tweaks-panel');
+    const sel = document.getElementById('tweak-resource');
+    const sws = document.getElementById('tweak-session-ws');
+    const sp  = document.getElementById('session-picker');
+    if(sp) sp.style.display = active==='worksheet'?'':'none';
+    const h = e=>{ if(e.data?.type==='__activate_edit_mode') panel.classList.add('visible'); if(e.data?.type==='__deactivate_edit_mode') panel.classList.remove('visible'); };
+    window.addEventListener('message',h);
+    if(sel) sel.addEventListener('change',()=>switchTab(sel.value));
+    if(sws) sws.addEventListener('change',()=>setWsSession(Number(sws.value)));
+    window.parent.postMessage({type:'__edit_mode_available'},'*');
+    return ()=>window.removeEventListener('message',h);
+  },[]);
+
+  return (
+    <ResourceShell active={active} setActive={switchTab}>
+      {active==='worksheet'   && <SessionWorksheet sessionId={wsSession}/>}
+      {active==='verses'      && <MemoryVerseCards/>}
+      {active==='glossary'    && <KeyTermsGlossary/>}
+      {active==='objections'  && <ObjectionsCheatSheet/>}
+      {active==='capstone'    && <CaptoneSubmission/>}
+    </ResourceShell>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>
