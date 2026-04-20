@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MobileMenu } from "./mobile-menu";
 
 const links = [
   { href: "/articles", label: "Topics" },
@@ -69,16 +70,7 @@ export function Nav() {
             Log In
           </Link>
 
-          {/* Mobile Menu Button (placeholder for future drawer) */}
-          <button
-            type="button"
-            aria-label="Menu"
-            className="hidden max-md:flex flex-col gap-[5px] bg-transparent border-none p-2 cursor-pointer"
-          >
-            <span className="block w-[22px] h-[2px] bg-ink font-mono"></span>
-            <span className="block w-[22px] h-[2px] bg-ink font-mono"></span>
-            <span className="block w-[22px] h-[2px] bg-ink font-mono"></span>
-          </button>
+          <MobileMenu />
         </div>
       </nav>
     </>

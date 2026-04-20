@@ -677,6 +677,10 @@ body::before {
   flex-shrink: 0;
 }
 
+/* ────────── SCROLLBAR HIDE ────────── */
+.scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+
 /* ────────── RESPONSIVE ────────── */
 @media (max-width: 960px) {
   body { font-size: 17px; }

@@ -32,7 +32,7 @@ export function CoursesPageClient({ courses }: CoursesPageClientProps) {
 
   return (
     <>
-      <div className="max-w-[1200px] mx-auto w-full py-[52px] px-12">
+      <div className="max-w-[1200px] mx-auto w-full py-[52px] px-12 max-md:px-5 max-md:py-8">
         {/* Header */}
         <div className="mb-10">
           <MonoLabel color="var(--crimson)" className="mb-3">

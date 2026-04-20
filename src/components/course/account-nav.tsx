@@ -35,11 +35,11 @@ export function AccountNav() {
   return (
     <div className="account-nav sticky top-0 z-50 bg-[var(--ink)]">
       {/* Row 1: Top bar */}
-      <div className="border-b border-[rgba(244,236,220,0.08)] px-12 py-2.5">
+      <div className="border-b border-[rgba(244,236,220,0.08)] px-12 py-2.5 max-md:px-5 max-md:py-2">
         <div className="flex items-center justify-between">
           {/* Left: Logo + Title */}
-          <Link href="/account" className="flex items-center gap-2.5">
-            <svg className="w-5 h-5" viewBox="0 0 32 32" fill="none">
+          <Link href="/account" className="flex items-center gap-2.5 max-md:gap-2">
+            <svg className="w-5 h-5 max-md:w-4 max-md:h-4" viewBox="0 0 32 32" fill="none">
               <path
                 d="M16 2C10 2 5 5 5 5v17s5 4 11 8c6-4 11-8 11-8V5s-5-3-11-3z"
                 fill="#1e3a5f"
@@ -63,19 +63,19 @@ export function AccountNav() {
                 strokeWidth="1.5"
               />
             </svg>
-            <span className="font-heading font-black text-[18px] text-parchment">
+            <span className="font-heading font-black text-[18px] text-parchment max-md:text-[15px]">
               Defending Torah
             </span>
           </Link>
 
           {/* Right: Portal label + Sign Out button */}
-          <div className="flex items-center gap-4">
-            <span className="font-mono text-[10px] tracking-[0.15em] uppercase text-[rgba(244,236,220,0.5)]">
+          <div className="flex items-center gap-4 max-md:gap-2.5">
+            <span className="font-mono text-[10px] tracking-[0.15em] uppercase text-[rgba(244,236,220,0.5)] max-md:hidden">
               Student Portal
             </span>
             <button
               onClick={handleSignOut}
-              className="font-mono text-[10px] tracking-[0.15em] uppercase border border-[rgba(244,236,220,0.2)] text-[rgba(244,236,220,0.6)] px-3 py-[5px] hover:border-[rgba(244,236,220,0.4)] hover:text-[rgba(244,236,220,0.8)] transition-colors"
+              className="font-mono text-[10px] tracking-[0.15em] uppercase border border-[rgba(244,236,220,0.2)] text-[rgba(244,236,220,0.6)] px-3 py-[5px] hover:border-[rgba(244,236,220,0.4)] hover:text-[rgba(244,236,220,0.8)] transition-colors max-md:text-[9px] max-md:px-2.5"
             >
               Sign Out
             </button>
@@ -85,15 +85,15 @@ export function AccountNav() {
 
       {/* Row 2: Tab strip (only on /account/* paths) */}
       {showTabs && (
-        <div className="px-12">
-          <nav className="flex">
+        <div className="px-12 max-md:px-0">
+          <nav className="flex max-md:overflow-x-auto scrollbar-none">
             {tabs.map((tab) => {
               const isActive = activeTab === tab.key;
               return (
                 <Link
                   key={tab.key}
                   href={tab.href}
-                  className={`font-mono text-[10.5px] tracking-[0.2em] uppercase px-6 py-4 border-b-2 transition-colors ${
+                  className={`font-mono text-[10.5px] tracking-[0.2em] uppercase px-6 py-4 border-b-2 transition-colors shrink-0 max-md:text-[9.5px] max-md:px-4 max-md:py-3 ${
                     isActive
                       ? "text-[var(--ochre)] border-[var(--ochre)]"
                       : "text-[rgba(244,236,220,0.5)] border-transparent hover:text-[rgba(244,236,220,0.7)]"

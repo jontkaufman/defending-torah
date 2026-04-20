@@ -34,7 +34,7 @@ export default async function AccountHomePage() {
   const displayName = user?.user_metadata?.full_name || "Student";
 
   return (
-    <div className="max-w-[1200px] mx-auto w-full py-[52px] px-12">
+    <div className="max-w-[1200px] mx-auto w-full py-[52px] px-12 max-md:px-5 max-md:py-8">
       {/* Welcome */}
       <div className="mb-12 pb-10 border-b border-parchment-shadow">
         <MonoLabel color="var(--muted)" className="mb-3">
