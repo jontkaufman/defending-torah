@@ -162,7 +162,7 @@ Reality: Legalism = thinking works earn your salvation before God. You don't bel
 
 **Misconception: "The Old Testament is obsolete"**
 
-Reality: The New Testament is commentary on the Tanakh (Hebrew Bible). The covenant is continuous—Yeshua completes and clarifies Torah, not abolishes it. Matthew 5:17-19 is clear on this.
+Reality: The New Testament is commentary on the Tanakh (Hebrew Bible). The old covenant was finished with the death of Jesus, but the law is continuous (Jer 31:31)—Yeshua properly teaches and reveals the Torah, He does not abolish it. Matthew 5:17-19 is clear on this.
 
 The key word in each correction is *why*. The *why* behind the obedience determines whether it's legalism or love, works-religion or grace-response. And for you, the why is simple: **Because God loves me and I love him back, I want to live according to his instruction.**
 
