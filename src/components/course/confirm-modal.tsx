@@ -19,10 +19,11 @@ export function ConfirmModal({
       }}
     >
       <div
-        className="bg-parchment border border-ink w-[90%]"
+        className="border border-ink w-[90%]"
         style={{
           maxWidth: isRestart ? 440 : 480,
           boxShadow: "12px 12px 0 var(--ink)",
+          background: "#f4ecdc",
         }}
       >
         <div

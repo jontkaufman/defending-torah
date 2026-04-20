@@ -62,6 +62,12 @@ export function Nav() {
           >
             Find an Answer →
           </Link>
+          <Link
+            href="/login"
+            className="font-mono text-[11px] tracking-[0.18em] uppercase text-ink px-4 py-2.5 no-underline border border-ink transition-all hover:bg-ink hover:text-parchment max-md:hidden"
+          >
+            Log In
+          </Link>
 
           {/* Mobile Menu Button (placeholder for future drawer) */}
           <button
