@@ -132,9 +132,9 @@ These are real changes. They affect your schedule, your grocery shopping, your f
 - **Your relationship with God through Yeshua** — This doesn't change. He is the door, the way, the bridge between you and the Father.
 - **Empowerment by the Holy Spirit** — This doesn't change. The Spirit sanctifies, strengthens, and guides you into all truth.
 
-You're not becoming a different kind of believer. You're the same believer, walking out your faith in a different way.
+You're not becoming a different kind of believer. You're the same believer, walking out your faith in a deeper and more sanctified way than you were before. As Scripture says, "Little children, let no one deceive you. Whoever practices righteousness is righteous, as he is righteous" (1 John 3:7).
 
-Think of it this way: A believer who prays in tongues and a believer who doesn't both experience God's Spirit. A charismatic worship style and a hymn-singing style both glorify God. In the same way, a Torah-observant believer and a non-Torah-observant believer both trust in Yeshua for salvation and rely on grace. The practice differs; the foundation doesn't.
+Think of it this way: A believer who fasts regularly and a believer who doesn't both seek God's face. A believer who prays three times daily and one who prays spontaneously both commune with the Father. In the same way, a Torah-observant believer and a non-Torah-observant believer both trust in Yeshua for salvation and rely on grace. The practice differs; the foundation doesn't. But those who walk in obedience to God's revealed instruction are walking in greater sanctification—not earning righteousness, but demonstrating it through their love for God's ways.
 
 ### Common Misconceptions vs. Reality
 
