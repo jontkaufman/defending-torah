@@ -731,3 +731,10 @@ body::before {
     padding: 10px 12px;
   }
 }
+
+/* Print styles */
+@media print {
+  body::before { display: none !important; }
+  .no-print, .account-nav, nav, footer { display: none !important; }
+  body { background: white !important; }
+}
