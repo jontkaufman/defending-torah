@@ -12,7 +12,7 @@ export function Nav() {
   return (
     <>
       {/* Meta Bar */}
-      <div className="relative z-10 border-b border-ink/40 flex justify-between items-center px-10 py-2.5 font-mono text-[10.5px] tracking-[0.18em] uppercase text-ink-soft max-md:px-6 max-md:text-[9px] max-md:gap-3">
+      <div className="relative z-10 border-b border-ink/40 flex justify-between items-center px-10 py-2.5 font-mono text-[10.5px] tracking-[0.18em] uppercase text-ink-soft max-md:hidden">
         <div>
           Vol. I <span className="text-ochre">·</span> Essays in Torah &amp;
           Evidence
