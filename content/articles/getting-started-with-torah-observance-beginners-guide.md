@@ -560,3 +560,468 @@ But there's a growing community of Torah-observant believers:
 You're joining thousands walking this path. You're not alone.
 
 ---
+
+## Part 4: Practical Observance—Your First Steps
+
+You're convinced theologically. You've worked through the objections. Now comes the question every beginner asks:
+
+**"What do I actually do?"**
+
+This section is your comprehensive starter kit. We'll cover Sabbath observance, dietary laws, feasts, prayer, and other basics—giving you clear, actionable steps to begin your Torah journey.
+
+Start where you are. Take one step at a time. Extend grace to yourself in the learning process. You won't get everything right immediately, and that's okay. God is patient with His children.
+
+Let's begin.
+
+### A. Sabbath: The Foundation
+
+**Why Sabbath First?**
+
+If you're wondering where to begin, start with the Sabbath. Here's why:
+
+- **Weekly rhythm establishes a pattern** — Sabbath observance builds a consistent cadence into your spiritual life, creating a foundation for everything else
+- **Most explicitly commanded** — It's one of the Ten Commandments (Exodus 20:8-11), making it foundational to covenant relationship
+- **Builds trust in God's provision** — When you cease work and trust God to sustain you, you're practicing faith in a tangible way
+- **Creates space for worship, rest, and family** — Sabbath carves out time to reconnect with God, restore your body, and invest in relationships
+
+Sabbath isn't a burden. It's a gift. And it's where your Torah journey begins.
+
+**When: Friday Sundown to Saturday Sundown**
+
+The biblical day runs from evening to evening, not midnight to midnight.
+
+> And there was evening, and there was morning—the first day. (Genesis 1:5)
+
+The pattern is clear: evening precedes morning. The day begins at sundown.
+
+For Sabbath, that means:
+- **Start:** Friday at sundown (varies by location and season—use a Sabbath time app or website like hebcal.com)
+- **End:** Saturday at sundown (when three stars are visible, traditionally)
+
+Light candles just before sundown on Friday to welcome the Sabbath. End with a brief Havdalah (separation) ceremony Saturday evening to mark its close.
+
+**What to Stop: Defining "Work"**
+
+The command is simple: "Remember the Sabbath day by keeping it holy... On it you shall not do any work" (Exodus 20:8, 10). But what counts as "work"?
+
+**Clear prohibitions:**
+- **Employment** — Don't work your job or conduct business
+- **Commerce** — Don't buy or sell (no shopping, no transactions)
+- **Creating/building** — Don't engage in creative labor (construction, crafting, projects)
+- **Cooking** — Prepare meals ahead (you can reheat, but don't cook from scratch)
+
+**Gray areas** (personal conviction applies):
+- **Technology** — Some abstain from screens entirely; others use them for worship/study but avoid entertainment/social media
+- **Travel** — Some avoid driving (Sabbath day's journey is roughly 2,000 cubits or less than a mile); others travel to fellowship or family gatherings
+
+**Principle to guide you:** Does this activity help me rest and focus on God, or does it add stress and distraction? Let that question shape your boundaries.
+
+For your first Sabbath, keep it simple: Rest from your job, prepare meals ahead, avoid shopping. Refine your practice over time as you study Exodus 35, Isaiah 58:13-14, and grow in understanding.
+
+**What to Do: Sabbath as Delight**
+
+Sabbath isn't just about what you stop. It's about what you embrace—rest, worship, family, and fellowship.
+
+**Worship:**
+- Attend a Messianic congregation or Torah-observant fellowship if available
+- Host a home Sabbath service (readings, prayers, songs)
+- Spend extended personal worship time
+
+**Scripture:**
+- Read the weekly Torah portion (search "weekly Torah portion" for parashat hashavua schedules)
+- Study in-depth, discuss with family or friends
+- Meditate on Psalms, worship passages
+
+**Rest:**
+- Take naps without guilt
+- Go for unhurried walks
+- Enjoy time without rushing
+
+**Family:**
+- Share meals together at the table (no phones, no distractions)
+- Play games, have conversations
+- Bless your children, pray together
+
+**Fellowship:**
+- Invite others to your Sabbath table
+- Share food, stories, Scripture
+- Build community around the Sabbath meal
+
+The goal is **delight**, not drudgery. Isaiah 58:13-14 calls Sabbath "a delight" and promises that honoring it brings joy in the Lord. Structure your day to experience that.
+
+**First Sabbath Checklist**
+
+Here's a practical roadmap for your first Sabbath:
+
+**Friday Preparation:**
+- [ ] Cook meals ahead (Friday night dinner, Saturday lunch/dinner, Saturday breakfast)
+- [ ] Clean house so you can rest, not clean, on Sabbath
+- [ ] Set the table for Friday night dinner (make it festive)
+- [ ] Prepare candles, matches, wine or grape juice, challah bread (or any bread)
+- [ ] Plan Saturday activities (worship time, reading, rest)
+
+**Friday Evening:**
+- [ ] Light candles at sundown with blessing: *"Blessed are You, LORD our God, King of the universe, who has sanctified us with His commandments and commanded us to kindle the Sabbath light"*
+- [ ] Bless wine/juice (Kiddush): *"Blessed are You, LORD our God, King of the universe, who creates the fruit of the vine"*
+- [ ] Bless bread (HaMotzi): *"Blessed are You, LORD our God, King of the universe, who brings forth bread from the earth"*
+- [ ] Enjoy festive meal with family
+- [ ] Sing, pray, discuss Scripture (if you're new, just read Psalms aloud together)
+
+**Saturday:**
+- [ ] Morning worship or study time
+- [ ] Sabbath lunch (prepared Friday)
+- [ ] Afternoon rest, walk, or fellowship
+- [ ] Evening Havdalah ceremony (light braided candle, smell spices, bless wine, mark separation from Sabbath to ordinary time)
+
+**Common Questions**
+
+**What counts as work?**
+
+Start with the clear prohibitions: employment, commerce, cooking, creating. As you study Exodus 35 (which lists forbidden activities related to building the Tabernacle) and Isaiah 58:13-14 (which speaks of delighting in the Sabbath and not doing your own pleasure), you'll refine your understanding.
+
+A helpful question: *Does this activity honor the Sabbath rest, or does it distract from it?*
+
+**What about emergencies?**
+
+Yeshua addressed this directly: "The Sabbath was made for man, not man for the Sabbath" (Mark 2:27). Life-threatening situations override Sabbath restrictions. If someone is in crisis, help them. If your child is sick, care for them. Mercy and compassion are always permitted—they honor the heart of Sabbath.
+
+**What about travel?**
+
+This is a matter of personal conviction. Traditionally, a "Sabbath day's journey" is about 2,000 cubits (less than a mile). Some take this literally and avoid driving. Others travel to fellowship or to be with family, seeing travel as enhancing Sabbath rest and worship rather than violating it.
+
+Ask yourself: Does this travel add stress, or does it enable me to worship and rest better? Let your answer guide you.
+
+**Resources:**
+- Sabbath meal recipes and blessings (search "Shabbat dinner recipes" or "Sabbath blessings")
+- Havdalah guide and supplies (candles, spice box)
+- Sabbath study articles on this site: [Sabbath: From Creation to Eternity](sabbath-creation-to-eternity), [Sabbath: What Is Work?](sabbath-what-is-work)
+
+---
+
+### B. Dietary Laws: Clean and Unclean
+
+**The Basics: Leviticus 11, Deuteronomy 14**
+
+After Sabbath, the next foundational practice is keeping the biblical dietary laws. God designates certain animals as "clean" (permitted for eating) and others as "unclean" (prohibited).
+
+This isn't primarily about health, though health benefits often follow. It's about **holiness**, **obedience**, and **trusting God's wisdom**. Leviticus 11:44-45 ties dietary laws directly to holiness: "Be holy, because I am holy."
+
+**Quick Reference: What's Clean?**
+
+Here's a simple breakdown by category:
+
+**Land Animals:**
+- ✅ **Clean:** Cow, sheep, goat, deer, buffalo (must chew cud AND have split hooves)
+- ❌ **Unclean:** Pig, rabbit, camel, horse, dog, cat (lack one or both characteristics)
+
+**Birds:**
+- ✅ **Clean:** Chicken, turkey, duck, goose, dove, quail (general principle: not scavengers or predators)
+- ❌ **Unclean:** Vulture, raven, owl, eagle, ostrich, hawk (listed in Leviticus 11:13-19)
+
+**Sea Creatures:**
+- ✅ **Clean:** Fish with fins AND scales—salmon, tuna, bass, trout, tilapia, cod
+- ❌ **Unclean:** Shellfish (shrimp, crab, lobster, clams, oysters), catfish, eel, shark (lack fins or scales)
+
+**Insects:**
+- ✅ **Clean:** Locusts, crickets, grasshoppers (Leviticus 11:21-22—though most Westerners don't eat these anyway)
+- ❌ **Unclean:** Most other insects
+
+**Practical Steps**
+
+**Kitchen Cleanup:**
+
+1. Remove unclean foods from your pantry, fridge, and freezer (pork products, shellfish, prohibited items)
+2. Donate or discard them
+3. Optional: Some families designate separate dishes if they share a household with non-Torah-observant members, but this isn't required
+
+**Label Reading:**
+
+Many processed foods contain hidden unclean ingredients. Check labels for:
+- **Gelatin** (often pork-based; look for beef or fish gelatin alternatives)
+- **Lard** (pork fat; substitute with beef tallow, olive oil, or coconut oil)
+- **Pepsin** (enzyme from pork; sometimes used in cheese and supplements)
+- **Vitamins/supplements** (some use pork-derived capsules)
+
+**Eating Out:**
+
+Stick to beef, chicken, lamb, or fish with fins and scales. Ask about cooking methods if you're concerned about pork-contaminated surfaces. Mediterranean, Middle Eastern, and some Asian cuisines work well—just avoid shellfish.
+
+**Gray Areas: Kosher vs. Biblical Clean**
+
+**Kosher** is a rabbinic standard that goes beyond Leviticus 11. It includes:
+- Meat and dairy separation
+- Specific slaughter methods (shechita)
+- Rabbinic supervision (kosher certification)
+
+**Biblical clean** is simply the list in Leviticus 11 and Deuteronomy 14: clean animals only.
+
+You're **not required** to keep kosher. The rabbinic additions are beyond what Scripture commands. Biblical clean is sufficient. That said, some believers choose kosher products for extra assurance or convenience—that's a personal choice.
+
+**Meat/Dairy Separation:**
+
+The rabbinic rule against mixing meat and dairy is based on the command "do not boil a young goat in its mother's milk" (Exodus 23:19, 34:26, Deuteronomy 14:21). Rabbis extend this to prohibit all meat-dairy combinations (cheeseburgers, milk with chicken, etc.).
+
+Is this biblically required? The text itself is specific: don't boil a kid in its mother's milk. Some believers separate all meat and dairy as a fence around the command. Others see no biblical basis for blanket separation and enjoy cheeseburgers made with clean meat.
+
+This is a matter of **personal conviction**. The biblical minimum is clear: don't boil a kid in its mother's milk. Beyond that, decide based on your study and conscience.
+
+**Resources:**
+- Clean/unclean animal charts (printable guides available online)
+- Ingredient guides for identifying hidden pork products
+- Recipes for biblically clean meals
+- Full article on this site: [Dietary Laws: What Scripture Says](dietary-laws-what-scripture-says)
+
+---
+
+### C. Feasts: God's Appointed Times
+
+**Overview of the Seven Feasts**
+
+Leviticus 23 outlines seven annual appointed times—*moadim* (מוֹעֲדִים)—that God commands Israel to observe. These aren't "Jewish holidays." They're **God's feasts** (Leviticus 23:2 calls them "the appointed feasts of the LORD"), and they belong to anyone grafted into the covenant.
+
+**Spring Feasts (1st month, Nisan/Aviv):**
+
+1. **Passover** (14th of Nisan) — Memorial of the Exodus; foreshadows Yeshua's sacrifice as the Passover Lamb
+2. **Unleavened Bread** (15th-21st of Nisan) — Remove all leaven from your home; picture of sanctification and removing sin
+3. **First Fruits** (Day after the Sabbath during Unleavened Bread) — Wave offering of first harvest; fulfilled in Yeshua's resurrection
+4. **Pentecost** (50 days after First Fruits) — Harvest celebration; commemorates giving of Torah at Sinai and the Spirit's outpouring in Acts 2
+
+**Fall Feasts (7th month, Tishrei):**
+
+5. **Trumpets** (1st of Tishrei) — Shofar blasts, day of awakening; prophetically points to Messiah's return
+6. **Day of Atonement** (10th of Tishrei) — Fasting, repentance, cleansing; High Priest enters Holy of Holies
+7. **Tabernacles** (15th-21st of Tishrei) — Dwell in temporary booths (sukkot), celebrate harvest; prophetically pictures the Millennial Kingdom
+
+Each feast tells a part of God's redemptive story. They're **not obsolete**—they're living rehearsals of what God has done and what He will do.
+
+**Where to Start**
+
+Don't try to observe all seven feasts your first year. Pick one and learn it well.
+
+**Option 1: Start with Passover**
+
+Next observance: Nisan 14 (March or April, varies yearly based on the biblical calendar)
+
+Passover is the natural starting point—it's the first feast in the biblical calendar and the most foundational. Combined with Unleavened Bread, it's an 8-day observance.
+
+What you'll do:
+- Remove all leaven from your home (search for bread, crackers, anything with yeast)
+- Prepare a Passover Seder meal (lamb, unleavened bread, bitter herbs, wine)
+- Read the Exodus account, retell the story, connect it to Yeshua's sacrifice
+- Eat only unleavened bread for seven days
+
+Detailed guide: [Passover and Unleavened Bread: Why Christians Should Observe](passover-and-unleavened-bread-why-christians-should-observe)
+
+**Option 2: Start with Tabernacles**
+
+Next observance: Tishrei 15 (September or October, varies yearly)
+
+Tabernacles (Sukkot) is the most joyful feast—a week-long celebration of God's provision. It's family-friendly, festive, and easier for beginners than Passover.
+
+What you'll do:
+- Build a sukkah (temporary booth) in your yard or on your porch
+- Dwell in it for seven days (eat meals there, sleep there if weather permits)
+- Celebrate the harvest, give thanks for God's provision
+- Invite friends and family to share meals in the sukkah
+
+Detailed guide: [Feast of Tabernacles: Sukkot and the Coming Kingdom](feast-of-tabernacles-sukkot-and-the-coming-kingdom)
+
+**Calendar Resources**
+
+The biblical calendar is based on the sighting of the new moon and the ripening of barley in Israel, so feast dates vary year to year. Use these tools to find the dates:
+
+- Hebcal.com (popular Jewish calendar tool)
+- TorahCalendar.com (focuses on biblical observance)
+- Published calendars from Messianic organizations
+
+**Home Observance vs. Temple Requirements**
+
+Many feast commands involve the Temple, priests, and sacrifices. Since the Temple was destroyed in AD 70, we can't fulfill those requirements. But that doesn't mean we can't observe the feasts.
+
+**What You CAN Do:**
+- Keep the memorial, rehearse the story
+- Observe Sabbath rest on feast days
+- Eat festive meals and traditional foods
+- Gather for worship and Scripture reading
+- Teach your children the meanings and significance
+
+**What You CANNOT Do (No Temple):**
+- Offer animal sacrifices
+- Participate in priest-led Temple ceremonies in Jerusalem
+- Perform Temple-specific rituals
+
+**The "Egypt Precedent":**
+
+Here's the key: The very first Passover (Exodus 12) was observed **before** there was a Temple, a Tabernacle, or a priesthood. Families kept Passover in their homes. The pattern was simple: slaughter a lamb, mark the doorposts with blood, eat the meal, remember the Exodus.
+
+The same principle applies today. We keep the core memorial in our homes, just as Israel did in Egypt. We can't offer sacrifices, but we can remember, rehearse, and teach. And we connect the feast to Yeshua, who is the fulfillment of every feast's prophetic meaning.
+
+**Resources:**
+- Detailed feast guides for all seven on this site (see related articles in the Moedim section)
+- Haggadah (Passover liturgy)—Messianic versions available that incorporate Yeshua
+- Sukkah-building plans and instructions
+- Feast recipes and traditional foods
+
+---
+
+### D. Prayer & Daily Rhythms
+
+**Biblical Prayer Patterns**
+
+Torah observance isn't just about what you do once a week (Sabbath) or once a year (feasts). It's about daily rhythms that keep you connected to God throughout ordinary life.
+
+**Three Daily Prayer Times:**
+
+Scripture shows a pattern of praying three times daily:
+
+- **Morning:** "In the morning I will order my prayer to You and eagerly watch" (Psalm 5:3)
+- **Afternoon:** "Evening and morning and at noon I will pray, and cry aloud, and He shall hear my voice" (Psalm 55:17)
+- **Evening:** "Let my prayer be set before You as incense, the lifting up of my hands as the evening sacrifice" (Psalm 141:2)
+
+You don't have to pray formal liturgy. Start simple: brief prayers of thanksgiving, confession, and petition at these three times. As you grow, you can add structure.
+
+**Core Prayers**
+
+**The Shema (Deuteronomy 6:4-9):**
+
+> Hear, O Israel: The LORD our God, the LORD is one. You shall love the LORD your God with all your heart, with all your soul, and with all your might.
+
+Recite the Shema morning and evening. It's the foundational declaration of faith in the God of Israel—the same prayer Yeshua quoted as the greatest commandment (Mark 12:29-30).
+
+**Blessings Over Daily Life:**
+
+- **Before meals:** "Blessed are You, LORD our God, King of the universe, who brings forth bread from the earth"
+- **Upon waking:** Thank God for restoring your life and giving you a new day
+- **Before bed:** Commit your day to God, confess any sin, pray for His protection through the night
+
+These short blessings train you to see God's hand in ordinary moments—food, sleep, waking. They sanctify daily life.
+
+**Optional Practices (Not Required to Start)**
+
+**Tallit (Prayer Shawl):**
+
+A tallit is worn during morning prayers. It has **tzitzit** (fringes) on the four corners, based on Numbers 15:38-40: "Make tassels on the corners of your garments... so you will remember all the commands of the LORD."
+
+Wearing tzitzit is a biblical command for men. Whether you wear them on a tallit (prayer shawl) or attach them to your garment is a matter of practice. Consider this as you grow in observance.
+
+**Tefillin (Phylacteries):**
+
+Tefillin are small boxes containing Scripture, bound to the arm and forehead during morning prayers. This practice is based on Deuteronomy 6:8: "Bind them as a sign on your hand, and they shall be as frontlets between your eyes."
+
+The interpretation (literal vs. figurative) is debated. Many Messianic believers see tefillin as a traditional reminder practice, not an explicit command. Consider this later as you study and grow.
+
+**Practical Start**
+
+Don't overwhelm yourself. Begin with:
+
+1. Recite the **Shema** morning and evening
+2. Pray brief prayers of **thanksgiving, confession, and petition** at morning, afternoon, and evening
+3. Bless your **food** before meals
+
+Build from there as the Spirit leads. Add a prayer book (siddur) if you want more structure. Explore tzitzit and tefillin as you're ready. But start simple.
+
+**Resources:**
+- Siddur (prayer book)—Messianic editions available
+- Blessings guide for daily life (many free resources online)
+- Tallit and tzitzit purchasing guides (search Messianic or Torah-observant suppliers)
+
+---
+
+### E. Other Basics
+
+Beyond Sabbath, dietary laws, feasts, and prayer, there are other Torah commands you'll encounter as you grow. Here's a quick overview of a few, along with a framework for prioritizing what to focus on first.
+
+**Tithing: Principles and Application**
+
+**Biblical Pattern:**
+
+- 10% of increase given to the Levites (Numbers 18:21)
+- Levites gave 10% of that to the priests (Numbers 18:26)
+- A second tithe set aside for celebrating the feasts (Deuteronomy 14:22-27)
+- A third-year tithe given to the poor and needy (Deuteronomy 14:28-29)
+
+**Application Today:**
+
+There's no Levitical priesthood today (the Temple is destroyed, and Yeshua is our High Priest). So how do we apply tithing?
+
+**Principle:** Honor God with your firstfruits, support ministry, and care for the poor.
+
+Consider giving to:
+- Your local fellowship (Messianic congregation, Torah-teaching ministry)
+- The poor and needy (a clear biblical priority)
+- Feast observance (travel, hospitality, festive meals)
+
+Amount: Use 10% as a baseline, but give generously beyond that as you're able. Paul's principle applies: "Each one must give as he has decided in his heart, not reluctantly or under compulsion, for God loves a cheerful giver" (2 Corinthians 9:7).
+
+**Head Coverings: 1 Corinthians 11**
+
+**Biblical Instruction:**
+
+1 Corinthians 11:4-16 teaches that men should pray and prophesy with heads uncovered, while women should cover their heads during prayer and prophecy.
+
+Is this a cultural instruction specific to Corinth, or a universal command for all believers? The text is debated.
+
+**Application:**
+
+Many Messianic and Torah-observant believers practice head covering for women during worship. Some see it as a clear command; others see it as culturally bound.
+
+Study the passage yourself (1 Corinthians 11:2-16 in context). Discuss with your spouse if you're married. This is a matter of personal or congregational conviction, not a salvation issue.
+
+**Other Commands: Mixing Fabrics, Tattoos, Gender Distinctions**
+
+**Leviticus 19:19, Deuteronomy 22:11 — Don't Mix Wool and Linen:**
+
+The specific prohibition is against *shatnez*—wearing a garment made of wool and linen woven together. Other fabric combinations (cotton/polyester, etc.) are not prohibited.
+
+Check your clothing labels and avoid wool/linen blends.
+
+**Leviticus 19:28 — Tattoos:**
+
+"You shall not make any cuts on your body for the dead or tattoo yourselves."
+
+Context: This command is tied to pagan mourning rituals. Application: Avoid tattoos, especially those with pagan or occultic symbols.
+
+If you have tattoos from before you began Torah observance, grace covers you. Move forward. But don't add new ones.
+
+**Deuteronomy 22:5 — Gender Distinctions in Clothing:**
+
+"A woman shall not wear a man's garment, nor shall a man put on a woman's cloak."
+
+Principle: Maintain gender distinctions in appearance and dress. Application varies by culture (what's considered "men's" vs. "women's" clothing differs across time and place). The principle is clear: avoid cross-dressing and maintain modesty.
+
+**Priority Framework**
+
+You don't have to do everything at once. Here's a suggested priority for beginners:
+
+**Start with (Core Practices):**
+
+1. **Sabbath** (weekly rhythm)
+2. **Dietary laws** (daily practice)
+3. **Feasts** (annual observance, start with one)
+4. **Prayer** (daily rhythms—Shema, blessings)
+
+**Add as you grow:**
+
+5. Tithing, head coverings, tzitzit, other commands
+6. Study deeper areas: civil laws, agricultural laws, purity laws (many don't apply without the Temple or the land of Israel)
+
+You're building a lifestyle, not checking boxes. Move at a sustainable pace. Grow in understanding. Let the Spirit lead.
+
+**Resources**
+
+**Books:**
+- *How to Keep the Biblical Feasts* (resources vary; search for beginner-friendly Messianic guides)
+- Torah commentaries (start with accessible ones like the Torah Club series or Stone Edition Chumash)
+
+**Websites:**
+- 119ministries.com (Torah teaching, objection responses)
+- TorahResource.com (articles, Sabbath/feast guides)
+- This site's article library (linked throughout this guide)
+
+**Teachers to Follow:**
+- Search for Messianic teachers on YouTube (e.g., Torah observance channels)
+- Listen to Torah teaching podcasts (many available for free)
+
+Find teachers who are grace-centered, Scripture-focused, and humble. Avoid those who are legalistic, divisive, or overly dogmatic about secondary issues.
+
+---
