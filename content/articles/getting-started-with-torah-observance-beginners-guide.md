@@ -148,12 +148,21 @@ He loved us first. He died for us while we were yet in rebellion. Our obedience 
 
 Let's address head-on the worries that often accompany these ideas:
 
-| **Misconception** | **Reality** |
-|-------------------|-------------|
-| "You're trying to earn salvation" | You affirm salvation by grace (Eph 2:8-9). Torah observance is your loving response to that grace, not a requirement for it. |
-| "You're becoming Jewish" | You're grafted into Israel as a believing gentile. You keep biblical Torah commands, not rabbinic traditions. You remain a gentile—just one who loves God's instruction. |
-| "This is legalism" | Legalism = thinking works earn your standing before God. You don't believe that. You observe Torah *because* you're already saved and loved. The heart posture is everything. |
-| "The Old Testament is obsolete" | The New Testament is commentary on the Tanakh (Hebrew Bible). The covenant is continuous—Yeshua completes and clarifies Torah, not abolishes it. Matthew 5:17-19 is clear on this. |
+**Misconception: "You're trying to earn salvation"**
+
+Reality: You affirm salvation by grace (Eph 2:8-9). Torah observance is your loving response to that grace, not a requirement for it.
+
+**Misconception: "You're becoming Jewish"**
+
+Reality: You're grafted into Israel as a believing gentile. You keep biblical Torah commands, not rabbinic traditions. You remain a gentile—just one who loves God's instruction.
+
+**Misconception: "This is legalism"**
+
+Reality: Legalism = thinking works earn your standing before God. You don't believe that. You observe Torah because you're already saved and loved. The heart posture is everything.
+
+**Misconception: "The Old Testament is obsolete"**
+
+Reality: The New Testament is commentary on the Tanakh (Hebrew Bible). The covenant is continuous—Yeshua completes and clarifies Torah, not abolishes it. Matthew 5:17-19 is clear on this.
 
 The key word in each correction is *why*. The *why* behind the obedience determines whether it's legalism or love, works-religion or grace-response. And for you, the why is simple: **Because God loves me and I love him back, I want to live according to his instruction.**
 
