@@ -1,5 +1,5 @@
 ---
-title: "\"That's Judaizing!\" — What the Accusation Actually Means"
+title: "Galatians 2:14 — \"That's Judaizing!\" What the Accusation Actually Means"
 excerpt: "Keeping Torah is Judaizing — Paul condemned it. Right?"
 objection: "You're a Judaizer. Paul fought against exactly what you're doing — imposing the law on believers. The Jerusalem Council settled this in Acts 15. If you tell people to keep the Sabbath, eat kosher, or observe feasts, you're preaching the same heresy Paul condemned in Galatians."
 quick_answer: "Biblical Judaizers taught that Gentiles must be circumcised and keep the law in order to be saved — faith in Messiah alone was insufficient. That is a claim about justification. Torah-observant believers today keep God's commands because they are already saved by grace through faith, not in order to earn salvation. The distinction is between Torah as a salvation mechanism (heresy) and Torah as a way of life flowing from love (biblical). Paul himself kept Torah his entire life."

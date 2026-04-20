@@ -10,8 +10,8 @@ const sections = [
 const resources = [
   { href: "/articles", label: "Article Library" },
   { href: "/torah-laws", label: "Law Index" },
-  { href: "/sources", label: "Source Index" },
-  { href: "/reading-lists", label: "Reading Lists" },
+  { href: "/objection-finder", label: "Objection Finder" },
+  { href: "/blog", label: "Blog" },
 ];
 
 export function Footer() {

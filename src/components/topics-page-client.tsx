@@ -162,17 +162,14 @@ export function TopicsPageClient({ articles, posts }: TopicsPageClientProps) {
   return (
     <div className="px-10 py-[70px] max-md:px-6 max-md:py-10">
       {/* Header */}
-      <div className="grid grid-cols-[1fr_2fr] gap-[60px] mb-[50px] items-end max-md:grid-cols-1 max-md:gap-6">
-        <div className="section-label rise delay-1">
-          <span className="num">I.</span>Library
-        </div>
+      <div className="text-center mb-[50px]">
         <h2 className="section-title rise delay-2">
           Every essay, objection, and <em>blog post</em> — by topic.
         </h2>
       </div>
 
       {/* Search */}
-      <div className="max-w-2xl mb-10">
+      <div className="max-w-2xl mx-auto mb-10">
         <SearchInput
           value={search}
           onChange={setSearch}

@@ -49,7 +49,7 @@ I know you've had verses running through your mind. Let's address them.
 
 **"You're not under law, you're under grace" (Romans 6:14)** — Read the very next verse: *"Shall we sin because we're not under law but under grace? **By no means!**"* Paul anticipated this exact misreading and shut it down. "Not under law" means we're not under law's *condemnation* — not that we're free to disobey. Same letter: *"Do we nullify the law by this faith? Not at all! We **uphold** the law."* (Romans 3:31)
 
-**"One person esteems one day above another" (Romans 14:5)** — Read verse 1. The whole chapter is scoped to *"disputable matters"* — things Scripture doesn't clearly command. The Sabbath is the fourth commandment. It's not disputable. If it were, then by the same logic: "One person esteems 'do not murder,' another esteems all commands alike." Absurd. Paul kept the Sabbath himself in at least five cities (Acts 13:14, 17:2, 18:4). He's not granting liberty to ignore what he practiced.
+**"One person esteems one day above another" (Romans 14:5)** — Read verse 1. The whole chapter is scoped to *"disputable matters"* — things Scripture doesn't clearly command. The Sabbath is the fourth commandment. It's not disputable. If it were, then by the same logic: "One person esteems 'do not murder,' another esteems all commands alike." Absurd. Paul kept the Sabbath himself in multiple cities (Acts 13:14, 16:13, 17:2, 18:4, 19:8). He's not granting liberty to ignore what he practiced.
 
 **["Let no one judge you regarding a Sabbath" (Colossians 2:16-17)](/objection-finder/colossians-2-16)** — The word *soma* ("body") is translated "substance" only in this one verse. Every other time in Colossians it means the body of believers — the church. The grammar actually reads: *"Let no one judge you... **but let the body of Christ judge you.**"* Paul isn't dismissing these practices. He's saying don't let *outsiders* judge you — let your *community* hold you accountable.
 
@@ -73,6 +73,6 @@ Nothing. And neither are we.
 
 We rest because He rested. We stop because He said stop. We trust because that's exactly what the Sabbath has always been about — trusting God enough to put down the work and let Him provide.
 
-This is faith made manifest in the life of a believer - Yahweh is your provider - STOP! Let him fight for you, you only need to stand still.
+This is faith made manifest in the life of a believer — Yahweh is your provider — STOP! Let him fight for you, you only need to stand still.
 
 That's not works. That's faith.

@@ -206,8 +206,8 @@ export default function Home() {
       <section className="relative z-[1] bg-parchment-deep px-16 py-16 border-b border-ink text-center max-md:px-6 max-md:py-12">
         <div className="max-w-3xl mx-auto">
           <p className="font-body italic text-[clamp(20px,3vw,30px)] leading-[1.5] text-ink mb-4">
-            &ldquo;Whoever says he abides in Him ought to walk in the same way
-            in which <strong className="font-semibold">He</strong> walked.&rdquo;
+            &ldquo;Whoever says he abides in Him ought to walk in the same way in which{" "}
+            <strong className="font-semibold">He</strong>{" "}walked.&rdquo;
           </p>
           <div className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-crimson">
             — 1 John 2:6

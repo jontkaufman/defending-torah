@@ -35,19 +35,16 @@ export function ObjectionFinderClient({ objections }: ObjectionFinderClientProps
   }, [objections, search]);
 
   return (
-    <div className="px-10 py-[70px] max-w-4xl mx-auto max-md:px-6 max-md:py-10">
+    <div className="px-10 py-[70px] max-md:px-6 max-md:py-10">
       {/* Header */}
-      <div className="mb-[50px]">
-        <div className="section-label rise delay-1 mb-5">
-          <span className="num">II.</span>Hard Questions
-        </div>
+      <div className="text-center mb-[50px]">
         <h2 className="section-title rise delay-2">
           Someone challenged you. Get the <em>answer</em> in 30 seconds.
         </h2>
       </div>
 
       {/* Search */}
-      <div className="mb-6">
+      <div className="max-w-2xl mx-auto mb-6">
         <SearchInput
           value={search}
           onChange={setSearch}
@@ -56,7 +53,7 @@ export function ObjectionFinderClient({ objections }: ObjectionFinderClientProps
       </div>
 
       {/* Quick Tags */}
-      <div className="flex gap-2 flex-wrap mb-10">
+      <div className="flex gap-2 flex-wrap justify-center mb-10">
         {QUICK_TAGS.map((tag, i) => (
           <span key={tag} className="flex items-center gap-2">
             <button
