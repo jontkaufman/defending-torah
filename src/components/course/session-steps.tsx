@@ -25,11 +25,13 @@ export function SessionSteps({
   week,
   isCompleted,
   courseId,
+  totalSessions = 10,
 }: {
   session: Session;
   week: Week;
   isCompleted: boolean;
   courseId: string;
+  totalSessions?: number;
 }) {
   const [activeStep, setActiveStep] = useState(0);
   const [showModal, setShowModal] = useState(false);
@@ -53,12 +55,12 @@ export function SessionSteps({
     try {
       const key = `course-progress-${courseId}`;
       const stored = JSON.parse(localStorage.getItem(key) || "{}");
-      stored.current_session_id = session.id < 10 ? session.id + 1 : session.id;
+      stored.current_session_id = session.id < totalSessions ? session.id + 1 : session.id;
       stored.completed_sessions = [...new Set([...(stored.completed_sessions || []), session.id])];
       localStorage.setItem(key, JSON.stringify(stored));
     } catch {}
     startTransition(async () => {
-      await completeSession(courseId, session.id, 10);
+      await completeSession(courseId, session.id, totalSessions);
       setCompleted(true);
       setShowModal(true);
     });
@@ -66,10 +68,10 @@ export function SessionSteps({
 
   function handleContinue() {
     setShowModal(false);
-    if (session.id === 10) {
+    if (session.id >= totalSessions) {
       router.push("/resources/capstone");
     } else {
-      router.push(`/course/session/${session.id + 1}`);
+      router.push(`/course/${courseId}/session/${session.id + 1}`);
     }
   }
 

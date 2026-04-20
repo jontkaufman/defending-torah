@@ -3,6 +3,12 @@ export type MemoryVerse = {
   text: string;
 };
 
+export type StudyMethodStep = {
+  step: number;
+  title: string;
+  desc: string;
+};
+
 export type Session = {
   id: number;
   title: string;
@@ -15,6 +21,7 @@ export type Session = {
   application: string;
   discussion: string[];
   homework: string[];
+  study_method?: StudyMethodStep[];
 };
 
 export type Week = {

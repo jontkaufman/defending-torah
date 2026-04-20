@@ -1,6 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --color-ink: #1a1f2e;
+  --color-ink-soft: #2d3448;
+  --color-ink-light: #4a5060;
+  --color-parchment: #f4ecdc;
+  --color-parchment-deep: #ebdfc5;
+  --color-parchment-shadow: #d9c9a4;
+  --color-ochre: #b8732a;
+  --color-ochre-deep: #8a5420;
+  --color-ochre-faint: rgba(184, 115, 42, 0.07);
+  --color-crimson: #7a2e24;
+  --color-crimson-faint: rgba(122, 46, 36, 0.06);
+  --color-olive: #5c6b3f;
+  --color-muted: #574e40;
+  --font-heading: 'Frank Ruhl Libre', serif;
+  --font-body: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
 :root {
   --ink: #1a1f2e;
   --ink-soft: #2d3448;

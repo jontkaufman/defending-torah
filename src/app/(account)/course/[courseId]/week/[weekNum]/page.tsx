@@ -1,23 +1,29 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MonoLabel } from "@/components/course/mono-label";
-import { foundationsCourse, getWeek } from "@/content/courses/foundations-of-defending-torah";
+import { getCourseById, getWeekForCourse } from "@/content/courses";
 import { getCourseProgress } from "@/lib/course-progress";
 
 type Props = {
-  params: Promise<{ weekNum: string }>;
+  params: Promise<{ courseId: string; weekNum: string }>;
 };
 
 export default async function WeekViewPage({ params }: Props) {
-  const { weekNum: weekNumStr } = await params;
+  const { courseId, weekNum: weekNumStr } = await params;
   const weekNum = parseInt(weekNumStr, 10);
-  const week = getWeek(weekNum);
+  const course = getCourseById(courseId);
+
+  if (!course) {
+    return notFound();
+  }
+
+  const week = getWeekForCourse(courseId, weekNum);
 
   if (!week) {
     return notFound();
   }
 
-  const progress = await getCourseProgress(foundationsCourse.id);
+  const progress = await getCourseProgress(courseId);
 
   // Calculate week progress
   const weekSessionIds = week.sessions.map((s) => s.id);
@@ -31,7 +37,7 @@ export default async function WeekViewPage({ params }: Props) {
       {/* Breadcrumb */}
       <div className="py-4 px-16 border-b border-parchment-shadow bg-parchment-deep flex items-center gap-2.5">
         <Link
-          href="/course"
+          href={`/course/${courseId}`}
           className="font-mono text-[10px] tracking-[0.18em] uppercase text-ochre no-underline hover:text-ochre-deep transition-colors"
         >
           Course
@@ -56,7 +62,7 @@ export default async function WeekViewPage({ params }: Props) {
           {/* Left */}
           <div>
             <MonoLabel color="var(--crimson)" className="mb-4">
-              Week {weekNum} of {foundationsCourse.weeks}
+              Week {weekNum} of {course.weeks}
             </MonoLabel>
             <h1
               className="font-heading font-light leading-[0.98] tracking-[-0.03em] mb-[10px]"
@@ -110,7 +116,7 @@ export default async function WeekViewPage({ params }: Props) {
                   {/* Header row */}
                   <div className="flex justify-between items-start mb-3">
                     <MonoLabel color={stripeColor}>
-                      Session {session.id} of {foundationsCourse.total_sessions}
+                      Session {session.id} of {course.total_sessions}
                     </MonoLabel>
                     {isComplete ? (
                       <span
@@ -151,7 +157,7 @@ export default async function WeekViewPage({ params }: Props) {
                       1 hr homework
                     </span>
                     <Link
-                      href={`/course/session/${session.id}`}
+                      href={`/course/${courseId}/session/${session.id}`}
                       className={`ml-auto font-mono text-[10.5px] tracking-[0.2em] uppercase py-2.5 px-5 no-underline transition-all hover:scale-105 ${
                         isComplete
                           ? "bg-olive text-parchment"
@@ -173,7 +179,7 @@ export default async function WeekViewPage({ params }: Props) {
             Week {weekNum} Memory Verse
           </MonoLabel>
           <p className="font-body italic text-[22px] leading-[1.6] text-ink-soft mb-2">
-            "{week.memory_verse.text}"
+            &ldquo;{week.memory_verse.text}&rdquo;
           </p>
           <MonoLabel color="var(--crimson)">
             — {week.memory_verse.ref}
@@ -186,14 +192,14 @@ export default async function WeekViewPage({ params }: Props) {
         {/* Left button */}
         {weekNum > 1 ? (
           <Link
-            href={`/course/week/${weekNum - 1}`}
+            href={`/course/${courseId}/week/${weekNum - 1}`}
             className="btn-ghost py-2.5 px-5 font-mono text-[10.5px] tracking-[0.2em] uppercase no-underline transition-all hover:bg-ink hover:text-parchment"
           >
             ← Week {weekNum - 1}
           </Link>
         ) : (
           <Link
-            href="/course"
+            href={`/course/${courseId}`}
             className="btn-ghost py-2.5 px-5 font-mono text-[10.5px] tracking-[0.2em] uppercase no-underline transition-all hover:bg-ink hover:text-parchment"
           >
             ← Course Overview
@@ -201,9 +207,9 @@ export default async function WeekViewPage({ params }: Props) {
         )}
 
         {/* Right button */}
-        {weekNum < foundationsCourse.weeks ? (
+        {weekNum < course.weeks ? (
           <Link
-            href={`/course/week/${weekNum + 1}`}
+            href={`/course/${courseId}/week/${weekNum + 1}`}
             className="btn-primary py-2.5 px-5 font-mono text-[10.5px] tracking-[0.2em] uppercase no-underline transition-all"
           >
             Week {weekNum + 1} →

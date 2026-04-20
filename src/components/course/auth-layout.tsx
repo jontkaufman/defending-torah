@@ -20,7 +20,10 @@ export default function AuthLayout({
   return (
     <div className="grid md:grid-cols-2 min-h-screen">
       {/* Left panel — parchment form */}
-      <div className="flex items-center justify-center p-6 md:p-12 bg-parchment relative">
+      <div
+        className="flex items-center justify-center p-6 md:p-12 relative"
+        style={{ background: "#f4ecdc", color: "#1a1f2e" }}
+      >
         <div className="w-full max-w-[380px]">
           {/* Logo */}
           <div className="flex items-center gap-3 mb-8">
@@ -53,22 +56,22 @@ export default function AuthLayout({
               />
             </svg>
             <div>
-              <h1 className="font-heading font-black text-[22px] leading-none text-ink">
+              <h1 className="font-heading font-black text-[22px] leading-none" style={{ color: "#1a1f2e" }}>
                 Defending Torah
               </h1>
-              <p className="font-mono text-[9px] tracking-[0.25em] uppercase text-muted mt-0.5">
+              <p className="font-mono text-[9px] tracking-[0.25em] uppercase mt-0.5" style={{ color: "#574e40" }}>
                 Member Access
               </p>
             </div>
           </div>
 
           {/* Subtitle */}
-          <p className="font-mono text-[9px] tracking-[0.25em] uppercase text-crimson mb-2">
+          <p className="font-mono text-[9px] tracking-[0.25em] uppercase mb-2" style={{ color: "#7a2e24" }}>
             {subtitle}
           </p>
 
           {/* Title */}
-          <h2 className="font-heading font-light text-[38px] leading-tight text-ink mb-8">
+          <h2 className="font-heading font-light text-[38px] leading-tight mb-8" style={{ color: "#1a1f2e" }}>
             {title}
           </h2>
 

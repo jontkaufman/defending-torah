@@ -1,21 +1,33 @@
 import { getUser } from "@/lib/auth";
 import { getCourseProgress } from "@/lib/course-progress";
-import {
-  foundationsCourse,
-  getSession,
-} from "@/content/courses/foundations-of-defending-torah";
+import { courseRegistry, getSessionForCourse } from "@/content/courses";
 import { MonoLabel } from "@/components/course/mono-label";
 
 export default async function AccountHomePage() {
   const user = await getUser();
-  const progress = await getCourseProgress(foundationsCourse.id);
+
+  // Fetch progress for all courses, find the most recent active one
+  const allProgress = await Promise.all(
+    courseRegistry.map(async (c) => ({
+      course: c,
+      progress: await getCourseProgress(c.id),
+    }))
+  );
+
+  // Find active course (in-progress first, then most recent)
+  const activeCourse =
+    allProgress.find((p) => p.progress?.status === "in-progress") ??
+    allProgress.find((p) => p.progress?.status === "finished") ??
+    allProgress[0];
+
+  const progress = activeCourse?.progress;
+  const courseInfo = activeCourse?.course;
 
   const completedCount = progress?.completed_sessions?.length ?? 0;
-  const pct = Math.round(
-    (completedCount / foundationsCourse.total_sessions) * 100
-  );
-  const currentSessionData = progress?.current_session_id
-    ? getSession(progress.current_session_id)
+  const totalSessions = courseInfo?.total_sessions ?? 10;
+  const pct = Math.round((completedCount / totalSessions) * 100);
+  const currentSessionData = progress?.current_session_id && courseInfo
+    ? getSessionForCourse(courseInfo.id, progress.current_session_id)
     : null;
   const currentWeek = currentSessionData?.week;
 
@@ -61,9 +73,14 @@ export default async function AccountHomePage() {
             />
           </div>
           <div className="font-mono text-[10px] tracking-[0.15em] uppercase text-muted">
-            {completedCount} of {foundationsCourse.total_sessions} sessions
+            {completedCount} of {totalSessions} sessions
             complete
           </div>
+          {courseInfo && (
+            <div className="font-mono text-[9px] tracking-[0.15em] uppercase text-muted mt-1">
+              {courseInfo.title}
+            </div>
+          )}
         </div>
 
         {/* Last session card */}
@@ -118,14 +135,14 @@ export default async function AccountHomePage() {
               className="font-body italic text-[17px]"
               style={{ color: "var(--ink-soft)" }}
             >
-              Start the course to see your memory verse
+              Start a course to see your memory verse
             </p>
           )}
         </div>
       </div>
 
       {/* Quick continue CTA */}
-      {progress?.status === "in-progress" && currentSessionData && (
+      {progress?.status === "in-progress" && currentSessionData && courseInfo && (
         <div className="border border-ink p-8 px-9 bg-ink flex items-center justify-between flex-wrap gap-5">
           <div>
             <MonoLabel color="var(--ochre)" className="mb-2">
@@ -143,7 +160,7 @@ export default async function AccountHomePage() {
             </div>
           </div>
           <a
-            href={`/course/session/${currentSessionData.session.id}`}
+            href={`/course/${courseInfo.id}/session/${currentSessionData.session.id}`}
             className="btn shrink-0"
             style={{
               background: "var(--ochre)",

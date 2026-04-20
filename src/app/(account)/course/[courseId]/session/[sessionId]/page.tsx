@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { foundationsCourse, getSession } from "@/content/courses/foundations-of-defending-torah";
+import { getCourseById, getSessionForCourse } from "@/content/courses";
 import { getCourseProgress } from "@/lib/course-progress";
 import { MonoLabel } from "@/components/course/mono-label";
 import { SessionSteps } from "@/components/course/session-steps";
@@ -8,17 +8,23 @@ import { SessionSteps } from "@/components/course/session-steps";
 export default async function SessionPage({
   params,
 }: {
-  params: Promise<{ sessionId: string }>;
+  params: Promise<{ courseId: string; sessionId: string }>;
 }) {
-  const { sessionId } = await params;
-  const sessionData = getSession(parseInt(sessionId));
+  const { courseId, sessionId } = await params;
+  const course = getCourseById(courseId);
+
+  if (!course) {
+    return notFound();
+  }
+
+  const sessionData = getSessionForCourse(courseId, parseInt(sessionId));
 
   if (!sessionData) {
     return notFound();
   }
 
   const { session, week } = sessionData;
-  const progress = await getCourseProgress(foundationsCourse.id);
+  const progress = await getCourseProgress(courseId);
   const isCompleted = progress?.completed_sessions?.includes(session.id) ?? false;
 
   return (
@@ -30,7 +36,7 @@ export default async function SessionPage({
       >
         <div className="flex gap-2.5 items-center font-mono text-[10px] tracking-[0.2em] uppercase">
           <Link
-            href="/course"
+            href={`/course/${courseId}`}
             className="no-underline hover:underline"
             style={{ color: "var(--muted)" }}
           >
@@ -38,7 +44,7 @@ export default async function SessionPage({
           </Link>
           <span style={{ color: "var(--parchment-shadow)" }}>→</span>
           <Link
-            href={`/course/week/${week.num}`}
+            href={`/course/${courseId}/week/${week.num}`}
             className="no-underline hover:underline"
             style={{ color: "var(--muted)" }}
           >
@@ -57,7 +63,7 @@ export default async function SessionPage({
         <div className="grid gap-32 items-start" style={{ gridTemplateColumns: "1fr auto" }}>
           <div>
             <MonoLabel color="var(--crimson)" className="mb-14">
-              Session {session.id} of 10 · Week {week.num} · {week.title}
+              Session {session.id} of {course.total_sessions} · Week {week.num} · {week.title}
             </MonoLabel>
             <h1
               className="font-heading font-light leading-none tracking-[-0.025em] mb-16"
@@ -98,7 +104,8 @@ export default async function SessionPage({
           session={session}
           week={week}
           isCompleted={isCompleted}
-          courseId={foundationsCourse.id}
+          courseId={courseId}
+          totalSessions={course.total_sessions}
         />
       </section>
     </div>

@@ -1,40 +1,78 @@
 import { getCourseProgress } from "@/lib/course-progress";
-import {
-  foundationsCourse,
-  getSession,
-} from "@/content/courses/foundations-of-defending-torah";
+import { courseRegistry, getSessionMetadata, getSessionForCourse, COURSE_3_PREREQUISITES } from "@/content/courses";
 import { CoursesPageClient } from "./courses-page-client";
 
-// Session metadata for the checklist
-const sessionMetadata = [
-  { id: 1, title: "What Is Torah?", week: 1 },
-  { id: 2, title: "Does God Change?", week: 1 },
-  { id: 3, title: "What Did Yeshua Actually Teach?", week: 2 },
-  { id: 4, title: "Did Yeshua Start a New Religion?", week: 2 },
-  { id: 5, title: '"Not Under Law"', week: 3 },
-  { id: 6, title: "Did Paul Reject Torah?", week: 3 },
-  { id: 7, title: '"Nailed to the Cross"', week: 4 },
-  { id: 8, title: "Sabbath, Food & Labels", week: 4 },
-  { id: 9, title: "Respond Without Pride", week: 5 },
-  { id: 10, title: "How to Keep Growing", week: 5 },
-];
+export type CourseProgressData = {
+  courseId: string;
+  title: string;
+  subtitle: string;
+  edition: string;
+  level: string;
+  weeks: number;
+  totalSessions: number;
+  prerequisite: string | null;
+  status: "not-started" | "in-progress" | "finished";
+  completedSessions: number[];
+  currentSessionId: number | null;
+  currentSessionTitle: string | null;
+  sessionMetadata: Array<{ id: number; title: string; week: number }>;
+  locked: boolean;
+};
 
 export default async function CoursesPage() {
-  const progress = await getCourseProgress(foundationsCourse.id);
+  // Fetch progress for all courses in parallel
+  const progressPromises = courseRegistry.map((c) => getCourseProgress(c.id));
+  const progressResults = await Promise.all(progressPromises);
 
-  const completedSessions = progress?.completed_sessions ?? [];
-  const currentSessionId = progress?.current_session_id ?? null;
-  const status = progress?.status ?? "not-started";
-  const currentSessionData = currentSessionId ? getSession(currentSessionId) : null;
+  // Build progress map for prerequisite checks
+  const progressMap = new Map<string, typeof progressResults[0]>();
+  courseRegistry.forEach((c, i) => {
+    progressMap.set(c.id, progressResults[i]);
+  });
 
-  return (
-    <CoursesPageClient
-      status={status}
-      completedSessions={completedSessions}
-      totalSessions={foundationsCourse.total_sessions}
-      currentSessionId={currentSessionId}
-      currentSessionTitle={currentSessionData?.session.title ?? null}
-      sessionMetadata={sessionMetadata}
-    />
-  );
+  const coursesData: CourseProgressData[] = courseRegistry.map((course, i) => {
+    const progress = progressResults[i];
+    const completedSessions = progress?.completed_sessions ?? [];
+    const currentSessionId = progress?.current_session_id ?? null;
+    const status = progress?.status ?? "not-started";
+    const currentSessionData = currentSessionId
+      ? getSessionForCourse(course.id, currentSessionId)
+      : null;
+
+    // Prerequisite logic
+    let locked = false;
+    if (course.id === COURSE_3_PREREQUISITES[0]) {
+      // Course 1 — never locked
+      locked = false;
+    } else if (course.prerequisite) {
+      // Course 2 — requires course 1 finished
+      const prereqProgress = progressMap.get(course.prerequisite);
+      locked = prereqProgress?.status !== "finished";
+    } else if (course.id === "yeshua-paul-torah-question") {
+      // Course 3 — requires BOTH courses 1 and 2 finished
+      locked = COURSE_3_PREREQUISITES.some((prereqId) => {
+        const prereqProgress = progressMap.get(prereqId);
+        return prereqProgress?.status !== "finished";
+      });
+    }
+
+    return {
+      courseId: course.id,
+      title: course.title,
+      subtitle: course.subtitle,
+      edition: course.edition,
+      level: course.level,
+      weeks: course.weeks,
+      totalSessions: course.total_sessions,
+      prerequisite: course.prerequisite,
+      status,
+      completedSessions,
+      currentSessionId,
+      currentSessionTitle: currentSessionData?.session.title ?? null,
+      sessionMetadata: getSessionMetadata(course.id),
+      locked,
+    };
+  });
+
+  return <CoursesPageClient courses={coursesData} />;
 }
