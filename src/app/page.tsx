@@ -105,10 +105,7 @@ export default function Home() {
 
       {/* PILLARS — reframed around Yeshua */}
       <section className="relative z-[1] px-16 py-[90px] pb-[100px] border-b border-ink max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
-        <div className="grid grid-cols-[1fr_2fr] gap-[60px] mb-[70px] items-end max-md:grid-cols-1 max-md:gap-6">
-          <div className="section-label rise delay-1">
-            <span className="num">I.</span>His Example
-          </div>
+        <div className="mb-[70px] max-md:mb-[40px]">
           <h2 className="section-title rise delay-2">
             Yeshua did not come to <em>end</em> Torah.
             <br />
@@ -226,10 +223,7 @@ export default function Home() {
         </div>
 
         <div className="relative z-[1]">
-          <div className="grid grid-cols-[1fr_2fr] gap-[60px] mb-[70px] items-end max-md:grid-cols-1 max-md:gap-6">
-            <div className="section-label !text-ochre rise delay-1">
-              <span className="num !text-parchment">II.</span>Hard Questions
-            </div>
+          <div className="mb-[70px] max-md:mb-[40px]">
             <h2 className="section-title !text-parchment rise delay-2">
               If Yeshua kept Torah, why don&rsquo;t most Christians?{" "}
               <em className="!text-ochre">Good question.</em>
@@ -299,8 +293,8 @@ export default function Home() {
       {latestPost && (
         <section className="relative z-[1] px-16 py-[90px] pb-[100px] grid grid-cols-[1fr_1.4fr] gap-20 border-b border-ink max-md:grid-cols-1 max-md:gap-10 max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
           <div className="sticky top-10 self-start max-md:static">
-            <span className="section-label block mb-6">
-              <span className="num">III.</span>Latest
+            <span className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-muted block mb-6">
+              Latest
             </span>
             <div className="font-heading font-black text-[92px] leading-[0.9] text-ink mb-2.5 max-md:text-[60px]">
               N° 001

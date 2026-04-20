@@ -283,10 +283,7 @@ export default function TorahLawsPage() {
   return (
     <div className="px-10 py-[70px] max-md:px-6 max-md:py-10">
       {/* Header */}
-      <div className="grid grid-cols-[1fr_2fr] gap-[60px] mb-[50px] items-end max-md:grid-cols-1 max-md:gap-6">
-        <div className="section-label rise delay-1">
-          <span className="num">IV.</span>Torah Laws
-        </div>
+      <div className="text-center mb-[50px]">
         <h2 className="section-title rise delay-2">
           {laws.length > 0 ? `${laws.length}` : "..."} laws from the five
           books, organized by <em>the two greatest commandments.</em>

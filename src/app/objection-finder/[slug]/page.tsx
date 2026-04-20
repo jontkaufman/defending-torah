@@ -52,8 +52,8 @@ export default async function ObjectionPage({
             <span className="inline-block w-6 h-px bg-muted mr-2 align-middle" />
             ← Back to Objections
           </Link>
-          <div className="section-label mb-5">
-            <span className="num">—</span>Objection Response
+          <div className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-crimson mb-5">
+            Objection Response
           </div>
           <h1 className="font-heading font-light text-[clamp(32px,4vw,52px)] leading-[1.05] tracking-tight text-ink mb-6">
             {page.meta.title}
