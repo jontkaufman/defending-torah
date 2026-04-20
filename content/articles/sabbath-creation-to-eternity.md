@@ -97,6 +97,26 @@ Trace the line from beginning to end:
 
 The Sabbath starts universal. It stays universal. It ends universal. At no point in this trajectory does it narrow to one ethnic group and then disappear. The movement is always in the other direction — from creation, through Israel, outward to the nations, and forward into eternity.
 
+## The Sabbath and the Appointed Times
+
+The weekly Sabbath is the first of God's appointed times (Leviticus 23:3). But it's not the only one. God established seven annual feasts that follow the same pattern: commanded observance, prophetic significance, and fulfillment in Yeshua that deepens—not abolishes—the memorial.
+
+Just as the weekly Sabbath remains binding (Genesis 2:2-3, Exodus 20:8-11, Mark 2:27), so do the annual appointed times:
+- **Passover** (14th Nisan) — Yeshua crucified on this day
+- **Unleavened Bread** (15th-21st Nisan) — Yeshua buried during this feast
+- **First Fruits** (day after Sabbath) — Yeshua rose on this day
+- **Pentecost** (50 days later) — Spirit fell on this day
+- **Trumpets** (1st Tishrei) — Points to second coming
+- **Day of Atonement** (10th Tishrei) — Points to Israel's national salvation
+- **Tabernacles** (15th-21st Tishrei) — Points to Millennial Kingdom
+
+For comprehensive treatment of the biblical feasts:
+- [Passover and Unleavened Bread: Why Christians Should Observe Both](passover-and-unleavened-bread-why-christians-should-observe)
+- [First Fruits and Pentecost: The Spring Harvest Feasts](first-fruits-and-pentecost-spring-harvest-feasts)
+- [Feast of Trumpets: The Day No One Knows](feast-of-trumpets-the-day-no-one-knows)
+- [Day of Atonement: Yom Kippur and Israel's Coming Salvation](day-of-atonement-yom-kippur-and-israels-salvation)
+- [Feast of Tabernacles: Sukkot and the Coming Kingdom](feast-of-tabernacles-sukkot-and-the-coming-kingdom)
+
 The Sabbath wasn't invented at Sinai. It wasn't abolished at Calvary. It was woven into the fabric of creation by the God who made you, blessed by his own rest, and declared holy before anything else in all of Scripture received that name. It was made for you.
 
 The only question is whether you'll remember it.

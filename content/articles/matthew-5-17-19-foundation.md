@@ -89,4 +89,17 @@ Matthew 5:17-19 is the clearest, most unambiguous statement from Yeshua himself 
 
 Any interpretation of any other New Testament passage that concludes "Torah is done away with" must be reconciled with this text. Not the other way around. You don't use unclear passages to override clear ones — you use the clear to interpret the unclear.
 
+## Fulfillment in Practice: The Biblical Feasts
+
+Yeshua's fulfillment of the feasts demonstrates this principle perfectly. He fulfilled Passover by being the Passover Lamb (1 Corinthians 5:7), yet the apostle Paul commands believers to "keep the feast" (1 Corinthians 5:8). He rose on First Fruits as "the firstfruits of those who have fallen asleep" (1 Corinthians 15:20), yet Paul continued marking time by the feast calendar (Acts 20:16). The Spirit fell on Pentecost (Acts 2:1), fulfilling the giving of Torah at Sinai, yet Paul planned his travels around Pentecost (1 Corinthians 16:8).
+
+Fulfillment deepens observance, it doesn't abolish it.
+
+For comprehensive treatment of the biblical feasts and their continued observance:
+- [Passover and Unleavened Bread: Why Christians Should Observe Both](passover-and-unleavened-bread-why-christians-should-observe)
+- [First Fruits and Pentecost: The Spring Harvest Feasts](first-fruits-and-pentecost-spring-harvest-feasts)
+- [Feast of Trumpets: The Day No One Knows](feast-of-trumpets-the-day-no-one-knows)
+- [Day of Atonement: Yom Kippur and Israel's Coming Salvation](day-of-atonement-yom-kippur-and-israels-salvation)
+- [Feast of Tabernacles: Sukkot and the Coming Kingdom](feast-of-tabernacles-sukkot-and-the-coming-kingdom)
+
 Yeshua told you not to even **think** he came to abolish the Law. Take him at his word.
