@@ -117,6 +117,12 @@ For comprehensive treatment of the biblical feasts:
 - [Day of Atonement: Yom Kippur and Israel's Coming Salvation](day-of-atonement-yom-kippur-and-israels-salvation)
 - [Feast of Tabernacles: Sukkot and the Coming Kingdom](feast-of-tabernacles-sukkot-and-the-coming-kingdom)
 
+## New to Sabbath Observance?
+
+If you're ready to start keeping the biblical Sabbath but aren't sure how, our beginner's guide provides practical, step-by-step instructions—including your first Sabbath checklist, what counts as work, and how to make Sabbath a delight.
+
+**See:** [Getting Started with Torah Observance: A Beginner's Guide](getting-started-with-torah-observance-beginners-guide#part-4-practical-observance-your-first-steps)
+
 The Sabbath wasn't invented at Sinai. It wasn't abolished at Calvary. It was woven into the fabric of creation by the God who made you, blessed by his own rest, and declared holy before anything else in all of Scripture received that name. It was made for you.
 
 The only question is whether you'll remember it.

@@ -102,4 +102,12 @@ For comprehensive treatment of the biblical feasts and their continued observanc
 - [Day of Atonement: Yom Kippur and Israel's Coming Salvation](day-of-atonement-yom-kippur-and-israels-salvation)
 - [Feast of Tabernacles: Sukkot and the Coming Kingdom](feast-of-tabernacles-sukkot-and-the-coming-kingdom)
 
+## Ready to Begin?
+
+If you're convinced that Yeshua didn't abolish Torah but fulfilled it, the next question is: **How do I start?**
+
+Our comprehensive beginner's guide covers everything you need to begin your Torah journey—from gentile identity questions to practical Sabbath observance.
+
+**See:** [Getting Started with Torah Observance: A Beginner's Guide](getting-started-with-torah-observance-beginners-guide)
+
 Yeshua told you not to even **think** he came to abolish the Law. Take him at his word.
