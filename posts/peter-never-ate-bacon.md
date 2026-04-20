@@ -8,7 +8,7 @@ topic: dietary-laws
 
 # Peter Never Ate Bacon — And That Changes Everything About Acts 10
 
-**"Didn't God show Peter in a vision that all foods are clean?"**
+**"Didn't God show Peter in a vision that all animals are clean?"**
 
 He literally did not. And Peter himself will tell you that. But let's start with the part nobody talks about.
 
