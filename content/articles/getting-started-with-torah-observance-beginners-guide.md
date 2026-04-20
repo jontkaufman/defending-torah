@@ -149,7 +149,7 @@ He loved us first. He died for us while we were yet in rebellion. Our obedience 
 Let's address head-on the worries that often accompany these ideas:
 
 | **Misconception** | **Reality** |
-|---|---|
+|-------------------|-------------|
 | "You're trying to earn salvation" | You affirm salvation by grace (Eph 2:8-9). Torah observance is your loving response to that grace, not a requirement for it. |
 | "You're becoming Jewish" | You're grafted into Israel as a believing gentile. You keep biblical Torah commands, not rabbinic traditions. You remain a gentile—just one who loves God's instruction. |
 | "This is legalism" | Legalism = thinking works earn your standing before God. You don't believe that. You observe Torah *because* you're already saved and loved. The heart posture is everything. |
