@@ -5,7 +5,7 @@ objection: "Mark 7:19 explicitly says Jesus declared all foods clean. This is a 
 quick_answer: "The entire dispute in Mark 7 is about Pharisaic handwashing tradition, not dietary laws. Unclean animals are never mentioned. The Greek word bromata ('foods') refers to things already classified as food — and under Torah, unclean animals were never food. Most decisively: Peter, who was present for this teaching, still says 'I have never eaten anything unclean' a full decade later (Acts 10:14)."
 key_points:
   - "The dispute is explicitly about handwashing, not dietary categories. The Pharisees challenge the disciples for eating bread with unwashed hands (v. 2, 5). Pork, shellfish, and unclean animals are never mentioned anywhere in the passage."
-  - "Yeshua's entire rebuke is that the Pharisees 'set aside the commands of God in order to observe your own traditions' (v. 9). He is defending Torah against human additions — then immediately abolishing a Torah command? That would make Him guilty of the very thing He condemns."
+  - "Yeshua's entire rebuke is that the Pharisees are 'setting aside the commandment of God in order to keep your tradition' (v. 9). He is defending Torah against human additions — then immediately abolishing a Torah command? That would make Him guilty of the very thing He condemns."
   - "The Greek bromata ('foods') means things already classified as food. Unclean animals were never food under Torah — they were excluded from the category entirely. You cannot 'declare clean' what was never food to begin with."
   - "Peter — who was present for Mark 7 — still says 'I have never eaten anything unclean' roughly ten years later (Acts 10:14). If Yeshua abolished dietary laws, the chief apostle never understood it."
   - "Yeshua's actual point is about internal vs. external defilement: moral sin from the heart (murder, adultery, theft) truly defiles a person, not rabbinic handwashing concerns. He prioritizes heart purity over ritual externalism — the same point He makes in Matthew 23:25-26."
@@ -25,13 +25,13 @@ Mark 7:19 is probably the single most frequently cited verse in arguments that t
 
 The passage begins by telling us exactly what the argument is about:
 
-> The Pharisees and some of the teachers of the law who had come from Jerusalem gathered around Jesus and saw some of his disciples eating food with hands that were defiled, that is, unwashed... So the Pharisees and teachers of the law asked Jesus, "Why don't your disciples live according to the tradition of the elders instead of eating their food with defiled hands?" (Mark 7:1-2, 5)
+> And the Pharisees and some of the scribes gathered around Him when they had come from Jerusalem, and had seen that some of His disciples were eating their bread with defiled hands, that is, unwashed... And the Pharisees and the scribes asked Him, "Why do Your disciples not walk according to the tradition of the elders, but eat their bread with defiled hands?" (Mark 7:1-2, 5)
 
 The issue is **unwashed hands**. The standard being applied is the **tradition of the elders** — not Torah. The food in question is **bread** (the Greek artos in verse 2), which is obviously clean under any reading. Pork, shellfish, and unclean animals are never mentioned, never implied, and play no role in the dispute.
 
 Mark even pauses to explain the background for his Gentile readers:
 
-> The Pharisees and all the Jews do not eat unless they give their hands a ceremonial washing, holding to the tradition of the elders. (Mark 7:3)
+> (For the Pharisees and all the Jews do not eat unless they carefully wash their hands, thus observing the tradition of the elders; (Mark 7:3)
 
 This practice, known as **netilat yadayim** (ritual handwashing before meals), was a rabbinic requirement developed during the Second Temple period. Torah requires priests to wash before entering the Tabernacle (Exodus 30:19-21), but it does not command all Jews to wash hands before every meal. The Pharisees had extended the priestly purity standard to everyday life as a "fence" around Torah — well-intentioned, but human-made, and by Yeshua's time, treated as though it carried the authority of God's own command.
 
@@ -39,23 +39,23 @@ This practice, known as **netilat yadayim** (ritual handwashing before meals), w
 
 Before addressing the food question directly, Yeshua levels a devastating rebuke:
 
-> He replied, "Isaiah was right when he prophesied about you hypocrites; as it is written: 'These people honor me with their lips, but their hearts are far from me. They worship me in vain; their teachings are merely human rules.' You have let go of the commands of God and are holding on to human traditions." (Mark 7:6-8)
+> And He said to them, "Rightly did Isaiah prophesy of you hypocrites, as it is written: 'THIS PEOPLE HONORS ME WITH THEIR LIPS, BUT THEIR HEART IS FAR AWAY FROM ME. BUT IN VAIN DO THEY WORSHIP ME, TEACHING AS DOCTRINES THE PRECEPTS OF MEN.' Neglecting the commandment of God, you hold to the tradition of men." (Mark 7:6-8)
 
 And then:
 
-> You have a fine way of setting aside the commands of God in order to observe your own traditions! (Mark 7:9)
+> You are good at setting aside the commandment of God in order to keep your tradition. (Mark 7:9)
 
-> Thus you nullify the word of God by your tradition that you have handed down. (Mark 7:13)
+> ...thus invalidating the word of God by your tradition which you have handed down; and you do many things such as that. (Mark 7:13)
 
 This is the frame for everything that follows. Yeshua's stated concern is that human traditions are overriding God's commands. He gives the Corban example to prove the point: rabbinic tradition allows a man to declare his assets "Corban" (devoted to God) and thereby avoid supporting his aging parents, nullifying the Torah command to honor father and mother (Exodus 20:12).
 
-Here is the question that must be answered: If Yeshua's entire rebuke is that the Pharisees are "setting aside the commands of God" with their traditions, does He then immediately turn around and set aside one of God's commands Himself? That would make Him guilty of exactly what He condemns. The reading that Mark 7 abolishes dietary laws requires Yeshua to commit the very sin He is rebuking.
+Here is the question that must be answered: If Yeshua's entire rebuke is that the Pharisees are "setting aside the commandment of God" with their traditions, does He then immediately turn around and set aside one of God's commands Himself? That would make Him guilty of exactly what He condemns. The reading that Mark 7 abolishes dietary laws requires Yeshua to commit the very sin He is rebuking.
 
 ## "Thus He Declared All Foods Clean" — What the Greek Actually Says
 
 The controversial phrase appears in verse 19:
 
-> For it doesn't go into their heart but into their stomach, and then out of the body. (In saying this, Jesus declared all foods clean.) (Mark 7:18-19, NIV)
+> ...because it does not go into his heart, but into his stomach, and goes to the sewer?" (Thus He declared all foods clean.) (Mark 7:18-19)
 
 Two issues must be addressed: who is speaking, and what "foods" means.
 
@@ -88,23 +88,23 @@ The analogy is straightforward: if someone says "all the fruit in this bowl is r
 
 When you read verses 14-23 together, Yeshua's teaching becomes clear:
 
-> Nothing outside a person can defile them by going into them. Rather, it is what comes out of a person that defiles them. (Mark 7:15)
+> ...there is nothing outside the man which can defile him if it goes into him; but the things which proceed out of the man are what defile the man. (Mark 7:15)
 
-> What comes out of a person is what defiles them. For it is from within, out of a person's heart, that evil thoughts come — sexual immorality, theft, murder, adultery, greed, malice, deceit, lewdness, envy, slander, arrogance and folly. All these evils come from inside and defile a person. (Mark 7:20-23)
+> That which proceeds out of the man, that is what defiles the man. For from within, out of the heart of men, proceed evil thoughts, fornications, thefts, murders, adulteries, covetousness, wickedness, deceit, sensuality, envy, slander, pride, and foolishness. All these evil things proceed from within and defile the man. (Mark 7:20-23)
 
 The contrast is between **external ritual concern** (the Pharisees' obsession with handwashing) and **internal moral reality** (the heart's condition before God). The Pharisees fixated on whether clean food touched unwashed hands. Yeshua redirects: the real defilement is murder, adultery, theft, greed — sins of the heart.
 
 This is prioritization, not abolition. Yeshua makes the same move in Matthew 23:23:
 
-> Woe to you, teachers of the law and Pharisees, you hypocrites! You give a tenth of your spices — mint, dill and cumin. But you have neglected the more important matters of the law — justice, mercy and faithfulness. You should have practiced the latter, **without neglecting the former.** (Matthew 23:23)
+> Woe to you, scribes and Pharisees, hypocrites! For you tithe mint and dill and cumin, and have neglected the weightier provisions of the Law: justice and mercy and faithfulness; but these are the things you should have done **without neglecting the others.** (Matthew 23:23)
 
-"Without neglecting the former." External obedience still matters. But the heart must be right. Yeshua does not set internal against external — He insists on both, with the heart taking priority.
+"Without neglecting the others." External obedience still matters. But the heart must be right. Yeshua does not set internal against external — He insists on both, with the heart taking priority.
 
 ## The Decisive Evidence: Peter's Continued Observance
 
 If there is one fact that settles this question beyond reasonable dispute, it is what happens roughly ten years later in [Acts 10](/objection-finder/acts-10-peters-vision). Peter — who was present for the Mark 7 teaching — receives a vision of unclean animals and is told to "kill and eat." His response:
 
-> Surely not, Lord! I have never eaten anything impure or unclean. (Acts 10:14)
+> By no means, Lord, for I have never eaten anything defiled and unclean. (Acts 10:14)
 
 Peter says **"never."** Not "not since Mark 7" or "not since Yeshua's teaching." **Never.** A full decade after the event in Mark 7, the chief apostle — the one who received the keys of the kingdom (Matthew 16:19), who was filled with the Spirit at Pentecost (Acts 2), who walked with Yeshua for three years — has never eaten anything unclean.
 
@@ -118,7 +118,7 @@ Option A is the coherent reading. Option B requires Peter to be either disobedie
 
 And when Peter does interpret his vision, he does not conclude that dietary laws are abolished:
 
-> God has shown me that I should not call any **person** impure or unclean. (Acts 10:28)
+> God has shown me that I should not call any **man** defiled or unclean. (Acts 10:28)
 
 The vision was about people — about accepting Gentiles into the community. Not about food.
 
@@ -126,13 +126,13 @@ The vision was about people — about accepting Gentiles into the community. Not
 
 There is a further problem with the traditional reading. Yeshua Himself observed Torah, including the dietary laws:
 
-> Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them. (Matthew 5:17)
+> Do not think that I came to abolish the Law or the Prophets; I did not come to abolish but to fulfill. (Matthew 5:17)
 
-> Can any of you prove me guilty of sin? (John 8:46)
+> Which one of you convicts Me of sin? (John 8:46)
 
-> We do not have a high priest who is unable to empathize with our weaknesses, but we have one who has been tempted in every way, yet he did not sin. (Hebrews 4:15)
+> For we do not have a high priest who cannot sympathize with our weaknesses, but One who has been tempted in all things like we are, yet without sin. (Hebrews 4:15)
 
-If Leviticus 11 is Torah (and it is — it is God's command given at Sinai), and if Yeshua was sinless (and He was — this is essential to His role as the unblemished sacrifice), then Yeshua kept the dietary laws. A sinless Torah-observer who says "I have not come to abolish" does not then abolish God's dietary commands while rebuking the Pharisees for "setting aside the commands of God." The internal contradiction is too severe.
+If Leviticus 11 is Torah (and it is — it is God's command given at Sinai), and if Yeshua was sinless (and He was — this is essential to His role as the unblemished sacrifice), then Yeshua kept the dietary laws. A sinless Torah-observer who says "I did not come to abolish" does not then abolish God's dietary commands while rebuking the Pharisees for "setting aside the commandment of God." The internal contradiction is too severe.
 
 ## What Remains Honestly Difficult
 
@@ -146,7 +146,7 @@ Mark 7 fits a consistent pattern in Yeshua's ministry. In every confrontation wi
 
 - **Mark 7**: Pharisaic handwashing rebuked. God's commands defended (v. 8).
 - **Mark 2:27**: Pharisaic Sabbath restrictions corrected. The Sabbath itself affirmed as a gift ("made for man").
-- **Matthew 23:23**: Pharisaic tithing obsession rebuked. Tithing itself affirmed ("without neglecting the former").
+- **Matthew 23:23**: Pharisaic tithing obsession rebuked. Tithing itself affirmed ("without neglecting the others").
 - **Matthew 23:25-26**: External ritual fixation rebuked. Both external and internal purity affirmed.
 
 Mark 7 is not "Yeshua abolishes dietary laws." It is "Yeshua defends Torah against rabbinic additions." The passage says the opposite of what it is commonly cited to prove. For a comprehensive look at what Scripture actually teaches about food, see our [full dietary laws article](/articles/dietary-laws-what-scripture-says).

@@ -31,7 +31,7 @@ This lines up perfectly with first-century rabbinic usage. In Jewish teaching of
 
 ## Until Heaven and Earth Disappear
 
-> For truly I say to you, until heaven and earth pass away, not the smallest letter or stroke of a letter shall pass from the Law until all is accomplished. (Matthew 5:18)
+> For truly I say to you, until heaven and earth pass away, not the smallest letter or stroke shall pass from the Law until all is accomplished. (Matthew 5:18)
 
 Yeshua sets two conditions for even the smallest detail of Torah to change: heaven and earth must pass away, and everything must be accomplished.
 
@@ -74,7 +74,7 @@ In every single case, Yeshua intensifies Torah. He raises the bar. He never lowe
 
 Fast-forward to the end of Matthew's Gospel:
 
-> Go therefore and make disciples of all the nations... teaching them to observe everything I commanded you. (Matthew 28:19-20)
+> Go therefore and make disciples of all the nations... teaching them to keep all that I commanded you. (Matthew 28:19-20)
 
 "Everything I commanded you." What did Yeshua command? Among other things: "Do not think that I came to abolish the Law or the Prophets." The Great Commission includes transmitting Yeshua's Torah-affirming teaching to every nation.
 

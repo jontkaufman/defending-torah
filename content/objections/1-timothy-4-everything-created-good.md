@@ -25,7 +25,7 @@ First Timothy 4:4 is one of the most frequently quoted verses against biblical d
 
 The full sentence runs across verses 4 and 5:
 
-> For everything God created is good, and nothing is to be rejected if it is received with thanksgiving, because it is consecrated by the word of God and prayer. (1 Timothy 4:4-5)
+> For everything created by God is good, and nothing is to be rejected if it is received with thanksgiving, for it is sanctified by the word of God and prayer. (1 Timothy 4:4-5)
 
 The Greek word **hagiazetai** — translated "consecrated" or "sanctified" — means "set apart as holy." Its root is **hagios**, "holy, set apart." Paul says nothing should be rejected if it meets a specific condition: it has been set apart by the word of God.
 
@@ -39,7 +39,7 @@ Paul's statement self-limits to Torah's food categories. "Nothing consecrated by
 
 Paul is not addressing Torah-observant believers. He is warning against false teachers promoting asceticism — adding restrictions God never commanded:
 
-> The Spirit clearly says that in later times some will abandon the faith and follow deceiving spirits and things taught by demons. Such teachings come through hypocritical liars, whose consciences have been seared as with a hot iron. They forbid people to marry and order them to abstain from certain foods, which God created to be received with thanksgiving by those who believe and who know the truth. (1 Timothy 4:1-3)
+> But the Spirit explicitly says that in later times some will fall away from the faith, paying attention to deceitful spirits and doctrines of demons, by the hypocrisy of liars, who have been seared in their own conscience, who forbid marriage and advocate abstaining from foods which God created to be shared in with thanksgiving by those who believe and know the truth. (1 Timothy 4:1-3)
 
 The false teachers are doing two things: forbidding marriage and commanding abstinence from certain foods. Paul calls this "taught by demons" — strong language for human additions that contradict God's created order.
 
@@ -57,7 +57,7 @@ Obviously not. Everyone recognizes that not everything God created is edible. Th
 
 Some argue that "the word of God" in verse 5 simply means saying a prayer over a meal — that any food becomes acceptable if you bless it before eating. But Paul writes "the word of God **and** prayer" as two distinct things:
 
-> ...because it is consecrated by the word of God and prayer. (1 Timothy 4:5)
+> ...for it is sanctified by the word of God and prayer. (1 Timothy 4:5)
 
 If "the word of God" meant prayer, Paul would be saying "consecrated by prayer and prayer" — redundant and incoherent. The two are separate: the word of God provides the objective standard (Torah designates which creatures are food), and prayer provides the subjective response (thanksgiving for the food God has provided).
 

@@ -17,7 +17,7 @@ But the moment you sit down with the text, the charge collapses. Not because you
 
 The entire accusation depends on a single English word: "slave." Every time your Bible uses that word in the Torah, it's translating the Hebrew *eved* (עֶבֶד). And *eved* doesn't mean what you think it means.
 
-The semantic range of *eved* is enormous. It covers everything from a bonded laborer working off a debt, to a high-ranking government official, to a worshiper of God. Moses is called an *eved* of YHWH. Joshua is called an *eved* of YHWH. David is called an *eved* of YHWH. The Psalms invite "all *avadim* of the LORD" to praise Him — that's temple worshipers, not property.
+The semantic range of *eved* is enormous. It covers everything from a bonded laborer working off a debt, to a high-ranking government official, to a worshiper of God. Moses is called an *eved* of YHWH. Joshua is called an *eved* of YHWH. David is called an *eved* of YHWH. The Psalms invite "all *avadim* of Yahweh" to praise Him — that's temple worshipers, not property.
 
 In modern Hebrew, *eved* means employee or worker. The related noun *avodah* means work, service, or worship.
 
@@ -31,7 +31,7 @@ Here's where the accusation starts to fall apart. Every form of chattel slavery 
 
 Torah's verdict on that practice is unambiguous:
 
-> Whoever steals a man and sells him, and anyone found in possession of him, shall be put to death. (Exodus 21:16)
+> He who kidnaps a man, whether he sells him or he is found in his hand, shall surely be put to death. (Exodus 21:16)
 
 Read that again. Three capital offenses in one verse: kidnapping a person, selling them, and buying a kidnapped person. The **entire supply chain** is under a death sentence.
 
@@ -57,7 +57,7 @@ This is closer to structured bankruptcy with room and board than to anything res
 
 Now, critics always reach for the same text:
 
-> As for your male and female slaves whom you may have: you may buy male and female slaves from among the nations that are around you... they may be your property. You may bequeath them to your sons after you to inherit as a possession forever. (Leviticus 25:44-46)
+> As for your male and female slaves whom you may have — you may acquire male and female slaves from the nations that are around you. And also you may acquire from the sons of the foreign residents who sojourn among you, from them and their families who are with you; as for those whom they have begotten in your land, they also may become your possession. You may even give them as an inheritance to your sons after you, to receive as a possession; you can use them as permanent slaves. But in respect to your brothers, the sons of Israel, you shall not have dominion over one another with brutality. (Leviticus 25:44-46)
 
 This sounds bad. It needs to be dealt with honestly, not explained away. Torah does permit a longer-term form of servitude for foreigners that is not available for Israelites. That's the text, and there's no point pretending it says something else.
 
@@ -67,13 +67,13 @@ But you cannot read those three verses in isolation. You have to read them along
 
 This is the argument that changes everything.
 
-**Premise one:** Israelites cannot be permanent servants because "they are MY servants, whom I brought out of the land of Egypt; they shall not be sold as slaves" (Leviticus 25:42).
+**Premise one:** Israelites cannot be permanent servants because "they are My slaves whom I brought out from the land of Egypt; they shall not be sold in a slave sale" (Leviticus 25:42).
 
 **Premise two:** Foreigners who enter into covenant with YHWH — who convert — are to be treated "as native-born," under one law for both native and sojourner (Exodus 12:48, Leviticus 19:34, Numbers 15:15).
 
-> You shall treat the stranger who sojourns with you as the native among you, and you shall love him as yourself. (Leviticus 19:34)
+> The sojourner who sojourns with you shall be to you as the native among you, and you shall love him as yourself, for you were sojourners in the land of Egypt; I am Yahweh your God. (Leviticus 19:34)
 
-> There shall be one statute for you and for the stranger who sojourns with you... You and the sojourner shall be alike before the LORD. (Numbers 15:15)
+> As for the assembly, there shall be one statute for you and for the sojourner who sojourns with you, a perpetual statute throughout your generations; as you are, so shall the sojourner be before Yahweh. (Numbers 15:15)
 
 **Conclusion:** A foreign servant who converts to covenant with YHWH becomes "as native-born." And native-born Israelites cannot be held as permanent servants. The servant must be reclassified as a hired worker (*sakhir*) with Sabbath-year and Jubilee protections.
 
@@ -81,7 +81,7 @@ This is the argument that changes everything.
 
 And this isn't theoretical. Torah gives us precedent.
 
-**Ruth** was a Moabite — from a nation explicitly barred from the assembly (Deuteronomy 23:3). She converted: "Your people shall be my people, and your God my God" (Ruth 1:16). Result? She married Boaz, was fully integrated as native-born, and entered the Messianic lineage (Matthew 1:5).
+**Ruth** was a Moabite — from a nation explicitly barred from the assembly (Deuteronomy 23:3). She converted: "Your people shall be my people, and your God, my God" (Ruth 1:16). Result? She married Boaz, was fully integrated as native-born, and entered the Messianic lineage (Matthew 1:5).
 
 **Rahab** was a Canaanite — from a people marked for destruction (Deuteronomy 7:1-2). She confessed YHWH as God (Joshua 2:11). Result? Full integration, marriage to Salmon, and a place in Yeshua's genealogy (Matthew 1:5).
 
@@ -91,7 +91,7 @@ If a Moabite and a Canaanite can become native-born through covenant commitment,
 
 Now consider a law that has no parallel anywhere in the ancient world:
 
-> You shall not give up to his master a slave who has escaped from his master to you. He shall dwell with you, in your midst, in the place that he shall choose within one of your towns, wherever it suits him. You shall not oppress him. (Deuteronomy 23:15-16)
+> You shall not hand over to his master a slave who has escaped from his master to you. He shall live with you in your midst, in the place which he shall choose in one of your gates of the towns where it pleases him; you shall not mistreat him. (Deuteronomy 23:15-16)
 
 If a servant escapes to you, you **must not** return them. You must let them live wherever they choose. You must not oppress them.
 
@@ -101,7 +101,7 @@ Torah commands the **exact opposite**. And think about what this means structura
 
 ## Injury Means Freedom
 
-> When a man strikes the eye of his slave, male or female, and destroys it, he shall let the slave go free because of the eye. If he knocks out the tooth of his slave, male or female, he shall let the slave go free because of the tooth. (Exodus 21:26-27)
+> And if a man strikes the eye of his male or female slave and ruins it, he shall let him go free on account of his eye. And if he knocks out a tooth of his male or female slave, he shall let him go free on account of his tooth. (Exodus 21:26-27)
 
 Any permanent physical injury — even a knocked-out tooth — triggers **automatic emancipation**. No hearing, no appeal. The servant goes free.
 
@@ -109,7 +109,7 @@ In Roman law, a master could beat a slave to death with minimal consequence. In 
 
 ## Sabbath Rest for Everyone
 
-> The seventh day is a Sabbath to the LORD your God. On it you shall not do any work, you, or your son, or your daughter, your male servant, or your female servant. (Exodus 20:10)
+> But the seventh day is a sabbath of Yahweh your God; in it you shall not do any work, you or your son or your daughter, your male or your female slave. (Exodus 20:10)
 
 Even servants rest on the Sabbath. One day in seven, every servant in Israel has the same status as their master: resting before YHWH. This is a weekly reminder that servants are **people**, not tools. They have dignity. They stand before God as equals.
 
@@ -119,7 +119,7 @@ No other ancient culture mandated rest days for servants.
 
 Behind all of these laws stands a single theological claim that makes permanent ownership of humans impossible:
 
-> For they are my servants, whom I brought out of the land of Egypt; they shall not be sold as slaves. (Leviticus 25:42)
+> For they are My slaves whom I brought out from the land of Egypt; they shall not be sold in a slave sale. (Leviticus 25:42)
 
 Israel belongs to YHWH. He bought them out of Egypt. No human being can permanently own what already belongs to God. This isn't just a law — it's a **theological claim about ownership** that undermines the entire concept of chattel slavery at its foundation.
 
@@ -129,15 +129,15 @@ And the conversion pathway extends this logic: when a foreigner enters covenant 
 
 Here's what critics never reckon with: the **entire founding narrative of Israel** is a story of God liberating slaves.
 
-> I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery. (Exodus 20:2)
+> I am Yahweh your God, who brought you out of the land of Egypt, out of the house of slavery. (Exodus 20:2)
 
 That's God's first self-identification when He gives the Ten Commandments. Not "I created the heavens and the earth" — though He did. Not "I made covenant with Abraham" — though He did. His lead credential is: **I freed you from slavery.**
 
 And then He says it again. And again. The phrase "remember that you were slaves in Egypt" appears over a dozen times in Torah, and every single occurrence is in a context of commanding compassion for the vulnerable:
 
-> You shall remember that you were a slave in the land of Egypt, and the LORD your God redeemed you; therefore I command this today. (Deuteronomy 15:15 — in the context of releasing servants)
+> And you shall remember that you were a slave in the land of Egypt, and Yahweh your God redeemed you; therefore I am commanding you this today. (Deuteronomy 15:15 — in the context of releasing servants)
 
-> You shall not oppress a sojourner. You know the heart of a sojourner, for you were sojourners in the land of Egypt. (Exodus 23:9)
+> And you shall not oppress a sojourner, since you yourselves know the soul of a sojourner, for you also were sojourners in the land of Egypt. (Exodus 23:9)
 
 A God who delivers slaves, judges their oppressors with ten plagues, drowns Pharaoh's army in the sea, and then says "remember you were slaves — so treat the vulnerable well" — that God is not endorsing chattel slavery. The entire narrative arc bends toward liberation.
 
@@ -147,7 +147,7 @@ There's one more principle that puts the whole picture together. Torah also regu
 
 Yeshua answers that question directly:
 
-> Because of your hardness of heart Moses allowed you to divorce your wives, but from the beginning it was not so. (Matthew 19:8)
+> Because of your hardness of heart Moses permitted you to divorce your wives; but from the beginning it has not been this way. (Matthew 19:8)
 
 Torah regulated divorce not because God approved of it, but because people were going to do it regardless, and regulation limits the damage. The ideal — from the beginning — was lifelong covenant faithfulness.
 

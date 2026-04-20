@@ -31,7 +31,7 @@ The entire dispute in Mark 7 is about **netilat yadayim** — the rabbinic tradi
 
 Yeshua's response is devastating — but it's aimed at the **Pharisees' tradition**, not at Torah:
 
-> You have let go of the commands of God and are holding on to human tradition. (Mark 7:8)
+> Neglecting the commandment of God, you hold to the tradition of men. (Mark 7:8)
 
 He then explains that food entering the stomach and passing through the body doesn't defile a person — the defilement the Pharisees worry about from unwashed hands is a non-issue. What defiles comes from within: evil thoughts, greed, malice.
 
@@ -43,13 +43,13 @@ Here's the proof: **Peter was present for this teaching.** If Yeshua abolished d
 
 Peter is on a rooftop. He sees a vision of a sheet descending with all kinds of animals, and a voice says, "Kill and eat." Peter refuses:
 
-> Surely not, Lord! I have never eaten anything impure or unclean. (Acts 10:14)
+> By no means, Lord, for I have never eaten anything defiled and unclean. (Acts 10:14)
 
 **Ten years after Mark 7**, Peter has never eaten anything unclean. If Yeshua abolished dietary laws, Peter apparently missed the memo — which would be remarkable, since he was standing right there.
 
 But here's what settles it: Peter himself tells you what the vision means.
 
-> God has shown me that I should not call **anyone** impure or unclean. (Acts 10:28)
+> God has shown me that I should not call any man defiled or unclean. (Acts 10:28)
 
 The vision is about **people**, not pork. God is correcting Peter's reluctance to enter a Gentile's home and share the gospel with non-Jews. The sheet full of animals is a metaphor.
 
@@ -69,7 +69,7 @@ Two arguments are built on this passage, and both collapse on inspection.
 
 The key verse that everyone skips is Acts 15:21:
 
-> For Moses has been preached in every city from the earliest times and is read in the synagogues on every Sabbath.
+> For from ancient generations, Moses has those who preach him in every city, since he is read in the synagogues every Sabbath.
 
 This is the Moses Clause. James's reasoning is that Gentile believers will hear Torah read every Sabbath and learn progressively. The four requirements are the **floor**, not the ceiling. They're the immediate essentials for fellowship — with the expectation that ongoing Torah instruction will follow.
 
@@ -77,11 +77,11 @@ This is the Moses Clause. James's reasoning is that Gentile believers will hear 
 
 Paul warns that in later times people will "order them to abstain from certain foods, which God created to be received with thanksgiving" (4:3). He continues:
 
-> For everything God created is good, and nothing is to be rejected if it is received with thanksgiving, because it is consecrated by the **word of God** and prayer. (1 Timothy 4:4-5)
+> For everything created by God is good, and nothing is to be rejected if it is received with thanksgiving, for it is sanctified by the **word of God** and prayer. (1 Timothy 4:4-5)
 
-Read that last phrase carefully. Food is acceptable when it is consecrated by **the word of God** and prayer. Which word of God tells you which creatures are consecrated as food? **Torah** — Leviticus 11 and Deuteronomy 14. These are the passages that define what God created to be received as food.
+Read that last phrase carefully. Food is acceptable when it is sanctified by **the word of God** and prayer. Which word of God tells you which creatures are sanctified as food? **Torah** — Leviticus 11 and Deuteronomy 14. These are the passages that define what God created to be received as food.
 
-Unclean animals are not consecrated by God's word as food. They fail Paul's own test.
+Unclean animals are not sanctified by God's word as food. They fail Paul's own test.
 
 The context confirms this. Paul is addressing an ascetic movement — people who forbid marriage and impose dietary restrictions **beyond what God commanded**. They're adding rules God never gave. Paul's correction is aimed at human additions to Torah, not at Torah itself. This is the same issue Yeshua confronted in Mark 7: human tradition overriding God's commands.
 

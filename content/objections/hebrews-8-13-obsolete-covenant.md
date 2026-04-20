@@ -27,11 +27,11 @@ But the verse says "covenant," not "Torah." That distinction is not a technicali
 
 The covenant at Sinai was not merely a legal contract. Scripture consistently describes it as a marriage. YHWH took Israel as His bride:
 
-> ...though I was a husband to them, declares the LORD. (Jeremiah 31:32)
+> ...My covenant which they broke, but I was a husband to them, declares Yahweh. (Jeremiah 31:32)
 
-> I spread the corner of my garment over you... I gave you my solemn oath and entered into a covenant with you, declares the Sovereign LORD, and you became mine. (Ezekiel 16:8)
+> I spread My skirt over you and covered your nakedness. I also swore to you and entered into a covenant with you so that you became Mine, declares Lord Yahweh. (Ezekiel 16:8)
 
-> For your Maker is your husband — the LORD Almighty is his name. (Isaiah 54:5)
+> For your husband is your Maker, Whose name is Yahweh of hosts; And your Redeemer is the Holy One of Israel, Who is called the God of all the earth. (Isaiah 54:5)
 
 This is not decorative poetry. The marriage metaphor carries legal force throughout the prophets, and it creates a legal problem that only Yeshua can solve.
 
@@ -39,7 +39,7 @@ This is not decorative poetry. The marriage metaphor carries legal force through
 
 Israel was unfaithful. She pursued other gods — what Scripture consistently calls spiritual adultery. And YHWH responded with a legal act:
 
-> I gave faithless Israel her certificate of divorce and sent her away because of all her adulteries. (Jeremiah 3:8)
+> And I saw that for all the adulteries of faithless Israel, I had sent her away and given her a certificate of divorce, yet her treacherous sister Judah did not fear; but she went and was a harlot also. (Jeremiah 3:8)
 
 The prophet Hosea's marriage to the unfaithful Gomer enacts this story in miniature: God marries an adulterous bride, she leaves, and the question becomes whether she can ever return.
 
@@ -47,11 +47,11 @@ The prophet Hosea's marriage to the unfaithful Gomer enacts this story in miniat
 
 Here is where the argument turns. Torah's own marriage law creates a binding prohibition:
 
-> If a man marries a woman who becomes displeasing to him... and he writes her a certificate of divorce... and after she leaves his house she becomes the wife of another man... then her first husband, who divorced her, is not allowed to marry her again after she has been defiled. That would be detestable in the eyes of the LORD. (Deuteronomy 24:1-4)
+> If a man takes a wife and marries her, and it happens that she finds no favor in his eyes because he has found some indecency in her, and he writes her a certificate of divorce... and she goes and becomes another man's wife... then her former husband who sent her away is not allowed to take her again to be his wife, since she has been defiled; for that is an abomination before Yahweh. (Deuteronomy 24:1-4)
 
 Jeremiah recognizes the problem explicitly:
 
-> If a man divorces his wife and she leaves him and marries another man, should he return to her again? Would not the land be completely defiled? But you have lived as a prostitute with many lovers — would you now return to me? (Jeremiah 3:1)
+> God says, "If a husband divorces his wife And she goes from him And belongs to another man, Will he still return to her? Will not that land be completely polluted? But you are a harlot with many lovers; Yet you turn to Me," declares Yahweh. (Jeremiah 3:1)
 
 YHWH divorced Israel. Israel went after other gods — "other husbands." Under Torah's own marriage law, YHWH **cannot take her back**. To do so would violate His own Torah. And because God's law is immutable — He does not break His own word — this creates an impossible situation. Torah's own legal framework prevents reconciliation.
 
@@ -59,17 +59,17 @@ YHWH divorced Israel. Israel went after other gods — "other husbands." Under T
 
 Paul provides the solution in Romans 7:1-4:
 
-> Do you not know, brothers and sisters — for I am speaking to those who know the law — that the law has authority over someone only as long as that person lives? For example, by law a married woman is bound to her husband as long as he is alive, but if her husband dies, she is released from the law that binds her to her husband. (Romans 7:1-2)
+> Or do you not know, brothers — for I am speaking to those who know the law — that the law is master over a person as long as he lives? For the married woman has been bound by law to her husband while he is living, but if her husband dies, she is released from the law concerning the husband. (Romans 7:1-2)
 
 This is not abstract theology. Paul is explaining the legal mechanism by which the old marriage bond can be dissolved: **death ends the marriage bond.**
 
 He continues:
 
-> So, my brothers and sisters, you also died to the law through the body of Christ, that you might belong to another, to him who was raised from the dead. (Romans 7:4)
+> So, my brothers, you also were made to die to the Law through the body of Christ, so that you might be joined to another, to Him who was raised from the dead, in order that we might bear fruit for God. (Romans 7:4)
 
 And in Romans 6:3-8:
 
-> All of us who were baptized into Christ Jesus were baptized into his death... We were therefore buried with him through baptism into death... If we have been united with him in a death like his, we will certainly also be united with him in a resurrection like his. (Romans 6:3-5)
+> Or do you not know that all of us who were baptized into Christ Jesus were baptized into His death? Therefore we were buried with Him through baptism into death, so that as Christ was raised from the dead through the glory of the Father, so we too might walk in newness of life. For if we have become united with Him in the likeness of His death, certainly we shall also be in the likeness of His resurrection. (Romans 6:3-5)
 
 The bride does not die literally. She dies spiritually, with Yeshua. This death ends the old marriage covenant. The legal barrier of Deuteronomy 24 is dissolved — not by ignoring Torah, but by fulfilling its own legal requirements. Death ends the binding obligation.
 
@@ -79,11 +79,11 @@ If death merely ended the relationship, there would be nothing to return to. But
 
 This is the New Covenant of Jeremiah 31:31-34:
 
-> The days are coming, declares the LORD, when I will make a new covenant with the house of Israel and with the house of Judah. It will not be like the covenant I made with their ancestors when I took them by the hand to lead them out of Egypt... (Jeremiah 31:31-32)
+> "Look, the days are coming," declares Yahweh, "and I will make a new covenant with the house of Israel and with the house of Judah, not like the covenant which I cut with their fathers in the day I took them by the hand to bring them out of the land of Egypt..." (Jeremiah 31:31-32)
 
 "Not like the old covenant" — because the old one was a marriage that ended in divorce. The new one is a fresh marriage, entered freely. And critically, notice what the New Covenant contains:
 
-> I will put my law in their minds and write it on their hearts. (Jeremiah 31:33)
+> I will put My law within them, and on their heart I will write it. (Jeremiah 31:33)
 
 The New Covenant does not abolish Torah. It **internalizes** Torah. The same instructions, written deeper — on the heart rather than only on stone.
 

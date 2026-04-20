@@ -16,9 +16,9 @@ There's just one problem: **Paul anticipated this exact misreading.** And he shu
 
 ## The Verse Nobody Reads Next
 
-> "What then? Shall we sin because we are not under the law but under grace? **By no means!**" (Romans 6:15)
+> "What then? Shall we sin because we are not under law but under grace? **May it never be!**" (Romans 6:15)
 
-That phrase — "by no means" — is the Greek *me genoito*. It's the **strongest negation in the Greek language.** "God forbid!" "Absolutely not!" "May it never be!" Paul is practically shouting.
+That phrase — "May it never be!" — is the Greek *me genoito*. It's the **strongest negation in the Greek language.** "God forbid!" "Absolutely not!" Paul is practically shouting.
 
 Now think about this for a second. If "not under law" means "free from any obligation to obey God's commands," then Paul's question in verse 15 makes zero sense. He'd essentially be asking, "Should we disobey since we don't have to obey?" And the obvious answer would be, "Well... yeah. That's literally what you just said."
 
@@ -34,21 +34,21 @@ Grace doesn't free you **from** obedience. Grace frees you **to** obey.
 
 You changed masters. That's the whole point of Romans 6:
 
-> "You have been set free from sin and have become slaves to righteousness." (Romans 6:18)
+> "and having been freed from sin, you became slaves of righteousness." (Romans 6:18)
 
-And what is righteousness? [Scripture already defined it](/articles/what-is-righteousness): "It will be righteousness for us, if we are careful to do all this commandment before the LORD our God" (Deuteronomy 6:25). You didn't get set free to do whatever you want. You got set free from sin's control so you could finally do what God always wanted. New master, not no master.
+And what is righteousness? [Scripture already defined it](/articles/what-is-righteousness): "It will be righteousness for us if we are careful to do all this commandment before Yahweh our God, just as He commanded us" (Deuteronomy 6:25). You didn't get set free to do whatever you want. You got set free from sin's control so you could finally do what God always wanted. New master, not no master.
 
 ## Paul vs. Paul?
 
 Here's where it gets really awkward for the "law is abolished" reading. Same letter. Three chapters earlier:
 
-> "Do we, then, nullify the law by this faith? **Not at all! Rather, we uphold the law.**" (Romans 3:31)
+> "Do we then abolish the Law through faith? **May it never be! On the contrary, we establish the Law.**" (Romans 3:31)
 
 If Romans 6:14 means "the law is over," then Paul flatly contradicts himself in Romans 3:31. (For a deeper look at this verse, see the [full objection response](/objection-finder/romans-6-14-not-under-law).) Same author. Same letter. Same audience. Either Paul is incoherent, or one of these readings is wrong.
 
 And two chapters later, he says it again:
 
-> "...in order that the righteous requirement of the law might be **fully met in us**, who walk not according to the flesh but according to the Spirit." (Romans 8:4)
+> "so that the righteous requirement of the Law might be **fulfilled in us**, who do not walk according to the flesh but according to the Spirit." (Romans 8:4)
 
 Read that carefully. The **purpose** of grace — the reason the Spirit was given — is so that we could finally fulfill the law's requirements. Not abolish them. **Fulfill them.**
 
@@ -56,6 +56,6 @@ Read that carefully. The **purpose** of grace — the reason the Spirit was give
 
 Your favorite grace verse doesn't prove the law is over. It proves Paul knew someone would twist his words — and he **preemptively corrected the misreading** in the very next sentence.
 
-"Shall we sin because we're under grace? By no means!"
+"Shall we sin because we're under grace? May it never be!"
 
 Grace doesn't delete the playbook. Grace gives you the power to finally run the plays.

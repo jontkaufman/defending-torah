@@ -22,13 +22,13 @@ The Sabbath is something I'm deeply passionate about — not because I have a pa
 
 **Genesis 2:2-3** — The very first mention of the Sabbath. God blessed the seventh day and *made it holy* (for the full arc from creation to eternity, see [The Sabbath — From Creation to Eternity](/articles/sabbath-creation-to-eternity)). This isn't my idea or some obscure doctrinal preference. God doesn't use empty speech. He set apart a *specific* day — the seventh — and made it holy. If we're going with a sola scriptura mindset, this matters.
 
-**Exodus 20:8** — *"Remember the Sabbath day, to keep it holy."* How can they remember something they haven't received yet? Because God instilled it in creation. He's calling His people to remember this from the past and carry it forward. *Do not forget.*
+**Exodus 20:8** — *"Remember the sabbath day, to keep it holy."* How can they remember something they haven't received yet? Because God instilled it in creation. He's calling His people to remember this from the past and carry it forward. *Do not forget.*
 
 It's worth noting that the Sabbath was prioritized over six other commandments — placed higher than murder and adultery. And if the penalty for breaking a command tells us how seriously God takes it, the Sabbath carries the same penalty as murder: death. That's how important it is to God.
 
 **Exodus 31:15-17** — The Sabbath is an *everlasting covenant* and a *perpetual sign* between God and His people.
 
-**Leviticus 19:30** — *"You shall keep my Sabbaths."* Key theme: the Sabbath belongs to *God* — not to any denomination or ethnic group.
+**Leviticus 19:30** — *"You shall keep My sabbaths."* Key theme: the Sabbath belongs to *God* — not to any denomination or ethnic group.
 
 **Isaiah 56:6-7** — Foreigners who keep the Sabbath are blessed and brought to God's holy mountain. [The Sabbath is not reserved for one bloodline](/objection-finder/sabbath-only-for-jews). It's for anyone who desires to serve God.
 
@@ -47,17 +47,17 @@ God cannot contradict Himself. When He says "everlasting," we can take Him at Hi
 
 I know you've had verses running through your mind. Let's address them.
 
-**"You're not under law, you're under grace" (Romans 6:14)** — Read the very next verse: *"Shall we sin because we're not under law but under grace? **By no means!**"* Paul anticipated this exact misreading and shut it down. "Not under law" means we're not under law's *condemnation* — not that we're free to disobey. Same letter: *"Do we nullify the law by this faith? Not at all! We **uphold** the law."* (Romans 3:31)
+**"You're not under law, you're under grace" (Romans 6:14)** — Read the very next verse: *"Shall we sin because we are not under law but under grace? **May it never be!**"* Paul anticipated this exact misreading and shut it down. "Not under law" means we're not under law's *condemnation* — not that we're free to disobey. Same letter: *"Do we then abolish the Law through faith? May it never be! On the contrary, we **establish** the Law."* (Romans 3:31)
 
-**"One person esteems one day above another" (Romans 14:5)** — Read verse 1. The whole chapter is scoped to *"disputable matters"* — things Scripture doesn't clearly command. The Sabbath is the fourth commandment. It's not disputable. If it were, then by the same logic: "One person esteems 'do not murder,' another esteems all commands alike." Absurd. Paul kept the Sabbath himself in multiple cities (Acts 13:14, 16:13, 17:2, 18:4, 19:8). He's not granting liberty to ignore what he practiced.
+**"One person judges one day above another" (Romans 14:5)** — Read verse 1. The whole chapter is scoped to *"passing judgment on opinions"* — things Scripture doesn't clearly command. The Sabbath is the fourth commandment. It's not disputable. If it were, then by the same logic: "One person esteems 'do not murder,' another esteems all commands alike." Absurd. Paul kept the Sabbath himself in multiple cities (Acts 13:14, 16:13, 17:2, 18:4, 19:8). He's not granting liberty to ignore what he practiced.
 
-**["Let no one judge you regarding a Sabbath" (Colossians 2:16-17)](/objection-finder/colossians-2-16)** — The word *soma* ("body") is translated "substance" only in this one verse. Every other time in Colossians it means the body of believers — the church. The grammar actually reads: *"Let no one judge you... **but let the body of Christ judge you.**"* Paul isn't dismissing these practices. He's saying don't let *outsiders* judge you — let your *community* hold you accountable.
+**["No one is to judge you in respect to a Sabbath day" (Colossians 2:16-17)](/objection-finder/colossians-2-16)** — The word *soma* ("body") is translated "substance" only in this one verse. Every other time in Colossians it means the body of believers — the church. The grammar actually reads: *"Let no one judge you... **but let the body of Christ judge you.**"* Paul isn't dismissing these practices. He's saying don't let *outsiders* judge you — let your *community* hold you accountable.
 
-**"Weak and beggarly elements" (Galatians 4:9-11)** — Paul says the Galatians are turning back *"again"* to weak elements. But they were *Gentile pagans* before conversion (Gal 4:8). They never kept the Sabbath. You can't go *"back again"* to something you never came from. Paul is warning against returning to pagan practices — not against God's appointed times. He calls Torah "holy, righteous, and good" (Romans 7:12). He can't call it "weak and beggarly" without contradicting himself and God.
+**"Weak and worthless elemental things" (Galatians 4:9-11)** — Paul says the Galatians are turning back *"again"* to weak elements. But they were *Gentile pagans* before conversion (Gal 4:8). They never kept the Sabbath. You can't go *"back again"* to something you never came from. Paul is warning against returning to pagan practices — not against God's appointed times. He calls the Law "holy, and the commandment is holy and righteous and good" (Romans 7:12). He can't call it "weak and worthless" without contradicting himself and God.
 
 **"Jesus is our Sabbath rest"** — One question: When God rested on the seventh day in Genesis 2, what was He trying to earn? Nothing. He doesn't get tired (Isaiah 40:28). He was modeling a pattern. Sabbath was never about earning anything. It was always about *trust*. Also — if every day is the Sabbath, then no day is the Sabbath. Holiness means *set apart*. If nothing is distinct, nothing is holy. And Jesus Himself kept the Sabbath *"as was His custom"* (Luke 4:16).
 
-**Hebrews 4:9 actually supports us** — *"There **remains** a Sabbath rest for the people of God."* The Greek word isn't generic "rest." It's *sabbatismos* — Sabbath-keeping. Present tense. Ongoing. Still in effect.
+**Hebrews 4:9 actually supports us** — *"So there **remains** a Sabbath rest for the people of God."* The Greek word isn't generic "rest." It's *sabbatismos* — Sabbath-keeping. Present tense. Ongoing. Still in effect.
 
 ---
 

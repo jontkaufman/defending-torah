@@ -25,11 +25,11 @@ Ephesians 2:14-15 appears, on the surface, to be one of the clearest statements 
 
 The passage sits within a sustained argument about the unity of Jew and Gentile in Messiah. Paul addresses Gentile believers:
 
-> Remember that formerly you who are Gentiles by birth... were separate from Christ, excluded from citizenship in Israel and foreigners to the covenants of the promise, without hope and without God in the world. But now in Christ Jesus you who once were far away have been brought near by the blood of Christ. (Ephesians 2:11-13)
+> Therefore, remember that formerly you — the Gentiles in the flesh, who are called "Uncircumcision" by the so-called "Circumcision," which is performed in the flesh by human hands — remember that you were at that time without Christ, alienated from the citizenship of Israel, and strangers to the covenants of promise, having no hope and without God in the world. But now in Christ Jesus you who formerly were far off have been brought near by the blood of Christ. (Ephesians 2:11-13)
 
 Then the key verses:
 
-> For he himself is our peace, who has made the two groups one and has destroyed the barrier, the dividing wall of hostility, by setting aside in his flesh the law with its commands and regulations. His purpose was to create in himself one new humanity out of the two, thus making peace, and in one body to reconcile both of them to God through the cross, by which he put to death their hostility. (Ephesians 2:14-16)
+> For He Himself is our peace, who made both groups one and broke down the dividing wall of the partition, by abolishing in His flesh the enmity, the Law of commandments contained in ordinances, so that in Himself He might create the two into one new man, making peace, and might reconcile them both in one body to God through the cross, having in Himself put to death the enmity. (Ephesians 2:14-16)
 
 The subject is clear: the barrier between Jew and Gentile. The question is: what was that barrier, and what exactly did Yeshua abolish?
 
@@ -58,11 +58,11 @@ This is the question that controls the passage's meaning. Paul says Yeshua destr
 
 Torah does not create enmity between Israel and the nations. To the contrary, Torah makes extensive provision for the **ger** (גר) — the sojourner, the foreigner who dwells among Israel:
 
-> The community is to have the same rules for you and for the foreigner residing among you; this is a lasting ordinance for the generations to come. You and the foreigner shall be the same before YHWH: the same laws and regulations shall apply both to you and to the foreigner residing among you. (Numbers 15:15-16)
+> As for the assembly, there shall be one statute for you and for the sojourner who sojourns with you, a perpetual statute throughout your generations; as you are, so shall the sojourner be before Yahweh. There shall be one law and one judgment for you and for the sojourner who sojourns with you. (Numbers 15:15-16)
 
-> The foreigner residing among you must be treated as your native-born. Love them as yourself, for you were foreigners in Egypt. (Leviticus 19:34)
+> The sojourner who sojourns with you shall be to you as the native among you, and you shall love him as yourself, for you were sojourners in the land of Egypt; I am Yahweh your God. (Leviticus 19:34)
 
-> When a foreigner residing among you wants to celebrate YHWH's Passover, he must have all the males in his household circumcised; then he may take part like one born in the land. The same law applies both to the native-born and to the foreigner residing among you. (Exodus 12:48-49)
+> But if a sojourner sojourns with you and celebrates the Passover to Yahweh, let all his males be circumcised, and then let him come near to celebrate it; and he shall be like a native of the land. But no uncircumcised person may eat of it. The same law shall apply to the native as to the sojourner who sojourns among you. (Exodus 12:48-49)
 
 Torah envisions Gentiles living among Israel, participating in worship, subject to the same instruction, and treated with justice. This is not a system designed to create a wall of hostility.
 
@@ -91,17 +91,17 @@ Paul's argument distinguishes between two things:
 
 The result Paul describes is not "Torah is cancelled." The result is unity:
 
-> His purpose was to create in himself one new humanity out of the two, thus making peace. (Ephesians 2:15)
+> ...so that in Himself He might create the two into one new man, making peace. (Ephesians 2:15)
 
-> Consequently, you are no longer foreigners and strangers, but fellow citizens with God's people and also members of his household. (Ephesians 2:19)
+> So then you are no longer strangers and sojourners, but you are fellow citizens with the saints, and are of God's household. (Ephesians 2:19)
 
-Gentiles are brought **into** the commonwealth of Israel, not freed **from** it. They become fellow citizens, not exempt bystanders. The wall that kept them out has been removed so they can come in — and what they come into is the household of God, built on "the foundation of the apostles and prophets, with Christ Jesus himself as the chief cornerstone" (Ephesians 2:20). This is precisely what the [Jerusalem Council affirmed](/objection-finder/acts-15-jerusalem-council) — Gentile inclusion into the covenant community, not exemption from God's instruction.
+Gentiles are brought **into** the commonwealth of Israel, not freed **from** it. They become fellow citizens, not exempt bystanders. The wall that kept them out has been removed so they can come in — and what they come into is the household of God, built on "the foundation of the apostles and prophets, Christ Jesus Himself being the corner stone" (Ephesians 2:20). This is precisely what the [Jerusalem Council affirmed](/objection-finder/acts-15-jerusalem-council) — Gentile inclusion into the covenant community, not exemption from God's instruction.
 
 ## The Parallel: Colossians 2:14
 
 The same word **dogmasin** appears in the closely parallel passage in [Colossians 2](/objection-finder/colossians-2-16):
 
-> Having canceled the charge of our legal indebtedness, which stood against us and condemned us; he has taken it away, nailing it to the cross. (Colossians 2:14)
+> Having canceled out the certificate of debt consisting of decrees against us, which was hostile to us; He also has taken it out of the way, having nailed it to the cross. (Colossians 2:14)
 
 The **cheirographon** (χειρόγραφον, "handwritten document") is a record of debt — a legal charge. The dogmasin are the decrees associated with that condemnation. What was nailed to the cross was not Torah itself but the **record of our guilt** — the legal consequences of having broken Torah. Yeshua paid the debt. He did not destroy the standard by which the debt was calculated.
 
@@ -121,7 +121,7 @@ However, the internal evidence pushes against it:
 
 3. **Paul's own life contradicts the abolition reading.** The same Paul who supposedly declared Torah abolished took Nazirite vows (Acts 18:18), rushed to Jerusalem for Torah-commanded feasts (Acts 20:16), paid for Temple vow offerings to demonstrate he "lives in observance of the law" (Acts 21:24), and declared "I have done nothing against the customs of our ancestors" (Acts 28:17).
 
-4. **Paul explicitly denies abolishing Torah.** "Do we then nullify the law by this faith? Not at all! Rather, we uphold the law" (Romans 3:31). If Ephesians 2:15 means Torah is abolished, Romans 3:31 is a direct contradiction from the same author.
+4. **Paul explicitly denies abolishing Torah.** "Do we then abolish the Law through faith? May it never be! On the contrary, we establish the Law" (Romans 3:31). If Ephesians 2:15 means Torah is abolished, Romans 3:31 is a direct contradiction from the same author.
 
 5. **The result is inclusion, not exemption.** Gentiles become fellow citizens of Israel's household. They are brought into the covenant, not released from its terms.
 
@@ -129,6 +129,6 @@ However, the internal evidence pushes against it:
 
 Ephesians 2 describes a real and historic demolition — but of the right wall. The wall that separated Jew from Gentile was real. It was constructed from centuries of human rulings, cultural hostility, and religious exclusivism that went beyond what God ever commanded. Yeshua tore it down so that "the two" could become "one new humanity."
 
-But tearing down the wall of exclusion is not the same as demolishing the house. Gentiles are brought through the demolished wall and into the household of God — "built on the foundation of the apostles and prophets, with Christ Jesus himself as the chief cornerstone" (Ephesians 2:20). A household has principles. A household has a way of life. The new residents are not told the house rules have been cancelled. They are welcomed in and shown how the household runs.
+But tearing down the wall of exclusion is not the same as demolishing the house. Gentiles are brought through the demolished wall and into the household of God — "built on the foundation of the apostles and prophets, Christ Jesus Himself being the corner stone" (Ephesians 2:20). A household has principles. A household has a way of life. The new residents are not told the house rules have been cancelled. They are welcomed in and shown how the household runs.
 
 What was abolished: the decrees that kept Gentiles out. What remains: the instruction of God that governs life inside the household. Yeshua did not cancel the Torah. He opened the door.

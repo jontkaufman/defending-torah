@@ -2,12 +2,12 @@
 title: "Romans 10:4 — \"Christ is the End of the Law\""
 excerpt: "Paul says Christ is the 'end' of the law. Does that mean Torah is terminated?"
 objection: "Romans 10:4 says 'Christ is the end of the law for righteousness to everyone who believes.' The law has ended — Christ terminated it. Christians are no longer bound by Torah."
-quick_answer: "The Greek word telos means 'goal' or 'purpose,' not 'termination.' Christ is the goal the Torah was always pointing toward — its destination, not its demolition. Paul says exactly this in the same letter: 'Do we nullify the law by this faith? Not at all! Rather, we uphold the law' (Romans 3:31)."
+quick_answer: "The Greek word telos means 'goal' or 'purpose,' not 'termination.' Christ is the goal the Torah was always pointing toward — its destination, not its demolition. Paul says exactly this in the same letter: 'Do we then abolish the Law through faith? May it never be! On the contrary, we establish the Law' (Romans 3:31)."
 key_points:
   - "The Greek telos means goal, purpose, or completion — not termination. Every other use of telos in the Apostolic writings confirms this meaning."
   - "Paul's own context in Romans 9-10 is about Israel pursuing righteousness by works instead of faith. Christ is the goal of what Torah was always aiming at — righteousness through faith."
-  - "Reading telos as 'termination' forces Paul to contradict himself within the same letter — Romans 3:31 ('we uphold the law'), 7:12 ('the law is holy'), and 8:4 ('the righteous requirement of the law might be fully met in us')."
-  - "1 Timothy 1:5 uses the same word: 'The telos of the commandment is love.' No one reads that as 'love terminates the commandment.'"
+  - "Reading telos as 'termination' forces Paul to contradict himself within the same letter — Romans 3:31 ('we establish the Law'), 7:12 ('the Law is holy'), and 8:4 ('the righteous requirement of the Law might be fulfilled in us')."
+  - "1 Timothy 1:5 uses the same word: 'The goal of our command is love.' No one reads that as 'love terminates the commandment.'"
 category: arguments
 topic: grace-and-law
 tags: [paul, romans, greek-grammar, telos, fulfillment]
@@ -34,19 +34,19 @@ English "end" can mean any of these. "The end of a journey" can mean the destina
 
 Every other occurrence of **telos** in the Apostolic writings points decisively toward "goal" or "purpose":
 
-> The telos of the commandment is love from a pure heart. (1 Timothy 1:5)
+> But the goal of our command is love from a pure heart and a good conscience and an unhypocritical faith. (1 Timothy 1:5)
 
 No one reads this as "love terminates the commandment." The commandment **aims at** love — love is its goal.
 
-> You have seen the telos of the Lord. (James 5:11)
+> Behold, we count those blessed who persevere. You have heard of the perseverance of Job and have seen the outcome of the Lord's dealings, that the Lord is full of compassion and is merciful. (James 5:11)
 
 James is pointing to God's intended purpose and outcome, not God's termination.
 
-> Receiving the telos of your faith — the salvation of your souls. (1 Peter 1:9)
+> ...receiving as the outcome of your faith the salvation of your souls. (1 Peter 1:9)
 
 Salvation is what faith **aims at**. Faith is not terminated by salvation; it arrives at its goal.
 
-> The telos of those things is death... the telos is eternal life. (Romans 6:21-22)
+> Therefore what benefit were you then having from the things of which you are now ashamed? For the end of those things is death. But now having been freed from sin and enslaved to God, you have your benefit, leading to sanctification, and the end, eternal life. (Romans 6:21-22)
 
 Paul himself uses telos to mean "outcome" or "destination" — the result that sin or righteousness leads to.
 
@@ -56,7 +56,7 @@ In none of these cases does **telos** mean "termination." The consistent pattern
 
 Romans 10:4 does not appear in a vacuum. Paul is addressing a specific problem: Israel pursued righteousness through works of Torah rather than through faith.
 
-> Israel, who pursued the law as the way of righteousness, has not attained its goal. Why not? Because they pursued it not by faith but as if it were by works. (Romans 9:31-32)
+> ...but Israel, pursuing a law of righteousness, did not attain that law. Why? Because they did not pursue it by faith, but as though it were by works. (Romans 9:31-32)
 
 Yeshua is the **goal** of what Torah was always pointing toward — righteousness through faith. The Torah aimed at him. He is its destination, not its demolition.
 
@@ -66,17 +66,17 @@ This aligns with the concept of biblical fulfillment: when Yeshua says ["I did n
 
 If **telos** means "termination" in Romans 10:4, Paul contradicts himself within the very same letter — not in a different book or a disputed epistle, but in Romans itself:
 
-> Do we nullify the law by this faith? Not at all! Rather, we uphold the law. (Romans 3:31)
+> Do we then abolish the Law through faith? May it never be! On the contrary, we establish the Law. (Romans 3:31)
 
-The Greek **histanomen** means "we establish, we confirm, we uphold." Paul explicitly says faith does not nullify Torah.
+The Greek **histanomen** means "we establish, we confirm." Paul explicitly says faith does not abolish Torah.
 
-> The law is holy, and the commandment is holy, righteous and good. (Romans 7:12)
+> So, the Law is holy, and the commandment is holy and righteous and good. (Romans 7:12)
 
-> For in my inner being I delight in God's law. (Romans 7:22)
+> For I joyfully concur with the law of God in the inner man. (Romans 7:22)
 
-If the law was terminated, why does Paul call it holy, righteous, and good? Why does he delight in it?
+If the Law was terminated, why does Paul call it holy and righteous and good? Why does he joyfully concur with it?
 
-> ...in order that the righteous requirement of the law might be fully met in us, who do not walk according to the flesh but according to the Spirit. (Romans 8:4)
+> ...so that the righteous requirement of the Law might be fulfilled in us, who do not walk according to the flesh but according to the Spirit. (Romans 8:4)
 
 Grace does not abolish the Torah's requirements. Grace enables believers to fulfill them through the Spirit. Paul's entire argument in Romans builds toward this: the Spirit empowers what the flesh could not — genuine Torah obedience.
 

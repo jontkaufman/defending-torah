@@ -20,7 +20,7 @@ That's **a full decade later**.
 
 Peter goes up on a roof to pray. He gets hungry. He falls into a trance and sees a sheet descending from heaven, full of animals. A voice says, "Kill and eat." And Peter says:
 
-> "Surely not, Lord! I have **never** eaten anything impure or unclean." (Acts 10:14)
+> "By no means, Lord, for I have **never** eaten anything defiled and unclean." (Acts 10:14)
 
 Never. Not "I stopped for a while." Not "I used to but I'm struggling." **Never.**
 
@@ -34,7 +34,7 @@ So either the Spirit-filled leader of the early church was wrong for an entire d
 
 Here's the part that should end every argument. Peter doesn't leave us guessing about what the vision meant. He tells us plainly:
 
-> "God has shown me that I should not call **anyone** impure or unclean." (Acts 10:28)
+> "God has shown me that I should not call **any man** defiled or unclean." (Acts 10:28)
 
 Not "God showed me I can eat bacon." Not "God showed me the dietary laws are over." He says: **it's about people.** Specifically, it's about accepting Gentiles into the community of believers.
 
@@ -44,8 +44,8 @@ Three times the vision repeats. Three messengers from Cornelius show up at the d
 
 Acts doesn't mention this vision once. It covers it **three separate times**:
 
-1. **Acts 10:28** — Peter explains it to Cornelius: "God has shown me that I should not call anyone impure or unclean."
-2. **Acts 11:1-18** — Peter explains it to the Jerusalem church: they conclude "God has granted repentance that leads to life even to the Gentiles."
+1. **Acts 10:28** — Peter explains it to Cornelius: "God has shown me that I should not call any man defiled or unclean."
+2. **Acts 11:1-18** — Peter explains it to the Jerusalem church: they conclude "God has granted to the Gentiles also the repentance that leads to life."
 3. **Acts 15:7-11** — Peter references it at the Jerusalem Council: it's about Gentiles receiving the gospel.
 
 Three explanations. Every single one is about **accepting Gentiles**. Not one person in any of these accounts concludes "we can eat unclean animals now." Not one.

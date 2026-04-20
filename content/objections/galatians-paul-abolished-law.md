@@ -32,23 +32,23 @@ The phrase Paul uses is **erga nomou** — "works of the law." This refers to pe
 
 This is Paul's own distinction. In the same body of letters, he writes:
 
-> Do we then overthrow the law by this faith? By no means! On the contrary, we uphold the law. (Romans 3:31)
+> Do we then abolish the Law through faith? May it never be! On the contrary, we establish the Law. (Romans 3:31)
 
 Paul explicitly denies that his teaching about faith-based justification overthrows Torah. If Galatians meant "Torah is abolished," Romans 3:31 would be incoherent. But Paul is consistent: faith is the mechanism of justification, and Torah is the instruction for how the justified should live. These are not in conflict.
 
 ## "Cursed Is Everyone Under the Law"
 
-> For all who rely on works of the law are under a curse; for it is written, "Cursed be everyone who does not abide by all things written in the Book of the Law, and do them." (Galatians 3:10)
+> For as many as are of the works of the Law are under a curse, for it is written, "CURSED IS EVERYONE WHO DOES NOT ABIDE BY ALL THINGS WRITTEN IN THE BOOK OF THE LAW, TO DO THEM." (Galatians 3:10)
 
 Paul is quoting Deuteronomy 27:26 — the covenant curses. His argument is simple: no one has perfectly kept the entire Torah. Therefore, anyone who depends on perfect Torah performance as their basis for justification stands condemned by their own failures. The "curse" is the **penalty for breaking Torah** as outlined in Deuteronomy 28 — it is not Torah itself.
 
-> Christ redeemed us from the curse of the law by becoming a curse for us. (Galatians 3:13)
+> Christ redeemed us from the curse of the Law, having become a curse for us—for it is written, "CURSED IS EVERYONE WHO HANGS ON A TREE." (Galatians 3:13)
 
 Yeshua redeems us from the **curse** — the consequence of our failure. He does not redeem us from the instruction. A governor can pardon a prisoner from the penalty of the law without abolishing the law itself. That is precisely what Paul describes.
 
 ## The Paidagogos — Guardian, Not Obstacle
 
-> So then, the law was our guardian [paidagogos] until Christ came, in order that we might be justified by faith. But now that faith has come, we are no longer under a guardian. (Galatians 3:24-25)
+> Therefore the Law has become our tutor unto Christ, so that we may be justified by faith. But now that faith has come, we are no longer under a tutor. (Galatians 3:24-25)
 
 The **paidagogos** in the ancient world was not a teacher. He was a household slave who escorted children to school and supervised their conduct. His job was to bring the child safely to the teacher. Once the child arrives, the escort's supervisory role is fulfilled — but the child does not then reject everything the guardian taught him or burn down the school. (For a detailed examination of this metaphor, see our [deep dive on Galatians 3:24-25](/objection-finder/galatians-3-24-law-was-tutor).)
 
@@ -56,7 +56,7 @@ Paul's point: Torah's role as the escort bringing us to Messiah is complete. We 
 
 ## "Fallen from Grace"
 
-> You are severed from Christ, you who would be justified by the law; you have fallen away from grace. (Galatians 5:4)
+> You have been severed from Christ, you who are being justified by law; you have fallen from grace! (Galatians 5:4)
 
 This verse is devastating to the abolition reading — when read in context. Paul is not talking about a believer who keeps the Sabbath out of love for God. He is talking about people who are being told that **circumcision is required for salvation** (Galatians 5:2-3). "Fallen from grace" means abandoning the grace mechanism and returning to a works-based salvation system. It is about the basis of justification, not about the believer's daily walk.
 

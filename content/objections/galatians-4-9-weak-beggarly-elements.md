@@ -25,11 +25,11 @@ Galatians 4:9-11 may be the single most-cited passage against observing biblical
 
 The verses do not begin at 4:9. Paul sets up his argument in the verse before:
 
-> Formerly, when you did not know God, you were enslaved to those that by nature are not gods. (Galatians 4:8)
+> However at that time, when you did not know God, you were slaves to those which by nature are no gods. (Galatians 4:8)
 
 This is Paul's description of the Galatians' *pre-conversion* state. They were Gentile idol-worshippers. They served beings that "by nature are not gods" — pagan deities, false powers. This is the baseline Paul establishes before his warning.
 
-> But now that you have come to know God, or rather to be known by God, how can you turn back again to the weak and worthless elementary principles of the world, whose slaves you want to be once more? You observe days and months and seasons and years! I am afraid I may have labored over you in vain. (Galatians 4:9-11)
+> But now, having known God, or rather having been known by God, how is it that you turn back again to the weak and worthless elemental things, to which you want to be enslaved all over again? You observe days and months and seasons and years. I fear for you, that perhaps I have labored over you for nothing. (Galatians 4:9-11)
 
 The traditional reading treats "weak and worthless elementary principles" as Torah and "days and months and seasons and years" as God's appointed times. But the text itself resists this at multiple points.
 
@@ -63,15 +63,15 @@ This is a subtle but important point. If Paul wanted to say "Sabbaths and feasts
 
 This is not a minor inconsistency. Paul's own statements about Torah make it impossible for him to be the one calling it weak and worthless:
 
-> So the law is holy, and the commandment is holy and righteous and good. (Romans 7:12)
+> So, the Law is holy, and the commandment is holy and righteous and good. (Romans 7:12)
 
-> For we know that the law is spiritual. (Romans 7:14)
+> For we know that the Law is spiritual, but I am fleshly, having been sold into bondage under sin. (Romans 7:14)
 
-> Do we then overthrow the law by this faith? By no means! On the contrary, we uphold the law. (Romans 3:31)
+> Do we then abolish the Law through faith? May it never be! On the contrary, we establish the Law. (Romans 3:31)
 
 And the Psalms — which Paul regarded as Scripture — declare:
 
-> The law of the LORD is perfect, reviving the soul. (Psalm 19:7)
+> The law of Yahweh is perfect, restoring the soul. (Psalm 19:7)
 
 If Paul believed Torah was "holy, righteous, good, spiritual," and "perfect," he could not in the same body of letters call it "weak and beggarly." That would be a direct contradiction. It would also amount to calling God's own declared instruction worthless — something no first-century Jewish teacher, however radical, would do casually.
 
@@ -81,13 +81,13 @@ The "weak and beggarly elements" must refer to something other than Torah. Pagan
 
 If Paul was condemning feast observance, his own life makes no sense:
 
-> We sailed away from Philippi after the days of Unleavened Bread. (Acts 20:6)
+> And we sailed from Philippi after the days of Unleavened Bread. (Acts 20:6)
 
-> For Paul had decided to sail past Ephesus... for he was hastening to be at Jerusalem, if possible, on the day of Pentecost. (Acts 20:16)
+> For Paul had decided to sail past Ephesus... for he was hurrying to be in Jerusalem, if possible, on the day of Pentecost. (Acts 20:16)
 
-> Christ, our Passover lamb, has been sacrificed. Therefore let us keep the feast, not with old leaven... but with the unleavened bread of sincerity and truth. (1 Corinthians 5:7-8)
+> Clean out the old leaven so that you may be a new lump, just as you are in fact unleavened. For Christ, our Passover lamb, also was sacrificed. Therefore let us celebrate the feast, not with old leaven, nor with the leaven of malice and wickedness, but with the unleavened bread of sincerity and truth. (1 Corinthians 5:7-8)
 
-Paul marked time by the biblical feasts. He rearranged his travel schedule around them. He commanded the Corinthian community — predominantly Gentile — to "keep the feast." If Galatians 4:10 meant "stop observing biblical festivals," Paul was violating his own instruction across the entirety of Acts and his letters. That reading turns him into a deliberate hypocrite, which is not a serious possibility.
+Paul marked time by the biblical feasts. He rearranged his travel schedule around them. He commanded the Corinthian community — predominantly Gentile — to "celebrate the feast." If Galatians 4:10 meant "stop observing biblical festivals," Paul was violating his own instruction across the entirety of Acts and his letters. That reading turns him into a deliberate hypocrite, which is not a serious possibility.
 
 ## The Honest Difficulty
 
@@ -99,9 +99,9 @@ However, even on this broader reading, the "again" problem remains. Whatever the
 
 The Apostle Peter anticipated exactly this kind of misreading:
 
-> Our beloved brother Paul also wrote to you according to the wisdom given him... There are some things in them that are hard to understand, which the ignorant and unstable twist to their own destruction, as they do the other Scriptures. You therefore, beloved, knowing this beforehand, take care that you are not carried away with the error of lawless people and lose your own stability. (2 Peter 3:15-17)
+> ...our beloved brother Paul, according to the wisdom given him, wrote to you, as also in all his letters, speaking in them of these things, in which are some things hard to understand, which the untaught and unstable distort, as they do also the rest of the Scriptures, to their own destruction. You therefore, beloved, knowing this beforehand, be on your guard lest you, having been carried away by the error of unprincipled men, fall from your own steadfastness. (2 Peter 3:15-17)
 
-Peter says Paul's letters are "hard to understand." He says people twist them. And he names the result: the error of "lawless people" — **athesmon**, those who disregard Torah. Reading Galatians 4 as a prohibition against God's own appointed times is precisely the kind of twisting Peter warned about, leading to precisely the lawlessness he identified. For the broader context of Paul's argument in this letter, see our [comprehensive Galatians response](/objection-finder/galatians-paul-abolished-law).
+Peter says Paul's letters are "hard to understand." He says people distort them. And he names the result: the error of "unprincipled men" — **athesmon**, those who disregard Torah. Reading Galatians 4 as a prohibition against God's own appointed times is precisely the kind of twisting Peter warned about, leading to precisely the lawlessness he identified. For the broader context of Paul's argument in this letter, see our [comprehensive Galatians response](/objection-finder/galatians-paul-abolished-law).
 
 ## What Paul Is Actually Saying
 

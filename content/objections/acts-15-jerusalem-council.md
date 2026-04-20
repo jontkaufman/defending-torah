@@ -25,9 +25,9 @@ Acts 15 records the first major doctrinal controversy in the early believing com
 
 The controversy is stated plainly in the text:
 
-> But some men came down from Judea and were teaching the brothers, "Unless you are circumcised according to the custom of Moses, you cannot be saved." (Acts 15:1)
+> Some men came down from Judea and began teaching the brothers, "Unless you are circumcised according to the custom of Moses, you cannot be saved." (Acts 15:1)
 
-> But some believers who belonged to the party of the Pharisees rose up and said, "It is necessary to circumcise them and to order them to keep the law of Moses." (Acts 15:5)
+> But some of the sect of the Pharisees who had believed stood up, saying, "It is necessary to circumcise them and to command them to keep the Law of Moses." (Acts 15:5)
 
 Two details are critical. First, the phrase "cannot be saved" in verse 1 anchors the entire dispute in **justification** — how a person is made right with God. The Judaizers were teaching faith plus works equals salvation. (For more on what "Judaizing" actually means, see our response to [the Judaizing accusation](/objection-finder/judaizing-accusation).) Second, the objectors are identified as belonging to "the party of the Pharisees" (v. 5). These were not simply Torah-observant believers. They wanted Gentiles to adopt the entire Pharisaic system: circumcision as a salvation requirement, submission to rabbinic authority, and adherence to oral traditions beyond what Scripture commanded.
 
@@ -37,7 +37,7 @@ The Council was not deciding whether Gentiles should observe Sabbath, feasts, or
 
 Peter speaks first, recounting his experience with Cornelius:
 
-> God, who knows the heart, bore witness to them by giving them the Holy Spirit just as he did to us, and he made no distinction between us and them, having cleansed their hearts by faith. Now, therefore, why are you putting God to the test by placing a yoke on the neck of the disciples that neither our fathers nor we have been able to bear? But we believe that we will be saved through the grace of the Lord Yeshua, just as they will. (Acts 15:8-11)
+> And God, who knows the heart, testified to them giving them the Holy Spirit, just as He also did to us; and He made no distinction between us and them, cleansing their hearts by faith. Now therefore why do you put God to the test by placing upon the neck of the disciples a yoke which neither our fathers nor we have been able to bear? But we believe that we are saved through the grace of the Lord Yeshua, in the same way as they also are. (Acts 15:8-11)
 
 The "yoke" Peter references is not Torah itself. Yeshua described his own yoke as "easy" and his burden as "light" (Matthew 11:30). The unbearable yoke is the Pharisaic system — the same burden Yeshua criticized in Matthew 23:4 when he said the Pharisees "tie up heavy burdens, hard to bear, and lay them on people's shoulders." Peter is arguing against works-based salvation, not against obedience to God's instruction.
 
@@ -45,7 +45,7 @@ The "yoke" Peter references is not Torah itself. Yeshua described his own yoke a
 
 James renders the final decision:
 
-> Therefore my judgment is that we should not trouble those of the Gentiles who turn to God, but should write to them to abstain from the things polluted by idols, and from sexual immorality, and from what has been strangled, and from blood. (Acts 15:19-20)
+> Therefore I judge that we do not trouble those who are turning to God from among the Gentiles, but that we write to them that they abstain from things contaminated by idols and from sexual immorality and from what is strangled and from blood. (Acts 15:19-20)
 
 The traditional reading treats these four prohibitions as the complete and total extent of Gentile obligation. But this reading collapses under examination. If these four items were everything Gentiles are expected to obey, then Gentile believers could lie, steal, blaspheme, covet, and dishonor their parents without consequence. The apostles would be teaching less than the basic moral law given to all humanity. This is not a serious reading.
 
@@ -55,19 +55,19 @@ The four prohibitions address the most urgent barriers to fellowship between Jew
 
 The four prohibitions closely parallel the Torah's laws for **the sojourner** (Hebrew: **ger**) — the non-Israelite dwelling among God's people:
 
-> Say to them, Any one of the people of Israel, or of the strangers who sojourn among them... (Leviticus 17:8)
+> Then you shall say to them, "Any man from the house of Israel, or from the sojourners who sojourn among them..." (Leviticus 17:8)
 
-> You shall keep my statutes and my rules and do none of these abominations, either the native or the stranger who sojourns among you. (Leviticus 18:26)
+> But as for you, you shall keep My statutes and My judgments and shall not do any of these abominations, neither the native, nor the sojourner who sojourns among you. (Leviticus 18:26)
 
 The prohibitions on idol sacrifice correspond to Leviticus 17:7-9, the blood prohibition to Leviticus 17:10-14, the strangled-animal prohibition to Leviticus 17:13-15, and sexual immorality to the detailed prohibitions of Leviticus 18:6-30. This is not a new list invented by the apostles. It is Torah's own provision for Gentiles entering the community of God's people.
 
-The sojourner laws were always a starting point. Numbers 15:15-16 makes the trajectory clear: "One law and one rule shall be for you and for the stranger who sojourns with you." The sojourner begins with the essentials and grows into the full covenant life of the community.
+The sojourner laws were always a starting point. Numbers 15:15-16 makes the trajectory clear: "There shall be one law and one judgment for you and for the sojourner who sojourns with you." The sojourner begins with the essentials and grows into the full covenant life of the community.
 
 ## The Key Verse Everyone Overlooks: Acts 15:21
 
 Immediately after giving the four prohibitions, James adds what may be the most important sentence in the chapter:
 
-> For from ancient generations Moses has had in every city those who proclaim him, for he is read every Sabbath in the synagogues. (Acts 15:21)
+> For from ancient generations Moses has those who preach him in every city, since he is read in the synagogues every Sabbath. (Acts 15:21)
 
 Why does James add this? The common reading says he is noting that Torah is already well-known, so there is no need to add more requirements. But this makes no sense. If the point were "don't bother them with Torah," why mention Moses at all?
 
@@ -91,7 +91,7 @@ If Acts 15 meant "Gentiles don't keep Torah and Jews can take it or leave it," w
 
 ## The Inconvenient Evidence
 
-The strongest version of the opposing argument deserves honest engagement. The letter sent to Gentile churches says: "It has seemed good to the Holy Spirit and to us to lay on you no greater burden than these requirements" (Acts 15:28). The phrase "no greater burden" does sound final. And the Council does not explicitly list Sabbath, feasts, or dietary laws beyond blood and strangled animals.
+The strongest version of the opposing argument deserves honest engagement. The letter sent to Gentile churches says: "It seemed good to the Holy Spirit and to us to lay upon you no greater burden than these essentials" (Acts 15:28). The phrase "no greater burden" does sound final. And the Council does not explicitly list Sabbath, feasts, or dietary laws beyond blood and strangled animals.
 
 This is genuine. The letter, read in isolation, could be taken as a complete list. But reading it in isolation requires ignoring verse 21 and ignoring everything Paul did afterward. The phrase "no greater burden" addresses the immediate controversy: the Pharisaic system of circumcision plus oral law as a salvation requirement. These four requirements are not a heavy burden compared to that system (Matthew 23:4). They are the starting point for fellowship, with Torah instruction to follow as they hear Moses every Sabbath.
 
@@ -99,11 +99,11 @@ This is genuine. The letter, read in isolation, could be taken as a complete lis
 
 The idea that Acts 15 creates two separate standards — one for Jews and one for Gentiles — contradicts Torah itself:
 
-> You and the sojourner shall be alike before the LORD. One law and one rule shall be for you and for the stranger who sojourns with you. (Numbers 15:15-16)
+> As for the assembly, there shall be one statute for you and for the sojourner who sojourns with you, a perpetual statute throughout your generations; as you are, so shall the sojourner be before Yahweh. There shall be one law and one judgment for you and for the sojourner who sojourns with you. (Numbers 15:15-16)
 
-> There shall be one law for the native and for the stranger who sojourns among you. (Exodus 12:49)
+> The same law shall apply to the native as to the sojourner who sojourns among you. (Exodus 12:49)
 
-And it contradicts Paul's own teaching about Gentile believers being [brought into the commonwealth of Israel](/objection-finder/ephesians-2-15-dividing-wall) (Ephesians 2:12-13, 19), not established as a parallel community with separate rules. Acts 15:11 makes the point directly: "We believe that we will be saved through the grace of the Lord Yeshua, just as they will." Same salvation. Same covenant people. Same instruction.
+And it contradicts Paul's own teaching about Gentile believers being [brought into the commonwealth of Israel](/objection-finder/ephesians-2-15-dividing-wall) (Ephesians 2:12-13, 19), not established as a parallel community with separate rules. Acts 15:11 makes the point directly: "We believe that we are saved through the grace of the Lord Yeshua, in the same way as they also are." Same salvation. Same covenant people. Same instruction.
 
 ## What Acts 15 Actually Decides
 

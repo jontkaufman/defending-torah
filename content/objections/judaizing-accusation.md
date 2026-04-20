@@ -25,9 +25,9 @@ related: [galatians-paul-abolished-law, colossians-2-16, sabbath-only-for-jews, 
 
 The term "Judaizer" does not appear in most English translations. The underlying concept comes from two key passages that describe a specific theological error:
 
-> But some men came down from Judea and were teaching the brothers, "Unless you are circumcised according to the custom of Moses, you cannot be saved." ([Acts 15:1](/objection-finder/acts-15-jerusalem-council))
+> Some men came down from Judea and began teaching the brothers, "Unless you are circumcised according to the custom of Moses, you cannot be saved." ([Acts 15:1](/objection-finder/acts-15-jerusalem-council))
 
-> Look: I, Paul, say to you that if you accept circumcision, Christ will be of no advantage to you. I testify again to every man who accepts circumcision that he is obligated to keep the whole law. You are severed from Christ, you who would be justified by the law; you have fallen from grace. (Galatians 5:2-4)
+> Behold I, Paul, say to you that if you receive circumcision, Christ will be of no benefit to you. And I testify again to every man who receives circumcision, that he is under obligation to keep the whole Law. You have been severed from Christ, you who are being justified by law; you have fallen from grace! (Galatians 5:2-4)
 
 The Judaizer claim is precise: faith in Messiah is **not sufficient** for salvation. You must **also** be circumcised and submit to the Pharisaic legal system. Christ's work alone does not save — human performance must be added.
 
@@ -44,11 +44,11 @@ Torah-observant believers today hold a fundamentally different position:
 
 After salvation, obedience flows from love — not as a condition of grace but as a response to it:
 
-> If you love me, you will keep my commandments. (John 14:15)
+> If you love Me, you will keep My commandments. (John 14:15)
 
-> For this is the love of God, that we keep his commandments. And his commandments are not burdensome. (1 John 5:3)
+> For this is the love of God, that we keep His commandments; and His commandments are not burdensome. (1 John 5:3)
 
-> For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them. (Ephesians 2:10)
+> For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them. (Ephesians 2:10)
 
 The preposition makes the difference. Judaizers keep Torah **for** salvation. Believers keep Torah **because of** salvation. These are not the same thing, and conflating them distorts both positions.
 
@@ -56,11 +56,11 @@ The preposition makes the difference. Judaizers keep Torah **for** salvation. Be
 
 This is the fact that makes the Judaizing accusation collapse under its own weight. If keeping Torah is Judaizing, Paul was a Judaizer — and he condemned himself as a heretic in his own letters. The evidence is extensive and unambiguous:
 
-> Then Paul took the men, and the next day he purified himself along with them and went into the temple. (Acts 21:26)
+> Then Paul took the men, and the next day, purifying himself along with them, went into the temple giving notice of the completion of the days of purification, until the sacrifice was offered for each one of them. (Acts 21:26)
 
 James had told Paul to undergo a Nazirite vow — a Torah practice from Numbers 6 — to publicly demonstrate that the rumors about him were false. The specific rumor?
 
-> They have been told about you that you teach all the Jews who are among the Gentiles to forsake Moses, telling them not to circumcise their children or walk according to our customs. (Acts 21:21)
+> and they have been told about you, that you are teaching all the Jews who are among the Gentiles to forsake Moses, telling them not to circumcise their children nor to walk according to the customs. (Acts 21:21)
 
 James' response was not "Well, yes, he does teach that." It was: prove the rumor wrong. Demonstrate publicly that "you yourself also live in observance of the law" (Acts 21:24). Paul complied immediately.
 
@@ -74,7 +74,7 @@ Beyond this public demonstration, Paul's Torah observance runs throughout Acts:
 
 And in his letters, Paul commanded the predominantly Gentile Corinthian community:
 
-> Christ, our Passover lamb, has been sacrificed. Therefore let us keep the feast. (1 Corinthians 5:7-8)
+> For Christ, our Passover lamb, also was sacrificed. Therefore let us celebrate the feast. (1 Corinthians 5:7-8)
 
 Paul did not say "let us remember the feast spiritually." He said "let us keep it." The logic runs in the direction opposite to what the Judaizing accusation assumes: *because* Messiah has fulfilled the Passover, *therefore* keep the feast. Fulfillment intensifies observance; it does not cancel it.
 
@@ -82,13 +82,13 @@ Paul did not say "let us remember the feast spiritually." He said "let us keep i
 
 Much of the confusion stems from collapsing two distinct theological categories into one. Paul addresses **justification** — how a person is made right with God. James addresses **sanctification** — how a person who has been made right with God ought to live. These are complementary, not contradictory:
 
-> For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast. For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them. (Ephesians 2:8-10)
+> For by grace you have been saved through faith, and this not of yourselves, it is the gift of God; not of works, so that no one may boast. For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them. (Ephesians 2:8-10)
 
 Verses 8-9 address justification: grace, faith, not works. Verse 10 addresses sanctification: created *for* good works, prepared to *walk in them*. Works do not save us. But we are saved for works. Both truths are stated in the same breath.
 
 James makes the complementary point:
 
-> Faith apart from works is dead. (James 2:26)
+> For just as the body without the spirit is dead, so also faith without works is dead. (James 2:26)
 
 He is not contradicting Paul. He is answering a different question. Paul asks: "How are you saved?" Answer: faith alone. James asks: "How do you know your faith is real?" Answer: it produces works. Genuine faith results in obedience. The absence of obedience is not freedom — it is evidence that the faith may not be genuine.
 
@@ -109,7 +109,7 @@ The honest question, then, is not *whether* to keep Torah commands — everyone 
 
 There is a deep irony in the Judaizing charge. Yeshua's strongest warning in the Sermon on the Mount is not directed at people who obey too much. It is directed at people who practice **lawlessness**:
 
-> Not everyone who says to me, "Lord, Lord," will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven. On that day many will say to me, "Lord, Lord, did we not prophesy in your name, and cast out demons in your name, and do many mighty works in your name?" And then will I declare to them, "I never knew you; depart from me, you workers of lawlessness." (Matthew 7:21-23)
+> Not everyone who says to Me, "Lord, Lord," will enter the kingdom of heaven, but he who does the will of My Father who is in heaven will enter. Many will say to Me on that day, "Lord, Lord, in Your name did we not prophesy, and in Your name cast out demons, and in Your name do many miracles?" And then I will declare to them, "I never knew you; DEPART FROM ME, YOU WHO PRACTICE LAWLESSNESS." (Matthew 7:21-23)
 
 The Greek word for "lawlessness" is **anomia** — literally, "without Torah." These are people who confess Yeshua as Lord and perform spectacular works in his name. Yet he rejects them. The reason? They are Torah-less. They practice without the law.
 

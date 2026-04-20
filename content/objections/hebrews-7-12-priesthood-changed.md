@@ -24,11 +24,11 @@ Hebrews 7:12 is one of the most surgically precise verses in the Apostolic writi
 
 To understand verse 12, you have to read the chapter it sits in. The author is working through a single question: why does Psalm 110:4 promise a priest "after the order of Melchizedek" if the Levitical priesthood were sufficient?
 
-> If perfection could have been attained through the Levitical priesthood — and indeed the law given to the people established that priesthood — why was there still need for another priest to come, one in the order of Melchizedek, not in the order of Aaron? (Hebrews 7:11)
+> Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron? (Hebrews 7:11)
 
 The logic is straightforward. If the Levitical system could accomplish everything God intended, there would be no need to introduce a different priestly order. But Psalm 110:4 — written centuries after the establishment of the Levitical priesthood — announces a priest of a different kind. Something must give.
 
-> For when the priesthood is changed, the law must be changed also. (Hebrews 7:12)
+> For when the priesthood is changed, of necessity there takes place a change of law also. (Hebrews 7:12)
 
 This is where most readers stop and conclude: "The law changed. Case closed." But the author does not stop here. He immediately explains what he means.
 
@@ -36,7 +36,7 @@ This is where most readers stop and conclude: "The law changed. Case closed." Bu
 
 The very next verses narrow the scope:
 
-> He of whom these things are said belonged to a different tribe, and no one from that tribe has ever served at the altar. For it is clear that our Lord descended from Judah, and in regard to that tribe Moses said nothing about priests. (Hebrews 7:13-14)
+> For the one concerning whom these things are spoken belongs to another tribe, from which no one has officiated at the altar. For it is evident that our Lord was descended from Judah, a tribe with reference to which Moses spoke nothing concerning priests. (Hebrews 7:13-14)
 
 The "law" in question is the regulation that priests must come from the tribe of Levi (Numbers 3:10, 18:7). Yeshua is from the tribe of Judah. Moses said nothing about Judah producing priests. So the tribal eligibility requirement — that specific regulation — must shift to accommodate a Melchizedek-order priest.
 
@@ -46,13 +46,13 @@ The Greek word translated "changed" is **metatithemi**, which means "transferred
 
 Two verses later, the author makes the scope unmistakably clear:
 
-> The former regulation is set aside because it was weak and useless. (Hebrews 7:18)
+> For, on the one hand, there is a setting aside of a former commandment because of its weakness and uselessness. (Hebrews 7:18)
 
 The word for "regulation" here is **entoles** — singular. A commandment. One specific rule. Not "the Torah is set aside." Not "the commandments (plural) are set aside." A former commandment — the Levitical tribal requirement — is set aside because it could not accomplish the permanent, once-for-all priestly work that Yeshua performs.
 
 The next verse confirms the positive side:
 
-> (for the law made nothing perfect), but a better hope is introduced, by which we draw near to God. (Hebrews 7:19)
+> (for the Law made nothing perfect), and on the other hand there is a bringing in of a better hope, through which we draw near to God. (Hebrews 7:19)
 
 The parenthetical note — "the law made nothing perfect" — is about the Levitical system's inability to provide permanent atonement and direct access to God. It is not a statement that Torah is defective as instruction. The "better hope" is the Melchizedek priesthood, which accomplishes what the Levitical could not: an eternal, non-repeatable mediation.
 
@@ -67,7 +67,7 @@ The author of Hebrews never suggests that the following have been altered:
 
 In fact, Hebrews itself quotes Jeremiah 31:33 — the New Covenant promise — the same passage explored in our response to [Hebrews 8:13 ("the old covenant is obsolete")](/objection-finder/hebrews-8-13-obsolete-covenant):
 
-> This is the covenant I will establish with the people of Israel after that time, declares the Lord. I will put my laws in their minds and write them on their hearts. (Hebrews 8:10)
+> FOR THIS IS THE COVENANT THAT I WILL MAKE WITH THE HOUSE OF ISRAEL AFTER THOSE DAYS, SAYS THE LORD: I WILL PUT MY LAWS INTO THEIR MINDS, AND UPON THEIR HEARTS I WILL WRITE THEM. AND I WILL BE THEIR GOD, AND THEY SHALL BE MY PEOPLE. (Hebrews 8:10)
 
 If the "change of law" in 7:12 meant Torah was abolished, what laws would be written on the heart? The New Covenant does not replace Torah with something else. It internalizes the same Torah — moving it from external stone to internal heart. An abolished law cannot be written on anything.
 

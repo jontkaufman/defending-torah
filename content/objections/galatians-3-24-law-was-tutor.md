@@ -44,7 +44,7 @@ This is what Paul's audience would have pictured. Not a teacher who gets fired. 
 
 ## What Paul Actually Says
 
-> So the law was our **paidagogos** to bring us to Christ, that we might be justified by faith. But now that faith has come, we are no longer under a paidagogos. (Galatians 3:24-25)
+> Therefore the Law has become our **tutor** unto Christ, so that we may be justified by faith. But now that faith has come, we are no longer under a tutor. (Galatians 3:24-25)
 
 Paul's argument, stated in the terms of the metaphor:
 
@@ -58,15 +58,15 @@ What is conspicuously absent from this argument: any statement that the school h
 
 The phrase "no longer under a paidagogos" describes a change in **status**, not a change in what God requires. Paul uses the same language pattern throughout Galatians 3-4:
 
-> Before the coming of this faith, we were held in custody under the law, locked up until the faith that was to come would be revealed. (Galatians 3:23)
+> But before faith came, we were held in custody under the Law, being shut up for the coming faith to be revealed. (Galatians 3:23)
 
-> So also, when we were underage, we were in slavery under the elemental spiritual forces of the world. But when the set time had fully come, God sent his Son... to redeem those under the law, that we might receive adoption to sonship. (Galatians 4:3-5)
+> So also we, while we were children, were enslaved under the elemental things of the world. But when the fullness of the time came, God sent forth His Son, born of a woman, born under the Law, so that He might redeem those who were under the Law, that we might receive the adoption as sons. (Galatians 4:3-5)
 
 The movement Paul describes is from **minor to heir**, from **supervised child to adopted son**. A son who has received his inheritance does not tear up his father's household charter. He lives by it freely, as an owner rather than a ward. The rules of the house have not changed. The son's relationship to them has.
 
 This is precisely the transition prophesied in Jeremiah 31:33:
 
-> I will put my law within them, and I will write it on their hearts. (Jeremiah 31:33)
+> I will put My law within them, and on their heart I will write it. (Jeremiah 31:33)
 
 The Torah is not removed. It is internalized. The external supervision of the paidagogos gives way to the internal writing of the Spirit. Same Torah, different mode of engagement.
 
@@ -76,19 +76,19 @@ The tutor metaphor does not exist in isolation. Paul frames it carefully, and th
 
 ### Galatians 3:21 — "Is the law contrary to God's promises?"
 
-> Is the law, therefore, opposed to the promises of God? Absolutely not! (Galatians 3:21)
+> Is the Law then contrary to the promises of God? May it never be! For if a law had been given which was able to impart life, then righteousness would indeed be by law. (Galatians 3:21)
 
 Two verses before the paidagogos metaphor, Paul explicitly rejects the idea that Torah stands in opposition to God's promises. If the tutor metaphor meant "Torah is dismissed," Paul would be contradicting what he just said. The metaphor must mean something compatible with Torah being non-contrary to the promises.
 
 ### Galatians 3:17 — The law does not annul the promise
 
-> The law, introduced 430 years later, does not set aside the covenant previously established by God and thus do away with the promise. (Galatians 3:17)
+> And what I am saying is this: the Law, which came 430 years later, does not invalidate a covenant previously ratified by God, so as to abolish the promise. (Galatians 3:17)
 
 Paul's argument here is that Torah and promise coexist — Torah was added alongside the Abrahamic promise, not in replacement of it. Neither cancels the other. The paidagogos metaphor explains the **function** of Torah in the era before faith was revealed. It does not declare Torah null.
 
 ### Romans 3:31 — "We uphold the law"
 
-> Do we, then, nullify the law by this faith? Not at all! Rather, we uphold the law. (Romans 3:31)
+> Do we then abolish the Law through faith? May it never be! On the contrary, we establish the Law. (Romans 3:31)
 
 Written by the same author to address the same theological question. If Paul believed the paidagogos metaphor meant Torah was dismissed, this statement in Romans would be impossible. Paul's own interpretive gloss on his faith-vs-works teaching is unambiguous: faith upholds Torah.
 
@@ -112,9 +112,9 @@ This distinction is not imported from outside. It is Paul's own:
 
 One phrase in the passage deserves honest engagement because it does create a genuine tension:
 
-> Before the coming of this faith, we were held in custody under the law, locked up until the faith that was to come would be revealed. (Galatians 3:23)
+> But before faith came, we were held in custody under the Law, being shut up for the coming faith to be revealed. (Galatians 3:23)
 
-The language of being "held in custody" and "locked up" is strong. Paul is describing the pre-Messiah era as a period of confinement. This is not gentle language, and it should not be softened.
+The language of being "held in custody" and "shut up" is strong. Paul is describing the pre-Messiah era as a period of confinement. This is not gentle language, and it should not be softened.
 
 What must be acknowledged: Paul is describing a real limitation of the pre-faith era. Torah, without the Spirit's empowerment and without the revelation of Messiah, functioned as a confining boundary. It showed what God required but could not empower obedience from the heart. It diagnosed sin (Romans 3:20) but could not cure it.
 
@@ -142,7 +142,7 @@ The deepest problem with reading the paidagogos metaphor as "Torah is dismissed"
 
 This is precisely what Jeremiah 31 and Ezekiel 36 promise for the new covenant:
 
-> I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws. (Ezekiel 36:27)
+> I will put My Spirit within you and cause you to walk in My statutes, and you will be careful to do My judgments. (Ezekiel 36:27)
 
 The Spirit does not lead away from Torah. The Spirit empowers obedience to Torah — from the heart, as mature heirs rather than supervised children. This is what [Scripture means by righteousness](/articles/what-is-righteousness) — not self-generated merit, but Spirit-empowered obedience. The paidagogos is no longer needed, not because the destination was wrong, but because we have arrived.
 

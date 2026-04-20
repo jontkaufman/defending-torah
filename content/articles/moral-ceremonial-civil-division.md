@@ -27,7 +27,7 @@ The framework is useful as an organizing tool — it helps theologians categoriz
 
 Open a Bible to Leviticus 19. In a single chapter, the text moves seamlessly between commands the threefold system assigns to different categories:
 
-- "You shall be holy, for I the LORD your God am holy" (v. 2) — moral
+- "You shall be holy, for I, Yahweh your God, am holy" (v. 2) — moral
 - "Do not turn to idols" (v. 4) — moral
 - "When you offer a sacrifice of peace offerings" (v. 5) — ceremonial
 - "You shall not steal" (v. 11) — moral
@@ -36,7 +36,7 @@ Open a Bible to Leviticus 19. In a single chapter, the text moves seamlessly bet
 - "You shall love your neighbor as yourself" (v. 18) — moral
 - "You shall keep my Sabbaths" (v. 30) — ceremonial (or moral?)
 
-These commands are interwoven without any indication that some are temporary and others permanent. The text treats them as a unified body of instruction from the same God, given at the same mountain, with the same authority. The phrase "I am the LORD" — the divine signature — appears after commands from every supposed category equally.
+These commands are interwoven without any indication that some are temporary and others permanent. The text treats them as a unified body of instruction from the same God, given at the same mountain, with the same authority. The phrase "I am Yahweh" — the divine signature — appears after commands from every supposed category equally.
 
 Torah does not say, "Here begins the ceremonial section." It does not flag commands as temporary or mark others as eternal. The reader must impose the categories from outside the text.
 
@@ -44,13 +44,13 @@ Torah does not say, "Here begins the ceremonial section." It does not flag comma
 
 When a Pharisee asked Yeshua which commandment was the greatest, His answer revealed how He organized Torah — and it was not the threefold division:
 
-> "You shall love the Lord your God with all your heart and with all your soul and with all your mind. This is the great and first commandment. And a second is like it: You shall love your neighbor as yourself. On these two commandments depend all the Law and the Prophets." (Matthew 22:37-40)
+> 'YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND.' This is the great and foremost commandment. And the second is like it, 'You shall love your neighbor as yourself.' On these two commandments hang the whole Law and the Prophets. (Matthew 22:37-40)
 
 Yeshua's framework is twofold: love God (vertical) and love neighbor (horizontal). **All** the Law hangs on these two. Not "the moral portions hang on these two." All of it. The dietary laws express love for God (obedience and holiness). The Sabbath expresses love for God (worship and trust) and love for neighbor (rest for servants, animals, and sojourners). The sacrificial system expressed love for God (atonement, gratitude, consecration). Every command fits the twofold framework Yeshua affirms — and you can see this for yourself in the [full Torah laws index](/torah-laws), where each command serves one or both of these purposes.
 
 More revealing is what Yeshua says in Matthew 23:23:
 
-> Woe to you, scribes and Pharisees, hypocrites! For you tithe mint and dill and cumin, and have neglected the weightier matters of the law: justice and mercy and faithfulness. These you ought to have done, **without neglecting the others.**
+> Woe to you, scribes and Pharisees, hypocrites! For you tithe mint and dill and cumin, and have neglected the weightier provisions of the Law: justice and mercy and faithfulness; but these are the things you should have done **without neglecting the others.**
 
 Tithing herbs is, by any threefold classification, ceremonial law. Justice, mercy, and faithfulness are moral. Yeshua acknowledges that some matters are "weightier" — but He does not say the lighter matters are abolished. He says "without neglecting the others." He affirms the entire Torah, distinguishing priority but not validity.
 
@@ -64,7 +64,7 @@ But when it comes to the Sabbath, the framework suddenly requires surgery. The c
 
 No other commandment receives this treatment. "Do not murder" is not divided into a moral principle (value life) and a ceremonial detail (literally not killing). "Honor your father and mother" is not divided into a moral principle (respect authority) and a ceremonial detail (specifically your biological parents). The Sabbath alone is dissected — and the reason is transparent: the church inherited Sunday observance from post-apostolic tradition and needed a biblical justification for it.
 
-The command itself resists this division. Exodus 20:8-11 specifies "the seventh day" four times and grounds it in God's own pattern: "For in six days the LORD made heaven and earth... and rested on the seventh day. Therefore the LORD blessed the Sabbath day and made it holy." The specific day is not an incidental detail — it is the very substance of the command, rooted in the creation order (Genesis 2:2-3). If the seventh day is "ceremonial," then it was ceremonial before any ceremony existed, since God blessed and sanctified it at creation — 2,500 years before Sinai.
+The command itself resists this division. Exodus 20:8-11 specifies "the seventh day" four times and grounds it in God's own pattern: "For in six days Yahweh made the heavens and the earth... and rested on the seventh day; therefore Yahweh blessed the sabbath day and made it holy." The specific day is not an incidental detail — it is the very substance of the command, rooted in the creation order (Genesis 2:2-3). If the seventh day is "ceremonial," then it was ceremonial before any ceremony existed, since God blessed and sanctified it at creation — 2,500 years before Sinai.
 
 Calvin himself acknowledged the problem. In the *Institutes* (II.8.34), he admitted that Sunday observance rests "not by a commandment of our Lord, but by the consent and custom of the Church." A tradition grounded in church custom, not biblical command — defended by a tradition that claims *sola scriptura* (Scripture alone).
 
@@ -85,7 +85,7 @@ The arbitrariness reveals that the categories are not derived from Scripture but
 
 The apostle James addresses this directly:
 
-> For whoever keeps the whole law but fails in one point has become guilty of all of it. For he who said, "Do not commit adultery," also said, "Do not murder." If you do not commit adultery but do murder, you have become a transgressor of the law. (James 2:10-11)
+> For whoever keeps the whole law and yet stumbles in one point, he has become guilty of all. For He who said, 'DO NOT COMMIT ADULTERY,' also said, 'DO NOT MURDER.' Now if you do not commit adultery, but murder, you have become a transgressor of the law. (James 2:10-11)
 
 James presents Torah as a unified whole. You cannot isolate individual commands and discard them while keeping others. The same God who said "do not commit adultery" also said "do not murder" — and, we should add, also said "remember the Sabbath," "do not eat unclean animals," and "keep My feasts." If the authority behind the commands is the same, what principle allows dismissing some while retaining others?
 
@@ -95,11 +95,11 @@ The threefold division answers: "The ceremonial ones pointed to Christ and are f
 
 Paul is often cited in support of the threefold division, but he never uses it. His actual statements about Torah are more nuanced:
 
-> Do we then overthrow the law by this faith? By no means! On the contrary, we **uphold the law**. (Romans 3:31)
+> Do we then abolish the Law through faith? May it never be! On the contrary, we **establish the Law**. (Romans 3:31)
 
-> So the law is holy, and the commandment is holy and righteous and good. (Romans 7:12)
+> So the Law is holy, and the commandment is holy and righteous and good. (Romans 7:12)
 
-Paul's concern throughout Romans and Galatians is not which categories of law continue. His concern is the relationship between Torah and justification — specifically, that no one is declared righteous before God by performing works of law (Romans 3:20, Galatians 2:16). This is about the **function** of Torah in salvation, not the **abolition** of Torah's content. Paul himself "lives in observance of the law" (Acts 21:24) and declares "we uphold the law" — language incompatible with discarding two-thirds of Torah as obsolete.
+Paul's concern throughout Romans and Galatians is not which categories of law continue. His concern is the relationship between Torah and justification — specifically, that no one is declared righteous before God by performing works of law (Romans 3:20, Galatians 2:16). This is about the **function** of Torah in salvation, not the **abolition** of Torah's content. Paul himself "walk[s] orderly, keeping the Law" (Acts 21:24) and declares "we establish the Law" — language incompatible with discarding two-thirds of Torah as obsolete.
 
 When Paul lists specific commands he expects believers to follow, he draws freely from what the threefold system would classify as both moral and ceremonial. The [Jerusalem Council](/objection-finder/acts-15-jerusalem-council) imposed dietary restrictions on Gentile believers (Acts 15:29) — commands from Leviticus 17, classified as "ceremonial." Paul kept the feasts (Acts 20:16, 1 Corinthians 5:7-8) — also "ceremonial." If Paul operated with a ceremonial/moral distinction, his own behavior contradicts it.
 
@@ -119,7 +119,7 @@ If the threefold division is not biblical, how should believers approach Torah?
 
 **Application requires wisdom, not categories**. Some commands require a Temple (sacrifices, certain purity rituals). Without a standing Temple, these cannot be performed — not because they are abolished, but because the mechanism is temporarily unavailable. Other commands depend on living in the land of Israel (agricultural laws, judicial penalties carried out by courts). These await future restoration. Commands that can be observed anywhere — Sabbath, dietary laws, feasts, sexual ethics, honesty, justice — remain fully operative.
 
-This is not a new hermeneutic. It is simply reading Torah on its own terms, without an external classification system deciding in advance which commands count and which do not. It takes seriously [Yeshua's warning](/articles/matthew-5-17-19-foundation): "Whoever relaxes one of the least of these commandments and teaches others to do the same will be called least in the kingdom of heaven" (Matthew 5:19).
+This is not a new hermeneutic. It is simply reading Torah on its own terms, without an external classification system deciding in advance which commands count and which do not. It takes seriously [Yeshua's warning](/articles/matthew-5-17-19-foundation): "Whoever then annuls one of the least of these commandments, and teaches others to do the same, shall be called least in the kingdom of heaven" (Matthew 5:19).
 
 ## The Question That Remains
 
