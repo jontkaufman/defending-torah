@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Torah Observance: A Beginner's Guide"
-excerpt: "From theology to practice—everything you need to know to begin your Torah journey as a follower of Yeshua. Covers gentile identity, common objections, and practical first steps."
+excerpt: "From theology to practice—everything you need to know to begin your Torah journey as a follower of Jesus. Covers gentile identity, common objections, and practical first steps."
 category: arguments
 topic: torah-foundation
 tags: [beginners-guide, gentiles, grafted-in, torah-observance, practical-guide, sabbath, dietary-laws, feasts, objections, how-to-start]
@@ -18,7 +18,7 @@ related:
 
 You've read the articles. You've wrestled with the objections. You've seen the arguments from Scripture—Matthew 5:17, Romans 3:31, 1 Corinthians 5:7-8. Something has shifted inside you. The idea that God's Torah might still apply, that the Sabbath still matters, that the feasts aren't obsolete—it's no longer a fringe concept you can dismiss. It's a question you can't ignore.
 
-Maybe you've also sensed that the same Christ you follow—Yeshua (Jesus)—operated within a Torah-observant Jewish framework. Maybe you've wondered: if he observed the Sabbath, celebrated the feasts, and affirmed the Torah's permanence, why should his followers do less?
+Maybe you've also sensed that the same Christ you follow—Jesus (Yeshua)—operated within a Torah-observant Jewish framework. Maybe you've wondered: if he observed the Sabbath, celebrated the feasts, and affirmed the Torah's permanence, why should his followers do less?
 
 But now what? Where do you even begin?
 
@@ -26,7 +26,7 @@ Maybe you're brand new to this idea, cautiously exploring what it means. Maybe y
 
 **What This Guide Covers:**
 
-This isn't just theology. It's not just objection responses. It's a complete introduction to Torah observance as a follower of Yeshua—covering three critical areas:
+This isn't just theology. It's not just objection responses. It's a complete introduction to Torah observance as a follower of Jesus—covering three critical areas:
 
 1. **Theology for Gentiles** — Are you grafted in? Does Torah apply to you? What about Abraham, the olive tree, and Acts 15?
 2. **Common Objections** — Addressing the fears that stop people from starting: "Am I trying to earn salvation?" "Isn't this legalism?" "What about my church?"
@@ -127,9 +127,9 @@ These are real changes. They affect your schedule, your grocery shopping, your f
 
 **What Doesn't Change (Your Core Faith):**
 
-- **Faith in Yeshua as Messiah and Savior** — This doesn't change. He is the Messiah, the one who died for your sins and rose on the third day.
+- **Faith in Jesus as Messiah and Savior** — This doesn't change. He is the Messiah, the one who died for your sins and rose on the third day.
 - **Salvation by grace alone** — This doesn't change. You are saved by God's grace, not by your works.
-- **Your relationship with God through Yeshua** — This doesn't change. He is the door, the way, the bridge between you and the Father.
+- **Your relationship with God through Jesus** — This doesn't change. He is the door, the way, the bridge between you and the Father.
 - **Empowerment by the Holy Spirit** — This doesn't change. The Spirit sanctifies, strengthens, and guides you into all truth.
 
 You're not becoming a different kind of believer. You're the same believer, walking out your faith in a deeper and more sanctified way than you were before. As Scripture says, "Little children, let no one deceive you. Whoever practices righteousness is righteous, as he is righteous" (1 John 3:7).
@@ -154,7 +154,7 @@ Reality: You affirm salvation by grace (Eph 2:8-9). Torah observance is your lov
 
 **Misconception: "You're becoming Jewish"**
 
-Reality: You're grafted into Israel as a believing gentile. You keep biblical Torah commands, not rabbinic traditions. You remain a gentile—just one who loves God's instruction.
+Reality: You're grafted into Israel as a believing gentile. You keep biblical Torah commands, not rabbinic traditions. You remain a gentile—just one who loves God's instruction. **You're not bound by Torah because you're Jewish. You're bound by Torah because you're Abraham's spiritual seed—a follower of Jesus.**
 
 **Misconception: "This is legalism"**
 
