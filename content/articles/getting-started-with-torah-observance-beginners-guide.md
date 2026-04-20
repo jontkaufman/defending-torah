@@ -134,7 +134,15 @@ These are real changes. They affect your schedule, your grocery shopping, your f
 
 You're not becoming a different kind of believer. You're the same believer, walking out your faith in a deeper and more sanctified way than you were before. As Scripture says, "Little children, let no one deceive you. Whoever practices righteousness is righteous, as he is righteous" (1 John 3:7).
 
-Think of it this way: A believer who fasts regularly and a believer who doesn't both seek God's face. A believer who prays three times daily and one who prays spontaneously both commune with the Father. In the same way, a Torah-observant believer and a non-Torah-observant believer both trust in Yeshua for salvation and rely on grace. The practice differs; the foundation doesn't. But those who walk in obedience to God's revealed instruction are walking in greater sanctification—not earning righteousness, but demonstrating it through their love for God's ways.
+Many non-Torah observant believers fully trust in Jesus (Yeshua) for their salvation and faithfully serve Him. As believers living in Torah, we encourage all to turn to Jesus and place their faith in Him for salvation from judgment. The next step is following Jesus and teaching others to do the same—just as He commanded.
+
+**Following Jesus means walking in Torah—just like Him.** He kept Sabbath. He observed the feasts. He ate clean. He lived Torah perfectly, and He calls us to follow in His footsteps.
+
+We don't walk out Torah as a means of salvation—we've already received it. Then why? **We walk out Torah as the faithful and obedient response to Jesus' love for us.**
+
+> "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us." (Romans 5:8)
+
+He loved us first. He died for us while we were yet in rebellion. Our obedience is the response—not the requirement—of salvation. We love Him because He first loved us. And love responds by keeping His commandments (John 14:15).
 
 ### Common Misconceptions vs. Reality
 
