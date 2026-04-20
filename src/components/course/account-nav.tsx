@@ -33,7 +33,7 @@ export function AccountNav() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-[var(--ink)]">
+    <div className="account-nav sticky top-0 z-50 bg-[var(--ink)]">
       {/* Row 1: Top bar */}
       <div className="border-b border-[rgba(244,236,220,0.08)] px-12 py-2.5">
         <div className="flex items-center justify-between">

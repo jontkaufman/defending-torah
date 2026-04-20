@@ -1,4 +1,4 @@
-import { getCourseProgress, startCourse, resetCourse } from "@/lib/course-progress";
+import { getCourseProgress } from "@/lib/course-progress";
 import {
   foundationsCourse,
   getSession,

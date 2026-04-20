@@ -113,13 +113,13 @@ export default function VerseCardsPage() {
               {/* Top Row */}
               <div className="flex justify-between items-center mb-6 relative z-10">
                 <MonoLabel
-                  color="rgba(var(--parchment-rgb), 0.4)"
+                  color="rgba(244, 236, 220, 0.4)"
                   className="text-[9px]"
                 >
                   Week {verse.week}
                 </MonoLabel>
                 <MonoLabel
-                  color="rgba(var(--parchment-rgb), 0.4)"
+                  color="rgba(244, 236, 220, 0.4)"
                   className="text-[9px]"
                 >
                   Back

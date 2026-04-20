@@ -56,7 +56,12 @@ export default async function WorksheetPage({
   const keyTerms = keyTermsMap[session.id] || ["Torah", "Covenant", "Grace", "Obedience"];
 
   return (
-    <div className="max-w-[900px] mx-auto py-[52px] px-12">
+    <div className="max-w-[900px] mx-auto py-[52px] px-12 relative">
+      {/* Print button */}
+      <div className="no-print absolute top-4 right-4">
+        <PrintButton />
+      </div>
+
       {/* Header */}
       <div className="flex justify-between mb-8 pb-6 border-b-2 border-ink">
         <div className="flex-1">
@@ -80,10 +85,6 @@ export default async function WorksheetPage({
             <div className="w-[200px] h-[1px] bg-ink mt-2" />
           </div>
         </div>
-      </div>
-
-      <div className="no-print absolute top-4 right-4">
-        <PrintButton />
       </div>
 
       <OrnamentalRule />

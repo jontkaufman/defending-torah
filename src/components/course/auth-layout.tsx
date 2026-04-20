@@ -106,8 +106,8 @@ export default function AuthLayout({
               Course Platform
             </p>
             <div className="space-y-1 text-[rgba(244,236,220,0.35)] font-body text-[15px]">
-              <p>Foundations of Biblical Torah Obedience</p>
-              <p>5 Weeks · Video + Study Materials</p>
+              <p>Foundations of Defending Torah</p>
+              <p>5 Weeks · 10 Sessions</p>
               <p>Beginner Level</p>
             </div>
           </div>

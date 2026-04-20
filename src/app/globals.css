@@ -737,4 +737,7 @@ body::before {
   body::before { display: none !important; }
   .no-print, .account-nav, nav, footer { display: none !important; }
   body { background: white !important; }
+  /* Certificate print */
+  .certificate-wrapper { background: white !important; padding: 0 !important; }
+  .certificate-card { box-shadow: none !important; max-width: none !important; }
 }

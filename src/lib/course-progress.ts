@@ -84,7 +84,8 @@ export async function submitCapstone(courseId: string, format: string, content: 
     user_id: user.id,
     course_id: courseId,
     format,
-    content,
+    content_text: format !== "recorded" ? content : null,
+    content_url: format === "recorded" ? content : null,
     submitted_at: new Date().toISOString(),
   }, { onConflict: "user_id,course_id" });
 }

@@ -30,9 +30,9 @@ export default async function CertificatePage() {
     : "";
 
   return (
-    <div className="min-h-screen bg-[#1a1a24] flex flex-col items-center justify-center px-5 py-10">
+    <div className="certificate-wrapper min-h-screen bg-[#1a1a24] flex flex-col items-center justify-center px-5 py-10">
       {/* Top buttons */}
-      <div className="mb-24 flex gap-4">
+      <div className="no-print mb-24 flex gap-4">
         <Link
           href="/account"
           className="font-mono text-[10px] tracking-[0.18em] uppercase bg-[rgba(255,255,255,0.08)] text-[rgba(244,236,220,0.6)] border border-[rgba(255,255,255,0.12)] px-4 py-2 hover:bg-[rgba(255,255,255,0.12)] transition-colors"
@@ -44,7 +44,7 @@ export default async function CertificatePage() {
 
       {/* Certificate card */}
       <div
-        className="w-full max-w-[760px] bg-parchment border border-parchment-shadow relative overflow-hidden"
+        className="certificate-card w-full max-w-[760px] bg-parchment border border-parchment-shadow relative overflow-hidden"
         style={{ boxShadow: "0 20px 60px rgba(0,0,0,0.4)" }}
       >
         {/* Double decorative border */}
