@@ -105,6 +105,54 @@ export default function Home() {
         </div>
       </section>
 
+      {/* BEGINNER'S GUIDE FEATURED CALLOUT */}
+      <section className="relative z-[1] px-16 py-[70px] border-b border-ink bg-parchment/30 max-md:px-6 max-md:py-[50px]">
+        <div className="max-w-[900px] mx-auto text-center">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-ochre/10 border border-ochre/30 rounded-full mb-6">
+            <span className="text-2xl">🌱</span>
+            <span className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-ochre-deep font-semibold">
+              Start Here
+            </span>
+          </div>
+
+          {/* Title */}
+          <h2 className="font-heading font-light text-[clamp(36px,5vw,56px)] leading-[1.1] tracking-tight text-ink mb-6">
+            New to Torah Observance?
+          </h2>
+
+          {/* Description */}
+          <p className="text-[19px] leading-[1.6] text-ink-soft mb-8 max-w-[680px] mx-auto">
+            Everything you need to begin your Torah journey—theology for gentiles, answers to common objections, and practical first steps for Sabbath, dietary laws, feasts, and prayer.
+          </p>
+
+          {/* CTA Button */}
+          <Link
+            href="/articles/getting-started-with-torah-observance-beginners-guide"
+            className="btn btn-primary inline-flex"
+          >
+            Read the Complete Beginner's Guide
+            <span className="arrow">→</span>
+          </Link>
+
+          {/* Stats */}
+          <div className="flex items-center justify-center gap-8 mt-8 text-sm text-muted max-md:flex-col max-md:gap-4">
+            <div className="flex items-center gap-2">
+              <span className="text-ochre">📖</span>
+              <span>~10,000 words</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-ochre">⏱️</span>
+              <span>30-40 min read</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-ochre">🎯</span>
+              <span>Entry-level</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* PILLARS — reframed around Yeshua */}
       <section className="relative z-[1] px-16 py-[90px] pb-[100px] border-b border-ink max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
         <div className="mb-[70px] max-md:mb-[40px]">
