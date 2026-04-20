@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yeshua, Paul, and the Torah Question — Course</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:#1a1f2e; --ink-soft:#2d3448; --ink-light:#4a5060;
+    --parchment:#f4ecdc; --parchment-deep:#ebdfc5; --parchment-shadow:#d9c9a4;
+    --ochre:#b8732a; --ochre-deep:#8a5420; --ochre-faint:rgba(184,115,42,0.07);
+    --crimson:#7a2e24; --crimson-faint:rgba(122,46,36,0.06);
+    --olive:#5c6b3f; --muted:#574e40;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--parchment);color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:19px;line-height:1.55;overflow-x:hidden;}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(ellipse at 20% 10%,rgba(184,115,42,.08),transparent 50%),
+    radial-gradient(ellipse at 80% 90%,rgba(122,46,36,.06),transparent 50%);
+    opacity:.9;mix-blend-mode:multiply;}
+  #root{position:relative;z-index:1;}
+  button{font-family:inherit;}
+  #tweaks-panel{display:none;position:fixed;bottom:20px;right:20px;background:var(--ink);color:var(--parchment);padding:16px 20px;border:1px solid var(--ochre);z-index:1000;font-family:'JetBrains Mono',monospace;font-size:11px;min-width:230px;box-shadow:4px 4px 0 var(--ochre);}
+  #tweaks-panel.visible{display:block;}
+  #tweaks-panel h3{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ochre);margin-bottom:14px;border-bottom:1px solid rgba(184,115,42,.3);padding-bottom:10px;}
+  .tweak-row{margin-bottom:10px;}
+  .tweak-row label{display:block;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:rgba(244,236,220,.5);margin-bottom:5px;}
+  .tweak-row select{width:100%;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:var(--parchment);font-family:'JetBrains Mono',monospace;font-size:10px;padding:5px 8px;cursor:pointer;}
+  .tweak-row select option{background:var(--ink);}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<div id="tweaks-panel">
+  <h3>Tweaks</h3>
+  <div class="tweak-row">
+    <label>Jump to page</label>
+    <select id="tweak-page">
+      <option value="landing">Course Landing</option>
+      <option value="week">Week View</option>
+      <option value="session">Session View</option>
+    </select>
+  </div>
+  <div class="tweak-row">
+    <label>Jump to session</label>
+    <select id="tweak-session">
+      <option value="1-1">S1 — Did Yeshua Abolish the Torah?</option>
+      <option value="1-2">S2 — Love, Obedience, and the Commandments</option>
+      <option value="2-3">S3 — What Does "Under the Law" Mean?</option>
+      <option value="2-4">S4 — Faith, Works, and Justification</option>
+      <option value="3-5">S5 — Galatians: What Problem Is Paul Addressing?</option>
+      <option value="3-6">S6 — Romans: Is Paul Against the Law?</option>
+      <option value="4-7">S7 — "The Law Was Nailed to the Cross"</option>
+      <option value="4-8">S8 — Acts 15, Colossians, and Other Passages</option>
+      <option value="5-9">S9 — Reading NT Without Contradicting OT</option>
+      <option value="5-10">S10 — Answering Objections with Confidence</option>
+    </select>
+  </div>
+</div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="course3-data.jsx"></script>
+<script type="text/babel" src="course-components.jsx"></script>
+
+<script type="text/babel">
+window.__ACTIVE_COURSE = COURSE_3_DATA;
+
+const { useState, useEffect } = React;
+
+function App() {
+  const getInitialState = () => {
+    try {
+      const saved = JSON.parse(localStorage.getItem('dt-c3-nav') || '{}');
+      return { page: saved.page || 'landing', weekNum: saved.weekNum || 1, sessionId: saved.sessionId || 1 };
+    } catch { return { page: 'landing', weekNum: 1, sessionId: 1 }; }
+  };
+  const [nav, setNav] = useState(getInitialState);
+
+  function navigate(page, params = {}) {
+    const next = { page, weekNum: params.weekNum || nav.weekNum, sessionId: params.sessionId || nav.sessionId };
+    setNav(next);
+    localStorage.setItem('dt-c3-nav', JSON.stringify(next));
+    window.scrollTo({ top: 0 });
+    const ps = document.getElementById('tweak-page');
+    if (ps) ps.value = page;
+  }
+
+  useEffect(() => {
+    const panel = document.getElementById('tweaks-panel');
+    const ps = document.getElementById('tweak-page');
+    const ss = document.getElementById('tweak-session');
+    const h = e => {
+      if (e.data?.type === '__activate_edit_mode') panel.classList.add('visible');
+      if (e.data?.type === '__deactivate_edit_mode') panel.classList.remove('visible');
+    };
+    window.addEventListener('message', h);
+    if (ps) ps.addEventListener('change', () => navigate(ps.value));
+    if (ss) ss.addEventListener('change', () => {
+      const [wk, sid] = ss.value.split('-').map(Number);
+      navigate('session', { weekNum: wk, sessionId: sid });
+    });
+    window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+    return () => window.removeEventListener('message', h);
+  }, []);
+
+  return (
+    <div>
+      <SiteNav onNav={navigate} />
+      {nav.page === 'landing' && <CourseLanding onNav={navigate} />}
+      {nav.page === 'week' && <WeekView weekNum={nav.weekNum} onNav={navigate} />}
+      {nav.page === 'session' && <SessionView sessionId={nav.sessionId} weekNum={nav.weekNum} onNav={navigate} />}
+      <Footer />
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
