@@ -158,7 +158,7 @@ Reality: You're grafted into Israel as a believing gentile. You keep biblical To
 
 **Misconception: "This is legalism"**
 
-Reality: Legalism = thinking works earn your standing before God. You don't believe that. You observe Torah because you're already saved and loved. The heart posture is everything.
+Reality: Legalism = thinking works earn your salvation before God. You don't believe that. You observe Torah because you're already saved and loved. The heart posture is everything.
 
 **Misconception: "The Old Testament is obsolete"**
 
