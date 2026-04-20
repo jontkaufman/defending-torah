@@ -150,3 +150,129 @@ Let's address head-on the worries that often accompany these ideas:
 The key word in each correction is *why*. The *why* behind the obedience determines whether it's legalism or love, works-religion or grace-response. And for you, the why is simple: **Because God loves me and I love him back, I want to live according to his instruction.**
 
 ---
+
+## Part 2: For Gentiles—The Covenant and the Olive Tree
+
+If you're a gentile (non-Jewish) follower of Yeshua, you've likely asked the question: *Does Torah actually apply to me?*
+
+It's a fair question. Torah was given to Israel at Sinai. The patriarchs were Jewish. The covenant promises were made to Abraham, Isaac, and Jacob. Circumcision, Sabbath, feasts—these are all markers of Israel's covenant identity. So if you're not ethnically Jewish, why would you keep commands given to a nation you weren't born into?
+
+This section addresses that question directly. We'll examine what Scripture teaches about gentile inclusion in the covenant, the grafting metaphor, the decision at Acts 15, and what "neither Jew nor Greek" really means. The short answer is: **You aren't replacing Israel. You're being joined to Israel.** Torah applies to you not because you're Jewish, but because you've been grafted into the commonwealth of Israel through faith in Yeshua—and what applies to native-born Israelites applies to you as well.
+
+Let's walk through the texts.
+
+### Abraham's Seed: Gentile Inclusion Was Always the Plan
+
+Gentile inclusion in the covenant isn't a Plan B. It's not an afterthought. It's what God promised Abraham from the very beginning.
+
+Look at God's covenant with Abraham in Genesis:
+
+> I will make you into a great nation, and I will bless you; I will make your name great, and you will be a blessing. I will bless those who bless you, and whoever curses you I will curse; **and all peoples on earth will be blessed through you.** (Genesis 12:2-3, emphasis added)
+
+Notice that phrase: *all peoples on earth*. Not just Israel. Not just the Jews. Every people group. Every tongue. Every tribe. The covenant with Abraham includes a blessing for the nations—meaning gentiles—from the start.
+
+Paul picks up this thread in Galatians:
+
+> Understand, then, that those who have faith are children of Abraham. Scripture foresaw that God would justify the Gentiles by faith, and announced the gospel in advance to Abraham: **"All nations will be blessed through you."** So those who rely on faith are blessed along with Abraham, the man of faith. (Galatians 3:7-9)
+
+Paul's argument here is that *gentiles who trust in Yeshua are Abraham's children*. Not physically descended from Abraham—that's true for ethnic Jews—but spiritually grafted into the covenant family through the same faith Abraham had. You're not replacing the Jews. You're being added to the family alongside them.
+
+And here's what that means practically: If you're a child of Abraham by faith, you inherit the covenant promises made to Abraham. That includes the Torah commands given to his descendants. **You're not bound by Torah because you're Jewish. You're bound by Torah because you're Abraham's spiritual seed.**
+
+This isn't replacement theology—the idea that the church replaces Israel. It's *addition* theology. Gentiles are brought *into* Israel, not substituted for it.
+
+### The Grafting Metaphor: You're Part of the Same Tree
+
+Paul's olive tree metaphor in Romans 11 is the single most important image for understanding gentile Torah observance. Read it carefully:
+
+> If some of the branches have been broken off, and you, though a wild olive shoot, have been grafted in among the others and now share in the nourishing sap from the olive root, do not consider yourself to be superior to those other branches. If you do, consider this: You do not support the root, but the root supports you. (Romans 11:17-18)
+
+Here's the picture: There's one olive tree—Israel. Some natural branches (ethnic Jews who reject Yeshua) were broken off. Gentile believers, described as "wild olive shoots," are grafted into that same tree. Once grafted in, they draw from the same root, the same sap, the same nourishment as the natural branches. There aren't two trees—one for Jews, one for gentiles. **There's one tree, one people, one covenant.**
+
+The implication for Torah observance is clear: **If you're grafted into Israel's tree, you participate in Israel's covenant life.** You're not standing outside the tree admiring it. You're not building a separate gentile tree next to it. You're *in* the tree. And that means the commandments given to Israel's tree apply to you too.
+
+Think of it practically: If a branch from a wild apple tree is grafted into a cultivated apple tree, what kind of fruit does it produce? Cultivated apples. The wild branch doesn't retain its wild nature—it takes on the life of the cultivated tree. Similarly, gentiles grafted into Israel don't remain "wild" in covenant terms. They participate in Israel's covenant identity.
+
+This is why Paul warns gentile believers not to boast over the natural branches. You didn't earn your place in the tree. You were grafted in by grace. **But you're in the tree.** That's the key point. And what applies to the tree applies to every branch—natural or grafted.
+
+Does this mean you become ethnically Jewish? No. Gentiles remain gentiles. Jews remain Jews. Paul affirms this repeatedly. But both are now part of the same covenant people, the same tree, the same commonwealth of Israel (Ephesians 2:12). And in that commonwealth, the Torah—God's instruction—applies to everyone.
+
+### Acts 15 in Context: Minimum Standards, Not Maximum Commandments
+
+Here's the passage opponents of gentile Torah observance cite most often:
+
+> It seemed good to the Holy Spirit and to us not to burden you with anything beyond the following requirements: You are to abstain from food sacrificed to idols, from blood, from the meat of strangled animals and from sexual immorality. You will do well to avoid these things. (Acts 15:28-29)
+
+The argument goes like this: If the apostles only required gentiles to follow four basic rules—avoiding idolatry, blood, strangled meat, and sexual immorality—then Torah observance isn't required for gentiles. Case closed.
+
+But that reading misses the context completely. Let's zoom out and see what's actually happening in Acts 15.
+
+**The Question at Issue:** A faction of Pharisaic believers was teaching that gentiles couldn't be saved unless they were circumcised and kept the Law of Moses (Acts 15:1, 5). The Jerusalem council was convened to address that specific question: *Do gentiles need to convert to Judaism to be saved?*
+
+**The Answer:** No. Salvation is by grace through faith in Yeshua, not by circumcision or law-keeping. Peter makes this clear: "We believe it is through the grace of our Lord Jesus that we are saved, just as they are" (Acts 15:11).
+
+The four requirements listed in verse 29 aren't the *total* set of commands for gentile believers. They're the *immediate* starting requirements—the bare minimum needed to allow gentile and Jewish believers to fellowship together in synagogues. Notice that three of the four commands involve food and ritual purity (idol meat, blood, strangled animals). Why? Because these were the issues most likely to cause immediate division between Jews and gentiles sharing meals and worship spaces.
+
+Now notice what James says immediately after:
+
+> For the law of Moses has been preached in every city from the earliest times and is read in the synagogues on every Sabbath. (Acts 15:21)
+
+Why does he mention that? Because **gentile believers would be learning the rest of Torah gradually as they attended synagogue every Sabbath.** The four commands were the starting line, not the finish line. You don't burden new believers with the whole Torah at once. You start with the essentials—avoiding idolatry and major purity violations—and trust that they'll grow into the rest of Torah as they hear it taught week after week.
+
+This makes perfect sense if you think about how discipleship works. When someone comes to faith in Yeshua, do you hand them a 300-point checklist and say, "Do all of this now"? No. You start with the basics—repentance, faith, baptism—and you disciple them into maturity over time. Acts 15 is doing the same thing for gentile believers: Here are your first steps. Keep learning. Keep growing.
+
+### "Neither Jew Nor Greek": The Paradox of Identity and Unity
+
+One of the most commonly misunderstood verses in this discussion is Galatians 3:28:
+
+> There is neither Jew nor Gentile, neither slave nor free, nor is there male and female, for you are all one in Christ Jesus.
+
+Many read this as: "National and ethnic distinctions don't matter anymore. Torah commands for Jews don't apply because we're all just 'Christians' now."
+
+But that's not what Paul is saying. Look at the context. Paul is addressing *justification*—the question of how someone is made right with God. His argument is that both Jews and gentiles are justified the same way: by faith in Yeshua, not by works of Torah. **In terms of salvation status, there's no hierarchy.** Jews don't have privileged access to God. Gentiles aren't second-class citizens. All stand on equal footing at the foot of the cross.
+
+But equality before God in justification doesn't erase functional distinctions. Notice the parallel: "neither slave nor free, nor male and female." Does Paul mean that slaves and masters are now identical? That gender distinctions no longer exist? Of course not. He's addressing spiritual standing, not erasing social or biological reality.
+
+Similarly, Jews and gentiles remain distinct peoples. Jews are still the natural branches of the olive tree. Gentiles are still wild branches grafted in. Paul never suggests Jews should stop being Jewish or that gentiles should pretend to be ethnically Jewish. What he does say is that both are now one in Messiah—equal heirs, equal members of the covenant family, equally loved by God.
+
+So where does that leave Torah observance? Simple: **One family, one instruction.** If we're one in Messiah, part of the same covenant people, then we live by the same covenant instruction. Torah isn't a burden for Jews and irrelevant for gentiles. It's God's wisdom for the whole family—natural branches and grafted branches alike.
+
+### "One Law for the Native and the Sojourner"
+
+Here's a principle woven throughout Torah that's critical for gentiles to understand:
+
+> The community is to have the same rules for you and for the foreigner residing among you; this is a lasting ordinance for the generations to come. You and the foreigner shall be the same before the LORD: **The same law and regulations will apply both to you and to the foreigner residing among you.** (Numbers 15:15-16)
+
+This principle appears repeatedly in Torah (Exodus 12:49, Leviticus 24:22, Numbers 9:14). The pattern is consistent: **The native-born Israelite and the sojourner (foreigner) living among Israel are bound by the same Torah.**
+
+Now think about the New Testament picture. Gentile believers aren't standing outside Israel looking in. Paul says we were "foreigners to the covenants of the promise" but are now "fellow citizens with God's people and also members of his household" (Ephesians 2:12, 19). We're the sojourners who have been brought near. We're residing in the commonwealth of Israel.
+
+And if the same Torah applied to native-born Israelites and to foreigners residing among them, why would it be different for gentile believers grafted into the covenant community through Yeshua? **The principle hasn't changed: one law for the native and the sojourner.** You're the sojourner who's been invited in. The Torah applies.
+
+### Two-House Hints: Reunion Beyond Rome
+
+Here's a thread that runs through the prophets—one that many believers miss: the promise of Israel's reunification.
+
+After Solomon's reign, the kingdom split into two: the northern kingdom (Israel/Ephraim, ten tribes) and the southern kingdom (Judah, two tribes). The northern kingdom was conquered by Assyria and scattered among the nations. Over time, they assimilated into gentile populations and lost their distinct Israelite identity. But the prophets consistently promise that God will one day reunite the two houses—Judah and Ephraim—into one people again.
+
+> The word of the LORD came to me: "Son of man, take a stick of wood and write on it, 'Belonging to Judah and the Israelites associated with him.' Then take another stick of wood, and write on it, 'Belonging to Joseph (that is, to Ephraim) and all the Israelites associated with him.' Join them together into one stick so that they will become one in your hand." (Ezekiel 37:15-17)
+
+Could it be that many gentile believers drawn to Torah observance are, in fact, descendants of the lost ten tribes—Ephraim's scattered seed—being called back to covenant faithfulness? This is known as the "Two-House" theology, and it's a fascinating (and disputed) possibility.
+
+Whether or not you accept Two-House theology as literal, the principle holds: God is reuniting his people. Gentiles grafted in are being woven into the same covenant fabric as ethnic Jews. And if that's true, Torah observance isn't foreign to gentiles—it's their inheritance being restored.
+
+### Bottom Line: You're Not an Outsider
+
+Here's the identity clarification gentile believers need to hear:
+
+**You are not replacing Israel. You are not separate from Israel. You are grafted into Israel.** You're not trying to "become Jewish." You're recognizing that through Yeshua, you've been brought into the covenant family God established with Abraham, Isaac, and Jacob. You're a wild branch drawing life from Israel's root.
+
+That means:
+- Abraham is your forefather by faith (Galatians 3:7-9)
+- You're a fellow citizen in the commonwealth of Israel (Ephesians 2:19)
+- The same Torah that applied to native-born Israelites and sojourners applies to you (Numbers 15:15-16)
+- You don't earn your place by obedience—you're grafted in by grace (Romans 11:17-18)
+
+Torah observance isn't about earning salvation or becoming ethnically Jewish. It's about living consistently with your new covenant identity. You're part of the family now. You live like it.
+
+---
