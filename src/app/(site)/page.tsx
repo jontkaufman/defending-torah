@@ -262,7 +262,7 @@ export default function Home() {
       {/* OBJECTIONS */}
       <section className="relative z-[1] bg-ink text-parchment px-16 py-[90px] pb-[100px] overflow-hidden max-md:px-6 max-md:py-[60px] max-md:pb-[70px]">
         {/* Radial glow overlay */}
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_10%_20%,rgba(184,115,42,0.18),transparent_50%),radial-gradient(ellipse_at_90%_80%,rgba(122,46,36,0.15),transparent_50%)]" />
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_10%_20%,rgba(151,94,34,0.18),transparent_50%),radial-gradient(ellipse_at_90%_80%,rgba(122,46,36,0.15),transparent_50%)]" />
 
         {/* Hebrew Watermark */}
         <div className="absolute bottom-20 right-16 font-heading font-black text-[200px] opacity-[0.04] text-ochre pointer-events-none select-none leading-none">

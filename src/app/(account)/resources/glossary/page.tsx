@@ -132,7 +132,7 @@ export default function GlossaryPage() {
                   </p>
                   <div
                     className="border-l-2 border-ochre pl-[14px] py-2 px-[14px]"
-                    style={{ backgroundColor: "rgba(184, 115, 42, 0.04)" }}
+                    style={{ backgroundColor: "rgba(151, 94, 34, 0.04)" }}
                   >
                     <MonoLabel color="var(--ochre)" className="text-[9px] mb-1">
                       Root / Note

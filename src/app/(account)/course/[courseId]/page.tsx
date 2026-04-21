@@ -282,7 +282,7 @@ export default function CoursePage({
                   fontSize: "40px",
                   color: activeWeek === week.num
                     ? "var(--ochre)"
-                    : "rgba(184, 115, 42, 0.4)",
+                    : "rgba(151, 94, 34, 0.4)",
                 }}
               >
                 {week.num}

@@ -133,7 +133,7 @@ export default function CapstonePage() {
                 onClick={() => setSelectedOption(option.key)}
                 className={`w-full text-left border-[1.5px] p-6 transition-all ${
                   isSelected
-                    ? "border-ochre bg-[rgba(184,115,42,0.06)]"
+                    ? "border-ochre bg-[rgba(151,94,34,0.06)]"
                     : "border-parchment-shadow bg-parchment-deep"
                 }`}
               >

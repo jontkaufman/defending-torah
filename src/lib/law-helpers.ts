@@ -5,7 +5,7 @@ export const OBSERVANCE_CONFIG: Record<
   { label: string; symbol: string; color: string }
 > = {
   already_observing: { label: "Christians Already Do", symbol: "\u2714", color: "#5c6b3f" },
-  should_observe: { label: "Should Observe", symbol: "\u2605", color: "#b8732a" },
+  should_observe: { label: "Should Observe", symbol: "\u2605", color: "#975e22" },
   situational: { label: "Situational", symbol: "\u25C7", color: "#6a7a8a" },
   observe_in_principle: { label: "Observe in Principle", symbol: "\u25CB", color: "#8a6b3f" },
   cannot_currently_observe: { label: "Cannot Currently Observe", symbol: "\u29B8", color: "#7a2e24" },

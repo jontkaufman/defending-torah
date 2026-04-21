@@ -44,7 +44,7 @@ export function SessionCompletionModal({
             className="mb-5 p-3.5 px-[18px]"
             style={{
               borderLeft: "2px solid var(--ochre)",
-              background: "rgba(184,115,42,0.06)",
+              background: "rgba(151,94,34,0.06)",
             }}
           >
             <MonoLabel color="var(--ochre)" className="mb-2 text-[9.5px]">

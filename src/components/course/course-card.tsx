@@ -60,7 +60,7 @@ export function CourseCard({
                 status === "finished"
                   ? "rgba(92,107,63,0.12)"
                   : status === "in-progress"
-                    ? "rgba(184,115,42,0.1)"
+                    ? "rgba(151,94,34,0.1)"
                     : "var(--parchment-shadow)",
               border: `1px solid ${status === "finished" ? "var(--olive)" : status === "in-progress" ? "var(--ochre)" : "#bbb"}`,
               color:

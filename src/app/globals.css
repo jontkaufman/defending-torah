@@ -8,9 +8,9 @@
   --color-parchment: #f4ecdc;
   --color-parchment-deep: #ebdfc5;
   --color-parchment-shadow: #d9c9a4;
-  --color-ochre: #b8732a;
+  --color-ochre: #975e22;
   --color-ochre-deep: #8a5420;
-  --color-ochre-faint: rgba(184, 115, 42, 0.07);
+  --color-ochre-faint: rgba(151, 94, 34, 0.07);
   --color-crimson: #7a2e24;
   --color-crimson-faint: rgba(122, 46, 36, 0.06);
   --color-olive: #5c6b3f;
@@ -27,9 +27,9 @@
   --parchment: #f4ecdc;
   --parchment-deep: #ebdfc5;
   --parchment-shadow: #d9c9a4;
-  --ochre: #b8732a;
+  --ochre: #975e22;
   --ochre-deep: #8a5420;
-  --ochre-faint: rgba(184, 115, 42, 0.07);
+  --ochre-faint: rgba(151, 94, 34, 0.07);
   --crimson: #7a2e24;
   --crimson-faint: rgba(122, 46, 36, 0.06);
   --olive: #5c6b3f;
@@ -59,7 +59,7 @@ body::before {
   pointer-events: none;
   z-index: 0;
   background:
-    radial-gradient(ellipse at 20% 10%, rgba(184, 115, 42, 0.08), transparent 50%),
+    radial-gradient(ellipse at 20% 10%, rgba(151, 94, 34, 0.08), transparent 50%),
     radial-gradient(ellipse at 80% 90%, rgba(122, 46, 36, 0.06), transparent 50%),
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.4 0 0 0 0 0.3 0 0 0 0 0.1 0 0 0 0.08 0'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
   opacity: 0.9;
@@ -630,7 +630,7 @@ body::before {
 }
 .keyword-result-item {
   padding: 10px;
-  background: rgba(184, 115, 42, 0.04);
+  background: rgba(151, 94, 34, 0.04);
   border: 1px solid var(--parchment-shadow);
   border-radius: 6px;
   transition: all 0.2s ease;
@@ -662,7 +662,7 @@ body::before {
   font-family: 'Cormorant Garamond', serif;
 }
 .keyword-result-text mark {
-  background: rgba(184, 115, 42, 0.18);
+  background: rgba(151, 94, 34, 0.18);
   color: var(--ochre-deep);
   border-radius: 3px;
   padding: 1px 3px;

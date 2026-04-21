@@ -174,7 +174,7 @@ export default async function WeekViewPage({ params }: Props) {
         </div>
 
         {/* Memory Verse */}
-        <div className="border-l-[3px] border-ochre py-5 px-7 bg-[rgba(184,115,42,0.06)] border border-parchment-shadow">
+        <div className="border-l-[3px] border-ochre py-5 px-7 bg-[rgba(151,94,34,0.06)] border border-parchment-shadow">
           <MonoLabel color="var(--ochre)" className="mb-3">
             Week {weekNum} Memory Verse
           </MonoLabel>

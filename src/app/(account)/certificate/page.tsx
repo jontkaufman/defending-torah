@@ -49,7 +49,7 @@ export default async function CertificatePage() {
       >
         {/* Double decorative border */}
         <div className="absolute inset-[12px] border border-parchment-shadow pointer-events-none z-0" />
-        <div className="absolute inset-[16px] border border-[rgba(184,115,42,0.2)] pointer-events-none z-0" />
+        <div className="absolute inset-[16px] border border-[rgba(151,94,34,0.2)] pointer-events-none z-0" />
 
         {/* Hebrew watermark */}
         <div

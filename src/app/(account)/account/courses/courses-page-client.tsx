@@ -97,7 +97,7 @@ export function CoursesPageClient({ courses }: CoursesPageClientProps) {
                             : course.status === "finished"
                               ? "rgba(92,107,63,0.12)"
                               : course.status === "in-progress"
-                                ? "rgba(184,115,42,0.1)"
+                                ? "rgba(151,94,34,0.1)"
                                 : "var(--parchment-shadow)",
                           border: `1px solid ${
                             course.locked
@@ -293,7 +293,7 @@ export function CoursesPageClient({ courses }: CoursesPageClientProps) {
                               <div
                                 className="font-mono text-[9.5px] tracking-[0.18em] uppercase px-2.5 py-[3px] shrink-0"
                                 style={{
-                                  background: "rgba(184,115,42,0.1)",
+                                  background: "rgba(151,94,34,0.1)",
                                   border: "1px solid var(--ochre)",
                                   color: "var(--ochre-deep)",
                                 }}

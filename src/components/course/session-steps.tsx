@@ -127,7 +127,7 @@ export function SessionSteps({
           style={{
             borderLeft: "2px solid var(--ochre)",
             padding: "20px 24px",
-            background: "rgba(184,115,42,0.05)",
+            background: "rgba(151,94,34,0.05)",
           }}
         >
           <p
