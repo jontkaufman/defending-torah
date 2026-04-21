@@ -43,6 +43,25 @@ export default function AboutPage() {
           </p>
         </section>
 
+        {/* Why This Matters */}
+        <section className="prose prose-lg mb-12">
+          <h2 className="font-heading font-medium text-[32px] text-ink mb-6">
+            Why This Matters
+          </h2>
+
+          <p className="text-[17px] leading-[1.7] text-ink mb-4">
+            Living like Yeshua is not a suggestion—it's the essence of discipleship. If Yeshua lived Torah perfectly, walked it out faithfully, and taught it truthfully, then following Him means walking the same path. Torah is not a burden to escape but the way of righteousness He modeled and calls us to.
+          </p>
+
+          <p className="text-[17px] leading-[1.7] text-ink mb-4">
+            We exist to equip believers in Christ with the tools to honestly and peaceably pursue righteousness and live it out. <strong>This is Torah.</strong> This is why we teach that Torah is for us today. Anyone claiming Christ should be pursuing the righteousness He embodied—the righteousness defined in the Law and the Prophets, which He came not to abolish but to fulfill.
+          </p>
+
+          <p className="text-[17px] leading-[1.7] text-ink">
+            We are here to help, encourage, exhort, and instruct in righteousness. Not through guilt or legalism, but through the truth of Scripture, the grace of the gospel, and the joy of walking in Yeshua's footsteps.
+          </p>
+        </section>
+
         {/* Theological Position */}
         <section className="prose prose-lg mb-12">
           <h2 className="font-heading font-medium text-[32px] text-ink mb-6">
