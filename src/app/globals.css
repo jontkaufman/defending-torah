@@ -774,6 +774,31 @@ body::before {
   top: 0;
 }
 
+/* ────────── FOCUS STYLES FOR KEYBOARD NAVIGATION ────────── */
+/* Global focus styles */
+*:focus {
+  outline: 2px solid var(--ochre);
+  outline-offset: 2px;
+}
+
+/* Enhanced focus for links and buttons */
+a:focus,
+button:focus {
+  outline: 2px solid var(--ochre-deep);
+  outline-offset: 3px;
+}
+
+/* Remove default browser focus ring for mouse clicks */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Restore focus ring for keyboard navigation only */
+*:focus-visible {
+  outline: 2px solid var(--ochre);
+  outline-offset: 2px;
+}
+
 /* Print styles */
 @media print {
   body::before { display: none !important; }
