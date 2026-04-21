@@ -4,7 +4,7 @@ import { TagBadge } from "./tag-badge";
 
 interface ArticleCardProps {
   meta: ContentMeta;
-  type: "article" | "objection" | "deep-dive";
+  type: "article" | "objection";
 }
 
 export function ArticleCard({ meta, type }: ArticleCardProps) {
@@ -13,26 +13,11 @@ export function ArticleCard({ meta, type }: ArticleCardProps) {
       ? `/objection-finder/${meta.slug}`
       : `/articles/${meta.slug}`;
 
-  const typeLabel =
-    type === "objection"
-      ? "Objection"
-      : type === "deep-dive"
-        ? "Deep Dive"
-        : "Essay";
+  const typeLabel = type === "objection" ? "Objection" : "Essay";
 
-  const borderColor =
-    type === "objection"
-      ? "border-crimson"
-      : type === "deep-dive"
-        ? "border-olive"
-        : "border-ochre";
+  const borderColor = type === "objection" ? "border-crimson" : "border-ochre";
 
-  const typeColor =
-    type === "objection"
-      ? "text-crimson"
-      : type === "deep-dive"
-        ? "text-olive"
-        : "text-ochre";
+  const typeColor = type === "objection" ? "text-crimson" : "text-ochre";
 
   return (
     <Link
