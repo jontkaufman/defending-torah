@@ -16,7 +16,7 @@ const resources = [
 
 export function Footer() {
   return (
-    <footer className="relative z-[1] px-10 pt-[60px] pb-[30px] max-md:px-6 max-md:pt-10 max-md:pb-5">
+    <footer role="contentinfo" className="relative z-[1] px-10 pt-[60px] pb-[30px] max-md:px-6 max-md:pt-10 max-md:pb-5">
       {/* Ornamental Rule */}
       <div className="ornamental-rule mb-[60px] max-md:mb-10">
         <span className="ornament">✦</span>

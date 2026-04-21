@@ -26,7 +26,7 @@ export function Nav() {
       </div>
 
       {/* Primary Nav */}
-      <nav className="relative z-10 px-10 pt-7 pb-6 grid grid-cols-[1fr_auto_1fr] items-baseline border-b-2 border-ink max-md:grid-cols-[1fr_auto] max-md:gap-5 max-md:px-6">
+      <nav role="navigation" aria-label="Main navigation" className="relative z-10 px-10 pt-7 pb-6 grid grid-cols-[1fr_auto_1fr] items-baseline border-b-2 border-ink max-md:grid-cols-[1fr_auto] max-md:gap-5 max-md:px-6">
         <Link href="/" className="no-underline">
           <div className="font-heading font-black text-[34px] leading-none tracking-tight">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="inline-block w-7 h-7 mr-1 -translate-y-0.5">

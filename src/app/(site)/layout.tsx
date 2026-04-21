@@ -8,8 +8,13 @@ export default function SiteLayout({
 }) {
   return (
     <>
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
       <Nav />
-      <main className="relative z-[1] flex-1">{children}</main>
+      <main id="main-content" role="main" className="relative z-[1] flex-1">
+        {children}
+      </main>
       <Footer />
     </>
   );
