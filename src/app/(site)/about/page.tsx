@@ -69,11 +69,19 @@ export default function AboutPage() {
           </h2>
 
           <p className="text-[17px] leading-[1.7] text-ink mb-4">
-            We read the New Testament as commentary on the Hebrew Scriptures, not replacement. Yeshua (Jesus) lived Torah perfectly and calls us to follow Him. Grace and Torah are not opposed—grace empowers obedience, and obedience flows from grace.
+            We are believers in the God of Abraham, Isaac, and Jacob—and in Yeshua (Jesus), His Son. We hold both testaments to be true and worthy of study and meditation. Scripture is not divided into an obsolete "Old Testament" and a liberating "New Testament," but rather one unified revelation of God's character, His covenant, and His will for His people.
+          </p>
+
+          <p className="text-[17px] leading-[1.7] text-ink mb-4">
+            While many believers understand the Old Testament law to have been for a certain people in a certain time, we understand God's word to be enduring—even the laws and morals given in the Old Testament. Yeshua Himself declared, <em>"Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them"</em> (Matthew 5:17). To fulfill does not mean to end, but to complete, to bring to fullness, to demonstrate how Torah is rightly lived.
+          </p>
+
+          <p className="text-[17px] leading-[1.7] text-ink mb-4">
+            Yeshua taught that the entire law rests on two commandments: <em>"Love the Lord your God with all your heart and with all your soul and with all your mind"</em> and <em>"Love your neighbor as yourself"</em> (Matthew 22:37-39). These are not replacements for Torah—they are summaries of it. Love is not opposed to commandments; love is expressed <em>through</em> keeping them. As the apostle John wrote, <em>"This is the love of God, that we keep His commandments. And His commandments are not burdensome"</em> (1 John 5:3).
           </p>
 
           <p className="text-[17px] leading-[1.7] text-ink">
-            We emphasize covenantal continuity and understand the New Testament within its Second Temple Jewish context. The "new covenant" promised in Jeremiah 31 writes Torah on hearts; it doesn't erase it. Yeshua didn't come to abolish the Law or the Prophets, but to fulfill them—to fill them full, to show us how to live them rightly.
+            We believe that grace and Torah are not in opposition. Grace empowers us to walk in obedience, and obedience flows from love. The New Testament is not a replacement for the Hebrew Scriptures but their fulfillment and commentary. The "new covenant" promised in Jeremiah 31 writes Torah on our hearts—it does not erase it. Following Yeshua means following His example: a life of perfect Torah observance, motivated by love for the Father and love for others.
           </p>
         </section>
 
