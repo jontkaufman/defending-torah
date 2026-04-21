@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getArticles, getArticleBySlug } from "@/lib/content";
 import { MarkdownBody } from "@/components/markdown-body";
 import { TagBadge } from "@/components/tag-badge";
+import { RelatedContent } from "@/components/related-content";
 import Link from "next/link";
 
 export function generateStaticParams() {
@@ -63,6 +64,11 @@ export default async function ArticlePage({
           <span className="ornament">✦</span>
         </div>
         <MarkdownBody content={article.content} className="drop-cap" />
+
+        <RelatedContent
+          relatedSlugs={article.meta.relatedSlugs}
+          contentType="article"
+        />
       </div>
     </article>
   );
