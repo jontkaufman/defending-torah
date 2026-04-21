@@ -5,6 +5,7 @@ import { getPosts } from "@/lib/posts";
 import { TopicsPageClient } from "@/components/topics-page-client";
 
 export const dynamic = "force-static";
+export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Topics — Essays, Objections & Articles by Topic",

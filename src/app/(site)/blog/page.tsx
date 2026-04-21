@@ -3,6 +3,7 @@ import { getPosts } from "@/lib/posts";
 import { BlogCard } from "@/components/blog-card";
 
 export const dynamic = "force-static";
+export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Blog — Short Reads on Torah, Grace, and Scripture",

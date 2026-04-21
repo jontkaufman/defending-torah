@@ -3,6 +3,7 @@ import { getObjections } from "@/lib/content";
 import { getPosts } from "@/lib/posts";
 
 export const dynamic = "force-static";
+export const revalidate = false;
 
 export default function Home() {
   const objections = getObjections().slice(0, 5);
