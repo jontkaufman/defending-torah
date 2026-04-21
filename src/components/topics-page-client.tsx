@@ -298,7 +298,7 @@ function TopicItem({
         className="block py-5 pl-4 pr-4 no-underline mb-4 bg-ochre/5 border-l-4 border-ochre rounded group hover:bg-ochre/10 transition-colors"
       >
         <div className="flex items-start gap-3">
-          <span className="text-2xl shrink-0 pt-0.5">🌱</span>
+          <span className="text-2xl shrink-0 pt-0.5" aria-label="beginner friendly" role="img">🌱</span>
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-1">
               <span className="font-mono text-[9px] tracking-[0.24em] uppercase text-ochre-deep font-semibold bg-ochre/20 px-2 py-0.5 rounded">

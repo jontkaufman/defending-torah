@@ -52,7 +52,7 @@ export default async function BlogPostPage({
             {post.meta.date}
           </div>
         </header>
-        <div className="ornamental-rule my-8">
+        <div className="ornamental-rule my-8" aria-hidden="true">
           <span className="ornament">✦</span>
         </div>
         <MarkdownBody content={body} className="drop-cap" />

@@ -29,7 +29,7 @@ export function Nav() {
       <nav role="navigation" aria-label="Main navigation" className="relative z-10 px-10 pt-7 pb-6 grid grid-cols-[1fr_auto_1fr] items-baseline border-b-2 border-ink max-md:grid-cols-[1fr_auto] max-md:gap-5 max-md:px-6">
         <Link href="/" className="no-underline">
           <div className="font-heading font-black text-[34px] leading-none tracking-tight">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="inline-block w-7 h-7 mr-1 -translate-y-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="inline-block w-7 h-7 mr-1 -translate-y-0.5" aria-hidden="true">
               <path d="M16 2C10 2 5 5 5 5v17s5 4 11 8c6-4 11-8 11-8V5s-5-3-11-3z" fill="#1e3a5f" stroke="#c9a84c" strokeWidth="1.5"/>
               <path d="M16 2C10 2 5 5 5 5v17s5 4 11 8" fill="#243f6b"/>
               <line x1="16" y1="8" x2="16" y2="24" stroke="#c9a84c" strokeWidth="1.5"/>

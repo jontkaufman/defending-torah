@@ -18,7 +18,7 @@ export function Footer() {
   return (
     <footer role="contentinfo" className="relative z-[1] px-10 pt-[60px] pb-[30px] max-md:px-6 max-md:pt-10 max-md:pb-5">
       {/* Ornamental Rule */}
-      <div className="ornamental-rule mb-[60px] max-md:mb-10">
+      <div className="ornamental-rule mb-[60px] max-md:mb-10" aria-hidden="true">
         <span className="ornament">✦</span>
       </div>
 
@@ -26,7 +26,7 @@ export function Footer() {
         {/* Brand */}
         <div className="max-md:hidden">
           <div className="font-heading font-black text-[42px] leading-none mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="inline-block w-9 h-9 mr-1.5 -translate-y-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="inline-block w-9 h-9 mr-1.5 -translate-y-1" aria-hidden="true">
               <path d="M16 2C10 2 5 5 5 5v17s5 4 11 8c6-4 11-8 11-8V5s-5-3-11-3z" fill="#1e3a5f" stroke="#c9a84c" strokeWidth="1.5"/>
               <path d="M16 2C10 2 5 5 5 5v17s5 4 11 8" fill="#243f6b"/>
               <line x1="16" y1="8" x2="16" y2="24" stroke="#c9a84c" strokeWidth="1.5"/>

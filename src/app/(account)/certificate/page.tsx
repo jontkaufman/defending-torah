@@ -97,7 +97,7 @@ export default async function CertificatePage() {
           </div>
 
           {/* Ornamental rule */}
-          <div className="flex items-center gap-4 mb-8">
+          <div className="flex items-center gap-4 mb-8" aria-hidden="true">
             <div className="flex-1 h-px bg-ink opacity-20" />
             <div className="font-heading text-[18px] text-ochre font-light">
               ✦
@@ -151,7 +151,7 @@ export default async function CertificatePage() {
           </p>
 
           {/* Ornamental rule */}
-          <div className="flex items-center gap-4 mb-7">
+          <div className="flex items-center gap-4 mb-7" aria-hidden="true">
             <div className="flex-1 h-px bg-ink opacity-20" />
             <div className="font-heading text-[18px] text-ochre font-light">
               ✦

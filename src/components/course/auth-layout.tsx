@@ -31,6 +31,7 @@ export default function AuthLayout({
               viewBox="0 0 32 32"
               fill="none"
               className="w-10 h-10 flex-shrink-0"
+              aria-hidden="true"
             >
               <path
                 d="M16 2C10 2 5 5 5 5v17s5 4 11 8c6-4 11-8 11-8V5s-5-3-11-3z"

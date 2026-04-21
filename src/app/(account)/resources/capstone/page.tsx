@@ -60,7 +60,7 @@ export default function CapstonePage() {
           </p>
 
           {/* Ornamental rule */}
-          <div className="flex items-center gap-4 my-8">
+          <div className="flex items-center gap-4 my-8" aria-hidden="true">
             <div className="flex-1 h-[1px] bg-parchment-shadow" />
             <span className="font-heading font-light text-[16px] text-ochre">✦</span>
             <div className="flex-1 h-[1px] bg-parchment-shadow" />

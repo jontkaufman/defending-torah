@@ -60,7 +60,7 @@ export default async function ArticlePage({
             ))}
           </div>
         </header>
-        <div className="ornamental-rule my-8">
+        <div className="ornamental-rule my-8" aria-hidden="true">
           <span className="ornament">✦</span>
         </div>
         <MarkdownBody content={article.content} className="drop-cap" />

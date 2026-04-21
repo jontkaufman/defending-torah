@@ -17,7 +17,7 @@ export default function AboutPage() {
           </h1>
         </header>
 
-        <div className="ornamental-rule my-8">
+        <div className="ornamental-rule my-8" aria-hidden="true">
           <span className="ornament">✦</span>
         </div>
 

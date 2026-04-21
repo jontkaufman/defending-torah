@@ -39,7 +39,7 @@ export function AccountNav() {
         <div className="flex items-center justify-between">
           {/* Left: Logo + Title */}
           <Link href="/account" className="flex items-center gap-2.5 max-md:gap-2">
-            <svg className="w-5 h-5 max-md:w-4 max-md:h-4" viewBox="0 0 32 32" fill="none">
+            <svg className="w-5 h-5 max-md:w-4 max-md:h-4" viewBox="0 0 32 32" fill="none" aria-hidden="true">
               <path
                 d="M16 2C10 2 5 5 5 5v17s5 4 11 8c6-4 11-8 11-8V5s-5-3-11-3z"
                 fill="#1e3a5f"

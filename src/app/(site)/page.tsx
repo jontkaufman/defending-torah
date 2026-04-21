@@ -110,7 +110,7 @@ export default function Home() {
         <div className="max-w-[900px] mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-ochre/10 border border-ochre/30 rounded-full mb-6">
-            <span className="text-2xl">🌱</span>
+            <span className="text-2xl" aria-label="beginner friendly" role="img">🌱</span>
             <span className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-ochre-deep font-semibold">
               Start Here
             </span>
@@ -353,7 +353,7 @@ export default function Home() {
             </div>
 
             {/* Ornamental Rule */}
-            <div className="ornamental-rule mt-8">
+            <div className="ornamental-rule mt-8" aria-hidden="true">
               <span className="ornament">✦</span>
             </div>
           </div>
