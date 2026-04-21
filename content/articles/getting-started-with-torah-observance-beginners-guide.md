@@ -884,7 +884,9 @@ The same principle applies today. We keep the core memorial in our homes, just a
 
 ---
 
-### D. Prayer & Daily Rhythms
+### D. Traditional Prayers and Daily Practices
+
+**Important Note:** The practices in this section are not specifically commanded in Torah, but are included to encourage devotion and spiritual growth in the life of the believer. These are general patterns established through historical accounts of the patriarchs and faithful believers in Scripture. They're helpful traditions, not requirements.
 
 **Biblical Prayer Patterns**
 
