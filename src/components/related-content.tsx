@@ -25,28 +25,26 @@ export function RelatedContent({
   const items: RelatedItem[] = [];
 
   relatedSlugs.forEach((slug) => {
-    // Try to load as article first, then as objection
-    let article = getArticleBySlug(slug);
-    if (article) {
-      items.push({
-        slug,
-        type: "article",
-        meta: article.meta,
-      });
-      return;
+    // Use contentType prop to determine which loader to call
+    if (contentType === "article") {
+      const article = getArticleBySlug(slug);
+      if (article) {
+        items.push({
+          slug,
+          type: "article",
+          meta: article.meta,
+        });
+      }
+    } else {
+      const objection = getObjectionBySlug(slug);
+      if (objection) {
+        items.push({
+          slug,
+          type: "objection",
+          meta: objection.meta,
+        });
+      }
     }
-
-    let objection = getObjectionBySlug(slug);
-    if (objection) {
-      items.push({
-        slug,
-        type: "objection",
-        meta: objection.meta,
-      });
-      return;
-    }
-
-    // Skip if slug doesn't exist
   });
 
   // Graceful degradation: return null if no items loaded
@@ -56,7 +54,7 @@ export function RelatedContent({
 
   return (
     <section className="border-t border-ink/20 mt-16 pt-12">
-      <h2 className="font-heading font-light text-2xl text-ink mb-8">
+      <h2 className="font-heading font-medium text-[28px] text-ink mb-6">
         Related Reading
       </h2>
 
@@ -67,35 +65,34 @@ export function RelatedContent({
               ? `/objection-finder/${slug}`
               : `/articles/${slug}`;
 
-          const typeLabel = type === "objection" ? "Objection" : "Essay";
+          const typeLabel = type === "objection" ? "Objection" : "Article";
           const typeColor = type === "objection" ? "text-crimson" : "text-ochre";
-          const borderColor = type === "objection" ? "border-crimson" : "border-ochre";
 
           return (
             <Link
               key={slug}
               href={href}
-              className={`border border-ink/20 rounded p-6 no-underline transition-all duration-300 hover:border-ochre hover:shadow-sm group max-md:p-4`}
+              className={`border border-ink/20 rounded p-6 no-underline transition-all duration-300 hover:border-ochre hover:bg-ochre/5 group max-md:p-4`}
             >
               <div className="space-y-3">
-                <span
-                  className={`font-mono text-[10px] tracking-[0.2em] uppercase ${typeColor} block`}
-                >
-                  {typeLabel}
-                </span>
+                <div className="flex items-center gap-2 mb-3">
+                  <span
+                    className={`font-mono text-[10px] tracking-[0.2em] uppercase ${typeColor}`}
+                  >
+                    {typeLabel}
+                  </span>
+                  {meta.difficulty && (
+                    <span className="inline-block font-mono text-[9px] tracking-[0.15em] uppercase px-2 py-1 bg-ink/5 text-ink-soft rounded">
+                      {meta.difficulty}
+                    </span>
+                  )}
+                </div>
                 <h3 className="font-heading font-medium text-lg text-ink group-hover:text-ochre-deep transition-colors">
                   {meta.title}
                 </h3>
                 <p className="text-[14px] text-ink-soft line-clamp-2">
                   {meta.excerpt}
                 </p>
-                {meta.difficulty && (
-                  <div className="pt-2">
-                    <span className="inline-block font-mono text-[9px] tracking-[0.15em] uppercase px-2 py-1 bg-ink/5 text-ink-soft rounded">
-                      {meta.difficulty}
-                    </span>
-                  </div>
-                )}
               </div>
             </Link>
           );
