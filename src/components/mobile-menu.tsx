@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/articles", label: "Topics" },
@@ -12,6 +13,10 @@ const links = [
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  const isActive = (path: string) =>
+    pathname === path || pathname?.startsWith(path + "/");
 
   // Prevent body scroll when menu is open
   useEffect(() => {
@@ -84,6 +89,7 @@ export function MobileMenu() {
               <Link
                 key={link.href}
                 href={link.href}
+                aria-current={isActive(link.href) ? "page" : undefined}
                 onClick={() => setOpen(false)}
                 className="no-underline font-heading font-light text-[32px] tracking-tight transition-colors hover:text-ochre"
                 style={{
@@ -108,6 +114,7 @@ export function MobileMenu() {
           >
             <Link
               href="/objection-finder"
+              aria-current={isActive("/objection-finder") ? "page" : undefined}
               onClick={() => setOpen(false)}
               className="w-full text-center font-mono text-[11px] tracking-[0.18em] uppercase no-underline px-5 py-3.5 transition-all"
               style={{
@@ -120,6 +127,7 @@ export function MobileMenu() {
             </Link>
             <Link
               href="/login"
+              aria-current={isActive("/login") ? "page" : undefined}
               onClick={() => setOpen(false)}
               className="w-full text-center font-mono text-[11px] tracking-[0.18em] uppercase no-underline px-5 py-3.5 transition-all"
               style={{
