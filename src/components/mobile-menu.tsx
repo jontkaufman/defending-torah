@@ -9,6 +9,7 @@ const links = [
   { href: "/objection-finder", label: "Objections" },
   { href: "/torah-laws", label: "Torah Laws" },
   { href: "/blog", label: "Blog" },
+  { href: "/about", label: "About" },
 ];
 
 export function MobileMenu() {
