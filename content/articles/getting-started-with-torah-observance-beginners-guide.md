@@ -545,9 +545,7 @@ You're not converting to Judaism. You're grafted into Israel as a **gentile beli
 - Speak Yiddish or adopt Jewish cultural customs
 
 **You do need to:**
-- Keep the biblical commands (Sabbath, food, feasts, etc.)
-- Love God with all your heart (Deuteronomy 6:5)
-- Love your neighbor as yourself (Leviticus 19:18)
+- Love God, and love your neighbor (Deuteronomy 6:5, Leviticus 19:18) - You learn how to do this by keeping the biblical commands like Jesus did.
 
 Cultural expressions are flexible. Biblical commands are not.
 
