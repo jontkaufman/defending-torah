@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getObjections, getObjectionBySlug } from "@/lib/content";
 import { MarkdownBody } from "@/components/markdown-body";
+import { RelatedContent } from "@/components/related-content";
 import Link from "next/link";
 
 export function generateStaticParams() {
@@ -135,6 +136,11 @@ export default async function ObjectionPage({
             </Link>
           )}
         </div>
+
+        <RelatedContent
+          relatedSlugs={page.meta.relatedSlugs}
+          contentType="objection"
+        />
       </div>
     </article>
   );
