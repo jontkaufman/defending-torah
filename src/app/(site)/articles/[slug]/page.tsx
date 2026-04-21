@@ -6,6 +6,8 @@ import { TagBadge } from "@/components/tag-badge";
 import { RelatedContent } from "@/components/related-content";
 import Link from "next/link";
 
+export const revalidate = false;
+
 export function generateStaticParams() {
   return getArticles().map((a) => ({ slug: a.meta.slug }));
 }

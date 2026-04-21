@@ -5,6 +5,8 @@ import { MarkdownBody } from "@/components/markdown-body";
 import { RelatedContent } from "@/components/related-content";
 import Link from "next/link";
 
+export const revalidate = false;
+
 export function generateStaticParams() {
   return getObjections().map((o) => ({ slug: o.meta.slug }));
 }

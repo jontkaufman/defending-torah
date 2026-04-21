@@ -4,6 +4,8 @@ import { getPosts, getPostBySlug } from "@/lib/posts";
 import { MarkdownBody } from "@/components/markdown-body";
 import Link from "next/link";
 
+export const revalidate = false;
+
 export function generateStaticParams() {
   return getPosts().map((p) => ({ slug: p.meta.slug }));
 }
