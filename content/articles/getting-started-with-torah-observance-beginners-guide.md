@@ -679,7 +679,7 @@ Here's a practical roadmap for your first Sabbath:
 - [ ] Plan Saturday activities (worship time, reading, rest)
 
 **Friday Evening:**
-- [ ] Light candles at sundown with blessing: *"Blessed are You, LORD our God, King of the universe, who has sanctified us with His commandments and commanded us to kindle the Sabbath light"*
+- [ ] Light candles at sundown with a simple prayer welcoming the Sabbath (optional tradition, not a command)
 - [ ] Bless wine/juice (Kiddush): *"Blessed are You, LORD our God, King of the universe, who creates the fruit of the vine"*
 - [ ] Bless bread (HaMotzi): *"Blessed are You, LORD our God, King of the universe, who brings forth bread from the earth"*
 - [ ] Enjoy festive meal with family
