@@ -164,9 +164,9 @@ export function TopicsPageClient({ articles, posts }: TopicsPageClientProps) {
     <div className="px-32 py-[70px] max-lg:px-16 max-md:px-6 max-md:py-10">
       {/* Header */}
       <div className="text-center mb-[50px]">
-        <h2 className="section-title rise delay-2">
+        <h1 className="section-title rise delay-2">
           Every essay, objection, and <em>blog post</em> — by topic.
-        </h2>
+        </h1>
       </div>
 
       {/* Search */}
@@ -204,9 +204,9 @@ export function TopicsPageClient({ articles, posts }: TopicsPageClientProps) {
                 >
                   <div className="flex-1 min-w-0">
                     <div className="flex items-baseline gap-4 max-md:gap-2">
-                      <h3 className="font-heading font-medium text-2xl text-ink group-hover:text-ochre-deep transition-colors max-md:text-xl">
+                      <h2 className="font-heading font-medium text-2xl text-ink group-hover:text-ochre-deep transition-colors max-md:text-xl">
                         {topic.label}
-                      </h3>
+                      </h2>
                       <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted">
                         {items.length}{" "}
                         {items.length === 1 ? "article" : "articles"}
@@ -250,9 +250,9 @@ export function TopicsPageClient({ articles, posts }: TopicsPageClientProps) {
                 className="w-full text-left px-0 py-6 flex items-center justify-between gap-6 bg-transparent border-none cursor-pointer group"
               >
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-heading font-medium text-2xl text-ink group-hover:text-ochre-deep transition-colors">
+                  <h2 className="font-heading font-medium text-2xl text-ink group-hover:text-ochre-deep transition-colors">
                     Other
-                  </h3>
+                  </h2>
                 </div>
                 <span
                   className={`text-ink-soft text-xl transition-transform duration-200 shrink-0 ${
@@ -308,9 +308,9 @@ function TopicItem({
                 {getTypeLabel(item.type)}
               </span>
             </div>
-            <h4 className="font-heading font-semibold text-[19px] text-ink mb-1 group-hover:text-ochre-deep transition-colors">
+            <h3 className="font-heading font-semibold text-[19px] text-ink mb-1 group-hover:text-ochre-deep transition-colors">
               {item.meta.title}
-            </h4>
+            </h3>
             <p className="text-[14px] text-ink-soft line-clamp-2 leading-[1.5]">
               {item.meta.excerpt}
             </p>
@@ -332,9 +332,9 @@ function TopicItem({
           {getTypeLabel(item.type)}
         </span>
         <div className="flex-1 min-w-0">
-          <h4 className="font-heading font-medium text-lg text-ink mb-0.5 group-hover:text-ochre-deep transition-colors">
+          <h3 className="font-heading font-medium text-lg text-ink mb-0.5 group-hover:text-ochre-deep transition-colors">
             {item.meta.title}
-          </h4>
+          </h3>
           <p className="text-[14px] text-ink-soft line-clamp-1">
             {item.meta.excerpt}
           </p>

@@ -288,10 +288,10 @@ export default function TorahLawsPage() {
     <div className="px-10 py-[70px] max-md:px-6 max-md:py-10">
       {/* Header */}
       <div className="text-center mb-[50px]">
-        <h2 className="section-title rise delay-2">
+        <h1 className="section-title rise delay-2">
           {laws.length > 0 ? `${laws.length}` : "..."} laws from the five
           books, organized by <em>the two greatest commandments.</em>
-        </h2>
+        </h1>
       </div>
 
       {/* Search */}

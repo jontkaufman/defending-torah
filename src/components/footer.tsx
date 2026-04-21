@@ -42,9 +42,9 @@ export function Footer() {
 
         {/* Sections */}
         <div>
-          <h4 className="font-mono text-[10.5px] tracking-[0.25em] uppercase text-crimson mb-[18px] font-medium">
+          <h2 className="font-mono text-[10.5px] tracking-[0.25em] uppercase text-crimson mb-[18px] font-medium">
             Sections
-          </h4>
+          </h2>
           <ul className="list-none">
             {sections.map((link) => (
               <li key={link.href} className="mb-2.5">
@@ -61,9 +61,9 @@ export function Footer() {
 
         {/* Resources */}
         <div>
-          <h4 className="font-mono text-[10.5px] tracking-[0.25em] uppercase text-crimson mb-[18px] font-medium">
+          <h2 className="font-mono text-[10.5px] tracking-[0.25em] uppercase text-crimson mb-[18px] font-medium">
             Resources
-          </h4>
+          </h2>
           <ul className="list-none">
             {resources.map((link) => (
               <li key={link.href} className="mb-2.5">

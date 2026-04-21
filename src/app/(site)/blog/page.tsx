@@ -16,9 +16,9 @@ export default function BlogPage() {
   return (
     <div className="px-10 py-[70px] max-w-4xl mx-auto max-md:px-6 max-md:py-10">
       <div className="text-center mb-[50px]">
-        <h2 className="section-title rise delay-2">
+        <h1 className="section-title rise delay-2">
           Polished articles for <em>sharing</em> and discussion.
-        </h2>
+        </h1>
       </div>
 
       <div className="border-t border-ink">

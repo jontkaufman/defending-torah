@@ -38,9 +38,9 @@ export function ObjectionFinderClient({ objections }: ObjectionFinderClientProps
     <div className="px-32 py-[70px] max-lg:px-16 max-md:px-6 max-md:py-10">
       {/* Header */}
       <div className="text-center mb-[50px]">
-        <h2 className="section-title rise delay-2">
+        <h1 className="section-title rise delay-2">
           Someone challenged you. Get the <em>answer</em> in 30 seconds.
-        </h2>
+        </h1>
       </div>
 
       {/* Search */}
