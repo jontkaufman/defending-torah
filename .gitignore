@@ -4,3 +4,7 @@ node_modules/
 out/
 *.tsbuildinfo
 .env*.local
+
+# Cloudflare Wrangler
+.wrangler/
+.mf/
