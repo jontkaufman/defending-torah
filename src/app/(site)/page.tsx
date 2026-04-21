@@ -138,10 +138,6 @@ export default function Home() {
           {/* Stats */}
           <div className="flex items-center justify-center gap-8 mt-8 text-sm text-muted max-md:flex-col max-md:gap-4">
             <div className="flex items-center gap-2">
-              <span className="text-ochre">📖</span>
-              <span>~10,000 words</span>
-            </div>
-            <div className="flex items-center gap-2">
               <span className="text-ochre">⏱️</span>
               <span>30-40 min read</span>
             </div>
