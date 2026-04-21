@@ -616,7 +616,7 @@ For Sabbath, that means:
 - **Start:** Friday at sundown (varies by location and season—use a Sabbath time app or website like hebcal.com)
 - **End:** Saturday at sundown (when three stars are visible, traditionally)
 
-Light candles just before sundown on Friday to welcome the Sabbath. End with a brief Havdalah (separation) ceremony Saturday evening to mark its close.
+While not explicit Torah commands, many believers practice traditions that help mark the transition from the work week to Sabbath rest: lighting candles just before sundown on Friday to welcome the Sabbath, and ending with a brief Havdalah (separation) ceremony Saturday evening to mark its close. These are helpful practices, not requirements.
 
 **What to Stop: Defining "Work"**
 
