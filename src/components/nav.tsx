@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { MobileMenu } from "./mobile-menu";
 
 const links = [
@@ -9,6 +12,11 @@ const links = [
 ];
 
 export function Nav() {
+  const pathname = usePathname();
+
+  const isActive = (path: string) =>
+    pathname === path || pathname?.startsWith(path + "/");
+
   return (
     <>
       {/* Meta Bar */}
@@ -47,6 +55,7 @@ export function Nav() {
             <li key={link.href}>
               <Link
                 href={link.href}
+                aria-current={isActive(link.href) ? "page" : undefined}
                 className="text-ink no-underline font-body text-lg italic font-medium relative pb-1 transition-colors hover:text-ochre-deep group"
               >
                 {link.label}
@@ -59,6 +68,7 @@ export function Nav() {
         <div className="justify-self-end flex items-center gap-5">
           <Link
             href="/objection-finder"
+            aria-current={isActive("/objection-finder") ? "page" : undefined}
             className="font-mono text-[11px] tracking-[0.18em] uppercase bg-ink text-parchment px-5 py-2.5 no-underline border border-ink transition-all hover:bg-ochre hover:border-ochre hover:text-parchment max-md:hidden"
           >
             Find an Answer →
