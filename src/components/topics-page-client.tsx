@@ -46,7 +46,7 @@ const TOPICS = [
   },
 ];
 
-type ContentType = "article" | "objection" | "deep-dive";
+type ContentType = "article" | "objection";
 
 interface TopicsPageClientProps {
   articles: { meta: ContentMeta; type: ContentType }[];
@@ -68,8 +68,6 @@ function getTypeLabel(type: ContentType | "post") {
   switch (type) {
     case "objection":
       return "Objection";
-    case "deep-dive":
-      return "Deep Dive";
     case "post":
       return "Blog";
     default:
@@ -81,8 +79,6 @@ function getTypeColor(type: ContentType | "post") {
   switch (type) {
     case "objection":
       return "text-crimson";
-    case "deep-dive":
-      return "text-olive";
     case "post":
       return "text-ink-soft";
     default:
