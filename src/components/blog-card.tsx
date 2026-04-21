@@ -12,9 +12,9 @@ export function BlogCard({ meta }: { meta: PostMeta }) {
           {meta.date}
         </span>
         <div className="flex-1 min-w-0">
-          <h3 className="font-heading font-medium text-xl text-ink mb-1 group-hover:text-ochre-deep transition-colors">
+          <h2 className="font-heading font-medium text-xl text-ink mb-1 group-hover:text-ochre-deep transition-colors">
             {meta.title}
-          </h3>
+          </h2>
           {meta.excerpt && (
             <p className="text-[16px] text-ink-soft line-clamp-2">
               {meta.excerpt}

@@ -12,11 +12,11 @@ export function ObjectionCard({ meta }: { meta: ContentMeta }) {
           Objection
         </span>
         <div className="flex-1 min-w-0">
-          <h3 className="font-heading font-medium text-lg text-ink mb-1 group-hover:text-ochre-deep transition-colors">
+          <h2 className="font-heading font-medium text-lg text-ink mb-1 group-hover:text-ochre-deep transition-colors">
             {meta.title.split(/("[^"]*")/).map((part, i) =>
               part.startsWith('"') ? <strong key={i}>{part}</strong> : part
             )}
-          </h3>
+          </h2>
           <p className="text-[16px] text-ink-soft line-clamp-2">
             {meta.excerpt}
           </p>
