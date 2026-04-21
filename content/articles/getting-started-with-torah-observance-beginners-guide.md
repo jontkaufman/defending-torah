@@ -975,20 +975,6 @@ Consider giving to:
 
 Amount: Use 10% as a baseline, but give generously beyond that as you're able. Paul's principle applies: "Each one must give as he has decided in his heart, not reluctantly or under compulsion, for God loves a cheerful giver" (2 Corinthians 9:7).
 
-**Head Coverings: 1 Corinthians 11**
-
-**Biblical Instruction:**
-
-1 Corinthians 11:4-16 teaches that men should pray and prophesy with heads uncovered, while women should cover their heads during prayer and prophecy.
-
-Is this a cultural instruction specific to Corinth, or a universal command for all believers? The text is debated.
-
-**Application:**
-
-Many Messianic and Torah-observant believers practice head covering for women during worship. Some see it as a clear command; others see it as culturally bound.
-
-Study the passage yourself (1 Corinthians 11:2-16 in context). Discuss with your spouse if you're married. This is a matter of personal or congregational conviction, not a salvation issue.
-
 **Other Commands: Mixing Fabrics, Tattoos, Gender Distinctions**
 
 **Leviticus 19:19, Deuteronomy 22:11 — Don't Mix Wool and Linen:**
@@ -1013,6 +999,14 @@ Principle: Maintain gender distinctions in appearance and dress. Application var
 
 **Priority Framework**
 
+**A Word of Encouragement Before You Begin:**
+
+If you're coming into this without any previous experience in this walk, please take it slow. Take account of what this walk may cost and determine for yourself if this is a commitment you are willing to make. Scripture warns about making a commitment (vow) and not honoring it:
+
+> "When you vow a vow to God, do not delay paying it, for he has no pleasure in fools. Pay what you vow. It is better that you should not vow than that you should vow and not pay." (Ecclesiastes 5:4-5)
+
+This isn't said to scare off new believers, but to remind with solemnity the seriousness of making a commitment before your Creator.
+
 You don't have to do everything at once. Here's a suggested priority for beginners:
 
 **Start with (Core Practices):**
@@ -1024,8 +1018,8 @@ You don't have to do everything at once. Here's a suggested priority for beginne
 
 **Add as you grow:**
 
-5. Tithing, head coverings, tzitzit, other commands
-6. Study deeper areas: civil laws, agricultural laws, purity laws (many don't apply without the Temple or the land of Israel)
+5. Tithing, tzitzit, other commands
+6. Study deeper areas: agricultural laws, purity laws (many don't apply without the Temple or the land of Israel)
 
 You're building a lifestyle, not checking boxes. Move at a sustainable pace. Grow in understanding. Let the Spirit lead.
 
