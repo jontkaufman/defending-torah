@@ -119,3 +119,11 @@ This isn't an exception. It's the pattern. Here are 10 examples showing Yeshua t
 **Torah source:** Leviticus 19:15 — "Judge your neighbor fairly." Deuteronomy 1:16-17 — righteous judgment is required.
 
 **The connection:** Yeshua is not forbidding all judgment—Torah requires righteous judgment of sin. He's warning against hypocritical judgment (see the very next verses, Matthew 7:3-5, about the speck and the plank). "The measure you use" echoes Torah's principle of honest measures (Leviticus 19:35-36, Deuteronomy 25:13-16). Judge rightly, not hypocritically.
+
+## The Pattern Is Clear
+
+Yeshua didn't give a different law—He taught Torah with authority. When He said "but I say," He wasn't overriding Moses. He was explaining what Moses always meant. Every "new" commandment traces back to Sinai. Not replacement—explication.
+
+He told you Himself: "Do not think that I came to abolish the Law or the Prophets; I did not come to abolish but to fulfill" (Matthew 5:17). His teachings prove it.
+
+**Confidence level:** [Established] for direct Torah quotes (Greatest Commandment, Golden Rule, Honor Parents). [Probable] overall, since some applications involve interpretive moves standard in Jewish exegesis (judicial vs. personal contexts for "eye for eye," Mark 7's hand-washing vs. food law distinction).
