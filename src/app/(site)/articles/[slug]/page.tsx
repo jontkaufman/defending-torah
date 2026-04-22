@@ -4,6 +4,7 @@ import { getArticles, getArticleBySlug } from "@/lib/content";
 import { MarkdownBody } from "@/components/markdown-body";
 import { TagBadge } from "@/components/tag-badge";
 import { RelatedContent } from "@/components/related-content";
+import { ShareButtons } from "@/components/share-buttons";
 import Link from "next/link";
 
 export const revalidate = false;
@@ -36,7 +37,8 @@ export default async function ArticlePage({
   if (!article) notFound();
 
   return (
-    <article className="px-10 py-[70px] max-md:px-6 max-md:py-10">
+    <>
+      <article className="px-10 py-[70px] max-md:px-6 max-md:py-10">
       <div className="max-w-3xl mx-auto">
         <header className="mb-12">
           <Link
@@ -73,5 +75,11 @@ export default async function ArticlePage({
         />
       </div>
     </article>
+
+      <ShareButtons
+        url={`https://defending-torah.jontkaufman.workers.dev/articles/${slug}`}
+        title={article.meta.title}
+      />
+    </>
   );
 }
