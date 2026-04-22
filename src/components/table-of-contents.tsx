@@ -33,10 +33,16 @@ export function TableOfContents({ content }: TableOfContentsProps) {
       let id = heading.id;
 
       if (!id) {
-        id = text
+        const baseId = text
           .toLowerCase()
           .replace(/[^a-z0-9]+/g, "-")
           .replace(/(^-|-$)/g, "");
+        id = baseId;
+        let counter = 1;
+        while (document.querySelectorAll(`[id="${id}"]`).length > 0) {
+          id = `${baseId}-${counter}`;
+          counter++;
+        }
         heading.id = id;
       }
 
@@ -113,6 +119,7 @@ export function TableOfContents({ content }: TableOfContentsProps) {
             <button
               key={id}
               onClick={() => handleClick(id)}
+              aria-current={activeId === id ? "true" : undefined}
               className={`
                 w-full text-left px-3 py-2 text-sm rounded transition-all duration-150
                 ${level === 3 ? "pl-7 text-[13px]" : ""}
@@ -164,6 +171,7 @@ export function TableOfContents({ content }: TableOfContentsProps) {
                 <button
                   key={id}
                   onClick={() => handleClick(id)}
+                  aria-current={activeId === id ? "true" : undefined}
                   className={`
                     w-full text-left px-3 py-2 text-sm rounded transition-all duration-150
                     ${level === 3 ? "pl-7 text-[13px]" : ""}
