@@ -16,6 +16,6 @@ related: [matthew-5-17-19-foundation, moral-ceremonial-civil-division, galatians
 article_slug: matthew-5-17-19-foundation
 ---
 
-When asked which commandment is greatest, Yeshua answered: "Love the Lord your God with all your heart, soul, and mind" (Deuteronomy 6:5) and "Love your neighbor as yourself" (Leviticus 19:18). These are often taught as Yeshua's new summary of everything—a fresh, revolutionary ethic that replaces the detailed Torah. But they're not new at all. They're verbatim Torah quotes.
+When asked which commandment is greatest, Yeshua quoted the Torah directly. He cited Deuteronomy 6:5 ("Love the Lord your God with all your heart, soul, and mind") and Leviticus 19:18 ("Love your neighbor as yourself"). These are often taught as Yeshua's new summary of everything—a fresh, revolutionary ethic that replaces the detailed Torah. But they're not new at all. They're verbatim Torah quotes.
 
 This isn't an exception. It's the pattern. Here are 10 examples showing Yeshua taught Torah, not a replacement for it.
