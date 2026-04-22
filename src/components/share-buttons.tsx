@@ -59,6 +59,7 @@ function getShareUrl(platform: Platform, url: string, title: string): string | n
 export function ShareButtons({ url, title, className = '' }: ShareButtonsProps) {
   const [isVisible, setIsVisible] = useState(false);
   const [showCopied, setShowCopied] = useState(false);
+  const [copyError, setCopyError] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -72,7 +73,8 @@ export function ShareButtons({ url, title, className = '' }: ShareButtonsProps) 
   const handleShare = (platform: Platform) => {
     const shareUrl = getShareUrl(platform, url, title);
     if (shareUrl) {
-      window.open(shareUrl, '_blank', 'width=600,height=400');
+      const win = window.open(shareUrl, '_blank', 'width=600,height=400');
+      if (win) win.opener = null; // Prevent access to parent window (tabnabbing protection)
     }
   };
 
@@ -80,9 +82,12 @@ export function ShareButtons({ url, title, className = '' }: ShareButtonsProps) 
     try {
       await navigator.clipboard.writeText(url);
       setShowCopied(true);
+      setCopyError(false);
       setTimeout(() => setShowCopied(false), 2000);
     } catch (err) {
       console.error('Failed to copy:', err);
+      setCopyError(true);
+      setTimeout(() => setCopyError(false), 2000);
     }
   };
 
@@ -91,6 +96,7 @@ export function ShareButtons({ url, title, className = '' }: ShareButtonsProps) 
       className={`fixed bottom-6 right-6 z-50 flex flex-col gap-3 transition-opacity duration-300 max-md:bottom-4 max-md:right-4 ${
         isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       } ${className}`}
+      aria-hidden={!isVisible}
     >
       <button
         onClick={() => handleShare('facebook')}
@@ -118,11 +124,15 @@ export function ShareButtons({ url, title, className = '' }: ShareButtonsProps) 
 
       <button
         onClick={handleCopy}
-        aria-label={showCopied ? 'Link copied!' : 'Copy link'}
+        aria-label={showCopied ? 'Link copied!' : copyError ? 'Failed to copy' : 'Copy link'}
         className="relative flex h-12 w-12 items-center justify-center rounded-full bg-[#10B981] text-white shadow-lg transition-all hover:scale-105 hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-[#10B981] focus:ring-offset-2 max-md:h-11 max-md:w-11"
       >
         {showCopied ? icons.check : icons.copy}
-        {showCopied && (
+        {copyError ? (
+          <span className="absolute -top-10 right-0 whitespace-nowrap rounded bg-red-600 px-2 py-1 text-xs text-white">
+            Failed to copy
+          </span>
+        ) : showCopied && (
           <span className="absolute -top-10 right-0 whitespace-nowrap rounded bg-black px-2 py-1 text-xs text-white">
             Copied!
           </span>
