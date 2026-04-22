@@ -139,7 +139,7 @@ export function TableOfContents({ content }: TableOfContentsProps) {
       {/* Mobile TOC Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="xl:hidden fixed top-4 right-4 z-40 w-12 h-12 bg-parchment/80 backdrop-blur border border-ink/20 rounded shadow-lg flex items-center justify-center hover:bg-parchment transition-colors"
+        className="xl:hidden fixed bottom-6 right-4 z-40 w-12 h-12 bg-parchment/80 backdrop-blur border border-ink/20 rounded shadow-lg flex items-center justify-center hover:bg-parchment transition-colors"
         aria-label="Open table of contents"
       >
         <svg className="w-5 h-5 text-ink" fill="none" stroke="currentColor" viewBox="0 0 24 24">
