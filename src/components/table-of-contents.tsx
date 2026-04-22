@@ -1,0 +1,186 @@
+"use client";
+
+import { useEffect, useState, useRef } from "react";
+
+interface TOCItem {
+  id: string;
+  text: string;
+  level: 2 | 3;
+}
+
+interface TableOfContentsProps {
+  content: string;
+}
+
+export function TableOfContents({ content }: TableOfContentsProps) {
+  const [headings, setHeadings] = useState<TOCItem[]>([]);
+  const [activeId, setActiveId] = useState<string>("");
+  const [isOpen, setIsOpen] = useState(false);
+  const [isScrollable, setIsScrollable] = useState(false);
+  const navRef = useRef<HTMLElement>(null);
+
+  // Extract headings from DOM on mount
+  useEffect(() => {
+    const article = document.querySelector("article");
+    if (!article) return;
+
+    const headingElements = article.querySelectorAll("h2, h3");
+    const items: TOCItem[] = [];
+
+    headingElements.forEach((heading) => {
+      const level = parseInt(heading.tagName[1]) as 2 | 3;
+      const text = heading.textContent || "";
+      let id = heading.id;
+
+      if (!id) {
+        id = text
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/(^-|-$)/g, "");
+        heading.id = id;
+      }
+
+      items.push({ id, text, level });
+    });
+
+    setHeadings(items);
+  }, [content]);
+
+  // Check if nav is scrollable
+  useEffect(() => {
+    const checkScrollable = () => {
+      if (navRef.current) {
+        setIsScrollable(navRef.current.scrollHeight > navRef.current.clientHeight);
+      }
+    };
+
+    checkScrollable();
+    window.addEventListener("resize", checkScrollable);
+    return () => window.removeEventListener("resize", checkScrollable);
+  }, [headings]);
+
+  // Intersection Observer for active section
+  useEffect(() => {
+    if (headings.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveId(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: "-20% 0px -80% 0px", threshold: 0 }
+    );
+
+    headings.forEach(({ id }) => {
+      const element = document.getElementById(id);
+      if (element) observer.observe(element);
+    });
+
+    return () => observer.disconnect();
+  }, [headings]);
+
+  const handleClick = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      setIsOpen(false);
+    }
+  };
+
+  if (headings.length === 0) return null;
+
+  return (
+    <>
+      {/* Desktop Sidebar */}
+      <nav
+        ref={navRef}
+        className="hidden xl:block sticky top-[100px] max-h-[calc(100vh-120px)] overflow-y-auto pr-4 will-change-transform relative"
+        aria-label="Table of contents"
+        style={{
+          maskImage: isScrollable
+            ? "linear-gradient(to bottom, black 90%, transparent 100%)"
+            : undefined,
+          WebkitMaskImage: isScrollable
+            ? "linear-gradient(to bottom, black 90%, transparent 100%)"
+            : undefined,
+        }}
+      >
+        <div className="space-y-1">
+          {headings.map(({ id, text, level }) => (
+            <button
+              key={id}
+              onClick={() => handleClick(id)}
+              className={`
+                w-full text-left px-3 py-2 text-sm rounded transition-all duration-150
+                ${level === 3 ? "pl-7 text-[13px]" : ""}
+                ${
+                  activeId === id
+                    ? "bg-ochre/10 text-ink font-semibold border-l-[3px] border-ochre"
+                    : "text-ink-soft hover:bg-ochre/5 hover:text-ink"
+                }
+              `}
+            >
+              {text}
+            </button>
+          ))}
+        </div>
+      </nav>
+
+      {/* Mobile TOC Button */}
+      <button
+        onClick={() => setIsOpen(true)}
+        className="xl:hidden fixed top-4 right-4 z-40 w-12 h-12 bg-parchment/80 backdrop-blur border border-ink/20 rounded shadow-lg flex items-center justify-center hover:bg-parchment transition-colors"
+        aria-label="Open table of contents"
+      >
+        <svg className="w-5 h-5 text-ink" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      {/* Mobile Drawer */}
+      {isOpen && (
+        <div className="xl:hidden fixed inset-0 z-50 bg-ink/40" onClick={() => setIsOpen(false)}>
+          <div
+            className="absolute top-0 right-0 w-[80%] max-w-sm h-full bg-parchment shadow-2xl overflow-y-auto p-6"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="font-heading text-lg text-ink">Contents</h2>
+              <button
+                onClick={() => setIsOpen(false)}
+                className="w-8 h-8 flex items-center justify-center rounded hover:bg-ink/5"
+                aria-label="Close"
+              >
+                <svg className="w-5 h-5 text-ink" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div className="space-y-1">
+              {headings.map(({ id, text, level }) => (
+                <button
+                  key={id}
+                  onClick={() => handleClick(id)}
+                  className={`
+                    w-full text-left px-3 py-2 text-sm rounded transition-all duration-150
+                    ${level === 3 ? "pl-7 text-[13px]" : ""}
+                    ${
+                      activeId === id
+                        ? "bg-ochre/10 text-ink font-semibold border-l-[3px] border-ochre"
+                        : "text-ink-soft hover:bg-ochre/5 hover:text-ink"
+                    }
+                  `}
+                >
+                  {text}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
