@@ -79,3 +79,23 @@ This isn't an exception. It's the pattern. Here are 10 examples showing Yeshua t
 **Torah source:** Exodus 21:24, Leviticus 24:20 — the principle of proportional justice.
 
 **The connection:** "Eye for eye" is a judicial standard limiting punishment to proportionality, not a personal vengeance mandate. Torah never commanded individuals to retaliate—it limited courts to fair penalties. Yeshua is teaching personal mercy in relationships, distinct from judicial contexts. Not replacing Torah—applying it rightly.
+
+## 7. Love Your Enemies
+
+**Yeshua said:** "You have heard it said, 'Love your neighbor and hate your enemy.' But I tell you, love your enemies and pray for those who persecute you." (Matthew 5:43-44)
+
+**Why it sounds new:** Yeshua appears to transcend Torah's tribal love ethic with universal love.
+
+**Torah source:** Exodus 23:4-5 (help your enemy's animal), Leviticus 19:18 (love your neighbor), Leviticus 19:33-34 (love the foreigner as yourself).
+
+**The connection:** "Hate your enemy" is not in Torah—it's a Pharisaic addition. Yeshua corrects the tradition and points back to what Torah actually says: love extends to enemies (help them) and foreigners (treat as yourself). He's not transcending Torah—He's defending it against a distortion.
+
+## 8. The Sabbath Was Made for Man
+
+**Yeshua said:** "The Sabbath was made for man, not man for the Sabbath. So the Son of Man is Lord even of the Sabbath." (Mark 2:27-28)
+
+**Why it sounds new:** Yeshua asserting lordship over the Sabbath sounds like He's loosening or overriding Torah restrictions.
+
+**Torah source:** Exodus 16:29, 20:8-11 — Sabbath commanded as a gift of rest.
+
+**The connection:** Yeshua is defending Torah Sabbath against Pharisaic additions—like their prohibition against plucking grain to eat (considered "harvesting"). Torah never made Sabbath a burden. It was given as gracious rest. Yeshua is not changing the Sabbath command—He's restoring its original intent.
