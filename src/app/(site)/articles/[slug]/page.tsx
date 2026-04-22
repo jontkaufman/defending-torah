@@ -39,7 +39,7 @@ export default async function ArticlePage({
   return (
     <>
       <article className="px-10 py-[70px] max-md:px-6 max-md:py-10">
-      <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto">
         <header className="mb-12">
           <Link
             href="/articles"
@@ -73,8 +73,8 @@ export default async function ArticlePage({
           relatedSlugs={article.meta.relatedSlugs}
           contentType="article"
         />
-      </div>
-    </article>
+        </div>
+      </article>
 
       <ShareButtons
         url={`https://defending-torah.jontkaufman.workers.dev/articles/${slug}`}
