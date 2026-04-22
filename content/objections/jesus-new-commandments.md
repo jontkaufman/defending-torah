@@ -49,3 +49,33 @@ This isn't an exception. It's the pattern. Here are 10 examples showing Yeshua t
 **Torah source:** Exodus 20:12, Deuteronomy 5:16 — the Fifth Commandment.
 
 **The connection:** Yeshua is defending Torah against human tradition that was nullifying it. Not creating new law—protecting the original command from being set aside by rabbinic loopholes.
+
+## 4. Murder Starts in the Heart
+
+**Yeshua said:** "You have heard it said, 'Do not murder,' but I say to you that everyone who is angry with his brother will be liable to judgment." (Matthew 5:21-22)
+
+**Why it sounds new:** The "You have heard... but I say" formula sounds like Yeshua is overriding Moses with His own authority.
+
+**Torah source:** Leviticus 19:17 — "You shall not hate your brother in your heart."
+
+**The connection:** Torah already prohibited internal hatred. Yeshua is not adding to the commandment against murder—He's teaching what it always included. Anger is the seed; murder is the fruit. This is Torah explication, not innovation.
+
+## 5. Adultery Starts with Lust
+
+**Yeshua said:** "You have heard it said, 'Do not commit adultery,' but I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart." (Matthew 5:27-28)
+
+**Why it sounds new:** Yeshua seems to be adding internal thought-crime to what was only an external act.
+
+**Torah source:** Exodus 20:17 — "You shall not covet your neighbor's wife."
+
+**The connection:** The Tenth Commandment already addressed internal desire. Yeshua is showing the connection between coveting (Torah) and adultery (Torah). He's explicating what Torah always meant—lust is the root, adultery is the outcome. Not adding—clarifying.
+
+## 6. Eye for Eye → Turn the Other Cheek
+
+**Yeshua said:** "You have heard it said, 'Eye for eye, tooth for tooth,' but I tell you, do not resist an evil person. If anyone slaps you on the right cheek, turn to them the other cheek also." (Matthew 5:38-39)
+
+**Why it sounds new:** Yeshua appears to be replacing Torah's harsh justice with radical mercy.
+
+**Torah source:** Exodus 21:24, Leviticus 24:20 — the principle of proportional justice.
+
+**The connection:** "Eye for eye" is a judicial standard limiting punishment to proportionality, not a personal vengeance mandate. Torah never commanded individuals to retaliate—it limited courts to fair penalties. Yeshua is teaching personal mercy in relationships, distinct from judicial contexts. Not replacing Torah—applying it rightly.
