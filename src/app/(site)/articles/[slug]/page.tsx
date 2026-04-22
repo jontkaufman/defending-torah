@@ -77,7 +77,7 @@ export default async function ArticlePage({
       </article>
 
       <ShareButtons
-        url={`https://defending-torah.jontkaufman.workers.dev/articles/${slug}`}
+        url={`https://www.defendingtorah.com/articles/${slug}`}
         title={article.meta.title}
       />
     </>

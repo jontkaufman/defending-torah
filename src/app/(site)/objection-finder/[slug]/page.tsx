@@ -148,7 +148,7 @@ export default async function ObjectionPage({
       </div>
       </article>
       <ShareButtons
-        url={`https://defending-torah.jontkaufman.workers.dev/objection-finder/${slug}`}
+        url={`https://www.defendingtorah.com/objection-finder/${slug}`}
         title={page.meta.title}
       />
     </>
