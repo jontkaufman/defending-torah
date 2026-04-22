@@ -27,7 +27,7 @@ export async function generateMetadata({
       type: "article",
       title: page.meta.title,
       description: page.meta.excerpt,
-      url: `https://www.defendingtorah.com/objection-finder/${slug}`,
+      url: `https://defendingtorah.com/objection-finder/${slug}`,
     },
     twitter: {
       card: "summary_large_image",
@@ -159,7 +159,7 @@ export default async function ObjectionPage({
       </div>
       </article>
       <ShareButtons
-        url={`https://www.defendingtorah.com/objection-finder/${slug}`}
+        url={`https://defendingtorah.com/objection-finder/${slug}`}
         title={page.meta.title}
       />
     </>

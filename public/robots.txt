@@ -10,4 +10,4 @@ Allow: /
 User-agent: Twitterbot
 Allow: /
 
-Sitemap: https://www.defendingtorah.com/sitemap.xml
+Sitemap: https://defendingtorah.com/sitemap.xml

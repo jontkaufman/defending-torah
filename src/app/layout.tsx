@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   },
   description:
     "Careful arguments, primary sources, and Hebrew exegesis defending the ongoing validity of God's Torah. Essays, objection responses, and verse-by-verse analysis.",
-  metadataBase: new URL("https://www.defendingtorah.com"),
+  metadataBase: new URL("https://defendingtorah.com"),
   openGraph: {
     type: "website",
     siteName: "Defending Torah",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "Careful arguments, primary sources, and Hebrew exegesis defending the ongoing validity of God's Torah. Essays, objection responses, and verse-by-verse analysis.",
     locale: "en_US",
-    url: "https://www.defendingtorah.com",
+    url: "https://defendingtorah.com",
   },
   twitter: {
     card: "summary_large_image",

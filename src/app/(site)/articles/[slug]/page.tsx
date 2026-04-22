@@ -28,7 +28,7 @@ export async function generateMetadata({
       type: "article",
       title: article.meta.title,
       description: article.meta.excerpt,
-      url: `https://www.defendingtorah.com/articles/${slug}`,
+      url: `https://defendingtorah.com/articles/${slug}`,
     },
     twitter: {
       card: "summary_large_image",
@@ -88,7 +88,7 @@ export default async function ArticlePage({
       </article>
 
       <ShareButtons
-        url={`https://www.defendingtorah.com/articles/${slug}`}
+        url={`https://defendingtorah.com/articles/${slug}`}
         title={article.meta.title}
       />
     </>
