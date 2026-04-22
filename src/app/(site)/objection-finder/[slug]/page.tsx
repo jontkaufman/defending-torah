@@ -4,6 +4,7 @@ import { getObjections, getObjectionBySlug } from "@/lib/content";
 import { MarkdownBody } from "@/components/markdown-body";
 import { RelatedContent } from "@/components/related-content";
 import Link from "next/link";
+import { ShareButtons } from "@/components/share-buttons";
 
 export const revalidate = false;
 
@@ -45,7 +46,8 @@ export default async function ObjectionPage({
   const fm = page.rawFrontmatter as ObjectionFrontmatter;
 
   return (
-    <article className="px-10 py-[70px] max-md:px-6 max-md:py-10">
+    <>
+      <article className="px-10 py-[70px] max-md:px-6 max-md:py-10">
       <div className="max-w-3xl mx-auto">
         <header className="mb-12">
           <Link
@@ -144,6 +146,11 @@ export default async function ObjectionPage({
           contentType="objection"
         />
       </div>
-    </article>
+      </article>
+      <ShareButtons
+        url={`https://defending-torah.jontkaufman.workers.dev/objection-finder/${slug}`}
+        title={page.meta.title}
+      />
+    </>
   );
 }
