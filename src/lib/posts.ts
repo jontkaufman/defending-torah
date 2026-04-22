@@ -9,6 +9,7 @@ export interface PostMeta {
   date: string;
   tags: string[];
   topic: string;
+  relatedSlugs: string[];
 }
 
 export interface Post {
@@ -35,6 +36,7 @@ export function getPosts(): Post[] {
           date: data.date instanceof Date ? data.date.toISOString().split('T')[0] : (data.date ?? ""),
           tags: data.tags ?? [],
           topic: data.topic ?? "",
+          relatedSlugs: data.related ?? [],
         },
         content,
       };
