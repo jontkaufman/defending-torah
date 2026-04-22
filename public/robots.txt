@@ -1,0 +1,13 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Explicitly allow Facebook's scraper
+User-agent: facebookexternalhit
+Allow: /
+
+# Allow Twitter's scraper
+User-agent: Twitterbot
+Allow: /
+
+Sitemap: https://www.defendingtorah.com/sitemap.xml
