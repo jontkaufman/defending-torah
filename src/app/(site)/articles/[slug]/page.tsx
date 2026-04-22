@@ -24,6 +24,17 @@ export async function generateMetadata({
   return {
     title: article.meta.title,
     description: article.meta.excerpt,
+    openGraph: {
+      type: "article",
+      title: article.meta.title,
+      description: article.meta.excerpt,
+      url: `https://www.defendingtorah.com/articles/${slug}`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.meta.title,
+      description: article.meta.excerpt,
+    },
   };
 }
 

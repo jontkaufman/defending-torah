@@ -23,6 +23,17 @@ export async function generateMetadata({
   return {
     title: page.meta.title,
     description: page.meta.excerpt,
+    openGraph: {
+      type: "article",
+      title: page.meta.title,
+      description: page.meta.excerpt,
+      url: `https://www.defendingtorah.com/objection-finder/${slug}`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: page.meta.title,
+      description: page.meta.excerpt,
+    },
   };
 }
 
