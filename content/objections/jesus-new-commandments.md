@@ -99,3 +99,23 @@ This isn't an exception. It's the pattern. Here are 10 examples showing Yeshua t
 **Torah source:** Exodus 16:29, 20:8-11 — Sabbath commanded as a gift of rest.
 
 **The connection:** Yeshua is defending Torah Sabbath against Pharisaic additions—like their prohibition against plucking grain to eat (considered "harvesting"). Torah never made Sabbath a burden. It was given as gracious rest. Yeshua is not changing the Sabbath command—He's restoring its original intent.
+
+## 9. What Defiles Comes from Within
+
+**Yeshua said:** "Nothing outside a person can defile them by going into them. Rather, it is what comes out of a person that defiles them." (Mark 7:15)
+
+**Why it sounds new:** Sounds like Yeshua is declaring all foods clean and abolishing dietary laws.
+
+**Torah source:** Leviticus 11 (clean/unclean animals) vs. Pharisaic hand-washing tradition (not in Torah).
+
+**The connection:** The entire dispute in Mark 7 is about hand-washing before eating bread—not about unclean animals. "All foods clean" (v. 19) means kosher foods don't become defiling through unwashed hands. Yeshua's point: internal sin (murder, theft, adultery—listed in v. 21-22) truly defiles, not external ritual additions. He's targeting tradition, not Torah. (See our [detailed treatment of Mark 7:19](/objection-finder/mark-7-19-all-foods-clean).)
+
+## 10. Do Not Judge
+
+**Yeshua said:** "Do not judge, or you too will be judged. For in the same way you judge others, you will be judged, and with the measure you use, it will be measured to you." (Matthew 7:1-2)
+
+**Why it sounds new:** Sounds like Yeshua is forbidding all judgment, promoting radical tolerance.
+
+**Torah source:** Leviticus 19:15 — "Judge your neighbor fairly." Deuteronomy 1:16-17 — righteous judgment is required.
+
+**The connection:** Yeshua is not forbidding all judgment—Torah requires righteous judgment of sin. He's warning against hypocritical judgment (see the very next verses, Matthew 7:3-5, about the speck and the plank). "The measure you use" echoes Torah's principle of honest measures (Leviticus 19:35-36, Deuteronomy 25:13-16). Judge rightly, not hypocritically.
