@@ -171,7 +171,7 @@ function TreeLevel({
       <div className="border-b border-ink">
         <button
           onClick={() => setExpanded(!expanded)}
-          className="w-full text-left py-6 px-8 flex items-center gap-5 hover:bg-parchment-deep/50 transition-colors border-l-3 border-ochre max-md:py-4 max-md:px-4 max-md:gap-3"
+          className="w-full text-left py-6 px-8 flex items-center gap-5 hover:bg-parchment-deep/50 transition-colors border-l-[3px] border-ochre max-md:py-4 max-md:px-4 max-md:gap-3"
         >
           <span className="font-heading font-black text-[32px] text-ochre w-10 shrink-0 max-md:text-[24px] max-md:w-8">
             {shortNum}
@@ -266,10 +266,14 @@ export default function TorahLawsPage() {
   const [selectedLaw, setSelectedLaw] = useState<Law | null>(null);
 
   useEffect(() => {
-    fetchLaws().then((data) => {
-      setLaws(data);
-      setLoading(false);
-    });
+    fetchLaws()
+      .then((data) => {
+        setLaws(data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setLoading(false);
+      });
   }, []);
 
   const filtered = useMemo(() => {

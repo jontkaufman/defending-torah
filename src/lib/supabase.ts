@@ -1,11 +1,13 @@
 import { createClient } from "@supabase/supabase-js";
 import type { Law } from "./laws";
 
+let _supabase: ReturnType<typeof createClient> | null = null;
 function getSupabase() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (!url || !key) return null;
-  return createClient(url, key);
+  if (!_supabase) _supabase = createClient(url, key);
+  return _supabase;
 }
 
 interface CategoryRow {
@@ -134,7 +136,13 @@ export async function fetchLaws(): Promise<Law[]> {
     });
   } catch (err) {
     console.error("Supabase fetch failed, falling back to static JSON:", err);
-    const res = await fetch("/laws-data.json");
-    return res.json();
+    try {
+      const res = await fetch("/laws-data.json");
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    } catch (fallbackErr) {
+      console.error("Static JSON fallback also failed:", fallbackErr);
+      return [];
+    }
   }
 }

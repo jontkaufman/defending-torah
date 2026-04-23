@@ -14,10 +14,11 @@ interface TableOfContentsProps {
 
 export function TableOfContents({ content }: TableOfContentsProps) {
   const [headings, setHeadings] = useState<TOCItem[]>([]);
-  const [activeId, setActiveId] = useState<string>("");
+  const [activeId, setActiveId] = useState<string>("intro");
   const [isOpen, setIsOpen] = useState(false);
   const [isScrollable, setIsScrollable] = useState(false);
   const navRef = useRef<HTMLElement>(null);
+  const pendingFlashRef = useRef<string | null>(null);
 
   // Extract headings from DOM on mount
   useEffect(() => {
@@ -28,6 +29,9 @@ export function TableOfContents({ content }: TableOfContentsProps) {
     const items: TOCItem[] = [];
 
     headingElements.forEach((heading) => {
+      // Skip headings inside hidden containers (e.g. xl:hidden mobile fallback)
+      if ((heading as HTMLElement).offsetParent === null) return;
+
       const level = parseInt(heading.tagName[1]) as 2 | 3;
       const text = heading.textContent || "";
       let id = heading.id;
@@ -65,33 +69,65 @@ export function TableOfContents({ content }: TableOfContentsProps) {
     return () => window.removeEventListener("resize", checkScrollable);
   }, [headings]);
 
-  // Intersection Observer for active section
+  // Scroll-based active section tracking
   useEffect(() => {
     if (headings.length === 0) return;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
-          }
-        });
-      },
-      { rootMargin: "-20% 0px -80% 0px", threshold: 0 }
-    );
+    const handleScroll = () => {
+      const threshold = window.innerHeight * 0.3;
+      let current = "intro";
 
-    headings.forEach(({ id }) => {
-      const element = document.getElementById(id);
-      if (element) observer.observe(element);
-    });
+      for (const { id } of headings) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+        if (el.getBoundingClientRect().top <= threshold) {
+          current = id;
+        }
+      }
 
-    return () => observer.disconnect();
+      setActiveId(current);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    const raf = requestAnimationFrame(handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      cancelAnimationFrame(raf);
+    };
   }, [headings]);
+
+  // Flash heading once after scroll settles
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+
+    const onScroll = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        if (!pendingFlashRef.current) return;
+        const el = document.getElementById(pendingFlashRef.current);
+        if (el) {
+          el.classList.add("toc-flash");
+          setTimeout(() => el.classList.remove("toc-flash"), 1400);
+        }
+        pendingFlashRef.current = null;
+      }, 160);
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      clearTimeout(timer);
+    };
+  }, []);
 
   const handleClick = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      const offset = 140; // sticky header + ~5 lines breathing room
+      const top = element.getBoundingClientRect().top + window.scrollY - offset;
+      pendingFlashRef.current = id;
+      window.scrollTo({ top, behavior: "smooth" });
       setIsOpen(false);
     }
   };
@@ -100,10 +136,22 @@ export function TableOfContents({ content }: TableOfContentsProps) {
 
   return (
     <>
+      <style>{`
+        @keyframes toc-flash {
+          0%   { background-color: transparent; }
+          20%  { background-color: rgba(184, 115, 42, 0.18); }
+          100% { background-color: transparent; }
+        }
+        .toc-flash {
+          animation: toc-flash 1.4s ease-out;
+          border-radius: 3px;
+        }
+      `}</style>
+
       {/* Desktop Sidebar */}
       <nav
         ref={navRef}
-        className="hidden xl:block sticky top-[100px] max-h-[calc(100vh-120px)] overflow-y-auto pr-4 will-change-transform relative"
+        className="hidden xl:block sticky top-[100px] max-h-[calc(100vh-120px)] overflow-y-auto will-change-transform relative"
         aria-label="Table of contents"
         style={{
           maskImage: isScrollable
@@ -114,25 +162,52 @@ export function TableOfContents({ content }: TableOfContentsProps) {
             : undefined,
         }}
       >
-        <div className="space-y-1">
-          {headings.map(({ id, text, level }) => (
-            <button
-              key={id}
-              onClick={() => handleClick(id)}
-              aria-current={activeId === id ? "true" : undefined}
-              className={`
-                w-full text-left px-3 py-2 text-sm rounded transition-all duration-150
-                ${level === 3 ? "pl-7 text-[13px]" : ""}
-                ${
-                  activeId === id
-                    ? "bg-ochre/10 text-ink font-semibold border-l-[3px] border-ochre"
-                    : "text-ink-soft hover:bg-ochre/5 hover:text-ink"
-                }
-              `}
-            >
-              {text}
-            </button>
-          ))}
+        <div className="bg-ink/15 rounded-lg p-3">
+          {(() => {
+            let h2Count = 1;
+            const items = headings.map((h) => ({
+              ...h,
+              number: h.level === 2 ? ++h2Count : null,
+            }));
+            return (
+              <div className="space-y-0.5">
+                <button
+                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                  aria-current={activeId === "intro" ? "true" : undefined}
+                  className={`
+                    w-full text-left px-2 py-1 text-[12px] font-sans rounded transition-all duration-150 flex items-start gap-1.5
+                    ${activeId === "intro"
+                      ? "bg-ochre/15 text-ink font-semibold border-l-[3px] border-ochre"
+                      : "text-ink-soft hover:bg-ochre/5 hover:text-ink"
+                    }
+                  `}
+                >
+                  <span className="shrink-0 text-ink-soft/50">1.</span>
+                  <span>Intro</span>
+                </button>
+                {items.map(({ id, text, level, number }) => (
+                  <button
+                    key={id}
+                    onClick={() => handleClick(id)}
+                    aria-current={activeId === id ? "true" : undefined}
+                    className={`
+                      w-full text-left px-2 py-1 text-[12px] font-sans rounded transition-all duration-150 flex items-start gap-1.5
+                      ${level === 3 ? "pl-5 text-[11px]" : ""}
+                      ${
+                        activeId === id
+                          ? "bg-ochre/15 text-ink font-semibold border-l-[3px] border-ochre"
+                          : "text-ink-soft hover:bg-ochre/5 hover:text-ink"
+                      }
+                    `}
+                  >
+                    {number && <span className="shrink-0 text-ink-soft/50">{number}.</span>}
+                    {level === 3 && <span className="shrink-0 text-ink-soft/30">—</span>}
+                    <span>{text}</span>
+                  </button>
+                ))}
+              </div>
+            );
+          })()}
         </div>
       </nav>
 
@@ -173,7 +248,7 @@ export function TableOfContents({ content }: TableOfContentsProps) {
                   onClick={() => handleClick(id)}
                   aria-current={activeId === id ? "true" : undefined}
                   className={`
-                    w-full text-left px-3 py-2 text-sm rounded transition-all duration-150
+                    w-full text-left px-3 py-2 text-sm font-sans rounded transition-all duration-150
                     ${level === 3 ? "pl-7 text-[13px]" : ""}
                     ${
                       activeId === id
