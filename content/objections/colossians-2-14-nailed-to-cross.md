@@ -120,3 +120,22 @@ This assumes the Colossians *are* observing Torah-commanded practices — food r
 The logic is decisive: **you cannot defend the ongoing observance of practices you abolished two verses earlier.** If v.14 erased Torah, v.16 is Paul defending people who are doing something pointless. The passage only coheres if v.14 did something different from what the objection claims — if it canceled the guilt record while leaving Torah's ongoing practice intact.
 
 For the full treatment of this passage, see our response on [Colossians 2:16-17](/objection-finder/colossians-2-16).
+
+### 6. Paul's Own Life and His Explicit Denial
+
+If Colossians 2:14 abolishes Torah, Paul is the last person who received that memo.
+
+The same Paul who wrote Colossians:
+
+- **Took a Nazirite vow** (Acts 18:18) — a Torah-commanded observance requiring Temple involvement.
+- **Rushed to Jerusalem specifically for Shavuot/Pentecost** (Acts 20:16) — a Torah-commanded feast.
+- **Paid for the Temple offerings of four other men** so that he could publicly demonstrate he "walks orderly, keeping the Torah" — this was not incidental; James and the Jerusalem elders arranged it specifically to prove Paul had not taught Jews to abandon Torah (Acts 21:24).
+- **Declared before the Roman governor: "I have done nothing against the Law of the Jews or against the Temple or against Caesar."** (Acts 28:17)
+
+And in Romans — written in the same letter collection that includes his letters to the Colossians and Galatians — Paul is explicit:
+
+> "Do we then nullify the Law through faith? May it never be! On the contrary, we establish the Law." (Romans 3:31)
+
+*May it never be* is the Greek *mē genoito* (μὴ γένοιτο) — Paul's strongest possible negation, used to reject conclusions he finds abhorrent. He does not say "well, it depends what you mean by nullify." He says: absolutely not. Never. We establish the Law.
+
+If Colossians 2:14 abolishes Torah, Romans 3:31 is a direct contradiction from the same pen. Either Paul is profoundly incoherent — writing to different audiences whatever they want to hear — or the abolition reading of Col 2:14 is wrong. The coherent reading is that Paul nailed the guilt record to the cross and left the Torah standing.
