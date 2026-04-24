@@ -65,25 +65,11 @@ function getHref(item: { type: ContentType | "post"; meta: { slug: string } }) {
 }
 
 function getTypeLabel(type: ContentType | "post") {
-  switch (type) {
-    case "objection":
-      return "Objection";
-    case "post":
-      return "Blog";
-    default:
-      return "Essay";
-  }
+  return type === "objection" ? "Objection" : "Essay";
 }
 
 function getTypeColor(type: ContentType | "post") {
-  switch (type) {
-    case "objection":
-      return "text-crimson";
-    case "post":
-      return "text-ink-soft";
-    default:
-      return "text-ochre";
-  }
+  return type === "objection" ? "text-crimson" : "text-ochre";
 }
 
 export function TopicsPageClient({ articles, posts }: TopicsPageClientProps) {
@@ -165,7 +151,7 @@ export function TopicsPageClient({ articles, posts }: TopicsPageClientProps) {
       {/* Header */}
       <div className="text-center mb-[50px]">
         <h1 className="section-title rise delay-2">
-          Every essay, objection, and <em>blog post</em> — by topic.
+          Every essay and <em>objection</em> — by topic.
         </h1>
       </div>
 

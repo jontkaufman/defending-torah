@@ -45,11 +45,11 @@ export default async function BlogPostPage({
         <article>
           <header className="mb-12">
             <Link
-              href="/blog"
+              href="/articles"
               className="font-mono text-[10px] tracking-[0.22em] uppercase text-muted no-underline hover:text-ink transition-colors mb-8 inline-block"
             >
               <span className="inline-block w-6 h-px bg-muted mr-2 align-middle" />
-              ← Back to Blog
+              ← Back to Topics
             </Link>
             <h1 className="font-heading font-light text-[clamp(36px,5vw,58px)] leading-[1.05] tracking-tight text-ink mb-4">
               {post.meta.title}

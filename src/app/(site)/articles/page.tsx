@@ -10,7 +10,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Topics — Essays, Objections & Articles by Topic",
   description:
-    "Browse all articles, objection responses, and blog posts organized by topic: Sabbath, Dietary Laws, Grace & Law, Covenant, Torah Foundation, and more.",
+    "Browse all essays and objection responses organized by topic: Sabbath, Dietary Laws, Grace & Law, Covenant, Torah Foundation, and more.",
 };
 
 export default function ArticlesPage() {
