@@ -62,9 +62,17 @@ const BOOK_NAMES: Record<number, string> = {
   5: "Deuteronomy",
 };
 
+async function fetchStaticLaws(): Promise<Law[]> {
+  const res = await fetch("/laws-data.json");
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
+
 export async function fetchLaws(): Promise<Law[]> {
   const supabase = getSupabase();
-  if (!supabase) return [];
+  if (!supabase) {
+    return fetchStaticLaws();
+  }
 
   try {
     // Fetch categories first
@@ -137,9 +145,7 @@ export async function fetchLaws(): Promise<Law[]> {
   } catch (err) {
     console.error("Supabase fetch failed, falling back to static JSON:", err);
     try {
-      const res = await fetch("/laws-data.json");
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return res.json();
+      return await fetchStaticLaws();
     } catch (fallbackErr) {
       console.error("Static JSON fallback also failed:", fallbackErr);
       return [];
