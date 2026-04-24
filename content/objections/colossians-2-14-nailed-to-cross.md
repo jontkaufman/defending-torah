@@ -139,3 +139,27 @@ And in Romans — written in the same letter collection that includes his letter
 *May it never be* is the Greek *mē genoito* (μὴ γένοιτο) — Paul's strongest possible negation, used to reject conclusions he finds abhorrent. He does not say "well, it depends what you mean by nullify." He says: absolutely not. Never. We establish the Law.
 
 If Colossians 2:14 abolishes Torah, Romans 3:31 is a direct contradiction from the same pen. Either Paul is profoundly incoherent — writing to different audiences whatever they want to hear — or the abolition reading of Col 2:14 is wrong. The coherent reading is that Paul nailed the guilt record to the cross and left the Torah standing.
+
+## What Remains Uncertain
+
+Acknowledging what is genuinely uncertain is not weakness — it is what separates responsible exegesis from apologetics that oversimplifies.
+
+**The precise scope of the cheirographon.** There is a real debate between two positions that both reject the "Torah abolished" reading:
+
+1. **Universal guilt record:** The *cheirographon* represents the accumulated record of all human transgression — the charge sheet of the human race before God. Yeshua absorbs and cancels it at the cross.
+
+2. **N.T. Wright's covenantal reading:** The *cheirographon* refers specifically to Israel's accumulated debt under the Deuteronomic covenant — the curse clauses of Deuteronomy 27-28 that Israel had triggered through persistent unfaithfulness. Yeshua, as Israel's representative, absorbed the covenant curse.
+
+Both readings agree that what was nailed to the cross was a guilt record, not Torah itself. The disagreement is about scope — all humanity or specifically Israel's covenant debt. This is a real exegetical question worth continued study.
+
+**The dogmasin.** Whether these refer specifically to human-issued decrees (as in Ephesians 2:15) or to the formal indictment clauses of the Mosaic covenant is genuinely debated. Either reading supports the conclusion that a legal charge, not a law code, was canceled.
+
+These open questions do not touch the core claim: Colossians 2:14 describes the cancellation of a guilt record, not the abolition of Torah.
+
+## Confidence Level
+
+**[Probable]** — The lexical evidence (*cheirographon*, *dogmasin*), the immediate context (v.16 defends Torah observance), Paul's explicit statements (Romans 3:31, Romans 7:12), and Paul's own Torah-keeping life all point in the same direction. The mainstream scholarly reading (Mosaic law system abolished) represents serious engagement and should not be dismissed, but the internal evidence of the text outweighs it. We hold this position with confidence while acknowledging the debate is ongoing among careful scholars.
+
+---
+
+*For related arguments, see: [Colossians 2:16-17 — The Sabbath is Just a Shadow](/objection-finder/colossians-2-16), [Ephesians 2:15 — Christ Abolished the Law of Commandments](/objection-finder/ephesians-2-15-dividing-wall), [Matthew 5:17-19 — The Text Nobody Preaches](/articles/matthew-5-17-19-foundation).*
