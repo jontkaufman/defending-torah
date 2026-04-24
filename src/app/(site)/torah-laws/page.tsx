@@ -262,6 +262,7 @@ function TreeLevel({
 export default function TorahLawsPage() {
   const [laws, setLaws] = useState<Law[]>([]);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [selectedLaw, setSelectedLaw] = useState<Law | null>(null);
 
@@ -271,7 +272,8 @@ export default function TorahLawsPage() {
         setLaws(data);
         setLoading(false);
       })
-      .catch(() => {
+      .catch((err: unknown) => {
+        setFetchError(err instanceof Error ? err.message : String(err));
         setLoading(false);
       });
   }, []);
@@ -321,6 +323,18 @@ export default function TorahLawsPage() {
       {loading && (
         <p className="text-center text-muted py-16 font-body italic text-lg">
           Loading laws...
+        </p>
+      )}
+
+      {fetchError && (
+        <p className="text-center text-crimson py-8 font-mono text-sm">
+          Error loading laws: {fetchError}
+        </p>
+      )}
+
+      {!loading && !fetchError && laws.length === 0 && (
+        <p className="text-center text-muted py-8 font-mono text-sm">
+          No laws loaded. Check console for details.
         </p>
       )}
 
