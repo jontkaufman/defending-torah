@@ -132,7 +132,7 @@ The same Paul who wrote Colossians:
 - **Paid for the Temple offerings of four other men** so that he could publicly demonstrate he "walks orderly, keeping the Torah" — this was not incidental; James and the Jerusalem elders arranged it specifically to prove Paul had not taught Jews to abandon Torah (Acts 21:24).
 - **Declared before the Roman governor: "I have done nothing against the Law of the Jews or against the Temple or against Caesar."** (Acts 28:17)
 
-And in Romans — written in the same letter collection that includes his letters to the Colossians and Galatians — Paul is explicit:
+And in Romans — part of the same Pauline letter collection as Colossians and Galatians — Paul is explicit:
 
 > "Do we then nullify the Law through faith? May it never be! On the contrary, we establish the Law." (Romans 3:31)
 
