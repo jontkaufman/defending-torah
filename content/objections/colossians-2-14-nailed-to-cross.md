@@ -92,3 +92,17 @@ The Tanakh is equally clear:
 Torah in Scripture is delight, honey, a lamp, life. It is never the adversary. What stands against us is our *guilt record* — the accumulated evidence of our failure to keep the very Torah we know to be good. The standard did not become hostile. Our violations generated a document that stands as our indictment.
 
 The analogy holds: a just law is not against you. Your crimes are against you. The law that measured your crimes stands as the definition of justice. What Yeshua nailed to the cross was the charge sheet — the accumulated record of violation — not the standard of justice itself.
+
+### 4. What "Nailing" Meant in the Ancient World
+
+The image of nailing a document to the cross is vivid and deliberate. Two ancient practices converge on the same meaning: cancellation of charges.
+
+**Paid debt cancellation.** In the Greco-Roman world, when a debt was paid in full, the creditor would sometimes drive a nail through the *cheirographon* — physically canceling the document, rendering it null. The debt was marked as satisfied. This practice makes Paul's image precise: Yeshua did not destroy the law by which debts are calculated. He satisfied the debt and canceled the charge sheet by nailing it through.
+
+This is the same reality captured in John 19:30. When Yeshua cried *tetelestai* (τετέλεσται, "it is finished"), he used the exact word stamped across paid receipts in ancient commercial papyri. Archaeologists have recovered papyrus documents from Egypt with this word written across them in large letters — meaning "paid in full," "settled," "done." When Yeshua said *tetelestai*, first-century ears would have heard: the account is settled. The debt is discharged.
+
+**The Roman titulus.** Roman crucifixion practice included nailing a wooden placard — the *titulus* — above the condemned person listing the charges against them. This is why Yeshua's cross had a sign: "King of the Jews" — the charge for which he was officially condemned. Paul's image of nailing a document to the cross evokes this directly: the charge sheet of humanity's transgression was nailed up with Yeshua. He absorbed it. He took the indictment into himself and it died with him.
+
+Both images — the canceled IOU and the absorbed titulus — point to the same event: charges removed. Not law destroyed.
+
+The governor's pardon illustrates the distinction. When a governor pardons a convicted prisoner, he does not abolish the criminal code. He cancels the sentence. The law under which the prisoner was convicted still stands, still defines justice, still governs the society. What was abolished is the penalty's hold on that specific person. This is the structure of Colossians 2:14: Yeshua paid the debt and absorbed the indictment. He did not destroy the Torah by which the debt was calculated.
