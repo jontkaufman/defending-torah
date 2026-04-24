@@ -106,3 +106,17 @@ This is the same reality captured in John 19:30. When Yeshua cried *tetelestai* 
 Both images — the canceled IOU and the absorbed titulus — point to the same event: charges removed. Not law destroyed.
 
 The governor's pardon illustrates the distinction. When a governor pardons a convicted prisoner, he does not abolish the criminal code. He cancels the sentence. The law under which the prisoner was convicted still stands, still defines justice, still governs the society. What was abolished is the penalty's hold on that specific person. This is the structure of Colossians 2:14: Yeshua paid the debt and absorbed the indictment. He did not destroy the Torah by which the debt was calculated.
+
+### 5. The Immediate Context Contradicts Abolition
+
+We do not need to leave the passage to refute the abolition reading. Three verses after v.14, Paul writes:
+
+> "Therefore let no one act as your judge in regard to food or drink or in respect to a festival or a new moon or a Sabbath day." (Colossians 2:16)
+
+Read carefully: Paul does not say "stop keeping these things." He says "let no one judge you" for keeping these things. He is defending the Colossian believers against outside criticism of their Torah observance. The command is: resist the pressure of those judging you.
+
+This assumes the Colossians *are* observing Torah-commanded practices — food regulations, feast days, new moons, Sabbaths. Paul knows they are doing this. He does not tell them to stop. He tells them to hold their ground against critics.
+
+The logic is decisive: **you cannot defend the ongoing observance of practices you abolished two verses earlier.** If v.14 erased Torah, v.16 is Paul defending people who are doing something pointless. The passage only coheres if v.14 did something different from what the objection claims — if it canceled the guilt record while leaving Torah's ongoing practice intact.
+
+For the full treatment of this passage, see our response on [Colossians 2:16-17](/objection-finder/colossians-2-16).
