@@ -53,3 +53,18 @@ This is not a law code. This is not Torah. Torah does not sign anything against 
 The distinction is crucial: **the debt and the law that defines the debt are not the same thing.** When you break Torah, your transgression creates a guilt record — a running charge sheet of what you owe. That record is *against you*. But Torah itself is not against you any more than a speed limit sign is against you when you receive a speeding ticket. The sign defined the standard. Your foot on the accelerator generated the violation. The *cheirographon* is the violation record, not the speed limit.
 
 This background also fits the Jewish apocalyptic context Paul's readers would have recognized. Literature from the Second Temple period — 1 Enoch, the Apocalypse of Zephaniah — depicts heavenly books in which human sins are recorded by angelic scribes. The image of a heavenly charge sheet was not foreign to first-century Jewish thought. Paul draws on exactly this concept: the record of transgressions that has accumulated against humanity, written out and standing as an indictment.
+
+### 2. *Dogmasin* Narrows the Referent
+
+Paul doesn't just call this document a *cheirographon*. He specifies that it consists of *dogmasin* (δόγμασιν) — the dative plural of *dogma* (δόγμα). This word has a consistent and specific semantic range throughout the Apostolic writings:
+
+- **Luke 2:1** — "A decree (*dogma*) went out from Caesar Augustus." An imperial edict.
+- **Acts 16:4** — "They delivered the decrees (*dogmata*) reached by the apostles and elders in Jerusalem." Decisions issued by the Jerusalem Council.
+- **Acts 17:7** — "They are all acting against the decrees (*dogmata*) of Caesar." Imperial rulings.
+- **Ephesians 2:15** — The same word, in the same grammatical construction, describing what Yeshua abolished to break down the wall between Jew and Gentile — not Torah itself, but the human-issued decrees that had built the barrier. (See our full treatment: [Ephesians 2:15 — "Christ Abolished the Law of Commandments"](/objection-finder/ephesians-2-15-dividing-wall).)
+
+In every instance, *dogma* refers to an **issued ruling** — a specific decision promulgated by an authority. It is not a synonym for Torah (*nomos*). It is not equivalent to God's covenantal instruction.
+
+When Paul says the *cheirographon* consists of *dogmasin*, he is saying the charge sheet is composed of specific legal rulings — indictment clauses, as it were. This is a legal document with specific charges, not a description of Torah as a whole being hostile to humanity.
+
+If Paul had wanted to say Torah was abolished, he had the word — *nomos* — and used it constantly. The use of *dogma* instead of *nomos* is not accidental.
