@@ -99,8 +99,6 @@ The image of nailing a document to the cross is vivid and deliberate. Two ancien
 
 **Paid debt cancellation.** In the Greco-Roman world, when a debt was paid in full, the creditor would sometimes drive a nail through the *cheirographon* — physically canceling the document, rendering it null. The debt was marked as satisfied. This practice makes Paul's image precise: Yeshua did not destroy the law by which debts are calculated. He satisfied the debt and canceled the charge sheet by nailing it through.
 
-This is the same reality captured in John 19:30. When Yeshua cried *tetelestai* (τετέλεσται, "it is finished"), he used the exact word stamped across paid receipts in ancient commercial papyri. Archaeologists have recovered papyrus documents from Egypt with this word written across them in large letters — meaning "paid in full," "settled," "done." When Yeshua said *tetelestai*, first-century ears would have heard: the account is settled. The debt is discharged.
-
 **The Roman titulus.** Roman crucifixion practice included nailing a wooden placard — the *titulus* — above the condemned person listing the charges against them. This is why Yeshua's cross had a sign: "King of the Jews" — the charge for which he was officially condemned. Paul's image of nailing a document to the cross evokes this directly: the charge sheet of humanity's transgression was nailed up with Yeshua. He absorbed it. He took the indictment into himself and it died with him.
 
 Both images — the canceled IOU and the absorbed titulus — point to the same event: charges removed. Not law destroyed.
@@ -113,11 +111,13 @@ We do not need to leave the passage to refute the abolition reading. Three verse
 
 > "Therefore let no one act as your judge in regard to food or drink or in respect to a festival or a new moon or a Sabbath day." (Colossians 2:16)
 
+It should be noted that the majority of commentators — including Bruce, Moo, and Dunn — read v.16 in the opposite direction: Paul is defending the Colossians' freedom *from* these observances, not their right to continue them. On that reading, v.16 is Paul telling them not to be pressured into keeping food laws, feasts, and Sabbaths. This is the mainstream Protestant interpretation, and it deserves acknowledgment.
+
 Read carefully: Paul does not say "stop keeping these things." He says "let no one judge you" for keeping these things. He is defending the Colossian believers against outside criticism of their Torah observance. The command is: resist the pressure of those judging you.
 
 This assumes the Colossians *are* observing Torah-commanded practices — food regulations, feast days, new moons, Sabbaths. Paul knows they are doing this. He does not tell them to stop. He tells them to hold their ground against critics.
 
-The logic is decisive: **you cannot defend the ongoing observance of practices you abolished two verses earlier.** If v.14 erased Torah, v.16 is Paul defending people who are doing something pointless. The passage only coheres if v.14 did something different from what the objection claims — if it canceled the guilt record while leaving Torah's ongoing practice intact.
+The logic, on our reading, is: **you cannot defend the ongoing observance of practices you abolished two verses earlier.** If v.14 erased Torah, v.16 is Paul defending people who are doing something pointless. The passage only coheres if v.14 did something different from what the objection claims — if it canceled the guilt record while leaving Torah's ongoing practice intact.
 
 For the full treatment of this passage, see our response on [Colossians 2:16-17](/objection-finder/colossians-2-16).
 
@@ -148,7 +148,7 @@ Acknowledging what is genuinely uncertain is not weakness — it is what separat
 
 1. **Universal guilt record:** The *cheirographon* represents the accumulated record of all human transgression — the charge sheet of the human race before God. Yeshua absorbs and cancels it at the cross.
 
-2. **N.T. Wright's covenantal reading:** The *cheirographon* refers specifically to Israel's accumulated debt under the Deuteronomic covenant — the curse clauses of Deuteronomy 27-28 that Israel had triggered through persistent unfaithfulness. Yeshua, as Israel's representative, absorbed the covenant curse.
+2. **A Deuteronomy-curse covenantal reading:** The *cheirographon* refers specifically to Israel's accumulated debt under the Deuteronomic covenant — the curse clauses of Deuteronomy 27-28 that Israel had triggered through persistent unfaithfulness. Yeshua, as Israel's representative, absorbed the covenant curse. This reading is associated with New Perspective scholarship and does not require identifying the cheirographon with Torah.
 
 Both readings agree that what was nailed to the cross was a guilt record, not Torah itself. The disagreement is about scope — all humanity or specifically Israel's covenant debt. This is a real exegetical question worth continued study.
 
