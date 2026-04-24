@@ -68,3 +68,27 @@ In every instance, *dogma* refers to an **issued ruling** — a specific decisio
 When Paul says the *cheirographon* consists of *dogmasin*, he is saying the charge sheet is composed of specific legal rulings — indictment clauses, as it were. This is a legal document with specific charges, not a description of Torah as a whole being hostile to humanity.
 
 If Paul had wanted to say Torah was abolished, he had the word — *nomos* — and used it constantly. The use of *dogma* instead of *nomos* is not accidental.
+
+### 3. "Against Us" Describes Guilt — Paul Says So Elsewhere
+
+The phrase "against us" and "hostile to us" is the emotional center of the objection. If the document is hostile, and Torah is the document, then Torah was our enemy. But this reading collides head-on with what Paul says about Torah in his other letters.
+
+**Romans 7:12:** *"So then, the Law is holy, and the commandment is holy and righteous and good."*
+
+**Romans 7:14:** *"For we know that the Law is spiritual."*
+
+If Torah were inherently hostile to humanity — if it stood *against us* by its nature — then calling it "holy, righteous, and good" would be incoherent. You do not describe your adversary as holy. The word *hypenantios* ("hostile") does not describe Torah's character. It describes the *charge sheet's* effect: standing against us as an indictment.
+
+The Tanakh is equally clear:
+
+**Deuteronomy 30:11-14:** *"For this commandment which I command you today is not too difficult for you, nor is it out of reach. It is not in heaven... nor is it beyond the sea... but the word is very near you, in your mouth and in your heart, that you may do it."*
+
+**Psalm 119:97:** *"O how I love Your Torah! It is my meditation all the day."*
+
+**Psalm 119:103:** *"How sweet are Your words to my taste! Yes, sweeter than honey to my mouth."*
+
+**Psalm 19:7-8:** *"The Torah of Yahweh is perfect, restoring the soul... the precepts of Yahweh are right, rejoicing the heart."*
+
+Torah in Scripture is delight, honey, a lamp, life. It is never the adversary. What stands against us is our *guilt record* — the accumulated evidence of our failure to keep the very Torah we know to be good. The standard did not become hostile. Our violations generated a document that stands as our indictment.
+
+The analogy holds: a just law is not against you. Your crimes are against you. The law that measured your crimes stands as the definition of justice. What Yeshua nailed to the cross was the charge sheet — the accumulated record of violation — not the standard of justice itself.
