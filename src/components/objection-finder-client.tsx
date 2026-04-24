@@ -8,12 +8,12 @@ import type { ContentMeta } from "@/lib/content";
 const QUICK_TAGS = [
   "not under law",
   "nailed to the cross",
-  "Jesus is our rest",
+  "end of the law",
   "only for Jews",
   "all foods clean",
   "Peter's vision",
   "weak and beggarly",
-  "working for salvation",
+  "that's Judaizing",
 ];
 
 interface ObjectionFinderClientProps {
