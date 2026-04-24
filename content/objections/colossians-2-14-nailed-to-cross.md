@@ -21,3 +21,21 @@ related:
   - galatians-paul-abolished-law
   - romans-10-4-end-of-the-law
 ---
+
+## The Full Picture
+
+Colossians 2:14 is one of the most cited texts in debates about Torah observance:
+
+> "Having canceled out the certificate of debt consisting of decrees against us, which was hostile to us; and He has taken it out of the way, having nailed it to the cross." (Colossians 2:14, NASB)
+
+The standard reading is straightforward: Paul says something was "against us" and "hostile to us," and that Yeshua nailed it to the cross. If that something is Torah, the conclusion follows — the law is done. Scholars of the caliber of F.F. Bruce (*The Epistles to the Colossians, to Philemon, and to the Ephesians*, 1984), Douglas Moo (*The Letters to the Colossians and to Philemon*, 2008), and N.T. Wright (*Colossians and Philemon*, 1986) have all read this passage as related to the Mosaic covenant's debt-incurring demands. This is not a careless interpretation. It represents the mainstream Protestant and Reformed reading, and it has serious exegetical weight behind it.
+
+### What Makes This Objection Serious
+
+Two things give this reading genuine force.
+
+First, the language Paul uses is adversarial. The phrase "against us" translates the Greek *kath' hēmōn* (καθ' ἡμῶν), and "hostile to us" translates *hypenantios* (ὑπεναντίος) — a word meaning contrary, opposed, an adversary. These are not neutral terms. Paul is describing something that actively stood against humanity.
+
+Second, the scholarly consensus is substantial. Commentators who read this as the Mosaic law system are not doing so carelessly — they are engaging carefully with the text and concluding that the law's demands created a running record of debt that condemned humanity. The position deserves a serious response, not a dismissal.
+
+What follows is that serious response.
