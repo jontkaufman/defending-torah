@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-This specification outlines the creation of 5 comprehensive articles covering all seven biblical feasts (Passover, Unleavened Bread, First Fruits, Pentecost, Trumpets, Day of Atonement, Tabernacles) for the Beit Emet (defend) Torah apologetics website.
+This specification outlines the creation of 5 comprehensive articles covering all seven biblical feasts (Passover, Unleavened Bread, First Fruits, Pentecost, Trumpets, Day of Atonement, Tabernacles) for the Defending Torah (defend) Torah apologetics website.
 
 **Core Mission:** Convince skeptical Christians that biblical feasts remain binding and should be observed, using an objection-first reversal structure that leads with apostolic practice evidence and systematically dismantles the "fulfilled = abolished" argument.
 
