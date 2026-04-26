@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 
 interface Props {
@@ -13,6 +13,14 @@ export function EmailSignupModal({ open, onClose, onSubscribed }: Props) {
   const [email, setEmail] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (open) {
+      setEmail("");
+      setError(null);
+      setLoading(false);
+    }
+  }, [open]);
 
   if (!open) return null;
 
@@ -35,6 +43,7 @@ export function EmailSignupModal({ open, onClose, onSubscribed }: Props) {
       });
 
       if (res.ok) {
+        setLoading(false);
         onSubscribed();
         return;
       }
@@ -59,7 +68,7 @@ export function EmailSignupModal({ open, onClose, onSubscribed }: Props) {
       className="fixed inset-0 z-50 flex items-center justify-center p-4"
       role="dialog"
       aria-modal="true"
-      aria-label="Sign up for updates"
+      aria-labelledby="signup-modal-title"
     >
       {/* Backdrop */}
       <div
@@ -88,7 +97,7 @@ export function EmailSignupModal({ open, onClose, onSubscribed }: Props) {
           Stay in the Scroll
         </div>
 
-        <h2 className="font-heading font-light text-[32px] leading-[1.1] tracking-tight text-ink mb-3">
+        <h2 id="signup-modal-title" className="font-heading font-light text-[32px] leading-[1.1] tracking-tight text-ink mb-3">
           New essays, objections answered,<br />
           <em className="font-body italic text-ochre-deep">straight to your inbox.</em>
         </h2>
@@ -107,6 +116,7 @@ export function EmailSignupModal({ open, onClose, onSubscribed }: Props) {
               className="flex-1 bg-transparent px-4 py-3 font-body text-[16px] text-ink placeholder:text-muted outline-none"
               disabled={loading}
               autoFocus
+              aria-describedby={error ? "signup-error" : undefined}
             />
             <button
               type="submit"
@@ -118,7 +128,7 @@ export function EmailSignupModal({ open, onClose, onSubscribed }: Props) {
           </div>
 
           {error && (
-            <p className="mt-3 font-mono text-[11px] text-crimson tracking-wide">
+            <p id="signup-error" role="alert" className="mt-3 font-mono text-[11px] text-crimson tracking-wide">
               {error}
             </p>
           )}
