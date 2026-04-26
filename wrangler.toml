@@ -5,8 +5,8 @@ compatibility_date = "2026-04-19"
 compatibility_flags = ["nodejs_compat"]
 
 [vars]
-NEXT_PUBLIC_SUPABASE_URL = "https://msgvoboqmegpuioqgscp.supabase.co"
-NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1zZ3ZvYm9xbWVncHVpb3Fnc2NwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU3NzYyMTcsImV4cCI6MjA5MTM1MjIxN30.X0RJ-2kKxPxN1iZIumyr3w4QIMMvG9tJNISKleUvnHo"
+NEXT_PUBLIC_SUPABASE_URL = "https://klywxsqerztquskanatw.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtseXd4c3Flcnp0cXVza2FuYXR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY2MDczMjYsImV4cCI6MjA5MjE4MzMyNn0.Yfjl1TyLFptXkSW98JY9SyRbOqHkf0t6A8clFecpyuA"
 
 [assets]
 directory = ".open-next/assets"
