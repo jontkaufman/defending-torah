@@ -56,7 +56,7 @@ export function EmailSignupFab() {
       />
 
       {view === "fab" && (
-        <div className="fixed bottom-6 right-6 z-40 flex items-center gap-2">
+        <div className="fixed bottom-6 left-6 z-40 flex items-center gap-2">
           <button
             onClick={() => setView("modal")}
             className="flex items-center gap-2.5 bg-ink text-parchment px-4 py-3 font-mono text-[10.5px] tracking-[0.18em] uppercase border border-ink shadow-[4px_4px_0_0_var(--ochre)] hover:bg-ochre hover:border-ochre transition-all duration-200"
