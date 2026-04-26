@@ -1,5 +1,6 @@
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { EmailSignupFab } from "@/components/email-signup-fab";
 
 export default function SiteLayout({
   children,
@@ -16,6 +17,7 @@ export default function SiteLayout({
         {children}
       </main>
       <Footer />
+      <EmailSignupFab />
     </>
   );
 }
