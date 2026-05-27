@@ -15,7 +15,7 @@
 
 ## CTA target
 
-`/sabbath-creation-to-eternity`
+`/articles/sabbath-creation-to-eternity`
 
 ## Key claims
 

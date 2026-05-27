@@ -14,7 +14,7 @@
 
 ## CTA target
 
-`/god-and-israel-the-marriage`
+`/articles/god-and-israel-the-marriage`
 
 ## Key claims
 

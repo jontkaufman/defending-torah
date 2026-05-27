@@ -15,7 +15,7 @@ The letter is about circumcision-for-salvation, not Torah-keeping.
 
 ## CTA target
 
-`/galatians-not-about-the-law` (new article — pending Task 4 of the plan)
+`/articles/galatians-not-about-the-law` (new article — pending Task 4 of the plan)
 
 ## Key claims
 

@@ -14,7 +14,7 @@ Gen 2:3 — God sanctified the seventh day before there was a Jew.
 
 ## CTA target
 
-`/sabbath-creation-to-eternity`
+`/articles/sabbath-creation-to-eternity`
 
 ## Key claims
 

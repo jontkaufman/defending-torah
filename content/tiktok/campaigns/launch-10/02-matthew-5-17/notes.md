@@ -14,7 +14,7 @@ Read v.17-19 verbatim; Greek `pleroo` ≠ abolish.
 
 ## CTA target
 
-`/matthew-5-17-19-foundation`
+`/articles/matthew-5-17-19-foundation`
 
 ## Key claims
 

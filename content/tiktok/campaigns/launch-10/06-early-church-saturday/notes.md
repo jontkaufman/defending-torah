@@ -15,7 +15,7 @@ Chrysostom in 386 AD preaching against Saturday observance = proof it persisted;
 
 ## CTA target
 
-`/sabbath-creation-to-eternity`
+`/articles/sabbath-creation-to-eternity`
 
 ## Key claims
 

@@ -14,7 +14,7 @@ KJV vs modern translation diff; the "declaring all foods clean" phrase is a tran
 
 ## CTA target
 
-`/dietary-laws-what-scripture-says`
+`/articles/dietary-laws-what-scripture-says`
 
 ## Key claims
 

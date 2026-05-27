@@ -14,7 +14,7 @@ Read v.28 — Peter explains the vision was about people, not food.
 
 ## CTA target
 
-`/acts-10-koinos-and-akathartos`
+`/articles/acts-10-koinos-and-akathartos`
 
 ## Key claims
 
