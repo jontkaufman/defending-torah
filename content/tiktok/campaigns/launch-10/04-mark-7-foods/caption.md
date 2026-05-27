@@ -1,17 +1,21 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+What if your translator added a comma — and a doctrine?
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#bible #dietarylaws #scripture #torahkeeper
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-04-mark-7>`
+→ destination: https://defendingtorah.com/articles/dietary-laws-what-scripture-says
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — Mark 7 — read the parenthesis
+- 0:04 — "Thus he declared all foods clean"
+- 0:08 — (a translator's note)
+- 0:18 — Acts 10:14
+- 0:25 — Peter didn't get the memo
+- 0:35 — Link in bio

@@ -1,17 +1,20 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+If the Sabbath is "just for Jews," someone needs to tell Genesis.
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#sabbath #bible #creation #scripture
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-05-sabbath-before-sinai>`
+→ destination: https://defendingtorah.com/articles/sabbath-creation-to-eternity
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — Sabbath existed before Sinai
+- 0:04 — Genesis 2:3
+- 0:14 — No Israel. No Moses. No Jew.
+- 0:25 — 2,500 years too early
+- 0:35 — Link in bio

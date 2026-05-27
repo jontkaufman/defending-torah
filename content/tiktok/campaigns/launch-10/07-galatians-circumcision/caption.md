@@ -1,17 +1,20 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+Paul wasn't fighting Torah. He was fighting one specific lie. Read the occasion.
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#bible #paul #galatians #scripture
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-07-galatians>`
+→ destination: https://defendingtorah.com/articles/galatians-not-about-the-law
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — Galatians isn't about the Law
+- 0:04 — Acts 15:1
+- 0:14 — Galatians 2:3 — Titus
+- 0:25 — Paul kept Torah his whole life
+- 0:35 — Link in bio

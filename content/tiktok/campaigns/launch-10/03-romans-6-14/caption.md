@@ -1,17 +1,20 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+What if "not under the law" doesn't mean what your pastor told you?
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#bible #paul #grace #scripture
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-03-rom-6-14>`
+→ destination: https://defendingtorah.com/articles/romans-6-14-not-under-law
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — Romans 6:14 — read it again
+- 0:04 — Romans 6:14
+- 0:11 — Romans 6:15
+- 0:25 — Not condemnation. Not no obligation.
+- 0:35 — Link in bio

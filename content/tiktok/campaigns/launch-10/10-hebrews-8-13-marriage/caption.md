@@ -1,17 +1,20 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+The new covenant doesn't end the Law. Two verses later, it writes it deeper.
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#bible #newcovenant #scripture #torahkeeper
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-10-hebrews>`
+→ destination: https://defendingtorah.com/articles/god-and-israel-the-marriage
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — Hebrews 8:13 — read Jeremiah
+- 0:04 — Jeremiah 31:31
+- 0:14 — Jeremiah 31:33 — written on hearts
+- 0:25 — God re-marries Israel
+- 0:35 — Link in bio

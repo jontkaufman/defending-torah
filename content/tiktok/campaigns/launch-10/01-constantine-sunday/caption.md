@@ -1,17 +1,20 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+Sunday's not in the Bible. The date it was invented is.
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#sabbath #bible #christian #churchhistory
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-01-constantine>`
+→ destination: https://defendingtorah.com/articles/sabbath-creation-to-eternity
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — Constantine invented Sunday
+- 0:04 — 321 AD edict
+- 0:14 — Council of Laodicea — Canon 29
+- 0:25 — An empire moved the Sabbath
+- 0:35 — Link in bio

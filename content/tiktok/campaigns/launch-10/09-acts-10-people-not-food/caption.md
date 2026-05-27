@@ -1,17 +1,21 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+Peter explains the vision in the same chapter. Most people don't read that far.
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#bible #peter #dietarylaws #scripture
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-09-acts-10>`
+→ destination: https://defendingtorah.com/articles/acts-10-koinos-and-akathartos
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — Acts 10 wasn't about food
+- 0:04 — Peter's vision
+- 0:11 — Refused — three times
+- 0:18 — Acts 10:28
+- 0:25 — About people. Not pork.
+- 0:35 — Link in bio

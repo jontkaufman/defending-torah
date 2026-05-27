@@ -1,17 +1,21 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+Two Greek words. One verse. Most Bibles translate them like synonyms.
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#bible #greek #jesus #scripture
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-08-fulfill-greek>`
+→ destination: https://defendingtorah.com/articles/matthew-5-17-19-foundation
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — "Fulfill" ≠ "abolish"
+- 0:04 — Matthew 5:17
+- 0:11 — *kataluo* — destroy
+- 0:14 — *pleroo* — fill up
+- 0:25 — Fulfill meant uphold
+- 0:35 — Link in bio

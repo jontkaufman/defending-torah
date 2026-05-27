@@ -1,17 +1,21 @@
 # Caption
 
-<!-- 1–2 lines. Bait the click / set up the hook. Question marks work. -->
+Jesus answered the abolish-the-Law question directly. Most pastors skip the verse.
 
 ## Hashtags
 
-<!-- 3–5 max. Mix of broad + niche. -->
+#bible #jesus #torah #scripture
 
-#torah #bible #sabbath
+## Short link
 
-## On-screen text overlays
+`<TBD — create in Dub.co/Bitly: tiktok-launch-02-matt-5-17>`
+→ destination: https://defendingtorah.com/articles/matthew-5-17-19-foundation
 
-<!-- Per-beat overlay copy. Keep <6 words each. -->
+## On-screen text overlays (timeline)
 
-- 0:00 —
-- 0:03 —
-- 0:08 —
+- 0:00 — Pastors skip Matthew 5:17
+- 0:04 — Matthew 5:17
+- 0:14 — *kataluo* vs *pleroo*
+- 0:18 — Matthew 5:19
+- 0:25 — He warned against ending it
+- 0:35 — Link in bio
