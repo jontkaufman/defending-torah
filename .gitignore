@@ -4,6 +4,7 @@ node_modules/
 out/
 *.tsbuildinfo
 .env*.local
+.worktrees/
 
 # Cloudflare Wrangler
 .wrangler/
