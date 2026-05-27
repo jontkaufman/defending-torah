@@ -45,23 +45,23 @@ Voiceover + AI-generated biblical b-roll. 9:16, 30-45s, cinematic look. AI voice
 
 | # | Day | Bucket | Hook (on-screen, 0–1.5s) | Receipt | Source wiki | CTA target |
 |---|-----|--------|--------------------------|---------|-------------|------------|
-| 1 | Mon | Church history | "Constantine invented Sunday." | 321 AD edict text + Council of Laodicea Canon 29 | `Torah/wiki/analyses/constantine-sunday-edict.md`, `Torah/wiki/analyses/council-of-laodicea-canon-29.md` | `/sabbath-creation-to-eternity` |
-| 2 | Tue | Foundation | "Pastors skip Matthew 5:17." | Read v.17-19 verbatim; Greek `pleroo` ≠ abolish | `Torah/wiki/analyses/matthew-5-17-19-foundation.md` | `/matthew-5-17-19-foundation` |
-| 3 | Wed | Paul | "Romans 6:14 doesn't say what you think." | "Under law" = under penalty/condemnation, not under obligation | `Torah/wiki/analyses/romans-6-14-15-not-under-law-but-under-grace.md` | New article (Gap A) — fallback: `/matthew-5-17-19-foundation` |
-| 4 | Thu | Dietary | "Mark 7 doesn't say all foods clean." | KJV vs modern translation diff; parenthetical insertion is editorial | `Torah/wiki/analyses/mark-7-declaring-all-foods-clean.md` | `/dietary-laws-what-scripture-says` |
-| 5 | Fri | Sabbath foundation | "The Sabbath existed before Sinai." | Gen 2:3 — God sanctified the seventh day before there was a Jew | `Torah/wiki/analyses/genesis-1-2-sabbath-creation-foundation.md` | `/sabbath-creation-to-eternity` |
-| 6 | Sat | Church history | "The early church kept Saturday." | Ignatius; Chrysostom in 386 AD preaching *against* it = proof it persisted | `Torah/wiki/analyses/chrysostom-adversus-judaeos.md`, `Torah/wiki/analyses/bar-kokhba-sabbath-sunday-transition.md` | `/sabbath-creation-to-eternity` |
-| 7 | Sun | Paul | "Galatians isn't about the Law." | The letter is about circumcision-for-salvation, not Torah-keeping | `Torah/wiki/analyses/galatians-faith-and-torah.md`, `Torah/wiki/analyses/galatians-2-1-5-titus-not-compelled.md` | New article (Gap B) — fallback: `/matthew-5-17-19-foundation` |
-| 8 | Mon | Hermeneutic | "'Fulfill' doesn't mean 'abolish' in Greek." | `pleroo` (fulfill) vs `kataluo` (abolish) — Jesus uses both in one verse | `Torah/wiki/analyses/matthew-5-17-19-foundation.md` | `/matthew-5-17-19-foundation` |
-| 9 | Tue | Dietary | "Acts 10 wasn't about food." | Read v.28: Peter explains the vision was about *people*, not food | `Torah/wiki/analyses/acts-10-peters-vision.md` | `/acts-10-koinos-and-akathartos` |
-| 10 | Wed | Hebrews | "Hebrews 8:13 isn't about the Law." | "Covenant" = marriage covenant being renewed, not Torah being annulled | `Torah/wiki/analyses/hebrews-8-13-marriage-covenant.md` | `/god-and-israel-the-marriage` |
+| 1 | Mon | Church history | "Constantine invented Sunday." | 321 AD edict text + Council of Laodicea Canon 29 | `Torah/wiki/analyses/constantine-sunday-edict.md`, `Torah/wiki/analyses/council-of-laodicea-canon-29.md` | `/articles/sabbath-creation-to-eternity` |
+| 2 | Tue | Foundation | "Pastors skip Matthew 5:17." | Read v.17-19 verbatim; Greek `pleroo` ≠ abolish | `Torah/wiki/analyses/matthew-5-17-19-foundation.md` | `/articles/matthew-5-17-19-foundation` |
+| 3 | Wed | Paul | "Romans 6:14 doesn't say what you think." | "Under law" = under penalty/condemnation, not under obligation | `Torah/wiki/analyses/romans-6-14-15-not-under-law-but-under-grace.md` | `/articles/romans-6-14-not-under-law` (Gap A — closed) |
+| 4 | Thu | Dietary | "Mark 7 doesn't say all foods clean." | KJV vs modern translation diff; parenthetical insertion is editorial | `Torah/wiki/analyses/mark-7-declaring-all-foods-clean.md` | `/articles/dietary-laws-what-scripture-says` |
+| 5 | Fri | Sabbath foundation | "The Sabbath existed before Sinai." | Gen 2:3 — God sanctified the seventh day before there was a Jew | `Torah/wiki/analyses/genesis-1-2-sabbath-creation-foundation.md` | `/articles/sabbath-creation-to-eternity` |
+| 6 | Sat | Church history | "The early church kept Saturday." | Ignatius; Chrysostom in 386 AD preaching *against* it = proof it persisted | `Torah/wiki/analyses/chrysostom-adversus-judaeos.md`, `Torah/wiki/analyses/bar-kokhba-sabbath-sunday-transition.md` | `/articles/sabbath-creation-to-eternity` |
+| 7 | Sun | Paul | "Galatians isn't about the Law." | The letter is about circumcision-for-salvation, not Torah-keeping | `Torah/wiki/analyses/galatians-faith-and-torah.md`, `Torah/wiki/analyses/galatians-2-1-5-titus-not-compelled.md` | `/articles/galatians-not-about-the-law` (Gap B — closed) |
+| 8 | Mon | Hermeneutic | "'Fulfill' doesn't mean 'abolish' in Greek." | `pleroo` (fulfill) vs `kataluo` (abolish) — Jesus uses both in one verse | `Torah/wiki/analyses/matthew-5-17-19-foundation.md` | `/articles/matthew-5-17-19-foundation` |
+| 9 | Tue | Dietary | "Acts 10 wasn't about food." | Read v.28: Peter explains the vision was about *people*, not food | `Torah/wiki/analyses/acts-10-peters-vision.md` | `/articles/acts-10-koinos-and-akathartos` |
+| 10 | Wed | Hebrews | "Hebrews 8:13 isn't about the Law." | "Covenant" = marriage covenant being renewed, not Torah being annulled | `Torah/wiki/analyses/hebrews-8-13-marriage-covenant.md` | `/articles/god-and-israel-the-marriage` |
 
 ### Content gaps to close before launch
 
-- **Gap A** — No published defend-site article maps cleanly to video #3 (Romans 6:14). Resolution: write one, or repurpose `Torah/wiki/analyses/romans-6-14-15-not-under-law-but-under-grace.md` into a defend article. Implementation plan will track.
-- **Gap B** — No published defend-site article maps cleanly to video #7 (Galatians-as-circumcision-letter). Same resolution path.
+- **Gap A — CLOSED.** Article published at `/articles/romans-6-14-not-under-law` (Task 3 of implementation plan).
+- **Gap B — CLOSED.** Article published at `/articles/galatians-not-about-the-law` (Task 4 of implementation plan).
 
-If either gap can't be filled in time, fall back: both videos link to a shared `/pauline-epistles` landing page or to `/matthew-5-17-19-foundation` as the foundational scriptural anchor.
+All 10 CTA URLs verified at HTTP 200 in Task 5.
 
 ---
 
