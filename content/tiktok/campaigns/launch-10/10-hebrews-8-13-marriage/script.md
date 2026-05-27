@@ -1,23 +1,35 @@
 ---
-title:
+title: "Hebrews 8:13 isn't about the Law"
 type: tiktok-post
-medium: ai | personal
-campaign:
-created:
+medium: ai
+campaign: launch-10
+created: 2026-05-26
 published:
-duration_sec:
-tags: []
-sources: []
+duration_sec: 43
+tags: [hebrews, jeremiah, new-covenant, marriage]
+sources: [hebrews-8-13-marriage-covenant]
 ---
 
-## Hook (0–1.5s)
+## Hook (0–1.5s) — on-screen + spoken
 
-<!-- One line. Pattern interrupt. Promise + tension. -->
+Hebrews 8:13 isn't about the Law.
 
-## Body
+## Pivot (1.5–4s)
 
-<!-- Beat-by-beat script. Mark cuts. -->
+It's quoting Jeremiah 31. Read what Jeremiah actually says.
 
-## CTA (last 2s)
+## Receipt (4–25s)
 
-<!-- "Follow for X" / "Comment Y" / question that drives replies. -->
+Hebrews 8 quotes Jeremiah 31:31 — "I will make a new covenant with the house of Israel."
+
+Two verses later, Jeremiah says: "I will put my Law in their minds and write it on their hearts."
+
+The new covenant *contains* the Law. It's written deeper. Not erased.
+
+## Twist (25–35s)
+
+The "old covenant" growing obsolete isn't the Torah. It's the broken marriage. God re-marries Israel — and puts His Law inside us this time.
+
+## CTA (35–42s)
+
+Full breakdown — link in bio.

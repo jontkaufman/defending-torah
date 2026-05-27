@@ -1,23 +1,35 @@
 ---
-title:
+title: "'Fulfill' doesn't mean 'abolish' in Greek"
 type: tiktok-post
-medium: ai | personal
-campaign:
-created:
+medium: ai
+campaign: launch-10
+created: 2026-05-26
 published:
-duration_sec:
-tags: []
-sources: []
+duration_sec: 40
+tags: [greek, matthew, pleroo, kataluo, fulfill]
+sources: [matthew-5-17-19-foundation]
 ---
 
-## Hook (0–1.5s)
+## Hook (0–1.5s) — on-screen + spoken
 
-<!-- One line. Pattern interrupt. Promise + tension. -->
+"Fulfill" doesn't mean "abolish" in Greek.
 
-## Body
+## Pivot (1.5–4s)
 
-<!-- Beat-by-beat script. Mark cuts. -->
+Jesus uses both words in one verse. They're opposites.
 
-## CTA (last 2s)
+## Receipt (4–25s)
 
-<!-- "Follow for X" / "Comment Y" / question that drives replies. -->
+Matthew 5:17: "Do not think I came to abolish the Law. I did not come to abolish, but to fulfill."
+
+"Abolish" is *kataluo* — destroy, tear down. "Fulfill" is *pleroo* — fill up, carry out completely.
+
+If *pleroo* meant "to terminate," Jesus said: "I did not come to abolish, but to abolish."
+
+## Twist (25–35s)
+
+Fulfill never meant terminate. It meant uphold. Embody. Teach correctly.
+
+## CTA (35–42s)
+
+Full breakdown — link in bio.

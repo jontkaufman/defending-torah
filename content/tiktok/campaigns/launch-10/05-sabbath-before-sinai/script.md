@@ -1,23 +1,35 @@
 ---
-title:
+title: "The Sabbath existed before Sinai"
 type: tiktok-post
-medium: ai | personal
-campaign:
-created:
+medium: ai
+campaign: launch-10
+created: 2026-05-26
 published:
-duration_sec:
-tags: []
-sources: []
+duration_sec: 38
+tags: [sabbath, genesis, creation, foundation]
+sources: [genesis-1-2-sabbath-creation-foundation]
 ---
 
-## Hook (0–1.5s)
+## Hook (0–1.5s) — on-screen + spoken
 
-<!-- One line. Pattern interrupt. Promise + tension. -->
+The Sabbath existed before Sinai.
 
-## Body
+## Pivot (1.5–4s)
 
-<!-- Beat-by-beat script. Mark cuts. -->
+Before the Law. Before Moses. Before Abraham.
 
-## CTA (last 2s)
+## Receipt (4–25s)
 
-<!-- "Follow for X" / "Comment Y" / question that drives replies. -->
+Genesis 2:3: "God blessed the seventh day and sanctified it, because on it He rested from all His work."
+
+This is creation week. There is no Israel. No Moses. No covenant at Sinai. There is no Jew.
+
+God built the Sabbath into time itself, twenty-five centuries before the nation that supposedly "owns" it existed.
+
+## Twist (25–35s)
+
+If the Sabbath is "just for the Jews," God made it about 2,500 years too early.
+
+## CTA (35–42s)
+
+Full breakdown — link in bio.

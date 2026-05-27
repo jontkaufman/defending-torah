@@ -1,23 +1,33 @@
 ---
-title:
+title: "Constantine invented Sunday"
 type: tiktok-post
-medium: ai | personal
-campaign:
-created:
+medium: ai
+campaign: launch-10
+created: 2026-05-26
 published:
-duration_sec:
-tags: []
-sources: []
+duration_sec: 42
+tags: [sabbath, sunday, constantine, church-history]
+sources: [constantine-sunday-edict, council-of-laodicea-canon-29]
 ---
 
-## Hook (0–1.5s)
+## Hook (0–1.5s) — on-screen + spoken
 
-<!-- One line. Pattern interrupt. Promise + tension. -->
+Constantine invented Sunday.
 
-## Body
+## Pivot (1.5–4s)
 
-<!-- Beat-by-beat script. Mark cuts. -->
+Not Jesus. Not the apostles. A Roman emperor.
 
-## CTA (last 2s)
+## Receipt (4–25s)
 
-<!-- "Follow for X" / "Comment Y" / question that drives replies. -->
+In 321 AD, Constantine signed an edict. Quote: "Let all judges and people of the city rest, and let all workshops be closed on the venerable day of the Sun."
+
+Sixty years later, the Council of Laodicea, Canon 29: "Christians must not Judaize by resting on the Sabbath. If any be found Judaizers, let them be anathema."
+
+## Twist (25–35s)
+
+The Bible never moved the Sabbath. An empire did. And it had to threaten Christians with excommunication to make it stick.
+
+## CTA (35–42s)
+
+Full breakdown — link in bio.
