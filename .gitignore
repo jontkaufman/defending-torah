@@ -8,3 +8,8 @@ out/
 # Cloudflare Wrangler
 .wrangler/
 .mf/
+
+# TikTok video binaries (markdown stays tracked)
+content/tiktok/**/*.mp4
+content/tiktok/**/*.mov
+content/tiktok/**/*.webm
