@@ -14,7 +14,7 @@
 
 ## CTA target
 
-`/articles/romans-6-14-not-under-law` (new article — pending Task 3 of the plan)
+`/articles/romans-6-14-not-under-law`
 
 ## Key claims
 
