@@ -14,3 +14,4 @@ out/
 content/tiktok/**/*.mp4
 content/tiktok/**/*.mov
 content/tiktok/**/*.webm
+.gstack/
