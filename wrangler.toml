@@ -14,3 +14,8 @@ RESEND_FROM_EMAIL = "noreply@send.defendingtorah.com"
 [assets]
 directory = ".open-next/assets"
 binding = "ASSETS"
+
+[[d1_databases]]
+binding = "SUBSCRIBERS_DB"
+database_name = "defending-torah-subscribers"
+database_id = "fb9fa934-b359-46ba-a52b-2f28427414dd"

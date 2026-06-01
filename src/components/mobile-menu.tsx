@@ -125,19 +125,6 @@ export function MobileMenu() {
             >
               Find an Answer →
             </Link>
-            <Link
-              href="/login"
-              aria-current={isActive("/login") ? "page" : undefined}
-              onClick={() => setOpen(false)}
-              className="w-full text-center font-mono text-[11px] tracking-[0.18em] uppercase no-underline px-5 py-3.5 transition-all"
-              style={{
-                background: "transparent",
-                color: "var(--parchment)",
-                border: "1px solid rgba(244, 236, 220, 0.3)",
-              }}
-            >
-              Log In
-            </Link>
           </div>
 
           {/* Bottom tagline */}

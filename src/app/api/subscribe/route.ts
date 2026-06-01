@@ -1,18 +1,11 @@
 // src/app/api/subscribe/route.ts
-import { createClient } from "@supabase/supabase-js";
+import { getCloudflareContext } from "@opennextjs/cloudflare";
 import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
 
 export const dynamic = "force-dynamic";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-function getSupabase() {
-  const url = process.env.SUPABASE_SUBSCRIBERS_URL;
-  const key = process.env.SUPABASE_SUBSCRIBERS_SERVICE_ROLE_KEY;
-  if (!url || !key) throw new Error("Missing Supabase subscribers env vars");
-  return createClient(url, key);
-}
 
 export async function POST(req: NextRequest) {
   let email: string;
@@ -28,19 +21,29 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid email address" }, { status: 400 });
   }
 
-  const supabase = getSupabase();
-
-  const { error } = await supabase.from("subscribers").insert({ email });
-
-  if (error) {
-    if (error.code === "23505") {
-      return NextResponse.json({ error: "already_subscribed" }, { status: 409 });
-    }
-    console.error("Supabase insert error:", error);
+  type D1Stmt = { bind: (...args: unknown[]) => { run: () => Promise<unknown> } };
+  type D1Like = { prepare: (sql: string) => D1Stmt };
+  const { env } = getCloudflareContext();
+  const db = (env as unknown as { SUBSCRIBERS_DB?: D1Like }).SUBSCRIBERS_DB;
+  if (!db) {
+    console.error("SUBSCRIBERS_DB binding missing");
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 
-  // Fire-and-forget admin notification — never fail the request over this
+  try {
+    await db
+      .prepare("INSERT INTO subscribers (email) VALUES (?)")
+      .bind(email)
+      .run();
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : String(err);
+    if (message.includes("UNIQUE") || message.includes("constraint")) {
+      return NextResponse.json({ error: "already_subscribed" }, { status: 409 });
+    }
+    console.error("D1 insert error:", err);
+    return NextResponse.json({ error: "Server error" }, { status: 500 });
+  }
+
   try {
     const resendKey = process.env.RESEND_API_KEY;
     const fromEmail = process.env.RESEND_FROM_EMAIL;

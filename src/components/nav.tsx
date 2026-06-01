@@ -73,13 +73,6 @@ export function Nav() {
           >
             Find an Answer →
           </Link>
-          <Link
-            href="/login"
-            aria-current={isActive("/login") ? "page" : undefined}
-            className="font-mono text-[11px] tracking-[0.18em] uppercase text-ink px-4 py-2.5 no-underline border border-ink transition-all hover:bg-ink hover:text-parchment max-md:hidden"
-          >
-            Log In
-          </Link>
 
           <MobileMenu />
         </div>
