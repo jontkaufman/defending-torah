@@ -6,7 +6,7 @@ topic: torah-foundation
 tags: [yeshua, matthew, torah, fulfillment, law]
 difficulty: entry
 date: 2026-04-19
-related: [moral-ceremonial-civil-division, torah-before-sinai, what-is-righteousness]
+related: [moral-ceremonial-civil-division, torah-before-sinai, what-is-righteousness, one-law-moses-god-christ]
 ---
 
 There is one passage in the New Testament where Yeshua directly, explicitly, unmistakably addresses the question: "Did he come to abolish the Law?" He doesn't leave room for ambiguity. He doesn't speak in parables. He states it plainly, defines his terms, and attaches consequences.

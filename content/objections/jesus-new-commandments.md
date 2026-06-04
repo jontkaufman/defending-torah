@@ -12,7 +12,7 @@ category: arguments
 tags: [yeshua, sermon-on-mount, commandments, torah, matthew, teaching]
 difficulty: entry
 date: 2026-04-22
-related: [matthew-5-17-19-foundation, moral-ceremonial-civil-division, galatians-paul-abolished-law]
+related: [matthew-5-17-19-foundation, moral-ceremonial-civil-division, galatians-paul-abolished-law, law-of-christ-replaced-moses]
 article_slug: matthew-5-17-19-foundation
 ---
 

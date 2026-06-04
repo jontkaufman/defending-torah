@@ -6,7 +6,7 @@ topic: grace-and-law
 tags: [paul, galatians, law, grace, circumcision, judaizers, works-of-the-law, torah-continuity]
 difficulty: entry
 date: 2026-05-26
-related: [romans-6-14-not-under-law, matthew-5-17-19-foundation, moral-ceremonial-civil-division, what-is-righteousness]
+related: [romans-6-14-not-under-law, matthew-5-17-19-foundation, moral-ceremonial-civil-division, what-is-righteousness, one-law-moses-god-christ]
 ---
 
 Ask any Protestant pastor what Galatians is about, and the answer comes back in one shape: Paul fought the Judaizers, won the argument, and abolished the Law of Moses for the church. The book is treated as a legal opinion — Paul versus Torah — and Paul wins. From that one summary, Sabbath, dietary laws, and the biblical feasts are quietly retired.
