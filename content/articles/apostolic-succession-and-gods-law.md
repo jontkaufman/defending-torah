@@ -6,7 +6,7 @@ topic: torah-foundation
 tags: [apostolic-succession, authority, priesthood, tradition, catholicism, sola-scriptura, malachi, torah-continuity]
 difficulty: intermediate
 date: 2026-06-03
-related: [matthew-5-17-19-foundation, moral-ceremonial-civil-division, one-law-moses-god-christ, sabbath-creation-to-eternity]
+related: [matthew-5-17-19-foundation, moral-ceremonial-civil-division, one-law-moses-god-christ, sabbath-creation-to-eternity, apostolic-succession-authority-to-change-law]
 ---
 
 Ask why a Christian keeps Sunday instead of the seventh-day Sabbath, or eats pork freely, or accepts a doctrine not spelled out in Scripture, and one answer runs deeper than all the proof-texts: **the Church has authority.** An unbroken line of bishops, ordained hand-to-head back to the apostles, carries the authority of Christ himself — and that authority, the argument goes, is competent to define, develop, and where necessary *change* how God's people live. This is the doctrine of apostolic succession, and it is the foundation beneath a great deal else.
