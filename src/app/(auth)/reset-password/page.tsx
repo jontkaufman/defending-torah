@@ -17,8 +17,22 @@ export default function ResetPasswordPage() {
   useEffect(() => {
     const supabase = createClient();
 
-    // The emailed link signs the user in via URL params (code or hash
-    // tokens); the browser client exchanges them automatically on load.
+    // Direct token: ?token_hash= links verify in-page, with no dependence
+    // on Supabase's redirect allowlist.
+    const tokenHash = new URLSearchParams(window.location.search).get(
+      "token_hash"
+    );
+    if (tokenHash) {
+      supabase.auth
+        .verifyOtp({ type: "recovery", token_hash: tokenHash })
+        .then(({ error: verifyError }) =>
+          setLinkState(verifyError ? "invalid" : "ready")
+        );
+      return;
+    }
+
+    // Otherwise the emailed link signs the user in via URL params (code or
+    // hash tokens); the browser client exchanges them automatically on load.
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((event, session) => {
