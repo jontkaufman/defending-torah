@@ -1,7 +1,13 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-const protectedPaths = ["/account", "/course", "/resources", "/certificate"];
+const protectedPaths = [
+  "/account",
+  "/course",
+  "/resources",
+  "/certificate",
+  "/admin",
+];
 
 export async function middleware(request: NextRequest) {
   let response = NextResponse.next({ request });
@@ -49,6 +55,7 @@ export const config = {
     "/course/:path*",
     "/resources/:path*",
     "/certificate",
+    "/admin/:path*",
     "/login",
     "/signup",
     "/forgot-password",
