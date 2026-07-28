@@ -8,6 +8,7 @@ import Link from "next/link";
 export default function SignupPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [confirmationSent, setConfirmationSent] = useState(false);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -31,8 +32,34 @@ export default function SignupPage() {
     if (result?.error) {
       setError(result.error);
       setLoading(false);
+    } else if (result?.needsConfirmation) {
+      setConfirmationSent(true);
+      setLoading(false);
     }
-    // On success, signUp redirects automatically
+    // Otherwise signUp redirects automatically
+  }
+
+  if (confirmationSent) {
+    return (
+      <AuthLayout
+        title="Check your inbox."
+        subtitle="Confirm your email"
+        scripture="Study to show yourself approved unto God, a workman who has no need to be ashamed."
+        scriptureRef="2 Timothy 2:15"
+      >
+        <div className="space-y-6">
+          <div className="p-6 bg-parchment-deep border-t-2 border-olive">
+            <p className="font-body text-[17px] text-ink leading-relaxed">
+              Your account has been created. We&apos;ve sent a confirmation
+              link to your email address — click it, then sign in.
+            </p>
+          </div>
+          <Link href="/login" className="btn btn-ghost w-full text-center">
+            Go to Sign In
+          </Link>
+        </div>
+      </AuthLayout>
+    );
   }
 
   return (

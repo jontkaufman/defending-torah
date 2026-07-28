@@ -11,6 +11,7 @@ SUPABASE_SUBSCRIBERS_URL = "https://klywxsqerztquskanatw.supabase.co"
 SUPABASE_SUBSCRIBERS_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtseXd4c3Flcnp0cXVza2FuYXR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY2MDczMjYsImV4cCI6MjA5MjE4MzMyNn0.Yfjl1TyLFptXkSW98JY9SyRbOqHkf0t6A8clFecpyuA"
 RESEND_FROM_EMAIL = "noreply@send.defendingtorah.com"
 ADMIN_EMAILS = "jontkaufman@gmail.com"
+NEXT_PUBLIC_SITE_URL = "https://defendingtorah.com"
 
 [assets]
 directory = ".open-next/assets"
