@@ -8,6 +8,7 @@ const links = [
   { href: "/articles", label: "Topics" },
   { href: "/objection-finder", label: "Objections" },
   { href: "/torah-laws", label: "Torah Laws" },
+  { href: "/connect", label: "Connect" },
   { href: "/about", label: "About" },
 ];
 
