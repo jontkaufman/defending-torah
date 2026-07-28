@@ -80,6 +80,11 @@ body::before {
 .delay-4 { animation-delay: 0.55s; }
 .delay-5 { animation-delay: 0.7s; }
 
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(100%); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* ────────── BUTTON SYSTEM ────────── */
 .btn {
   font-family: 'JetBrains Mono', monospace;

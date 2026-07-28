@@ -1,6 +1,7 @@
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { EmailSignupFab } from "@/components/email-signup-fab";
+import { SocialBanner } from "@/components/social-banner";
 
 export default function SiteLayout({
   children,
@@ -18,6 +19,7 @@ export default function SiteLayout({
       </main>
       <Footer />
       <EmailSignupFab />
+      <SocialBanner />
     </>
   );
 }
